@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+dffd63470850a1b22b6fdff6ccaf9eb9 CMakeFiles/domoticz_gch
+fbbec8ba90b9bd49c2bb1a94160c23ac stdafx.h.gch/.c++
