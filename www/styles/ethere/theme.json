@@ -8,8 +8,8 @@
     "homepage": "http://www.ivmech.com",
     "wiki": "",
     "textcolor": "#ffffff",     
-    "backgroundcolor": "#001133",
-    "backgroundimage": "images/background/bg09.jpg",
+    "backgroundcolor": "#131821",
+    "backgroundimage": "images/background/bg11.jpg",
     "previewimage": "screenshot.png",
     "variants": [
         {"default": "ethere.css"}

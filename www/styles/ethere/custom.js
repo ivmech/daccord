@@ -1708,6 +1708,18 @@ function newData() //freshJSON
 	
 }
 
+function moveHands() {
+    with(new Date()) {
+        h = 30 * (getHours() % 12 + getMinutes() / 60);
+        m = 6 * getMinutes();
+        s = 6 * getSeconds();
+        document.getElementById('seconds').style.cssText = "-webkit-transform:rotate(" + s + "deg);";
+        document.getElementById('minutes').style.cssText = "-webkit-transform:rotate(" + m + "deg);";
+        document.getElementById('hours').style.cssText = "-webkit-transform:rotate(" + h + "deg);";
+
+        setTimeout(moveHands, 1000);
+    }
+}
 
 // finally, after the waterfall of html and css improvements, add the fun stuff (dataviz, etc).
 function addDashboardGoodies()
@@ -1727,6 +1739,20 @@ function addDashboardGoodies()
         }
 
         if (theme.features.dashboard_clock_item.enabled === true && currentPage == "dashboard" ) {
+        /*
+            if( !$('#clock').length ){
+                var clockitem = '<div class="span4" id="clock" style="position: relative;"><div id="bstatus" class="item statusNormal"><table id="itemtablesmall" class="itemtablesmall" cellspacing="0" cellpadding="0" border="0"><tbody><tr>';
+
+                var clockitem = '<div class="span4" id="clock" style="position: relative;"><div id="bstatus" class="item statusNormal"><div class="clock" id="clock"><div id="hours"></div><div id="minutes"></div><div id="seconds"></div><div class="three"></div><div class="six"></div><div class="nine"></div><div class="twelve"></div><div class="center"></div></div></div></div>'
+
+                $('#dashSwitches .divider').prepend(clockitem);
+                moveHands();
+
+            }
+*/
+
+        /*
+
             if( !$('#clockitem').length ){
                 console.log("THEME Ethere - creating clock item");
                 $('#timesun').remove();
@@ -1739,6 +1765,9 @@ function addDashboardGoodies()
                 clockitem += '<td id="name" class="name"><span data-i18n="Clock">Clock</span></td><td id="status" class="status"><span class="wrapper"><span id="timesun">...</span></span></td><td id="lastupdate" class="lastupdate"><span>&nbsp;</span></td></tr></tbody></table</div><!--item end--></div>'
                 $('#dashSwitches .divider').prepend(clockitem);
             }
+
+        */
+
         }
 
         if (theme.features.dashboard_highlighted.enabled === true && theme.features.dashboard_show_data_visualizations.enabled === true && currentPage == "dashboard") {

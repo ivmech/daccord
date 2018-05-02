@@ -103,8 +103,9 @@
         padding:0;
         top:0;
         left:0;
-        bottom:0;
-        }
+        bottom:0;-
+
+    }
 
     .navbar:hover{
         box-shadow: 20px 0px 1000px 3200px rgba(50,50,50,0.3)
@@ -144,6 +145,7 @@
         margin:0;
         padding:0;
         text-align:left;
+
         /*
         background-color:#ddd;
         background: rgb(221,221,221); 
@@ -157,7 +159,7 @@
 
     .navbar .nav > li,
     .navbar .nav > li a{
-        background-color: transparent;    
+        background-color: transparent;
     }
 
     .navbar li.divider{display:none;}
@@ -176,6 +178,7 @@
         float:left;
         clear:left;
         width:100%;
+
     }
 
     #appnavbar li a,
@@ -202,8 +205,11 @@
         image-rendering: pixelated;   */ 
     }
 
+
+
     .navbar:hover #appnavbar > li > a > img{ /* hover */
         margin-right:15px;
+
     }
 
     .navbar #appnavbar > li > a > span{
@@ -217,6 +223,7 @@
         overflow:hidden;
         word-wrap: break-word;
     /*    transition: opacity 0.3s linear;*/
+
     }
 
     .navbar:hover #appnavbar > li > a > span{ /* hover */
@@ -241,6 +248,7 @@
         -webkit-transform: rotate(270deg);
         transform: rotate(270deg);
         margin-bottom:7px;
+
     }  
 
 
