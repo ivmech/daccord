@@ -460,7 +460,7 @@ define(['app'], function (app) {
 						$scope.floorPlans[i].floorID = item.idx;
 						$scope.floorPlans[i].xImageSize = 0;
 						$scope.floorPlans[i].yImageSize = 0;
-						$scope.floorPlans[i].scaleFactor = item.ScaleFactor;
+						$scope.floorPlans[i].scaleFactor = item.ScaleFactor*1.5;
 						$scope.floorPlans[i].Name = item.Name;
 						$scope.floorPlans[i].tagName = tagName;
 						$scope.floorPlans[i].Image = item.Image;
