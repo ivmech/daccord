@@ -100,7 +100,7 @@ try {
     console.log("base URL = " + baseURL);
 }
 catch (e) {
-    console.log("THEME JS - ERROR: not able to find out what the base path is.");
+    console.log("THEME Ethere - ERROR: not able to find out what the base path is.");
     $.get('/json.htm?type=command&param=addlogmessage&message=Theme Error - the theme is not able to find out what the base path is.');
 }
 */
@@ -112,7 +112,7 @@ catch (e) {
 
 // this function sets the body ID to reflect if we ae on a mobile device or not.
 function areWeOnMobile(){
-    console.log("THEME JS - areweonmobile: checking if on mobile device");
+    console.log("THEME Ethere - areweonmobile: checking if on mobile device");
     // mobile device detection
     if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent)
         || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(navigator.userAgent.substr(0, 4))) {
@@ -123,7 +123,7 @@ function areWeOnMobile(){
     } else {
         if (typeof theme.name !== "undefined") {
             if (theme.features.mobile_phoney.enabled === true && theme.features.mobile_on_non_mobile.enabled === true) {
-                console.log("THEME JS - setting mobile tag on non-mobile device");
+                console.log("THEME Ethere - setting mobile tag on non-mobile device");
                 //document.body.setAttribute("id", "onMobile");
                 $('body').attr('id', 'onMobile');
                 onMobile = true;
@@ -143,15 +143,15 @@ function areWeOnMobile(){
 // This function is the start of loading the theme settings. It loads an object with all the settings from the theme.json file.
 // Form then on it checks if Domoticz has alternative settings to the defaults.
 function themeLoadObject() {
-    console.log("THEME JS - starting processes of loading theme preferences");
+    console.log("THEME Ethere - starting processes of loading theme preferences");
     // If there are no locally stored settings yet, then load defaults from server.
     if (typeof (Storage) !== "undefined") {
         if (localStorage.getItem("themeObject") === null) {
-            console.log("THEME JS - No locally stored theme object found, now loading the theme json.");
+            console.log("THEME Ethere - No locally stored theme object found, now loading the THEME Ethere on.");
             loadJSON('acttheme/theme.json',
                 function (themex) {
                     theme = themex; // set global object
-                    console.log("THEME JS - Theme name = " + theme.name);
+                    console.log("THEME Ethere - Theme name = " + theme.name);
                     themeMachineName = machineName(theme.name);
                     if (isEmptyObject(theme) === false) {
                         localStorage.setObject("themeObject", theme);
@@ -162,7 +162,7 @@ function themeLoadObject() {
                 }, function(xhr) { console.error(xhr); }
             );
         } else { // If local preferences have been set, try to load those.
-            console.log("THEME JS - theme object was already found in the browser.");
+            console.log("THEME Ethere - theme object was already found in the browser.");
             theme = localStorage.getObject("themeObject");
             console.log(theme);
             themeMachineName = machineName(theme.name);
@@ -177,7 +177,7 @@ function themeLoadObject() {
         fileref.setAttribute("href", CSSfile);
         document.getElementsByTagName("head")[0].appendChild(fileref);
         console.log("-----------");
-        console.log("THEME JS - IMPORTANT: BROWSER CANNOT REALLY RUN THIS THEME, IT DOES NOT SUPPORT LOCAL STORAGE.");
+        console.log("THEME Ethere - IMPORTANT: BROWSER CANNOT REALLY RUN THIS THEME, IT DOES NOT SUPPORT LOCAL STORAGE.");
         console.log("-----------");
         /*HideNotify();
         bootbox.alert($.t('This browser cannot really run this theme because it does not support "local storage".'));*/
@@ -207,24 +207,24 @@ function checkIfDomoticzHasThemeSettings()
                 $.each(data.result, function(variable, value) {
                     console.log("looping over user variables list");
                     if(value.Name == featuresVarName){
-                        console.log("THEME JS - found theme feature settings in Domoticz database (user variable #" + value.idx + ")");
+                        console.log("THEME Ethere - found theme feature settings in Domoticz database (user variable #" + value.idx + ")");
                         didDomoticzHaveSettings = true;
                         theme.userfeaturesvariable = value.idx;
                         getThemeFeatureSettingsFromDomoticz(value.idx);
                     }
                     if(value.Name == stylingVarName){
-                        console.log("THEME JS - found theme styling settings in Domoticz database (user variable #" + value.idx + ")");
+                        console.log("THEME Ethere - found theme styling settings in Domoticz database (user variable #" + value.idx + ")");
                         didDomoticzHaveSettings = true;
                         theme.userstylingvariable = value.idx;
                         getThemeStylingSettingsFromDomoticz(value.idx);
                     }
                 });
                 if(didDomoticzHaveSettings === false){
-                    console.log("THEME JS - Domoticz didn't have settings for the theme, will create them now from defaults.");
+                    console.log("THEME Ethere - Domoticz didn't have settings for the theme, will create them now from defaults.");
                     enableThemeFeatures(); // load defaults from the object
                     storeThemeSettingsInDomoticz("save"); // store new default settings in Domoticz, for next time..
                 }else{
-                    console.log("THEME JS - Succesfully received user variable numbers from Domoticz.");
+                    console.log("THEME Ethere - Succesfully received user variable numbers from Domoticz.");
                 }
             } else {
                 console.log("User variable list: data.result was undefined. So the list must be completely empty. Time to save the variables.");
@@ -244,7 +244,7 @@ function checkIfDomoticzHasThemeSettings()
 // here we get the styling preferences that are stored in Domoticz (colors, background image)
 function getThemeStylingSettingsFromDomoticz(idx)
 {
-    console.log("THEME JS - getting styling settings from Domoticz. User variable ID = " + idx);
+    console.log("THEME Ethere - getting styling settings from Domoticz. User variable ID = " + idx);
     $.ajax({
         url: "json.htm?type=command&param=getuservariable" +
         "&idx=" + idx,
@@ -252,7 +252,7 @@ function getThemeStylingSettingsFromDomoticz(idx)
         dataType: 'json',
         success: function (data) {
             if (data.status == "ERROR") {
-                console.log("THEME JS - Although they seem to exist, there was an error loading theme styling settings from Domoticz");
+                console.log("THEME Ethere - Although they seem to exist, there was an error loading theme styling settings from Domoticz");
             }
             // If we got good data from Domoticz, load the preferences.
             if (typeof data.result !== "undefined") {
@@ -263,13 +263,13 @@ function getThemeStylingSettingsFromDomoticz(idx)
                 theme.backgroundimage = themeStylingSettingsFromDomoticz[2];
                 setUserColors();
             }
-            console.log("THEME JS - succesfully loaded theme styling settings from Domoticz");
+            console.log("THEME Ethere - succesfully loaded theme styling settings from Domoticz");
             if (isEmptyObject(theme) === false){
                 localStorage.setObject("themeObject", theme);
             }
         },
         error: function () {
-            console.log("THEME JS - ERROR reading styling settings from Domoticz for theme" + theme.name + "from user variable #" + idx);
+            console.log("THEME Ethere - ERROR reading styling settings from Domoticz for theme" + theme.name + "from user variable #" + idx);
         }
     });
 }
@@ -278,7 +278,7 @@ function getThemeStylingSettingsFromDomoticz(idx)
 // here we get the feature settings that are stored in domoticz as a user variable.
 function getThemeFeatureSettingsFromDomoticz(idx)
 {
-    console.log("THEME JS - getting feature settings from Domoticz. User variable ID = " + idx);
+    console.log("THEME Ethere - getting feature settings from Domoticz. User variable ID = " + idx);
     $.ajax({
         url: "json.htm?type=command&param=getuservariable" +
         "&idx=" + idx,
@@ -286,14 +286,14 @@ function getThemeFeatureSettingsFromDomoticz(idx)
         dataType: 'json',
         success: function (data) {
             if (data.status == "ERROR") {
-                console.log("THEME JS - Although they seem to exist, there was an error loading theme preferences from Domoticz");
+                console.log("THEME Ethere - Although they seem to exist, there was an error loading theme preferences from Domoticz");
                 $.get('/json.htm?type=command&param=addlogmessage&message=Theme Error - The theme was unable to load your user variable.');
                 loadedSettingsFromDomoticz = false;
                 pageChangeDetected();
             }
             // If we got good data from Domoticz, load the preferences.
             else if (typeof data.result !== "undefined") {
-                console.log("THEME JS - succesfully loaded theme feature settings from Domoticz");
+                console.log("THEME Ethere - succesfully loaded theme feature settings from Domoticz");
                 var themeSettingsFromDomoticz = JSON.parse(data.result[0].Value);
                 // Update the theme object with the settings from Domoticz.
                 $.each(theme.features, function(key,feature){
@@ -308,13 +308,13 @@ function getThemeFeatureSettingsFromDomoticz(idx)
                 loadedSettingsFromDomoticz = true;
                 pageChangeDetected();
             }else{
-                console.log("THEME JS - ERROR, couldn't load your theme preferences from Domoticz. They were there before..");
+                console.log("THEME Ethere - ERROR, couldn't load your theme preferences from Domoticz. They were there before..");
                 pageChangeDetected();
             }
             
         },
         error: function () {
-            console.log("THEME JS - ERROR reading feature settings from Domoticz for theme" + theme.name + "from user variable #" + idx);
+            console.log("THEME Ethere - ERROR reading feature settings from Domoticz for theme" + theme.name + "from user variable #" + idx);
             // load defaults, just to be safe.
             enableThemeFeatures();
             loadedSettingsFromDomoticz = false;
@@ -327,7 +327,7 @@ function getThemeFeatureSettingsFromDomoticz(idx)
 function storeThemeSettingsInDomoticz(action)
 {
     // prepare variables
-    console.log("THEME JS - storing settings in Domoticz");
+    console.log("THEME Ethere - storing settings in Domoticz");
     
     // 1. FEATURES
     var themeSettingsForDomoticz = [];
@@ -347,7 +347,7 @@ function storeThemeSettingsInDomoticz(action)
             if (data.status == "ERROR") {   
                 HideNotify();
                 bootbox.alert($.t('Unable to store theme settings in Domoticz. Try clearing ALL your cache.'));
-                console.log("THEME JS - unable to create theme settings storage in Domoticz. (tip:max datasze is 200 bytes)");
+                console.log("THEME Ethere - unable to create theme settings storage in Domoticz. (tip:max datasze is 200 bytes)");
             }
             //wait 1 second
             setTimeout(function () {
@@ -356,12 +356,12 @@ function storeThemeSettingsInDomoticz(action)
 
             // If we got good data from Domoticz.
             if (typeof data.result !== "undefined") {
-                console.log("THEME JS - Got this response from Domoticz about the user variable:");
+                console.log("THEME Ethere - Got this response from Domoticz about the user variable:");
                 console.log(data.result);
             }
         },
         error: function () {
-            console.log("THEME JS - Ajax error wile creating or updating user variable in Domotcz.");
+            console.log("THEME Ethere - Ajax error wile creating or updating user variable in Domotcz.");
         }
     });
     
@@ -381,7 +381,7 @@ function storeThemeSettingsInDomoticz(action)
             if (data.status == "ERROR") {   
                 HideNotify();
                 bootbox.alert($.t('Unable to store theme styling settings in Domoticz. Try clearing ALL your cache.'));
-                console.log("THEME JS - unable to create theme styling settings storage in Domoticz. (tip:max datasze is 200 bytes)");
+                console.log("THEME Ethere - unable to create theme styling settings storage in Domoticz. (tip:max datasze is 200 bytes)");
             }
             //wait 1 second
             setTimeout(function () {
@@ -390,12 +390,12 @@ function storeThemeSettingsInDomoticz(action)
 
             // If we got good data from Domoticz.
             if (typeof data.result !== "undefined") {
-                console.log("THEME JS - Got this response from Domoticz about the user styling variable:");
+                console.log("THEME Ethere - Got this response from Domoticz about the user styling variable:");
                 console.log(data.result);
             }
         },
         error: function () {
-            console.log("THEME JS - Ajax error wile creating or updating user styling variable in Domotcz.");
+            console.log("THEME Ethere - Ajax error wile creating or updating user styling variable in Domotcz.");
         }
     });   
 }
@@ -416,7 +416,7 @@ function enableThemeFeatures()
     setUserColors();
     
     // Everything should be loaded. Let's start checking for page content
-    console.log("THEME JS - everything is loaded. Calling pageChangeDetected.");
+    console.log("THEME Ethere - everything is loaded. Calling pageChangeDetected.");
     //pageChangeDetected();
     loadedThemeCSSandJS = true;
 }
@@ -424,17 +424,17 @@ function enableThemeFeatures()
 
 function loadThemeFeatureFiles(featureName) // feed this function the feature name
 {
-    //console.log("THEME JS - loading files for " + featureName + " feature");
+    //console.log("THEME Ethere - loading files for " + featureName + " feature");
     
     // get file list from theme settings object
     var files = theme.features[featureName].files;
     var arrayLength = files.length;
     for (var i = 0; i < arrayLength; i++) {
         if(files[i].split('.').pop() == "js"){
-            console.log("THEME JS - loading javascript for " + featureName + " feature");
+            console.log("THEME Ethere - loading javascript for " + featureName + " feature");
             var getviarequire = "../acttheme/" + featureName;
             requirejs([getviarequire], function(util) {
-                console.log("THEME JS - Javascript loaded by RequireJS");
+                console.log("THEME Ethere - Javascript loaded by RequireJS");
             });
         }
         if(files[i].split('.').pop() == "css"){
@@ -461,38 +461,38 @@ function setUserColors()
     
     // Should we use the mobile view when on desktop?
     if (theme.features.mobile_phoney.enabled === true && theme.features.mobile_on_non_mobile.enabled === true) {
-        console.log("THEME JS - setting mobile tag on non-mobile device");
+        console.log("THEME Ethere - setting mobile tag on non-mobile device");
         document.body.setAttribute("id", "onMobile");
     
     }else {
 
         // load text color
         if(theme.textcolor != ""){        
-            console.log("THEME JS - text color: " + theme.textcolor);
+            console.log("THEME Ethere - text color: " + theme.textcolor);
             $('body').css('color', theme.textcolor);
         }else{
-            console.log("THEME JS - no text color set");
+            console.log("THEME Ethere - no text color set");
             $('body').css('color', "#fff");
         }
 
         // load background color
         if(theme.backgroundcolor != ""){
             $('html,body').css("background", ""); // reset for styling.css
-            console.log("THEME JS - background color: " + theme.backgroundcolor);
+            console.log("THEME Ethere - background color: " + theme.backgroundcolor);
             $('html,body').css('background-color', theme.backgroundcolor);
         }else{
-            console.log("THEME JS - no background color set");
+            console.log("THEME Ethere - no background color set");
         }
 
         // load background image  
         //if(typeof theme.backgroundimage !== "undefined"){
         if(theme.backgroundimage != ""){
-            console.log("THEME JS - background image: " + theme.backgroundimage);
+            console.log("THEME Ethere - background image: " + theme.backgroundimage);
             $('body').css('background-image','url(' + theme.backgroundimage + ')');
             $('body').css('background-repeat','no-repeat');
             $('body').css('background-attachment','fixed');
         }else{
-            console.log("THEME JS - no background image set");
+            console.log("THEME Ethere - no background image set");
         }
     }
 }
@@ -500,7 +500,7 @@ function setUserColors()
 
 // this function manages the step by step loading of the theme. each loading step calls back to the function, which then moves to the next stage.
 function pageChangeDetected(){
-    //console.log("THEME JS - inside page change detected. currentPage was " + currentPage);
+    //console.log("THEME Ethere - inside page change detected. currentPage was " + currentPage);
     waterfallRunning = false;
     
     
@@ -514,19 +514,19 @@ function pageChangeDetected(){
             console.log("no /#/ in url");
             return;
         }else{
-            console.log("THEME JS - pageChangeDetected. currentPage was " + currentPage);
+            console.log("THEME Ethere - pageChangeDetected. currentPage was " + currentPage);
             currentPage = url.split("/#/")[1].toLowerCase();
             baseURL = url.split("/#/")[0];
-            console.log("THEME JS - pageChangeDetected. currentPage is " + currentPage);
-            //console.log("THEME JS - pagechangedetected: new base URL is " + baseURL);
+            console.log("THEME Ethere - pageChangeDetected. currentPage is " + currentPage);
+            //console.log("THEME Ethere - pagechangedetected: new base URL is " + baseURL);
         }
         //f(url.slice(-1) == "/"){console.log("url ended in slash. Probably just opened. Cancelling, have to wait a bit.");return}
         //if(typeof url.split("/#/")[1] === "undefined"){console.log("/#/ was undefined, couldn't split url.");return}
         //currentPage = url.split("/#/")[1].toLowerCase(); 
-        //console.log("THEME JS - pagechangedetected: current page is " + currentPage);
+        //console.log("THEME Ethere - pagechangedetected: current page is " + currentPage);
     }
     catch (e) {
-        console.log("THEME JS - ERROR: not able to find out what page we are on:");
+        console.log("THEME Ethere - ERROR: not able to find out what page we are on:");
         console.log(e);
         $.get('/json.htm?type=command&param=addlogmessage&message=Theme Error - the theme is unable to figure out what page you are on!');
         //currentPage = "Dashboard";
@@ -539,11 +539,11 @@ function pageChangeDetected(){
     console.log(theme);
     
     if(currentPage == "login" && isEmptyObject(theme) === true ){
-        console.log("THEME JS - On the login page, and theme object is empty. Cancelling, waiting for user to log in first. ");
+        console.log("THEME Ethere - On the login page, and theme object is empty. Cancelling, waiting for user to log in first. ");
         return;
     }
     if(currentPage != "login" && isEmptyObject(theme) === true ){
-        console.log("THEME JS - pageChangeDetected: we're not on the login page, but the theme object is empty. We may be early.. or late. ");
+        console.log("THEME Ethere - pageChangeDetected: we're not on the login page, but the theme object is empty. We may be early.. or late. ");
         if(loadedThemeObject === false){
             loadedThemeObject = true;
             themeLoadObject();
@@ -566,13 +566,13 @@ function pageChangeDetected(){
         // loading all the theme's CSS and JS files.
         if(loadedSettingsFromDomoticz === false && loadedThemeCSSandJS === false){
             if(typeof theme.userfeaturesvariable !== "undefined"){
-                console.log("THEME JS - found a locally stored index (" + theme.userfeaturesvariable + ") for preferences stored in Domoticz. Will quickly load them.");
+                console.log("THEME Ethere - found a locally stored index (" + theme.userfeaturesvariable + ") for preferences stored in Domoticz. Will quickly load them.");
                 getThemeFeatureSettingsFromDomoticz(theme.userfeaturesvariable);            
-                console.log("THEME JS - found a locally stored styling index (" + theme.userstylingvariable + ") for preferences stored in Domoticz. Will quickly load them.");
+                console.log("THEME Ethere - found a locally stored styling index (" + theme.userstylingvariable + ") for preferences stored in Domoticz. Will quickly load them.");
                 getThemeStylingSettingsFromDomoticz(theme.userstylingvariable);
 
             }else{
-                console.log("THEME JS - user variable ID was NOT found inside theme object. Will try to get user variables list from Domoticz.");
+                console.log("THEME Ethere - user variable ID was NOT found inside theme object. Will try to get user variables list from Domoticz.");
                 checkIfDomoticzHasThemeSettings();
                 //enableThemeFeatures();
             }
@@ -606,11 +606,11 @@ function pageChangeDetected(){
         || currentPage == "scenes" 
         || currentPage == "utility" ){
         
-        console.log("THEME JS - NEW FRONT END");
+        console.log("THEME Ethere - NEW FRONT END");
         frontend = true;
         
     }else{
-        console.log("THEME JS - NEW BACK END");
+        console.log("THEME Ethere - NEW BACK END");
         frontend = false;
     }
     
@@ -725,7 +725,7 @@ function oldschool()
     
 function backendImprovement()
 {
-    console.log("THEME JS - now in backend improvements");
+    console.log("THEME Ethere - now in backend improvements");
     
     areWeOnMobile();
     
@@ -736,7 +736,7 @@ function backendImprovement()
         /* experiment with injecting CSS and JS into the blockly iFrame.
         var $iframe = $('#IMain');
         $iframe.ready(function() {
-            console.log("THEME JS - injecting JS and CSS into events iframe");
+            console.log("THEME Ethere - injecting JS and CSS into events iframe");
             //var iFrameHead = window.frames["IMain"].document.getElementsByTagName("head")[0];         
             var myscript = document.createElement('script');
             myscript.type = 'text/javascript';
@@ -762,7 +762,7 @@ function backendImprovement()
         // full privacy: only let the error part of the log remain.
         if (theme.features.extra_privacy.enabled === true && theme.features.full_privacy.enabled === true){
             
-            console.log("THEME JS - Log: going full privacy");
+            console.log("THEME Ethere - Log: going full privacy");
             $('#logcontent a[data-i18n="All"]').parent().remove();
             $('#logcontent a[data-i18n="Status"]').parent().remove();
             $('#logcontent li:first-of-type').addClass('active'); // set error tab as active
@@ -842,12 +842,12 @@ function backendImprovement()
 
 $( document ).ready(function()
 {   
-    console.log( "THEME JS - DOM is ready" );
+    console.log( "THEME Ethere - DOM is ready" );
     requirejs.config({ waitSeconds: 30 }); // makes sure there is no timeout. There are some synchronous calls somewhere (not in this theme!), which slow everthing down.
     
     // first, load in the CSS file with the most changes to the styling. This could become a settings option with a dropdown, so the user can pick a 'subtheme' styling variant.
-    console.log("THEME JS - Loading theme.css");
-    var CSSfile = "acttheme/theme.css?daccord";
+    console.log("THEME Ethere - Loading theme.css");
+    var CSSfile = "acttheme/theme.css?ethere";
     var fileref = document.createElement("link");
     fileref.setAttribute("rel", "stylesheet");
     fileref.setAttribute("type", "text/css");
@@ -918,14 +918,14 @@ $( document ).ready(function()
         
         // This is where the theme hooks into the AJAX calls that are made to Domoticz, and then tries to keep the HTML updated as best as possible.
         if ( settings.url.startsWith("json.htm?type=command&param=switchdeviceorder") ) {
-            console.log( "THEME JS - ajax listener: switch order" );
+            console.log( "THEME Ethere - ajax listener: switch order" );
             bands = {};
             pageChangeDetected();
             console.log("__switch device order__");
             frontendImprovement();
         }
         else if ( settings.url.startsWith("json.htm?type=command&param=makefavorite") ) {
-            console.log( "THEME JS - ajax listener: make favourite" );
+            console.log( "THEME Ethere - ajax listener: make favourite" );
             pageChangeDetected();
             console.log("__make favourite__");
             frontendImprovement();
@@ -942,10 +942,10 @@ $( document ).ready(function()
             //frontendImprovement();
 
             console.log("-------------");
-            console.log( "THEME JS - ajax listener: devices update" );
+            console.log( "THEME Ethere - ajax listener: devices update" );
 
             if(typeof xhr.responseJSON.result !== "undefined" ){
-                console.log("THEME JS - ajax: observer: fresh JSON for devices");
+                console.log("THEME Ethere - ajax: observer: fresh JSON for devices");
                 console.log(xhr.responseJSON.result);
                 freshJSON = xhr.responseJSON.result;
                 console.log("__fresh json, starting in 20 milliseconds.__");
@@ -957,11 +957,11 @@ $( document ).ready(function()
             }
 
             if( !$('.item #name').length){
-                console.log( "THEME JS - got device data, but no items (#name) loaded onto the page yet." );
+                console.log( "THEME Ethere - got device data, but no items (#name) loaded onto the page yet." );
             } else if( $('.item td#name').length  != $('.item td.name').length){  
-                console.log("THEME JS - there are items on the page, and they need to be upgraded");
+                console.log("THEME Ethere - there are items on the page, and they need to be upgraded");
             } else {
-                console.log("THEME JS - as many items have #name as .name");
+                console.log("THEME Ethere - as many items have #name as .name");
             }
 
 
@@ -1055,7 +1055,7 @@ $( document ).ready(function()
                 // console.log("repetitious $.LastUpdateTime = " + $.LastUpdateTime);
                 /*
                 if(newDataWatcherIsRunning === false && typeof $.LastUpdateTime !== "undefined"){
-                    console.log("THEME JS - setting interval for data update watcher");
+                    console.log("THEME Ethere - setting interval for data update watcher");
                     setInterval(function() {
                         //if (typeof $.LastUpdateTime !== "undefined"){
                             if(oldLastUpdateTime != $.LastUpdateTime && $.LastUpdateTime != "undefined") {
@@ -1091,7 +1091,7 @@ $( document ).ready(function()
 
 function oncePerPage()
 {
-    console.log("THEME JS - doing once per page things. ");
+    console.log("THEME Ethere - doing once per page things. ");
     // if there is a background image, tweak the colours to pop out more.
     if(theme.backgroundimage != "" && onMobile === false){
         var darkerbg = hexToRgbA(theme.backgroundcolor);
@@ -1118,7 +1118,7 @@ function oncePerPage()
 // this is needed because the weather and temperature pages change a lot of html.
 function startWeatherAndTempObserver()
 {
-    console.log("THEME JS - starting weather and temperature observer");
+    console.log("THEME Ethere - starting weather and temperature observer");
     if(typeof weatherAndTempObserver === "undefined"){
         var weatherAndTempObserver = new window.MutationObserver(function( mutations ) {
             //console.log("weather and temp mutationobserver: mutationslength: " + mutations.length);
@@ -1175,11 +1175,11 @@ function startViewChangeObserver()
 function frontendImprovement()
 {
     if( !$('.divider').length ){
-        console.log("==THEME JS - ERROR: frontend improvement: no dividers to work with on the page yet. Cancelling frontendImprovement");
+        console.log("==THEME Ethere - ERROR: frontend improvement: no dividers to work with on the page yet. Cancelling frontendImprovement");
         return;
     }
     if( typeof theme.name === "undefined" ){
-        console.log("==THEME JS - ERROR: frontend improvement: no theme object available while starting improvement");
+        console.log("==THEME Ethere - ERROR: frontend improvement: no theme object available while starting improvement");
         return;
     }    
     if(waterfallRunning === false){
@@ -1238,7 +1238,7 @@ function mergeDividers()
         // merge weather into temperature
         if (theme.features.dashboard_merge_temp_and_weather.enabled === true){
             if($('#dashWeather div[class^="span"]').length && $('#dashTemperature div[class^="span"]').length){
-                console.log("THEME JS - merging weather and temperature");
+                console.log("THEME Ethere - merging weather and temperature");
                 $('#dashWeather div[class^="span"]').prependTo('#dashTemperature .divider')[0];
                 $('#dashWeather').remove();
                 $('#dashTemperature > h2').text($.t('Environment sensors'));
@@ -1246,7 +1246,7 @@ function mergeDividers()
         }
     }else{
         // When we're not on the dashboard div unwrapping works a little different..
-        console.log("THEME JS - transforming not the dashboard: removing dividers");
+        console.log("THEME Ethere - transforming not the dashboard: removing dividers");
         if( $('div.divider').length > 1  ){
             $('div.divider:not(div[id="weatherwidgets"]:not(div[id="tempwidgets"])) > div.item').unwrap();
             $( ".container > div.item" ).wrapAll( "<div class='row divider' />");
@@ -1260,7 +1260,7 @@ function mergeDividers()
 // adds all kinds of classes to make theming easier.
 function improveClasses()
 {
-    console.log("THEME JS - improveClasses starting, currentPage = " + currentPage);
+    console.log("THEME Ethere - improveClasses starting, currentPage = " + currentPage);
     
     // add missing classes
     if( $('.item td#name').length != $('.item td.name').length ){
@@ -1293,7 +1293,7 @@ function improveClasses()
         $('.item:not(:has(.type))').each(function(){
             $(this).find('.options').before('<td class="type"></td>');
         });
-        console.log("THEME JS - appending Type TD so that item ID can be shown");
+        console.log("THEME Ethere - appending Type TD so that item ID can be shown");
     }
 
     // hide duplicate output if status is the same as bigtext
@@ -1305,13 +1305,13 @@ function improveClasses()
     
 
     // simplify type details, but only if there are no sliders, since it damages those (because it replaces the html, so funcions are detached) 
-    //console.log("THEME JS - improveClasses: upgrading type data (adding ID, etc)");
+    //console.log("THEME Ethere - improveClasses: upgrading type data (adding ID, etc)");
     // Add ID and simplify type info for items without a BR first. These are simple ones without buttons.
     // future todo: just lift the entire button-thing into a new td called 'selectors'. After that, fixing this thing could be a lot simpler too.
     
     if(currentPage != "dashboard"){
         $('body:not(.dashboard) .type:not(:has(br)):not(:has(.idnumber)):not(:has(.dimslider)):not(:has(.selectorlevels))').each(function(index) {
-            console.log("THEME JS - adding ID number");
+            console.log("THEME Ethere - adding ID number");
             var oldType = "";
             //var testje = oldType.split(',').pop();
             oldType = $(this).text();
@@ -1380,7 +1380,7 @@ function improveClasses()
     
     // show last update time?
     if (currentPage == "dashboard" && theme.features.dashboard_show_last_update.enabled === true && theme.features.full_privacy.enabled === false){
-        console.log("THEME JS - showing last update in new footer");
+        console.log("THEME Ethere - showing last update in new footer");
 
         // creating a brand new footer div.
         $('body.dashboard .lastupdate').hide();
@@ -1398,10 +1398,10 @@ function improveClasses()
         
         // set the battery data
         if(theme.features.full_privacy.enabled !== true){
-            console.log("THEME JS - Adding battery icon.");
+            console.log("THEME Ethere - Adding battery icon.");
             $.each(freshJSON, function(key,itemData){
                 if( itemData.BatteryLevel < 101 ){
-                    //console.log("THEME JS - improveClasses: adding first battery level info for " + itemData.Name);
+                    //console.log("THEME Ethere - improveClasses: adding first battery level info for " + itemData.Name);
                     var batteryLevelHeight = itemData.BatteryLevel + '%';
                     var batteryLevelClass = 'batterylevel' + Math.round(itemData.BatteryLevel/10);
                     if( $('.span4').length){
@@ -1434,7 +1434,7 @@ function improveClasses()
 function newData() //freshJSON
 {
 
-    console.log("THEME JS - inside newData."); // Optional data object:")
+    console.log("THEME Ethere - inside newData."); // Optional data object:")
     //console.log(freshJSON);
     
     // wrap a span around TD elements that don't have any span inside them.
@@ -1447,7 +1447,7 @@ function newData() //freshJSON
         // Check items that have multiple data outputs. Some of these are empty, and those must be removed.
         $('td.status > .wrapper > span').each(function(index) {
             if( $(this).text().length < 1 ){
-                console.log("THEME JS - newdata: removing empty data span");
+                console.log("THEME Ethere - newdata: removing empty data span");
                 $(this).remove(); //item = $(this).closest('.item').
             }
         });
@@ -1457,7 +1457,7 @@ function newData() //freshJSON
             //console.log("____________");
             //console.log("td #status > span text: " + $(this).text() );
             if( $(this).text().length < 1 ){ // if it's empty, it shouldn't have a withstatus output.
-                console.log("THEME JS - newData: fake news! Empty status. Fixing it.");
+                console.log("THEME Ethere - newData: fake news! Empty status. Fixing it.");
                 var item = $(this).closest('.item');
                 //console.log("removing withstatus from: " +  item.find('#name').text() );
                 item.removeClass('withstatus');
@@ -1470,7 +1470,7 @@ function newData() //freshJSON
     
     //Domoticz outputs messy HTML: multiple data inside one tag, full of BR's to seperate them. This function tries to clean it up.
     $('td.status > span').has( 'br' ).each(function(index) {
-        console.log("THEME JS - found a BR in status output, surgically removing");
+        console.log("THEME Ethere - found a BR in status output, surgically removing");
         var foundDataCount = 0;
         
         $(this).html(function(index,html){
@@ -1506,7 +1506,7 @@ function newData() //freshJSON
 
     // fix comma separated data, place each output in a span.
     $('td.status > span:contains(", ")').each(function(index) {
-        console.log("THEME JS - fixing found comma separated data"); 
+        console.log("THEME Ethere - fixing found comma separated data"); 
         var foundDataCount = 0;
         $(this).html(function(index,html){
             
@@ -1571,7 +1571,7 @@ function newData() //freshJSON
     
     // privacy pruning - removing last update time on dashboard switches
     if (theme.features.extra_privacy.enabled === true && currentPage == "dashboard"){
-        console.log("THEME JS - privacy: should hide last updated on dashboard");
+        console.log("THEME Ethere - privacy: should hide last updated on dashboard");
         $('#dashSwitches .lastupdate').remove();
         $('#dashSwitches .itemfooter').remove();
     } 
@@ -1594,7 +1594,7 @@ function newData() //freshJSON
             //battery icon
             if(theme.features.full_privacy.enabled !== true){ // its a bit of a shame that this is inside the footer. The footer is hidden when privacy feature is enabled. todo: improve this.
                 if( itemData.BatteryLevel < 101 ){
-                    console.log("THEME JS - newdata: updating battery level info for " + itemData.Name);
+                    console.log("THEME Ethere - newdata: updating battery level info for " + itemData.Name);
                     var batteryLevelHeight = itemData.BatteryLevel + '%';
                     var batteryLevelClass = 'batterylevel' + Math.round(itemData.BatteryLevel/10);
                     
@@ -1614,7 +1614,7 @@ function newData() //freshJSON
 
             // weather forecast
             if( theme.features.extras_and_animations.enabled === true && typeof itemData.ForecastStr !== "undefined"){
-                console.log("THEME JS - adding forecast data to item for visualisation");
+                console.log("THEME Ethere - adding forecast data to item for visualisation");
 
                 var prediction = "prediction-" + machineName(itemData.ForecastStr);
                 $('div[class^="span"][id$="' + itemData.idx + '"] .item').removeClass (function (index, className) {
@@ -1626,15 +1626,15 @@ function newData() //freshJSON
 			// Remove Confort and Dew Point data in Temp Hum Baro devices.
 			if( theme.features.dashboard_remove_dewpoint.enabled === true){
 				$( "body.dashboard .item:contains('Dew Point')" ).removeClass('withstatus');
-				console.log("THEME JS - hiding Dew Point data");
+				console.log("THEME Ethere - hiding Dew Point data");
 			}else{
 				$( "body.dashboard .item:contains('Dew Point')" ).addClass('withstatus');
-				console.log("THEME JS - showing Dew Point data");
+				console.log("THEME Ethere - showing Dew Point data");
 			}
         });
 
         // A small fix for some items that have a weird status output.
-        //console.log("THEME JS - wrapping orphaned status data output");
+        //console.log("THEME Ethere - wrapping orphaned status data output");
         $('.statuscount1 .status > span.wrapper:not(:has(span))').wrapInner( "<span class='value1'></span>" );
 
     
@@ -1728,7 +1728,7 @@ function addDashboardGoodies()
 
         if (theme.features.dashboard_clock_item.enabled === true && currentPage == "dashboard" ) {
             if( !$('#clockitem').length ){
-                console.log("THEME JS - creating clock item");
+                console.log("THEME Ethere - creating clock item");
                 $('#timesun').remove();
 
                 if( $('.span4').length ){
@@ -1775,7 +1775,7 @@ function inlineSetPoint(idx,temp,change){
     //console.log("inside inline setpoint");
     if(change == "up"){temp = temp + 1;}
     if(change == "down"){temp = temp - 1;}    
-    console.log("THEME JS - setpoint: newly chosen temperature is " + temp);
+    console.log("THEME Ethere - setpoint: newly chosen temperature is " + temp);
 
     $('div[class^="span"][id$="' + idx + '"] .item #bigtext .wrapper .upicon').addClass('loading');
     
@@ -1795,7 +1795,7 @@ function inlineSetPoint(idx,temp,change){
 				//$.refreshfunction();
 			}, 1000);
             
-            console.log("THEME JS - new setpoint set");
+            console.log("THEME Ethere - new setpoint set");
             //$('div[class^="span"][id$="' + idx + '"] .item #bigtext .wrapper .upicon').remove();
 
             
@@ -1857,7 +1857,7 @@ function inlineSetPoint(idx,temp,change){
 function blocklyCreateExportButtons()
 {
     if ( currentPage == "events" && !$('#IMain').length ){
-        console.log("THEME JS - waiting for blockly to load ZZZzzz");
+        console.log("THEME Ethere - waiting for blockly to load ZZZzzz");
         setTimeout(blocklyCreateExportButtons,1000);
         return;
     }
@@ -1880,7 +1880,7 @@ function blocklyCreateExportButtons()
 // tick tock, update time ago
 function updateLastUpdated()
 {   
-    //console.log("THEME JS - starting the clock");
+    //console.log("THEME Ethere - starting the clock");
     
     
     if (theme.features.time_ago.enabled === true){
@@ -1900,7 +1900,7 @@ function updateLastUpdated()
     
     function updateClocks() {
         if ( $('.lastupdate > span').length ) {
-            console.log('THEME JS - clock: tick tock');
+            console.log('THEME Ethere - clock: tick tock');
             
             // why not. Let's just copy the old time to a brand new footer. This makes adding the battery status a sure thing,
             $('.item').each(function(index) {
@@ -1916,7 +1916,7 @@ function updateLastUpdated()
             }
             setTimeout(updateClocks, 7000);
         }else {
-            console.log("THEME JS - can't and won't update clock because lastupdate items disappeared (probably opening new page)");
+            console.log("THEME Ethere - can't and won't update clock because lastupdate items disappeared (probably opening new page)");
             clockIsRunning = false;
         }
     }
@@ -1931,10 +1931,10 @@ function updateLastUpdated()
 function loadUserCSS(){
     var userCSS = localStorage.getItem('userCSS');
     if(typeof userCSS !== "undefined"){
-        console.log("THEME JS - inserting user CSS");
+        console.log("THEME Ethere - inserting user CSS");
         $('head').append("<style>" + userCSS + "</style>");
     }else{
-        console.log("THEME JS - no user CSS");
+        console.log("THEME Ethere - no user CSS");
     }
 }
 
@@ -1942,7 +1942,7 @@ function loadUserCSS(){
 // This function is called when the settings page is opened. It adds a new theme tab.
 function showThemeSettings()
 {   
-    console.log("THEME JS - inserting theme settings");
+    console.log("THEME Ethere - inserting theme settings");
     
     if( !$('#tabsystem').length ){
         console.log("no tabsystem yet.. cancelling");
@@ -1996,7 +1996,7 @@ function showThemeSettings()
     }
 }
             function loadedSettingsHTML(){ // when inserting is done..
-                console.log("THEME JS - theme settings html loaded");
+                console.log("THEME Ethere - theme settings html loaded");
                 $('#ActiveTabs').appendTo('#theme');
                 $('#ActiveTabs').wrapAll('<div class="row-fluid" />');
                 $("#tabtheme .span6 input:checkbox").each(function() {
@@ -2029,7 +2029,7 @@ function showThemeSettings()
                     color: theme.textcolor,
                     onChange: function (hsb, hex, rgb, fromSetColor) {
                         var newTextColor = "#" + hex;
-                        console.log("THEME JS - newTextColor = " + newTextColor);
+                        console.log("THEME Ethere - newTextColor = " + newTextColor);
                         theme.textcolor = newTextColor;
                         $('body,#colordemo').css('color', newTextColor);
                         localStorage.setObject("themeObject", theme);
@@ -2044,7 +2044,7 @@ function showThemeSettings()
                     color: theme.backgroundcolor,
                     onChange: function (hsb, hex, rgb, fromSetColor) {
                         var newBGcolor = "#" + hex;
-                        console.log("THEME JS - newBGcolor = " + newBGcolor);
+                        console.log("THEME Ethere - newBGcolor = " + newBGcolor);
                         theme.backgroundcolor = newBGcolor;
                         $('body,#colordemo').css('background-color', newBGcolor);
                         localStorage.setObject("themeObject", theme);
@@ -2052,7 +2052,7 @@ function showThemeSettings()
                 });
                 
                 $('#textcolorpicker,#backgroundcolorpicker').mouseup(function(e) {
-                    console.log("THEME JS - storing new colors in Domoticz");
+                    console.log("THEME Ethere - storing new colors in Domoticz");
                     storeThemeSettingsInDomoticz("update");
                 });
                 
@@ -2078,7 +2078,7 @@ function showThemeSettings()
                 $("#tabtheme input:checkbox").click(function() {
                     if ($(this).is(':checked')) {
                         // Apply and immediately save the new setting.
-                        //console.log("THEME JS - saving new preference: user checked " + this.value);
+                        //console.log("THEME Ethere - saving new preference: user checked " + this.value);
                         theme.features[this.value].enabled = true;
                         loadThemeFeatureFiles(this.value);
                         
@@ -2089,7 +2089,7 @@ function showThemeSettings()
                         
                     } else { 
                         // if unchecked, then unload files.
-                        //console.log("THEME JS - saving new preference: user unchecked " + this.value);
+                        //console.log("THEME Ethere - saving new preference: user unchecked " + this.value);
                         theme.features[this.value].enabled = false;
                         unloadThemeFeatureFiles(this.value);
                         
@@ -2138,7 +2138,7 @@ function showThemeSettings()
 // reset theme to defaults. Useful after an upgrade.
 function resetTheme(){
     if (typeof(Storage) !== "undefined") {
-        console.log("THEME JS - Starting theme reset. User features var: " + theme.userfeaturesvariable);
+        console.log("THEME Ethere - Starting theme reset. User features var: " + theme.userfeaturesvariable);
         if(typeof theme.userfeaturesvariable !== 'undefined'){
             var deleteFeaturesURL = '/json.htm?type=command&param=deleteuservariable&idx=' + theme.userfeaturesvariable;
             //console.log(deleteFeaturesURL);
@@ -2148,12 +2148,12 @@ function resetTheme(){
                 dataType: 'json',
                 success: function (data) {
                     if (data.status == "ERROR") {
-                        console.log("THEME JS - server responded with error while deleting user variable that stored feature settings");
+                        console.log("THEME Ethere - server responded with error while deleting user variable that stored feature settings");
                         HideNotify();
                         bootbox.alert($.t('Domoticz gave an error when trying to remove the theme feature settings data'));
                     }
                     if (data.status == "OK") {
-                        console.log("THEME JS - deleting user variable that stored features was succesful");
+                        console.log("THEME Ethere - deleting user variable that stored features was succesful");
                         localStorage.clear();
                         $.get('/json.htm?type=command&param=addlogmessage&message=' + theme.name + ' theme was reset to defaults');
                         
@@ -2162,7 +2162,7 @@ function resetTheme(){
                     }
                 },
                 error: function () {
-                    console.log("THEME JS - The theme was unable to delete the user variable in Domoticz that holds the theme feature settings");
+                    console.log("THEME Ethere - The theme was unable to delete the user variable in Domoticz that holds the theme feature settings");
                     HideNotify();
                     bootbox.alert($.t('Error communicating with Domoticz, theme feature settings not reset.'));
                 }
@@ -2275,7 +2275,7 @@ function getScope(ctrlName) {
     return angular.element(sel).scope();
 }
 
-console.log( "THEME JS - loaded" );
+console.log( "THEME Ethere - loaded" );
 
 
 
