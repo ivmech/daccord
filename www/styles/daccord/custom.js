@@ -489,6 +489,8 @@ function setUserColors()
         if(theme.backgroundimage != ""){
             console.log("THEME JS - background image: " + theme.backgroundimage);
             $('body').css('background-image','url(' + theme.backgroundimage + ')');
+            $('body').css('background-repeat','no-repeat');
+            $('body').css('background-attachment','fixed');
         }else{
             console.log("THEME JS - no background image set");
         }

@@ -134,7 +134,16 @@ body:not(#onMobile) div:not(#settingscontent) .span4{
 }
 
 #comboroom{
-    border-bottom:1px solid rgba(255,255,255,0.2)
+    background-color: #1c2b46;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+    color:white;
+    width:160px;
+    font-size:1.2em;
+}
+
+select.combobox option{
+    background-color: #1c2b46;
+    font-size:1.2em;
 }
 
 
@@ -460,11 +469,7 @@ body.events .container-fluid{padding-left:0;padding-right:0;}
     margin-top:30px;
 }
 
-select.combobox option{
-    background-color: #1c2b46;
-    color:white;
-    font-size:1em;
-}
+
 
 
 .related > .span2,
@@ -476,7 +481,6 @@ select.combobox option{
     border-top: 1px dotted rgba(150,150,150,0.05);
 }
 
-select{background-color: #1c2b46; color:#fff;border:0} /* rgba(0,0,0,.3); */
 
 
 #settingscontent textarea,

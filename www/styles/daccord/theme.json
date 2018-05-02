@@ -1,15 +1,15 @@
 {
     "type": "theme",    
     "name": "Daccord",
-    "description": "Daccord theme",
+    "description": "Daccord Theme",
     "license": "GPL-2.0+",
     "version":"1",
     "author": "Caner Durmusoglu",
     "homepage": "http://www.ivmech.com",
     "wiki": "",
     "textcolor": "#ffffff",     
-    "backgroundcolor": "#001133",    
-    "backgroundimage": "",
+    "backgroundcolor": "#001133",
+    "backgroundimage": "images/background/bg09.jpg",
     "previewimage": "screenshot.png",
     "variants": [
         {"default": "daccord.css"}
