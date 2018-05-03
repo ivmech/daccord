@@ -1,11 +1,11 @@
-<h1 data-i18n="Theme settings">Theme settings</h1>
+<h1 data-i18n="Theme Settings">Theme Settings</h1>
 <div class="row-fluid">
     <div class="span6">
-        <h2><span data-i18n="Dashboard options">General options</span>:</h2>
+        <h3><span data-i18n="General Options">General Options</span>:</h3>
         <p>
-        <input id="themevar15" class="parentunrequired" name="themevar15" value="dashboard_clock_item" type="checkbox"><label for="themevar15" data-i18n=">Show clock as an item">Show clock as an item</label>
+        <input id="themevar15" class="parentunrequired css-checkbox" name="themevar15" value="dashboard_clock_item" type="checkbox"><label for="themevar15" data-i18n="Show clock as an item">Show clock as an item</label>
         <br/>
-        <input id="themevar11" class="parentunrequiredchild" name="themevar11" value="dashboard_move_sun" type="checkbox"><label for="themevar11" data-i18n=">Move clock to the bottom of the page">Move clock to the bottom of the page</label>
+        <input id="themevar11" class="parentunrequiredchild" name="themevar11" value="dashboard_move_sun" type="checkbox"><label for="themevar11" data-i18n="Move clock to the bottom of the page">Move clock to the bottom of the page</label>
         </p><p>
         <input id="themevar12" name="themevar12" value="navigation_main_sidebar" checked type="checkbox"><label for="themevar12" data-i18n="Main menu as a sidebar">Main menu as a sidebar</label>
         </p><p>
@@ -13,9 +13,9 @@
         </p><p>
         <input id="themevar14" name="themevar14" value="center_popups" type="checkbox"><label for="themevar14" data-i18n="Center popups on the screen">Center popups on the screen</label>
         </p><p>
-        <input id="themevar16" class="parentrequired" name="themevar16" value="mobile_phoney" type="checkbox"><label for="themevar16" data-i18n="Iphone styling on mobile devices">iPhone styling on mobile devices</label>
+        <input id="themevar16" class="parentrequired" name="themevar16" value="mobile_phoney" type="checkbox"><label for="themevar16" data-i18n="IOS styling on mobile devices">IOS styling on mobile devices</label>
         <br/>
-        <input id="themevar17" class="parentrequiredchild" name="themevar17" value="mobile_on_non_mobile" type="checkbox"><label for="themevar17" data-i18n="iPhone styling on non-mobile devices">iPhone styling on non-mobile devices</label>
+        <input id="themevar17" class="parentrequiredchild" name="themevar17" value="mobile_on_non_mobile" type="checkbox"><label for="themevar17" data-i18n="IOS styling on non-mobile devices">IOS styling on non-mobile devices</label>
         <br/>
         <input id="themevar110" class="parentrequiredchild" name="themevar110" value="mobile_invert_colours" type="checkbox"><label for="themevar110" data-i18n="Invert colours on mobile (night mode)">Invert colours on mobile (night mode)</label>
         </p><p>
@@ -26,7 +26,7 @@
         
         <br/>
         
-        <h3><span data-i18n="Dashboard options">Dashboard options</span>:</h3>
+        <h3><span data-i18n="Dashboard Options">Dashboard Options</span>:</h3>
         <p>
         <input id="themevar21" class="parentrequired" name="themevar21" value="dashboard_show_last_update" type="checkbox"><label for="themevar21" data-i18n="Show the last update time">Show items' last update time</label>
         <br/>
@@ -54,7 +54,7 @@
         
     </div>     
     <div class="span6">
-        <h2><span data-i18n="Dashboard options">About</span>:</h2>
+        <h2><span data-i18n="About">About</span>:</h2>
         <div id="aboutTheme">
             
         <h3>Ethere Theme</h3>
@@ -166,39 +166,40 @@
 
         </div>
         <p>
-            <button class="btn btn-info" id="themeResetButton">Reset theme to default</button>
+            <button class="btn btn-info" id="themeResetButton">Reset Theme to Default</button>
         </p>
     </div>   
 </div>
 <div class="row-fluid">  
     <div class="span12">
-        <h2><span data-i18n="Background">Visual</span>:</h2>
+        <h3><span data-i18n="Visual Options">Visual Options</span>:</h3>
         <table class="display" id="themebackground">
             <tr><td>
                 <div class="colorPicker">
-                    <h3>Text color</h3>
+                    <h3>Text Color</h3>
                     <div id="textcolorpicker"></div>
                 </div>
                 <div class="colorPicker">
-                    <h3>Background color</h3>
+                    <h3>Background Color</h3>
                     <div id="backgroundcolorpicker"></div>
                 </div>
                 <div class="colorpicker colordemo">
-                    <h3>Example</h3>
-                    <div id="colordemo"><div class="name">ITEM NAME</div><br/><div style="margin-left:10px">Item detail</div></div>
+                    <h2>Example</h2>
+                    <div id="colordemo"><div class="name">ITEM NAME</div><br/><div style="margin-left:10px">Item Detail</div></div>
                 </div>       
                 <h3>Background Image</h3>
                 <p>
-                <input id="backgroundimageurl" name="backgroundimageurl" class="text ui-widget-content ui-corner-all" type="text"><button id="backgroundimagesetbtn" data-i18n="Set" class="btn btn-info" >Set</button>
+                <input id="backgroundimageurl" name="backgroundimageurl" class="text ui-widget-content ui-corner-all" type="text" \>
+                <button id="backgroundimagesetbtn" data-i18n="Save" class="btn btn-success" >Save</button>
                 </p>
             </td></tr>
         </table>
-        <p class="tip">You can point to an image on a webserver. If you place an image in the theme folder, you can point to it like this: <span style="font-style: italic">acttheme/screenshot.png</span> </p>
+        <p class="tip">You can point to an image on a webserver. If you place an image in the theme folder, you can point to it like this: <span style="font-style: italic">images/background/bg07.png</span> </p>
     </div>
 </div>
 <div class="row-fluid">      
     <div class="span12">
-        <h2><span data-i18n="Background">User CSS</span>:</h2>
+        <h3><span data-i18n="User CSS">User CSS</span>:</h3>
         <table class="display" id="themebackground">
             <tr><td>
                 <p>
@@ -206,10 +207,13 @@
                 </p>
                 <textarea id="userCSSinput"></textarea>
                 <div id="userCSSsavebuttonholder">
-                <button id="userCSSsavebtn" data-i18n="Save" class="btn btn-info" >Save</button></div>
+                <button id="userCSSsavebtn" data-i18n="Save" class="btn btn-success">Save</button></div>
 
             </td></tr>
         </table>
-
     </div>         
 </div>
+
+<script>
+    $('#tabtheme').i18n();
+</script>

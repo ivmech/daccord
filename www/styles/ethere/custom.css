@@ -206,7 +206,7 @@ body:not(#onMobile) .span4{
 
 #settingscontent input.text{
     min-width: 120px;
-    width:calc(100% - 75px)!important;
+    width:calc(100% - 100px)!important;
 }
 
 #settingscontent .ui-widget-content,

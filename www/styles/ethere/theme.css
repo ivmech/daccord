@@ -508,7 +508,7 @@ div:not(.ui-dialog) #settingscontent input.ui-widget-content,
 textarea.ui-widget-content,
 input.ui-widget-content{
     /*background-color: #11213d;*/
-    padding: .2em;
+    padding: 1em;
     border: none;
     color: #eee;
     /*font-weight: bold;*/
@@ -521,10 +521,7 @@ div[class*=dialog] input,
 */
 
 #settingscontent input {
-    width: 26px;
-    height: 26px;
-    margin-bottom: 3px;
-    margin-top: 3px;
+
 }
 
 input:focus{
@@ -1160,3 +1157,4 @@ input.editable{
 #dialog-media-remote{
     min-height:300px;
 }
+

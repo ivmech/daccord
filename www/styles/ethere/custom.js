@@ -491,6 +491,7 @@ function setUserColors()
             $('body').css('background-image','url(' + theme.backgroundimage + ')');
             $('body').css('background-repeat','no-repeat');
             $('body').css('background-attachment','fixed');
+            $('body').css('background-size','cover');
         }else{
             console.log("THEME Ethere - no background image set");
         }
@@ -1997,7 +1998,7 @@ function showThemeSettings()
         if (!$('#tabtheme').length){
             
             // modifying settings menu
-            $('#tabs .pull-right').before('<li id="themeTabButton"><a data-target="#tabtheme" data-toggle="tab" data-i18n="Theme">Theme</a></li>');
+            $('#tabs .pull-right').before('<li id="themeTabButton"><a data-target="#tabtheme" data-toggle="tab" data-i18n="Theme Settings">Theme Settings</a></li>');
             // If were on a mobile phone, make the settingsmenu a dropdown.   
             $('#tabs li:not(.pull-right)').click(function() {
                 if ($(window).width() < 480) {
@@ -2016,9 +2017,9 @@ function showThemeSettings()
             // inserting the themesettings.html
             $('#my-tab-content').append('<div class="tab-pane" id="tabtheme"><section id="theme">Loading..</section></div>');
             $('#my-tab-content #theme').load("acttheme/themesettings.html",loadedSettingsHTML);
-            
+
             // loadedSettingsHTML() was here
-            
+            $('#themeTabButton').i18n();
         }
     } else {
         // No Web Storage support.. hmm.
@@ -2097,10 +2098,12 @@ function showThemeSettings()
                 $('#backgroundimagesetbtn').click(function() {
                     var newBGIMG = "" + $('#backgroundimageurl').val();
                     theme.backgroundimage = newBGIMG;
-                    localStorage.setObject("themeObject", theme);
                     $('body,#colordemo').css('background-image','url(' + theme.backgroundimage + ')');
                     $('body,#colordemo').css('background-attachment','fixed');
                     $('body,#colordemo').css('background-size','cover');
+
+                    localStorage.setObject("themeObject", theme);
+                    storeThemeSettingsInDomoticz("update");
                 });
                 
                 // The theme immediately saves the changes. This is because it was difficult to hook into the existing save system.
