@@ -225,7 +225,6 @@
         flex-direction: row;
     }
 
-
     #dashcontent h2 + div.divider .span4:nth-child(-n+12) .item:not(.keepclear) #itemtablesmall tr #img img,
     #dashcontent h2 + div.divider .span4:nth-child(-n+12) .item:not(.keepclear) #itemtablesmall tr #img1 img{
         width: 100%;
@@ -625,3 +624,11 @@
 
 
 
+
+#img1 img{
+        width: 300px;
+        height: auto;
+        max-width: 80px;
+        box-shadow: none;
+        margin-left: auto;      
+    }

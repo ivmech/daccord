@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<stats>
+    <errors>
+        <stat label="ACK Waiting">0</stat>
+        <stat label="Read Aborts">0</stat>
+        <stat label="Bad Checksums">0</stat>
+        <stat label="CANs">0</stat>
+        <stat label="NAKs">0</stat>
+        <stat label="Out of Frame">0</stat>
+    </errors>
+    <counts>
+        <stat label="SOF">207</stat>
+        <stat label="Total Reads">207</stat>
+        <stat label="Total Writes">40</stat>
+        <stat label="ACKs">40</stat>
+        <stat label="Total Broadcasts Received">0</stat>
+        <stat label="Total Broadcasts Transmitted">11</stat>
+    </counts>
+    <info>
+        <stat label="Dropped">3</stat>
+        <stat label="Retries">0</stat>
+        <stat label="Unexpected Callbacks">0</stat>
+        <stat label="Bad Routes">0</stat>
+        <stat label="No ACK">3</stat>
+        <stat label="Network Busy">0</stat>
+        <stat label="Not Idle">0</stat>
+        <stat label="Non Delivery">0</stat>
+        <stat label="Routes Busy">0</stat>
+    </info>
+    <node id="1">
+        <nstat label="Sent messages">1</nstat>
+        <nstat label="Failed sent messages">0</nstat>
+        <nstat label="Retried sent messages">0</nstat>
+        <nstat label="Received messages">0</nstat>
+        <nstat label="Received duplicates">0</nstat>
+        <nstat label="Received unsolicited">0</nstat>
+        <nstat label="Last sent message">05-03 13:41:42:122 </nstat>
+        <nstat label="Last received message">05-03 13:41:42:097 </nstat>
+        <nstat label="Last Request RTT">0</nstat>
+        <nstat label="Average Request RTT">0</nstat>
+        <nstat label="Last Response RTT">0</nstat>
+        <nstat label="Average Response RTT">0</nstat>
+        <nstat label="Quality">0</nstat>
+        <commandclass id="0" name="NO OPERATION">
+            <cstat label="Messages sent">0</cstat>
+            <cstat label="Messages received">0</cstat>
+        </commandclass>
+        <commandclass id="32" name="BASIC">
+            <cstat label="Messages sent">0</cstat>
+            <cstat label="Messages received">0</cstat>
+        </commandclass>
+    </node>
+    <node id="4">
+        <nstat label="Sent messages">1</nstat>
+        <nstat label="Failed sent messages">1</nstat>
+        <nstat label="Retried sent messages">0</nstat>
+        <nstat label="Received messages">0</nstat>
+        <nstat label="Received duplicates">0</nstat>
+        <nstat label="Received unsolicited">0</nstat>
+        <nstat label="Last sent message">05-03 13:41:46:438 </nstat>
+        <nstat label="Last received message">05-03 13:41:42:097 </nstat>
+        <nstat label="Last Request RTT">0</nstat>
+        <nstat label="Average Request RTT">0</nstat>
+        <nstat label="Last Response RTT">0</nstat>
+        <nstat label="Average Response RTT">0</nstat>
+        <nstat label="Quality">0</nstat>
+        <commandclass id="0" name="NO OPERATION">
+            <cstat label="Messages sent">0</cstat>
+            <cstat label="Messages received">0</cstat>
+        </commandclass>
+        <commandclass id="32" name="BASIC">
+            <cstat label="Messages sent">0</cstat>
+            <cstat label="Messages received">0</cstat>
+        </commandclass>
+        <commandclass id="113" name="ALARM">
+            <cstat label="Messages sent">0</cstat>
+            <cstat label="Messages received">0</cstat>
+        </commandclass>
+        <commandclass id="114" name="MANUFACTURER SPECIFIC">
+            <cstat label="Messages sent">0</cstat>
+            <cstat label="Messages received">0</cstat>
+        </commandclass>
+        <commandclass id="128" name="BATTERY">
+            <cstat label="Messages sent">0</cstat>
+            <cstat label="Messages received">0</cstat>
+        </commandclass>
+        <commandclass id="132" name="WAKE UP">
+            <cstat label="Messages sent">1</cstat>
+            <cstat label="Messages received">0</cstat>
+        </commandclass>
+        <commandclass id="133" name="ASSOCIATION">
+            <cstat label="Messages sent">0</cstat>
+            <cstat label="Messages received">0</cstat>
+        </commandclass>
+        <commandclass id="134" name="VERSION">
+            <cstat label="Messages sent">0</cstat>
+            <cstat label="Messages received">0</cstat>
+        </commandclass>
+    </node>
+    <node id="6">
+        <nstat label="Sent messages">27</nstat>
+        <nstat label="Failed sent messages">2</nstat>
+        <nstat label="Retried sent messages">0</nstat>
+        <nstat label="Received messages">140</nstat>
+        <nstat label="Received duplicates">34</nstat>
+        <nstat label="Received unsolicited">122</nstat>
+        <nstat label="Last sent message">05-03 13:43:03:184 </nstat>
+        <nstat label="Last received message">05-03 14:03:51:483 </nstat>
+        <nstat label="Last Request RTT">31</nstat>
+        <nstat label="Average Request RTT">31</nstat>
+        <nstat label="Last Response RTT">40</nstat>
+        <nstat label="Average Response RTT">40</nstat>
+        <nstat label="Quality">0</nstat>
+        <commandclass id="0" name="NO OPERATION">
+            <cstat label="Messages sent">0</cstat>
+            <cstat label="Messages received">0</cstat>
+        </commandclass>
+        <commandclass id="32" name="BASIC">
+            <cstat label="Messages sent">0</cstat>
+            <cstat label="Messages received">34</cstat>
+        </commandclass>
+        <commandclass id="48" name="SENSOR BINARY">
+            <cstat label="Messages sent">1</cstat>
+            <cstat label="Messages received">1</cstat>
+        </commandclass>
+        <commandclass id="49" name="SENSOR MULTILEVEL">
+            <cstat label="Messages sent">3</cstat>
+            <cstat label="Messages received">1</cstat>
+        </commandclass>
+        <commandclass id="86" name="CRC16 ENCAP">
+            <cstat label="Messages sent">0</cstat>
+            <cstat label="Messages received">53</cstat>
+        </commandclass>
+        <commandclass id="112" name="CONFIGURATION">
+            <cstat label="Messages sent">0</cstat>
+            <cstat label="Messages received">0</cstat>
+        </commandclass>
+        <commandclass id="114" name="MANUFACTURER SPECIFIC">
+            <cstat label="Messages sent">1</cstat>
+            <cstat label="Messages received">1</cstat>
+        </commandclass>
+        <commandclass id="128" name="BATTERY">
+            <cstat label="Messages sent">2</cstat>
+            <cstat label="Messages received">2</cstat>
+        </commandclass>
+        <commandclass id="132" name="WAKE UP">
+            <cstat label="Messages sent">2</cstat>
+            <cstat label="Messages received">2</cstat>
+        </commandclass>
+        <commandclass id="133" name="ASSOCIATION">
+            <cstat label="Messages sent">2</cstat>
+            <cstat label="Messages received">2</cstat>
+        </commandclass>
+        <commandclass id="134" name="VERSION">
+            <cstat label="Messages sent">3</cstat>
+            <cstat label="Messages received">3</cstat>
+        </commandclass>
+        <commandclass id="142" name="MULTI INSTANCE ASSOCIATION">
+            <cstat label="Messages sent">4</cstat>
+            <cstat label="Messages received">4</cstat>
+        </commandclass>
+        <commandclass id="143" name="MULTI CMD">
+            <cstat label="Messages sent">0</cstat>
+            <cstat label="Messages received">0</cstat>
+        </commandclass>
+        <commandclass id="156" name="SENSOR ALARM">
+            <cstat label="Messages sent">2</cstat>
+            <cstat label="Messages received">2</cstat>
+        </commandclass>
+    </node>
+</stats>
