@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<poll homeid="ee829a30" nodeid="1" sucnodeid="1" nodecount="2" cmode="SUC" save="1" noop="0">
-    <log size="0" offset="37669"></log>
+<poll homeid="ee829a30" nodeid="1" sucnodeid="1" nodecount="0" cmode="SUC" save="1" noop="0">
+    <log size="0" offset="24421"></log>
     <admin active="false" />
     <update />
 </poll>

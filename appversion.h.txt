@@ -1,3 +1,3 @@
-#define APPVERSION 9389
-#define APPHASH "28d24885"
-#define APPDATE 1525126646
+#define APPVERSION 9399
+#define APPHASH "55b1aafe-modified"
+#define APPDATE 1525371918
