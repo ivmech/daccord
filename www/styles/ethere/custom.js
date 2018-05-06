@@ -1097,7 +1097,7 @@ function oncePerPage()
     if(theme.backgroundimage != "" && onMobile === false){
         var darkerbg = hexToRgbA(theme.backgroundcolor);
         $('h1,h2,h3').css('opacity', '1');
-        $('.span3, .span4, .navbar').css('background-color', darkerbg);
+//        $('.span3, .span4, .navbar').css('background-color', darkerbg);
     }
     
     if(onMobile === true){
