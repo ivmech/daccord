@@ -753,7 +753,10 @@ body:not(.dashboard) div.item .options {
 #lightcontent #timesun,
 #temptophtm #timesun,
 #weathertophtm #timesun,
-#utilitycontent > table{padding-bottom:10px}
+#utilitycontent > table {
+    padding-bottom:10px;
+
+}
 
 .ui-draggable:not(.ui-dialog) tr{
     background-color: transparent;
@@ -1170,3 +1173,53 @@ input.editable{
     min-height:300px;
 }
 
+
+.clock {
+  height: 100%;
+  color: white;
+  font-size: 7em;
+  font-family: Nunito, sans-serif;
+  line-height: 100%;
+  display: flex;
+  position: relative;
+  /*background: green;*/
+  overflow: hidden;
+}
+
+.clock::before, .clock::after {
+  content: '';
+  height: 20%;
+  background: linear-gradient(to top, transparent, black);
+  position: absolute;
+  z-index: 2;
+}
+
+.clock::after {
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent, black);
+}
+
+.clock > div {
+  display: flex;
+}
+
+.tick {
+  line-height: 100%;
+}
+
+.tick-hidden {
+  opacity: 0;
+}
+
+.move {
+  animation: move linear 1s infinite;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}

@@ -1205,6 +1205,7 @@ function frontendImprovement()
         newData();
         if (currentPage == "dashboard"){ addDashboardGoodies(); }
     }
+
 }
 
 
@@ -1391,10 +1392,10 @@ function improveClasses()
             $('.lastupdate,#lastupdate').remove(); // full privacy
         }else if (theme.features.extra_privacy.enabled === true){ // some privacy
             $('section:not(#dashSwitches) .item:not(:has(.itemfooter))').append('<div class="itemfooter"><div class="lastupdated"></div><div class="timeagooutput"></div></div>');
-            setTimeout(updateLastUpdated,1000); // tick tock, this is a clock that updates the 'time ago' time.
+            setTimeout(updateLastUpdated, 1000); // tick tock, this is a clock that updates the 'time ago' time.
         } else if(!$('.itemfooter').length){ // no privacy
             $('.item:not(:has(.itemfooter))').append('<div class="itemfooter"><div class="lastupdated"></div><div class="timeagooutput"></div></div>');
-            setTimeout(updateLastUpdated,1000); // tick tock, this is a clock that updates the 'time ago' time.
+            setTimeout(updateLastUpdated, 1000); // tick tock, this is a clock that updates the 'time ago' time.
         }
         
         // set the battery data
@@ -1709,18 +1710,75 @@ function newData() //freshJSON
 	
 }
 
-function moveHands() {
-    with(new Date()) {
-        h = 30 * (getHours() % 12 + getMinutes() / 60);
-        m = 6 * getMinutes();
-        s = 6 * getSeconds();
-        document.getElementById('seconds').style.cssText = "-webkit-transform:rotate(" + s + "deg);";
-        document.getElementById('minutes').style.cssText = "-webkit-transform:rotate(" + m + "deg);";
-        document.getElementById('hours').style.cssText = "-webkit-transform:rotate(" + h + "deg);";
 
-        setTimeout(moveHands, 1000);
-    }
+var hoursContainer = ""
+var minutesContainer = ""
+var tickElements = ""
+
+var last = new Date(0)
+last.setUTCHours(-1)
+
+var tickState = true
+
+function updateTime () {
+  var now = new Date
+  
+  var lastHours = last.getHours().toString()
+  var nowHours = now.getHours().toString()
+  if (lastHours !== nowHours) {
+    updateContainer(hoursContainer, nowHours)
+  }
+  
+  var lastMinutes = last.getMinutes().toString()
+  var nowMinutes = now.getMinutes().toString()
+  if (lastMinutes !== nowMinutes) {
+    updateContainer(minutesContainer, nowMinutes)
+  }
+    
+  last = now
 }
+
+function tick () {
+  tickElements.forEach(t => t.classList.toggle('tick-hidden'))
+}
+
+function updateContainer (container, newTime) {
+  var time = newTime.split('')
+  
+  if (time.length === 1) {
+    time.unshift('0')
+  }
+  
+  var first = container.firstElementChild
+  if (first.lastElementChild.textContent !== time[0]) {
+    updateNumber(first, time[0])
+  }
+  
+  var last = container.lastElementChild
+  if (last.lastElementChild.textContent !== time[1]) {
+    updateNumber(last, time[1])
+  }
+}
+
+function updateNumber (element, number) {
+  //element.lastElementChild.textContent = number
+  var second = element.lastElementChild.cloneNode(true)
+  second.textContent = number
+  
+  element.appendChild(second)
+  element.classList.add('move')
+
+  setTimeout(function () {
+    element.classList.remove('move')
+  }, 990)
+  setTimeout(function () {
+    element.removeChild(element.firstElementChild)
+  }, 990)
+}
+
+
+
+
 
 // finally, after the waterfall of html and css improvements, add the fun stuff (dataviz, etc).
 function addDashboardGoodies()
@@ -1735,25 +1793,33 @@ function addDashboardGoodies()
         
         if (theme.features.dashboard_highlighted.enabled === true &&  theme.features.dashboard_camera_previews.enabled === true){
             if (typeof prepareCameraPreviews === "function") {
-                setTimeout(prepareCameraPreviews,1500);
+                setTimeout(prepareCameraPreviews, 1500);
             }
         }
 
         if (theme.features.dashboard_clock_item.enabled === true && currentPage == "dashboard" ) {
-        /*
-            if( !$('#clock').length ){
-                var clockitem = '<div class="span4" id="clock" style="position: relative;"><div id="bstatus" class="item statusNormal"><table id="itemtablesmall" class="itemtablesmall" cellspacing="0" cellpadding="0" border="0"><tbody><tr>';
 
-                var clockitem = '<div class="span4" id="clock" style="position: relative;"><div id="bstatus" class="item statusNormal"><div class="clock" id="clock"><div id="hours"></div><div id="minutes"></div><div id="seconds"></div><div class="three"></div><div class="six"></div><div class="nine"></div><div class="twelve"></div><div class="center"></div></div></div></div>'
+            if( !$('#clockitem').length ){
+                console.log("THEME Ethere - creating clock item");
+                $('#timesun').remove();
+
+                if( $('.span4').length ){
+                    var clockitem = '<div class="span4" id="clockitem" style="position: relative;"><div id="bstatus" class="item statusNormal withstatus statuscount2"><table id="itemtablesmall" class="itemtablesmall" cellspacing="0" cellpadding="0" border="0"><tbody><tr>';
+                }else{
+                    var clockitem = '<div class="span3" id="clockitem" style="position: relative;"><div id="bstatus" class="item statusNormal withstatus statuscount2"><table id="itemtablesmall" class="itemtablesmall" cellspacing="0" cellpadding="0" border="0"><tbody><tr>';
+                }
+                clockitem += '<td id="name" class="name"><span data-i18n="Clock">Clock</span></td><td id="status" class="status"><span class="wrapper"> <div class="clock"> <div class="hours"> <div class="first"> <div class="number">0</div></div><div class="second"> <div class="number">0</div></div></div><div class="tick">:</div><div class="minutes"> <div class="first"> <div class="number">0</div></div><div class="second"> <div class="number">0</div></div></div></div> </td><td id="lastupdate" class="lastupdate"><span>&nbsp;</span></td></tr></tbody></table</div><!--item end--></div>'
+                //var clockitem = '<div class="span4" id="clock" style="position: relative;"><div id="bstatus" class="item statusNormal"> <div class="clock"><div class="hours"><div class="first"><div class="number">0</div></div><div class="second"><div class="number">0</div></div></div><div class="tick">:</div><div class="minutes"><div class="first"><div class="number">0</div></div><div class="second"><div class="number">0</div></div></div></div></div> </div></div></div></div>'
 
                 $('#dashSwitches .divider').prepend(clockitem);
-                moveHands();
-
+                $('#clockitem').i18n();
+                hoursContainer = document.querySelector('.hours');
+                minutesContainer = document.querySelector('.minutes');
+                tickElements = Array.from(document.querySelectorAll('.tick'));
             }
-*/
+            updateTime();
 
         /*
-
             if( !$('#clockitem').length ){
                 console.log("THEME Ethere - creating clock item");
                 $('#timesun').remove();
@@ -1773,7 +1839,7 @@ function addDashboardGoodies()
 
         if (theme.features.dashboard_highlighted.enabled === true && theme.features.dashboard_show_data_visualizations.enabled === true && currentPage == "dashboard") {
             if (typeof addDataviz === "function") {
-                setTimeout(addDataviz,1000);
+                setTimeout(addDataviz, 1000);
             }
         }
     }
@@ -1944,7 +2010,7 @@ function updateLastUpdated()
                     }); 
                 }
             }
-            setTimeout(updateClocks, 7000);
+            setTimeout(updateClocks, 21000);
         }else {
             console.log("THEME Ethere - can't and won't update clock because lastupdate items disappeared (probably opening new page)");
             clockIsRunning = false;
