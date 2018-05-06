@@ -222,7 +222,10 @@ body:not(#onMobile) #dashcontent #name{
 
 /* item mini-options-menu*/
 
-.item a{background-image:none}
+.item a {
+    width: 200px;
+    background-image:none
+}
 
 .options a[class^="btnsmall"]{
     /*font-size:12px;
