@@ -1725,16 +1725,16 @@ function updateTime () {
   
   var lastHours = last.getHours().toString()
   var nowHours = now.getHours().toString()
-  if (lastHours !== nowHours) {
+//  if (lastHours !== nowHours) {
     updateContainer(hoursContainer, nowHours)
-  }
-  
+//  }
+
   var lastMinutes = last.getMinutes().toString()
   var nowMinutes = now.getMinutes().toString()
-  if (lastMinutes !== nowMinutes) {
+//  if (lastMinutes !== nowMinutes) {
     updateContainer(minutesContainer, nowMinutes)
-  }
-    
+//  }
+
   last = now
 }
 
@@ -2010,7 +2010,7 @@ function updateLastUpdated()
                     }); 
                 }
             }
-            setTimeout(updateClocks, 21000);
+            setTimeout(updateClocks, 2100);
         }else {
             console.log("THEME Ethere - can't and won't update clock because lastupdate items disappeared (probably opening new page)");
             clockIsRunning = false;
