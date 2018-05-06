@@ -626,8 +626,9 @@
 
 
 #img1 img{
-        width: 300px;
+/*        width: 300px;
         height: auto;
+*/
         max-width: 80px;
         box-shadow: none;
         margin-left: auto;      
