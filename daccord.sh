@@ -1,29 +1,29 @@
 #! /bin/sh
 ### BEGIN INIT INFO
-# Provides:          domoticz
+# Provides:          Daccord
 # Required-Start:    $network $remote_fs $syslog
 # Required-Stop:     $network $remote_fs $syslog
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
 # Short-Description: Home Automation System
-# Description:       This daemon will start the Domoticz Home Automation System
+# Description:       This daemon will start the Daccord Home Automation System
 ### END INIT INFO
 
 # Do NOT "set -e"
 
 PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin
-DESC="Domoticz Home Automation System"
-NAME=domoticz
+DESC="Daccord Home Automation System"
+NAME=daccord
 USERNAME=pi
 PIDFILE=/var/run/$NAME.pid
 SCRIPTNAME=/etc/init.d/$NAME
 
-DAEMON=/home/$USERNAME/domoticz/$NAME
+DAEMON=/home/$USERNAME/daccord/$NAME
 DAEMON_ARGS="-daemon"
 #DAEMON_ARGS="$DAEMON_ARGS -daemonname $NAME -pidfile $PIDFILE"
 DAEMON_ARGS="$DAEMON_ARGS -www 8080"
 DAEMON_ARGS="$DAEMON_ARGS -sslwww 443"
-#DAEMON_ARGS="$DAEMON_ARGS -log /tmp/domoticz.txt"
+#DAEMON_ARGS="$DAEMON_ARGS -log /tmp/daccord.txt"
 #DAEMON_ARGS="$DAEMON_ARGS -syslog"
 
 # Exit if the package is not installed
@@ -37,11 +37,11 @@ DAEMON_ARGS="$DAEMON_ARGS -sslwww 443"
 # and status_of_proc is working.
 . /lib/lsb/init-functions
 
-pidof_domoticz() {
-    # if there is actually a domoticz process whose pid is in PIDFILE,
+pidof_daccord() {
+    # if there is actually a daccord process whose pid is in PIDFILE,
     # print it and return 0.
     if [ -e "$PIDFILE" ]; then
-        if pidof domoticz | tr ' ' '\n' | grep -w $(cat $PIDFILE); then
+        if pidof daccord | tr ' ' '\n' | grep -w $(cat $PIDFILE); then
             return 0
         fi
     fi
@@ -112,7 +112,7 @@ case "$1" in
         ;;
   reload)
         log_daemon_msg "Reloading $DESC" "$NAME"
-        PID=$(pidof_domoticz) || true
+        PID=$(pidof_daccord) || true
         if [ "${PID}" ]; then
                 kill -HUP $PID
                 log_end_msg 0
