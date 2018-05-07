@@ -115,7 +115,7 @@ IF(USE_PYTHON)
 ENDIF(USE_PYTHON)
 
 SET(EXECUTABLE_OUTPUT_PATH "" CACHE INTERNAL
-  "Where to put the executables for Domoticz"
+  "Where to put the executables for Daccord"
   )
 
 INCLUDE(CheckIncludeFile)

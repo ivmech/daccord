@@ -15,7 +15,7 @@ history_file="history_${OS}_${MACH}.txt"
 cp -f appversion.h ${version_file}
 cp -f History.txt ${history_file}
 
-tar -zcf ${archive_file} domoticz History.txt License.txt domoticz.sh server_cert.pem updatebeta updaterelease www/ scripts/ Config/ plugins/ dzVents/
+tar -zcf ${archive_file} daccord History.txt License.txt daccord.sh server_cert.pem updatebeta updaterelease www/ scripts/ Config/ plugins/ dzVents/
 
 # Cleaning up
 rm -f ${version_file}
