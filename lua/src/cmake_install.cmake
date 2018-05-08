@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/dev-domoticz/lua/src
+# Install script for directory: /home/pi/dev-daccord/lua/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

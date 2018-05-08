@@ -15,8 +15,8 @@ fi
 
 echo "Updating to latest beta version..."
 echo "Please Standby..."
-wget -O domoticz_beta.tgz "http://www.domoticz.com/download.php?channel=beta&type=release&system=${OS}&machine=${MACH}"
-tar xvfz domoticz_beta.tgz
-rm domoticz_beta.tgz
-echo "Restarting Domoticz... (please standby...)"
-sudo service domoticz.sh restart
+wget -O daccord_beta.tgz "http://ivmech.com/daccord/beta/daccord_${OS}_${MACH}.tgz"
+tar xvfz daccord_beta.tgz
+rm daccord_beta.tgz
+echo "Restarting Daccord... (please standby...)"
+sudo service daccord.sh restart

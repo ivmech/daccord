@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/dev-domoticz
+# Install script for directory: /home/pi/dev-daccord
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,7 +47,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/opt/domoticz" TYPE EXECUTABLE FILES "/home/pi/dev-domoticz/domoticz")
+file(INSTALL DESTINATION "/opt/domoticz" TYPE EXECUTABLE FILES "/home/pi/dev-daccord/domoticz")
   if(EXISTS "$ENV{DESTDIR}/opt/domoticz/domoticz" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/opt/domoticz/domoticz")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -65,7 +65,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/opt/domoticz" TYPE DIRECTORY FILES "/home/pi/dev-domoticz/www")
+file(INSTALL DESTINATION "/opt/domoticz" TYPE DIRECTORY FILES "/home/pi/dev-daccord/www")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -77,7 +77,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/opt/domoticz" TYPE FILE FILES "/home/pi/dev-domoticz/License.txt")
+file(INSTALL DESTINATION "/opt/domoticz" TYPE FILE FILES "/home/pi/dev-daccord/License.txt")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -89,7 +89,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/opt/domoticz" TYPE FILE FILES "/home/pi/dev-domoticz/History.txt")
+file(INSTALL DESTINATION "/opt/domoticz" TYPE FILE FILES "/home/pi/dev-daccord/History.txt")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -101,7 +101,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/opt/domoticz" TYPE FILE FILES "/home/pi/dev-domoticz/server_cert.pem")
+file(INSTALL DESTINATION "/opt/domoticz" TYPE FILE FILES "/home/pi/dev-daccord/server_cert.pem")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -113,7 +113,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/opt/domoticz" TYPE DIRECTORY FILES "/home/pi/dev-domoticz/scripts" USE_SOURCE_PERMISSIONS)
+file(INSTALL DESTINATION "/opt/domoticz" TYPE DIRECTORY FILES "/home/pi/dev-daccord/scripts" USE_SOURCE_PERMISSIONS)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -125,7 +125,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/opt/domoticz" TYPE DIRECTORY FILES "/home/pi/dev-domoticz/plugins")
+file(INSTALL DESTINATION "/opt/domoticz" TYPE DIRECTORY FILES "/home/pi/dev-daccord/plugins")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -137,7 +137,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/opt/domoticz" TYPE DIRECTORY FILES "/home/pi/dev-domoticz/Config")
+file(INSTALL DESTINATION "/opt/domoticz" TYPE DIRECTORY FILES "/home/pi/dev-daccord/Config")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -149,7 +149,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/opt/domoticz" TYPE DIRECTORY FILES "/home/pi/dev-domoticz/dzVents")
+file(INSTALL DESTINATION "/opt/domoticz" TYPE DIRECTORY FILES "/home/pi/dev-daccord/dzVents")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -161,14 +161,14 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/opt/domoticz" TYPE FILE PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ GROUP_EXECUTE GROUP_READ FILES "/home/pi/dev-domoticz/updatedomo")
+file(INSTALL DESTINATION "/opt/domoticz" TYPE FILE PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ GROUP_EXECUTE GROUP_READ FILES "/home/pi/dev-daccord/updatedomo")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/pi/dev-domoticz/lua/cmake_install.cmake")
-  include("/home/pi/dev-domoticz/MQTT/cmake_install.cmake")
-  include("/home/pi/dev-domoticz/sqlite/cmake_install.cmake")
+  include("/home/pi/dev-daccord/lua/cmake_install.cmake")
+  include("/home/pi/dev-daccord/MQTT/cmake_install.cmake")
+  include("/home/pi/dev-daccord/sqlite/cmake_install.cmake")
 
 endif()
 
@@ -180,5 +180,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pi/dev-domoticz/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pi/dev-daccord/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

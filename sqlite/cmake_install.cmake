@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/dev-domoticz/sqlite
+# Install script for directory: /home/pi/dev-daccord/sqlite
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

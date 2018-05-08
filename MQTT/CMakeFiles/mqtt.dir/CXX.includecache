@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/dev-domoticz/MQTT/mosquitto.h
+/home/pi/dev-daccord/MQTT/mosquitto.h
 stdbool.h
 -
 
-/home/pi/dev-domoticz/MQTT/mosquittopp.cpp
+/home/pi/dev-daccord/MQTT/mosquittopp.cpp
 cstdlib
 -
 mosquitto.h
-/home/pi/dev-domoticz/MQTT/mosquitto.h
+/home/pi/dev-daccord/MQTT/mosquitto.h
 mosquittopp.h
-/home/pi/dev-domoticz/MQTT/mosquittopp.h
+/home/pi/dev-daccord/MQTT/mosquittopp.h
 
-/home/pi/dev-domoticz/MQTT/mosquittopp.h
+/home/pi/dev-daccord/MQTT/mosquittopp.h
 cstdlib
 -
 time.h
 -
 mosquitto.h
-/home/pi/dev-domoticz/MQTT/mosquitto.h
+/home/pi/dev-daccord/MQTT/mosquitto.h
 

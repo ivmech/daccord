@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/dev-domoticz
+CMAKE_SOURCE_DIR = /home/pi/dev-daccord
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/dev-domoticz
+CMAKE_BINARY_DIR = /home/pi/dev-daccord
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -103,7 +103,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/pi/dev-domoticz && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/pi/dev-daccord && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +114,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/pi/dev-domoticz && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/pi/dev-domoticz/CPackSourceConfig.cmake
+	cd /home/pi/dev-daccord && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/pi/dev-daccord/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -146,14 +146,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/dev-domoticz && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/dev-domoticz/CMakeFiles /home/pi/dev-domoticz/sqlite/CMakeFiles/progress.marks
-	cd /home/pi/dev-domoticz && $(MAKE) -f CMakeFiles/Makefile2 sqlite/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/dev-domoticz/CMakeFiles 0
+	cd /home/pi/dev-daccord && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/dev-daccord/CMakeFiles /home/pi/dev-daccord/sqlite/CMakeFiles/progress.marks
+	cd /home/pi/dev-daccord && $(MAKE) -f CMakeFiles/Makefile2 sqlite/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/dev-daccord/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/dev-domoticz && $(MAKE) -f CMakeFiles/Makefile2 sqlite/clean
+	cd /home/pi/dev-daccord && $(MAKE) -f CMakeFiles/Makefile2 sqlite/clean
 .PHONY : clean
 
 # The main clean target
@@ -163,22 +163,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/dev-domoticz && $(MAKE) -f CMakeFiles/Makefile2 sqlite/preinstall
+	cd /home/pi/dev-daccord && $(MAKE) -f CMakeFiles/Makefile2 sqlite/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/dev-domoticz && $(MAKE) -f CMakeFiles/Makefile2 sqlite/preinstall
+	cd /home/pi/dev-daccord && $(MAKE) -f CMakeFiles/Makefile2 sqlite/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/dev-domoticz && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/dev-daccord && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sqlite/CMakeFiles/sqlite.dir/rule:
-	cd /home/pi/dev-domoticz && $(MAKE) -f CMakeFiles/Makefile2 sqlite/CMakeFiles/sqlite.dir/rule
+	cd /home/pi/dev-daccord && $(MAKE) -f CMakeFiles/Makefile2 sqlite/CMakeFiles/sqlite.dir/rule
 .PHONY : sqlite/CMakeFiles/sqlite.dir/rule
 
 # Convenience name for target.
@@ -188,7 +188,7 @@ sqlite: sqlite/CMakeFiles/sqlite.dir/rule
 
 # fast build rule for target.
 sqlite/fast:
-	cd /home/pi/dev-domoticz && $(MAKE) -f sqlite/CMakeFiles/sqlite.dir/build.make sqlite/CMakeFiles/sqlite.dir/build
+	cd /home/pi/dev-daccord && $(MAKE) -f sqlite/CMakeFiles/sqlite.dir/build.make sqlite/CMakeFiles/sqlite.dir/build
 .PHONY : sqlite/fast
 
 sqlite3.o: sqlite3.c.o
@@ -197,7 +197,7 @@ sqlite3.o: sqlite3.c.o
 
 # target to build an object file
 sqlite3.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f sqlite/CMakeFiles/sqlite.dir/build.make sqlite/CMakeFiles/sqlite.dir/sqlite3.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f sqlite/CMakeFiles/sqlite.dir/build.make sqlite/CMakeFiles/sqlite.dir/sqlite3.c.o
 .PHONY : sqlite3.c.o
 
 sqlite3.i: sqlite3.c.i
@@ -206,7 +206,7 @@ sqlite3.i: sqlite3.c.i
 
 # target to preprocess a source file
 sqlite3.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f sqlite/CMakeFiles/sqlite.dir/build.make sqlite/CMakeFiles/sqlite.dir/sqlite3.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f sqlite/CMakeFiles/sqlite.dir/build.make sqlite/CMakeFiles/sqlite.dir/sqlite3.c.i
 .PHONY : sqlite3.c.i
 
 sqlite3.s: sqlite3.c.s
@@ -215,7 +215,7 @@ sqlite3.s: sqlite3.c.s
 
 # target to generate assembly for a file
 sqlite3.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f sqlite/CMakeFiles/sqlite.dir/build.make sqlite/CMakeFiles/sqlite.dir/sqlite3.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f sqlite/CMakeFiles/sqlite.dir/build.make sqlite/CMakeFiles/sqlite.dir/sqlite3.c.s
 .PHONY : sqlite3.c.s
 
 # Help Target
@@ -247,6 +247,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/dev-domoticz && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/dev-daccord && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

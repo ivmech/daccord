@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/dev-domoticz
+CMAKE_SOURCE_DIR = /home/pi/dev-daccord
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/dev-domoticz
+CMAKE_BINARY_DIR = /home/pi/dev-daccord
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -125,7 +125,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/pi/dev-domoticz && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/pi/dev-daccord && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -136,7 +136,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/pi/dev-domoticz && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/pi/dev-domoticz/CPackSourceConfig.cmake
+	cd /home/pi/dev-daccord && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/pi/dev-daccord/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -146,14 +146,14 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/dev-domoticz && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/dev-domoticz/CMakeFiles /home/pi/dev-domoticz/lua/src/CMakeFiles/progress.marks
-	cd /home/pi/dev-domoticz && $(MAKE) -f CMakeFiles/Makefile2 lua/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/dev-domoticz/CMakeFiles 0
+	cd /home/pi/dev-daccord && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/dev-daccord/CMakeFiles /home/pi/dev-daccord/lua/src/CMakeFiles/progress.marks
+	cd /home/pi/dev-daccord && $(MAKE) -f CMakeFiles/Makefile2 lua/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/dev-daccord/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/dev-domoticz && $(MAKE) -f CMakeFiles/Makefile2 lua/src/clean
+	cd /home/pi/dev-daccord && $(MAKE) -f CMakeFiles/Makefile2 lua/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -163,22 +163,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/dev-domoticz && $(MAKE) -f CMakeFiles/Makefile2 lua/src/preinstall
+	cd /home/pi/dev-daccord && $(MAKE) -f CMakeFiles/Makefile2 lua/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/dev-domoticz && $(MAKE) -f CMakeFiles/Makefile2 lua/src/preinstall
+	cd /home/pi/dev-daccord && $(MAKE) -f CMakeFiles/Makefile2 lua/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pi/dev-domoticz && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pi/dev-daccord && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lua/src/CMakeFiles/lua.dir/rule:
-	cd /home/pi/dev-domoticz && $(MAKE) -f CMakeFiles/Makefile2 lua/src/CMakeFiles/lua.dir/rule
+	cd /home/pi/dev-daccord && $(MAKE) -f CMakeFiles/Makefile2 lua/src/CMakeFiles/lua.dir/rule
 .PHONY : lua/src/CMakeFiles/lua.dir/rule
 
 # Convenience name for target.
@@ -188,7 +188,7 @@ lua: lua/src/CMakeFiles/lua.dir/rule
 
 # fast build rule for target.
 lua/fast:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/build
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/build
 .PHONY : lua/fast
 
 lapi.o: lapi.c.o
@@ -197,7 +197,7 @@ lapi.o: lapi.c.o
 
 # target to build an object file
 lapi.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lapi.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lapi.c.o
 .PHONY : lapi.c.o
 
 lapi.i: lapi.c.i
@@ -206,7 +206,7 @@ lapi.i: lapi.c.i
 
 # target to preprocess a source file
 lapi.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lapi.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lapi.c.i
 .PHONY : lapi.c.i
 
 lapi.s: lapi.c.s
@@ -215,7 +215,7 @@ lapi.s: lapi.c.s
 
 # target to generate assembly for a file
 lapi.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lapi.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lapi.c.s
 .PHONY : lapi.c.s
 
 lauxlib.o: lauxlib.c.o
@@ -224,7 +224,7 @@ lauxlib.o: lauxlib.c.o
 
 # target to build an object file
 lauxlib.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lauxlib.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lauxlib.c.o
 .PHONY : lauxlib.c.o
 
 lauxlib.i: lauxlib.c.i
@@ -233,7 +233,7 @@ lauxlib.i: lauxlib.c.i
 
 # target to preprocess a source file
 lauxlib.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lauxlib.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lauxlib.c.i
 .PHONY : lauxlib.c.i
 
 lauxlib.s: lauxlib.c.s
@@ -242,7 +242,7 @@ lauxlib.s: lauxlib.c.s
 
 # target to generate assembly for a file
 lauxlib.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lauxlib.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lauxlib.c.s
 .PHONY : lauxlib.c.s
 
 lbaselib.o: lbaselib.c.o
@@ -251,7 +251,7 @@ lbaselib.o: lbaselib.c.o
 
 # target to build an object file
 lbaselib.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lbaselib.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lbaselib.c.o
 .PHONY : lbaselib.c.o
 
 lbaselib.i: lbaselib.c.i
@@ -260,7 +260,7 @@ lbaselib.i: lbaselib.c.i
 
 # target to preprocess a source file
 lbaselib.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lbaselib.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lbaselib.c.i
 .PHONY : lbaselib.c.i
 
 lbaselib.s: lbaselib.c.s
@@ -269,7 +269,7 @@ lbaselib.s: lbaselib.c.s
 
 # target to generate assembly for a file
 lbaselib.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lbaselib.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lbaselib.c.s
 .PHONY : lbaselib.c.s
 
 lbitlib.o: lbitlib.c.o
@@ -278,7 +278,7 @@ lbitlib.o: lbitlib.c.o
 
 # target to build an object file
 lbitlib.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lbitlib.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lbitlib.c.o
 .PHONY : lbitlib.c.o
 
 lbitlib.i: lbitlib.c.i
@@ -287,7 +287,7 @@ lbitlib.i: lbitlib.c.i
 
 # target to preprocess a source file
 lbitlib.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lbitlib.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lbitlib.c.i
 .PHONY : lbitlib.c.i
 
 lbitlib.s: lbitlib.c.s
@@ -296,7 +296,7 @@ lbitlib.s: lbitlib.c.s
 
 # target to generate assembly for a file
 lbitlib.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lbitlib.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lbitlib.c.s
 .PHONY : lbitlib.c.s
 
 lcode.o: lcode.c.o
@@ -305,7 +305,7 @@ lcode.o: lcode.c.o
 
 # target to build an object file
 lcode.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lcode.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lcode.c.o
 .PHONY : lcode.c.o
 
 lcode.i: lcode.c.i
@@ -314,7 +314,7 @@ lcode.i: lcode.c.i
 
 # target to preprocess a source file
 lcode.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lcode.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lcode.c.i
 .PHONY : lcode.c.i
 
 lcode.s: lcode.c.s
@@ -323,7 +323,7 @@ lcode.s: lcode.c.s
 
 # target to generate assembly for a file
 lcode.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lcode.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lcode.c.s
 .PHONY : lcode.c.s
 
 lcorolib.o: lcorolib.c.o
@@ -332,7 +332,7 @@ lcorolib.o: lcorolib.c.o
 
 # target to build an object file
 lcorolib.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lcorolib.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lcorolib.c.o
 .PHONY : lcorolib.c.o
 
 lcorolib.i: lcorolib.c.i
@@ -341,7 +341,7 @@ lcorolib.i: lcorolib.c.i
 
 # target to preprocess a source file
 lcorolib.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lcorolib.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lcorolib.c.i
 .PHONY : lcorolib.c.i
 
 lcorolib.s: lcorolib.c.s
@@ -350,7 +350,7 @@ lcorolib.s: lcorolib.c.s
 
 # target to generate assembly for a file
 lcorolib.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lcorolib.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lcorolib.c.s
 .PHONY : lcorolib.c.s
 
 lctype.o: lctype.c.o
@@ -359,7 +359,7 @@ lctype.o: lctype.c.o
 
 # target to build an object file
 lctype.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lctype.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lctype.c.o
 .PHONY : lctype.c.o
 
 lctype.i: lctype.c.i
@@ -368,7 +368,7 @@ lctype.i: lctype.c.i
 
 # target to preprocess a source file
 lctype.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lctype.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lctype.c.i
 .PHONY : lctype.c.i
 
 lctype.s: lctype.c.s
@@ -377,7 +377,7 @@ lctype.s: lctype.c.s
 
 # target to generate assembly for a file
 lctype.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lctype.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lctype.c.s
 .PHONY : lctype.c.s
 
 ldblib.o: ldblib.c.o
@@ -386,7 +386,7 @@ ldblib.o: ldblib.c.o
 
 # target to build an object file
 ldblib.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldblib.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldblib.c.o
 .PHONY : ldblib.c.o
 
 ldblib.i: ldblib.c.i
@@ -395,7 +395,7 @@ ldblib.i: ldblib.c.i
 
 # target to preprocess a source file
 ldblib.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldblib.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldblib.c.i
 .PHONY : ldblib.c.i
 
 ldblib.s: ldblib.c.s
@@ -404,7 +404,7 @@ ldblib.s: ldblib.c.s
 
 # target to generate assembly for a file
 ldblib.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldblib.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldblib.c.s
 .PHONY : ldblib.c.s
 
 ldebug.o: ldebug.c.o
@@ -413,7 +413,7 @@ ldebug.o: ldebug.c.o
 
 # target to build an object file
 ldebug.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldebug.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldebug.c.o
 .PHONY : ldebug.c.o
 
 ldebug.i: ldebug.c.i
@@ -422,7 +422,7 @@ ldebug.i: ldebug.c.i
 
 # target to preprocess a source file
 ldebug.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldebug.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldebug.c.i
 .PHONY : ldebug.c.i
 
 ldebug.s: ldebug.c.s
@@ -431,7 +431,7 @@ ldebug.s: ldebug.c.s
 
 # target to generate assembly for a file
 ldebug.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldebug.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldebug.c.s
 .PHONY : ldebug.c.s
 
 ldo.o: ldo.c.o
@@ -440,7 +440,7 @@ ldo.o: ldo.c.o
 
 # target to build an object file
 ldo.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldo.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldo.c.o
 .PHONY : ldo.c.o
 
 ldo.i: ldo.c.i
@@ -449,7 +449,7 @@ ldo.i: ldo.c.i
 
 # target to preprocess a source file
 ldo.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldo.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldo.c.i
 .PHONY : ldo.c.i
 
 ldo.s: ldo.c.s
@@ -458,7 +458,7 @@ ldo.s: ldo.c.s
 
 # target to generate assembly for a file
 ldo.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldo.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldo.c.s
 .PHONY : ldo.c.s
 
 ldump.o: ldump.c.o
@@ -467,7 +467,7 @@ ldump.o: ldump.c.o
 
 # target to build an object file
 ldump.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldump.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldump.c.o
 .PHONY : ldump.c.o
 
 ldump.i: ldump.c.i
@@ -476,7 +476,7 @@ ldump.i: ldump.c.i
 
 # target to preprocess a source file
 ldump.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldump.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldump.c.i
 .PHONY : ldump.c.i
 
 ldump.s: ldump.c.s
@@ -485,7 +485,7 @@ ldump.s: ldump.c.s
 
 # target to generate assembly for a file
 ldump.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldump.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ldump.c.s
 .PHONY : ldump.c.s
 
 lfunc.o: lfunc.c.o
@@ -494,7 +494,7 @@ lfunc.o: lfunc.c.o
 
 # target to build an object file
 lfunc.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lfunc.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lfunc.c.o
 .PHONY : lfunc.c.o
 
 lfunc.i: lfunc.c.i
@@ -503,7 +503,7 @@ lfunc.i: lfunc.c.i
 
 # target to preprocess a source file
 lfunc.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lfunc.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lfunc.c.i
 .PHONY : lfunc.c.i
 
 lfunc.s: lfunc.c.s
@@ -512,7 +512,7 @@ lfunc.s: lfunc.c.s
 
 # target to generate assembly for a file
 lfunc.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lfunc.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lfunc.c.s
 .PHONY : lfunc.c.s
 
 lgc.o: lgc.c.o
@@ -521,7 +521,7 @@ lgc.o: lgc.c.o
 
 # target to build an object file
 lgc.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lgc.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lgc.c.o
 .PHONY : lgc.c.o
 
 lgc.i: lgc.c.i
@@ -530,7 +530,7 @@ lgc.i: lgc.c.i
 
 # target to preprocess a source file
 lgc.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lgc.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lgc.c.i
 .PHONY : lgc.c.i
 
 lgc.s: lgc.c.s
@@ -539,7 +539,7 @@ lgc.s: lgc.c.s
 
 # target to generate assembly for a file
 lgc.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lgc.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lgc.c.s
 .PHONY : lgc.c.s
 
 linit.o: linit.c.o
@@ -548,7 +548,7 @@ linit.o: linit.c.o
 
 # target to build an object file
 linit.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/linit.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/linit.c.o
 .PHONY : linit.c.o
 
 linit.i: linit.c.i
@@ -557,7 +557,7 @@ linit.i: linit.c.i
 
 # target to preprocess a source file
 linit.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/linit.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/linit.c.i
 .PHONY : linit.c.i
 
 linit.s: linit.c.s
@@ -566,7 +566,7 @@ linit.s: linit.c.s
 
 # target to generate assembly for a file
 linit.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/linit.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/linit.c.s
 .PHONY : linit.c.s
 
 liolib.o: liolib.c.o
@@ -575,7 +575,7 @@ liolib.o: liolib.c.o
 
 # target to build an object file
 liolib.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/liolib.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/liolib.c.o
 .PHONY : liolib.c.o
 
 liolib.i: liolib.c.i
@@ -584,7 +584,7 @@ liolib.i: liolib.c.i
 
 # target to preprocess a source file
 liolib.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/liolib.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/liolib.c.i
 .PHONY : liolib.c.i
 
 liolib.s: liolib.c.s
@@ -593,7 +593,7 @@ liolib.s: liolib.c.s
 
 # target to generate assembly for a file
 liolib.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/liolib.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/liolib.c.s
 .PHONY : liolib.c.s
 
 llex.o: llex.c.o
@@ -602,7 +602,7 @@ llex.o: llex.c.o
 
 # target to build an object file
 llex.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/llex.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/llex.c.o
 .PHONY : llex.c.o
 
 llex.i: llex.c.i
@@ -611,7 +611,7 @@ llex.i: llex.c.i
 
 # target to preprocess a source file
 llex.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/llex.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/llex.c.i
 .PHONY : llex.c.i
 
 llex.s: llex.c.s
@@ -620,7 +620,7 @@ llex.s: llex.c.s
 
 # target to generate assembly for a file
 llex.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/llex.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/llex.c.s
 .PHONY : llex.c.s
 
 lmathlib.o: lmathlib.c.o
@@ -629,7 +629,7 @@ lmathlib.o: lmathlib.c.o
 
 # target to build an object file
 lmathlib.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lmathlib.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lmathlib.c.o
 .PHONY : lmathlib.c.o
 
 lmathlib.i: lmathlib.c.i
@@ -638,7 +638,7 @@ lmathlib.i: lmathlib.c.i
 
 # target to preprocess a source file
 lmathlib.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lmathlib.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lmathlib.c.i
 .PHONY : lmathlib.c.i
 
 lmathlib.s: lmathlib.c.s
@@ -647,7 +647,7 @@ lmathlib.s: lmathlib.c.s
 
 # target to generate assembly for a file
 lmathlib.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lmathlib.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lmathlib.c.s
 .PHONY : lmathlib.c.s
 
 lmem.o: lmem.c.o
@@ -656,7 +656,7 @@ lmem.o: lmem.c.o
 
 # target to build an object file
 lmem.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lmem.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lmem.c.o
 .PHONY : lmem.c.o
 
 lmem.i: lmem.c.i
@@ -665,7 +665,7 @@ lmem.i: lmem.c.i
 
 # target to preprocess a source file
 lmem.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lmem.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lmem.c.i
 .PHONY : lmem.c.i
 
 lmem.s: lmem.c.s
@@ -674,7 +674,7 @@ lmem.s: lmem.c.s
 
 # target to generate assembly for a file
 lmem.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lmem.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lmem.c.s
 .PHONY : lmem.c.s
 
 loadlib.o: loadlib.c.o
@@ -683,7 +683,7 @@ loadlib.o: loadlib.c.o
 
 # target to build an object file
 loadlib.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/loadlib.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/loadlib.c.o
 .PHONY : loadlib.c.o
 
 loadlib.i: loadlib.c.i
@@ -692,7 +692,7 @@ loadlib.i: loadlib.c.i
 
 # target to preprocess a source file
 loadlib.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/loadlib.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/loadlib.c.i
 .PHONY : loadlib.c.i
 
 loadlib.s: loadlib.c.s
@@ -701,7 +701,7 @@ loadlib.s: loadlib.c.s
 
 # target to generate assembly for a file
 loadlib.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/loadlib.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/loadlib.c.s
 .PHONY : loadlib.c.s
 
 lobject.o: lobject.c.o
@@ -710,7 +710,7 @@ lobject.o: lobject.c.o
 
 # target to build an object file
 lobject.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lobject.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lobject.c.o
 .PHONY : lobject.c.o
 
 lobject.i: lobject.c.i
@@ -719,7 +719,7 @@ lobject.i: lobject.c.i
 
 # target to preprocess a source file
 lobject.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lobject.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lobject.c.i
 .PHONY : lobject.c.i
 
 lobject.s: lobject.c.s
@@ -728,7 +728,7 @@ lobject.s: lobject.c.s
 
 # target to generate assembly for a file
 lobject.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lobject.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lobject.c.s
 .PHONY : lobject.c.s
 
 lopcodes.o: lopcodes.c.o
@@ -737,7 +737,7 @@ lopcodes.o: lopcodes.c.o
 
 # target to build an object file
 lopcodes.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lopcodes.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lopcodes.c.o
 .PHONY : lopcodes.c.o
 
 lopcodes.i: lopcodes.c.i
@@ -746,7 +746,7 @@ lopcodes.i: lopcodes.c.i
 
 # target to preprocess a source file
 lopcodes.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lopcodes.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lopcodes.c.i
 .PHONY : lopcodes.c.i
 
 lopcodes.s: lopcodes.c.s
@@ -755,7 +755,7 @@ lopcodes.s: lopcodes.c.s
 
 # target to generate assembly for a file
 lopcodes.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lopcodes.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lopcodes.c.s
 .PHONY : lopcodes.c.s
 
 loslib.o: loslib.c.o
@@ -764,7 +764,7 @@ loslib.o: loslib.c.o
 
 # target to build an object file
 loslib.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/loslib.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/loslib.c.o
 .PHONY : loslib.c.o
 
 loslib.i: loslib.c.i
@@ -773,7 +773,7 @@ loslib.i: loslib.c.i
 
 # target to preprocess a source file
 loslib.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/loslib.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/loslib.c.i
 .PHONY : loslib.c.i
 
 loslib.s: loslib.c.s
@@ -782,7 +782,7 @@ loslib.s: loslib.c.s
 
 # target to generate assembly for a file
 loslib.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/loslib.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/loslib.c.s
 .PHONY : loslib.c.s
 
 lparser.o: lparser.c.o
@@ -791,7 +791,7 @@ lparser.o: lparser.c.o
 
 # target to build an object file
 lparser.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lparser.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lparser.c.o
 .PHONY : lparser.c.o
 
 lparser.i: lparser.c.i
@@ -800,7 +800,7 @@ lparser.i: lparser.c.i
 
 # target to preprocess a source file
 lparser.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lparser.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lparser.c.i
 .PHONY : lparser.c.i
 
 lparser.s: lparser.c.s
@@ -809,7 +809,7 @@ lparser.s: lparser.c.s
 
 # target to generate assembly for a file
 lparser.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lparser.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lparser.c.s
 .PHONY : lparser.c.s
 
 lstate.o: lstate.c.o
@@ -818,7 +818,7 @@ lstate.o: lstate.c.o
 
 # target to build an object file
 lstate.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstate.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstate.c.o
 .PHONY : lstate.c.o
 
 lstate.i: lstate.c.i
@@ -827,7 +827,7 @@ lstate.i: lstate.c.i
 
 # target to preprocess a source file
 lstate.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstate.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstate.c.i
 .PHONY : lstate.c.i
 
 lstate.s: lstate.c.s
@@ -836,7 +836,7 @@ lstate.s: lstate.c.s
 
 # target to generate assembly for a file
 lstate.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstate.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstate.c.s
 .PHONY : lstate.c.s
 
 lstring.o: lstring.c.o
@@ -845,7 +845,7 @@ lstring.o: lstring.c.o
 
 # target to build an object file
 lstring.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstring.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstring.c.o
 .PHONY : lstring.c.o
 
 lstring.i: lstring.c.i
@@ -854,7 +854,7 @@ lstring.i: lstring.c.i
 
 # target to preprocess a source file
 lstring.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstring.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstring.c.i
 .PHONY : lstring.c.i
 
 lstring.s: lstring.c.s
@@ -863,7 +863,7 @@ lstring.s: lstring.c.s
 
 # target to generate assembly for a file
 lstring.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstring.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstring.c.s
 .PHONY : lstring.c.s
 
 lstrlib.o: lstrlib.c.o
@@ -872,7 +872,7 @@ lstrlib.o: lstrlib.c.o
 
 # target to build an object file
 lstrlib.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstrlib.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstrlib.c.o
 .PHONY : lstrlib.c.o
 
 lstrlib.i: lstrlib.c.i
@@ -881,7 +881,7 @@ lstrlib.i: lstrlib.c.i
 
 # target to preprocess a source file
 lstrlib.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstrlib.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstrlib.c.i
 .PHONY : lstrlib.c.i
 
 lstrlib.s: lstrlib.c.s
@@ -890,7 +890,7 @@ lstrlib.s: lstrlib.c.s
 
 # target to generate assembly for a file
 lstrlib.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstrlib.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lstrlib.c.s
 .PHONY : lstrlib.c.s
 
 ltable.o: ltable.c.o
@@ -899,7 +899,7 @@ ltable.o: ltable.c.o
 
 # target to build an object file
 ltable.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltable.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltable.c.o
 .PHONY : ltable.c.o
 
 ltable.i: ltable.c.i
@@ -908,7 +908,7 @@ ltable.i: ltable.c.i
 
 # target to preprocess a source file
 ltable.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltable.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltable.c.i
 .PHONY : ltable.c.i
 
 ltable.s: ltable.c.s
@@ -917,7 +917,7 @@ ltable.s: ltable.c.s
 
 # target to generate assembly for a file
 ltable.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltable.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltable.c.s
 .PHONY : ltable.c.s
 
 ltablib.o: ltablib.c.o
@@ -926,7 +926,7 @@ ltablib.o: ltablib.c.o
 
 # target to build an object file
 ltablib.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltablib.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltablib.c.o
 .PHONY : ltablib.c.o
 
 ltablib.i: ltablib.c.i
@@ -935,7 +935,7 @@ ltablib.i: ltablib.c.i
 
 # target to preprocess a source file
 ltablib.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltablib.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltablib.c.i
 .PHONY : ltablib.c.i
 
 ltablib.s: ltablib.c.s
@@ -944,7 +944,7 @@ ltablib.s: ltablib.c.s
 
 # target to generate assembly for a file
 ltablib.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltablib.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltablib.c.s
 .PHONY : ltablib.c.s
 
 ltm.o: ltm.c.o
@@ -953,7 +953,7 @@ ltm.o: ltm.c.o
 
 # target to build an object file
 ltm.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltm.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltm.c.o
 .PHONY : ltm.c.o
 
 ltm.i: ltm.c.i
@@ -962,7 +962,7 @@ ltm.i: ltm.c.i
 
 # target to preprocess a source file
 ltm.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltm.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltm.c.i
 .PHONY : ltm.c.i
 
 ltm.s: ltm.c.s
@@ -971,7 +971,7 @@ ltm.s: ltm.c.s
 
 # target to generate assembly for a file
 ltm.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltm.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/ltm.c.s
 .PHONY : ltm.c.s
 
 lundump.o: lundump.c.o
@@ -980,7 +980,7 @@ lundump.o: lundump.c.o
 
 # target to build an object file
 lundump.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lundump.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lundump.c.o
 .PHONY : lundump.c.o
 
 lundump.i: lundump.c.i
@@ -989,7 +989,7 @@ lundump.i: lundump.c.i
 
 # target to preprocess a source file
 lundump.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lundump.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lundump.c.i
 .PHONY : lundump.c.i
 
 lundump.s: lundump.c.s
@@ -998,7 +998,7 @@ lundump.s: lundump.c.s
 
 # target to generate assembly for a file
 lundump.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lundump.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lundump.c.s
 .PHONY : lundump.c.s
 
 lvm.o: lvm.c.o
@@ -1007,7 +1007,7 @@ lvm.o: lvm.c.o
 
 # target to build an object file
 lvm.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lvm.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lvm.c.o
 .PHONY : lvm.c.o
 
 lvm.i: lvm.c.i
@@ -1016,7 +1016,7 @@ lvm.i: lvm.c.i
 
 # target to preprocess a source file
 lvm.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lvm.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lvm.c.i
 .PHONY : lvm.c.i
 
 lvm.s: lvm.c.s
@@ -1025,7 +1025,7 @@ lvm.s: lvm.c.s
 
 # target to generate assembly for a file
 lvm.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lvm.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lvm.c.s
 .PHONY : lvm.c.s
 
 lzio.o: lzio.c.o
@@ -1034,7 +1034,7 @@ lzio.o: lzio.c.o
 
 # target to build an object file
 lzio.c.o:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lzio.c.o
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lzio.c.o
 .PHONY : lzio.c.o
 
 lzio.i: lzio.c.i
@@ -1043,7 +1043,7 @@ lzio.i: lzio.c.i
 
 # target to preprocess a source file
 lzio.c.i:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lzio.c.i
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lzio.c.i
 .PHONY : lzio.c.i
 
 lzio.s: lzio.c.s
@@ -1052,7 +1052,7 @@ lzio.s: lzio.c.s
 
 # target to generate assembly for a file
 lzio.c.s:
-	cd /home/pi/dev-domoticz && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lzio.c.s
+	cd /home/pi/dev-daccord && $(MAKE) -f lua/src/CMakeFiles/lua.dir/build.make lua/src/CMakeFiles/lua.dir/lzio.c.s
 .PHONY : lzio.c.s
 
 # Help Target
@@ -1177,6 +1177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pi/dev-domoticz && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pi/dev-daccord && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

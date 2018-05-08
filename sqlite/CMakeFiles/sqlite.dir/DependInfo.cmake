@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/pi/dev-domoticz/sqlite/sqlite3.c" "/home/pi/dev-domoticz/sqlite/CMakeFiles/sqlite.dir/sqlite3.c.o"
+  "/home/pi/dev-daccord/sqlite/sqlite3.c" "/home/pi/dev-daccord/sqlite/CMakeFiles/sqlite.dir/sqlite3.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -65,7 +65,7 @@ define(['app'], function (app) {
 				$scope.mytimer2 = undefined;
 			}
 			$.ajax({
-				url: "json.htm?type=command&param=execute_script&scriptname=update_domoticz&direct=true",
+				url: "json.htm?type=command&param=execute_script&scriptname=update_daccord&direct=true",
 				async: true,
 				timeout: 20000,
 				dataType: 'json',

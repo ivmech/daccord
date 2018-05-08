@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/dev-domoticz
+CMAKE_SOURCE_DIR = /home/pi/dev-daccord
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/dev-domoticz
+CMAKE_BINARY_DIR = /home/pi/dev-daccord
 
 # Include any dependencies generated for this target.
 include lua/src/CMakeFiles/lua.dir/depend.make
@@ -59,16 +59,16 @@ include lua/src/CMakeFiles/lua.dir/flags.make
 
 lua/src/CMakeFiles/lua.dir/lauxlib.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lauxlib.c.o: lua/src/lauxlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lua/src/CMakeFiles/lua.dir/lauxlib.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lauxlib.c.o   -c /home/pi/dev-domoticz/lua/src/lauxlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lua/src/CMakeFiles/lua.dir/lauxlib.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lauxlib.c.o   -c /home/pi/dev-daccord/lua/src/lauxlib.c
 
 lua/src/CMakeFiles/lua.dir/lauxlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lauxlib.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lauxlib.c > CMakeFiles/lua.dir/lauxlib.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lauxlib.c > CMakeFiles/lua.dir/lauxlib.c.i
 
 lua/src/CMakeFiles/lua.dir/lauxlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lauxlib.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lauxlib.c -o CMakeFiles/lua.dir/lauxlib.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lauxlib.c -o CMakeFiles/lua.dir/lauxlib.c.s
 
 lua/src/CMakeFiles/lua.dir/lauxlib.c.o.requires:
 
@@ -83,16 +83,16 @@ lua/src/CMakeFiles/lua.dir/lauxlib.c.o.provides.build: lua/src/CMakeFiles/lua.di
 
 lua/src/CMakeFiles/lua.dir/lbaselib.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lbaselib.c.o: lua/src/lbaselib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lua/src/CMakeFiles/lua.dir/lbaselib.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lbaselib.c.o   -c /home/pi/dev-domoticz/lua/src/lbaselib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lua/src/CMakeFiles/lua.dir/lbaselib.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lbaselib.c.o   -c /home/pi/dev-daccord/lua/src/lbaselib.c
 
 lua/src/CMakeFiles/lua.dir/lbaselib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lbaselib.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lbaselib.c > CMakeFiles/lua.dir/lbaselib.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lbaselib.c > CMakeFiles/lua.dir/lbaselib.c.i
 
 lua/src/CMakeFiles/lua.dir/lbaselib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lbaselib.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lbaselib.c -o CMakeFiles/lua.dir/lbaselib.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lbaselib.c -o CMakeFiles/lua.dir/lbaselib.c.s
 
 lua/src/CMakeFiles/lua.dir/lbaselib.c.o.requires:
 
@@ -107,16 +107,16 @@ lua/src/CMakeFiles/lua.dir/lbaselib.c.o.provides.build: lua/src/CMakeFiles/lua.d
 
 lua/src/CMakeFiles/lua.dir/lbitlib.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lbitlib.c.o: lua/src/lbitlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lua/src/CMakeFiles/lua.dir/lbitlib.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lbitlib.c.o   -c /home/pi/dev-domoticz/lua/src/lbitlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lua/src/CMakeFiles/lua.dir/lbitlib.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lbitlib.c.o   -c /home/pi/dev-daccord/lua/src/lbitlib.c
 
 lua/src/CMakeFiles/lua.dir/lbitlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lbitlib.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lbitlib.c > CMakeFiles/lua.dir/lbitlib.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lbitlib.c > CMakeFiles/lua.dir/lbitlib.c.i
 
 lua/src/CMakeFiles/lua.dir/lbitlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lbitlib.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lbitlib.c -o CMakeFiles/lua.dir/lbitlib.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lbitlib.c -o CMakeFiles/lua.dir/lbitlib.c.s
 
 lua/src/CMakeFiles/lua.dir/lbitlib.c.o.requires:
 
@@ -131,16 +131,16 @@ lua/src/CMakeFiles/lua.dir/lbitlib.c.o.provides.build: lua/src/CMakeFiles/lua.di
 
 lua/src/CMakeFiles/lua.dir/lcorolib.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lcorolib.c.o: lua/src/lcorolib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lua/src/CMakeFiles/lua.dir/lcorolib.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lcorolib.c.o   -c /home/pi/dev-domoticz/lua/src/lcorolib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lua/src/CMakeFiles/lua.dir/lcorolib.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lcorolib.c.o   -c /home/pi/dev-daccord/lua/src/lcorolib.c
 
 lua/src/CMakeFiles/lua.dir/lcorolib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lcorolib.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lcorolib.c > CMakeFiles/lua.dir/lcorolib.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lcorolib.c > CMakeFiles/lua.dir/lcorolib.c.i
 
 lua/src/CMakeFiles/lua.dir/lcorolib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lcorolib.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lcorolib.c -o CMakeFiles/lua.dir/lcorolib.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lcorolib.c -o CMakeFiles/lua.dir/lcorolib.c.s
 
 lua/src/CMakeFiles/lua.dir/lcorolib.c.o.requires:
 
@@ -155,16 +155,16 @@ lua/src/CMakeFiles/lua.dir/lcorolib.c.o.provides.build: lua/src/CMakeFiles/lua.d
 
 lua/src/CMakeFiles/lua.dir/ldblib.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/ldblib.c.o: lua/src/ldblib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lua/src/CMakeFiles/lua.dir/ldblib.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/ldblib.c.o   -c /home/pi/dev-domoticz/lua/src/ldblib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lua/src/CMakeFiles/lua.dir/ldblib.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/ldblib.c.o   -c /home/pi/dev-daccord/lua/src/ldblib.c
 
 lua/src/CMakeFiles/lua.dir/ldblib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/ldblib.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/ldblib.c > CMakeFiles/lua.dir/ldblib.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/ldblib.c > CMakeFiles/lua.dir/ldblib.c.i
 
 lua/src/CMakeFiles/lua.dir/ldblib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/ldblib.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/ldblib.c -o CMakeFiles/lua.dir/ldblib.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/ldblib.c -o CMakeFiles/lua.dir/ldblib.c.s
 
 lua/src/CMakeFiles/lua.dir/ldblib.c.o.requires:
 
@@ -179,16 +179,16 @@ lua/src/CMakeFiles/lua.dir/ldblib.c.o.provides.build: lua/src/CMakeFiles/lua.dir
 
 lua/src/CMakeFiles/lua.dir/liolib.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/liolib.c.o: lua/src/liolib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lua/src/CMakeFiles/lua.dir/liolib.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/liolib.c.o   -c /home/pi/dev-domoticz/lua/src/liolib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lua/src/CMakeFiles/lua.dir/liolib.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/liolib.c.o   -c /home/pi/dev-daccord/lua/src/liolib.c
 
 lua/src/CMakeFiles/lua.dir/liolib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/liolib.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/liolib.c > CMakeFiles/lua.dir/liolib.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/liolib.c > CMakeFiles/lua.dir/liolib.c.i
 
 lua/src/CMakeFiles/lua.dir/liolib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/liolib.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/liolib.c -o CMakeFiles/lua.dir/liolib.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/liolib.c -o CMakeFiles/lua.dir/liolib.c.s
 
 lua/src/CMakeFiles/lua.dir/liolib.c.o.requires:
 
@@ -203,16 +203,16 @@ lua/src/CMakeFiles/lua.dir/liolib.c.o.provides.build: lua/src/CMakeFiles/lua.dir
 
 lua/src/CMakeFiles/lua.dir/lmathlib.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lmathlib.c.o: lua/src/lmathlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lua/src/CMakeFiles/lua.dir/lmathlib.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lmathlib.c.o   -c /home/pi/dev-domoticz/lua/src/lmathlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lua/src/CMakeFiles/lua.dir/lmathlib.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lmathlib.c.o   -c /home/pi/dev-daccord/lua/src/lmathlib.c
 
 lua/src/CMakeFiles/lua.dir/lmathlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lmathlib.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lmathlib.c > CMakeFiles/lua.dir/lmathlib.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lmathlib.c > CMakeFiles/lua.dir/lmathlib.c.i
 
 lua/src/CMakeFiles/lua.dir/lmathlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lmathlib.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lmathlib.c -o CMakeFiles/lua.dir/lmathlib.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lmathlib.c -o CMakeFiles/lua.dir/lmathlib.c.s
 
 lua/src/CMakeFiles/lua.dir/lmathlib.c.o.requires:
 
@@ -227,16 +227,16 @@ lua/src/CMakeFiles/lua.dir/lmathlib.c.o.provides.build: lua/src/CMakeFiles/lua.d
 
 lua/src/CMakeFiles/lua.dir/loslib.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/loslib.c.o: lua/src/loslib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lua/src/CMakeFiles/lua.dir/loslib.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/loslib.c.o   -c /home/pi/dev-domoticz/lua/src/loslib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lua/src/CMakeFiles/lua.dir/loslib.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/loslib.c.o   -c /home/pi/dev-daccord/lua/src/loslib.c
 
 lua/src/CMakeFiles/lua.dir/loslib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/loslib.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/loslib.c > CMakeFiles/lua.dir/loslib.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/loslib.c > CMakeFiles/lua.dir/loslib.c.i
 
 lua/src/CMakeFiles/lua.dir/loslib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/loslib.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/loslib.c -o CMakeFiles/lua.dir/loslib.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/loslib.c -o CMakeFiles/lua.dir/loslib.c.s
 
 lua/src/CMakeFiles/lua.dir/loslib.c.o.requires:
 
@@ -251,16 +251,16 @@ lua/src/CMakeFiles/lua.dir/loslib.c.o.provides.build: lua/src/CMakeFiles/lua.dir
 
 lua/src/CMakeFiles/lua.dir/lstrlib.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lstrlib.c.o: lua/src/lstrlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lua/src/CMakeFiles/lua.dir/lstrlib.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lstrlib.c.o   -c /home/pi/dev-domoticz/lua/src/lstrlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lua/src/CMakeFiles/lua.dir/lstrlib.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lstrlib.c.o   -c /home/pi/dev-daccord/lua/src/lstrlib.c
 
 lua/src/CMakeFiles/lua.dir/lstrlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lstrlib.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lstrlib.c > CMakeFiles/lua.dir/lstrlib.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lstrlib.c > CMakeFiles/lua.dir/lstrlib.c.i
 
 lua/src/CMakeFiles/lua.dir/lstrlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lstrlib.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lstrlib.c -o CMakeFiles/lua.dir/lstrlib.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lstrlib.c -o CMakeFiles/lua.dir/lstrlib.c.s
 
 lua/src/CMakeFiles/lua.dir/lstrlib.c.o.requires:
 
@@ -275,16 +275,16 @@ lua/src/CMakeFiles/lua.dir/lstrlib.c.o.provides.build: lua/src/CMakeFiles/lua.di
 
 lua/src/CMakeFiles/lua.dir/ltablib.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/ltablib.c.o: lua/src/ltablib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lua/src/CMakeFiles/lua.dir/ltablib.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/ltablib.c.o   -c /home/pi/dev-domoticz/lua/src/ltablib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lua/src/CMakeFiles/lua.dir/ltablib.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/ltablib.c.o   -c /home/pi/dev-daccord/lua/src/ltablib.c
 
 lua/src/CMakeFiles/lua.dir/ltablib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/ltablib.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/ltablib.c > CMakeFiles/lua.dir/ltablib.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/ltablib.c > CMakeFiles/lua.dir/ltablib.c.i
 
 lua/src/CMakeFiles/lua.dir/ltablib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/ltablib.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/ltablib.c -o CMakeFiles/lua.dir/ltablib.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/ltablib.c -o CMakeFiles/lua.dir/ltablib.c.s
 
 lua/src/CMakeFiles/lua.dir/ltablib.c.o.requires:
 
@@ -299,16 +299,16 @@ lua/src/CMakeFiles/lua.dir/ltablib.c.o.provides.build: lua/src/CMakeFiles/lua.di
 
 lua/src/CMakeFiles/lua.dir/loadlib.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/loadlib.c.o: lua/src/loadlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lua/src/CMakeFiles/lua.dir/loadlib.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/loadlib.c.o   -c /home/pi/dev-domoticz/lua/src/loadlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lua/src/CMakeFiles/lua.dir/loadlib.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/loadlib.c.o   -c /home/pi/dev-daccord/lua/src/loadlib.c
 
 lua/src/CMakeFiles/lua.dir/loadlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/loadlib.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/loadlib.c > CMakeFiles/lua.dir/loadlib.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/loadlib.c > CMakeFiles/lua.dir/loadlib.c.i
 
 lua/src/CMakeFiles/lua.dir/loadlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/loadlib.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/loadlib.c -o CMakeFiles/lua.dir/loadlib.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/loadlib.c -o CMakeFiles/lua.dir/loadlib.c.s
 
 lua/src/CMakeFiles/lua.dir/loadlib.c.o.requires:
 
@@ -323,16 +323,16 @@ lua/src/CMakeFiles/lua.dir/loadlib.c.o.provides.build: lua/src/CMakeFiles/lua.di
 
 lua/src/CMakeFiles/lua.dir/linit.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/linit.c.o: lua/src/linit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lua/src/CMakeFiles/lua.dir/linit.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/linit.c.o   -c /home/pi/dev-domoticz/lua/src/linit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lua/src/CMakeFiles/lua.dir/linit.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/linit.c.o   -c /home/pi/dev-daccord/lua/src/linit.c
 
 lua/src/CMakeFiles/lua.dir/linit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/linit.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/linit.c > CMakeFiles/lua.dir/linit.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/linit.c > CMakeFiles/lua.dir/linit.c.i
 
 lua/src/CMakeFiles/lua.dir/linit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/linit.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/linit.c -o CMakeFiles/lua.dir/linit.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/linit.c -o CMakeFiles/lua.dir/linit.c.s
 
 lua/src/CMakeFiles/lua.dir/linit.c.o.requires:
 
@@ -347,16 +347,16 @@ lua/src/CMakeFiles/lua.dir/linit.c.o.provides.build: lua/src/CMakeFiles/lua.dir/
 
 lua/src/CMakeFiles/lua.dir/lapi.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lapi.c.o: lua/src/lapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lua/src/CMakeFiles/lua.dir/lapi.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lapi.c.o   -c /home/pi/dev-domoticz/lua/src/lapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lua/src/CMakeFiles/lua.dir/lapi.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lapi.c.o   -c /home/pi/dev-daccord/lua/src/lapi.c
 
 lua/src/CMakeFiles/lua.dir/lapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lapi.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lapi.c > CMakeFiles/lua.dir/lapi.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lapi.c > CMakeFiles/lua.dir/lapi.c.i
 
 lua/src/CMakeFiles/lua.dir/lapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lapi.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lapi.c -o CMakeFiles/lua.dir/lapi.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lapi.c -o CMakeFiles/lua.dir/lapi.c.s
 
 lua/src/CMakeFiles/lua.dir/lapi.c.o.requires:
 
@@ -371,16 +371,16 @@ lua/src/CMakeFiles/lua.dir/lapi.c.o.provides.build: lua/src/CMakeFiles/lua.dir/l
 
 lua/src/CMakeFiles/lua.dir/lcode.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lcode.c.o: lua/src/lcode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lua/src/CMakeFiles/lua.dir/lcode.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lcode.c.o   -c /home/pi/dev-domoticz/lua/src/lcode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lua/src/CMakeFiles/lua.dir/lcode.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lcode.c.o   -c /home/pi/dev-daccord/lua/src/lcode.c
 
 lua/src/CMakeFiles/lua.dir/lcode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lcode.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lcode.c > CMakeFiles/lua.dir/lcode.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lcode.c > CMakeFiles/lua.dir/lcode.c.i
 
 lua/src/CMakeFiles/lua.dir/lcode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lcode.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lcode.c -o CMakeFiles/lua.dir/lcode.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lcode.c -o CMakeFiles/lua.dir/lcode.c.s
 
 lua/src/CMakeFiles/lua.dir/lcode.c.o.requires:
 
@@ -395,16 +395,16 @@ lua/src/CMakeFiles/lua.dir/lcode.c.o.provides.build: lua/src/CMakeFiles/lua.dir/
 
 lua/src/CMakeFiles/lua.dir/lctype.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lctype.c.o: lua/src/lctype.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lua/src/CMakeFiles/lua.dir/lctype.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lctype.c.o   -c /home/pi/dev-domoticz/lua/src/lctype.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lua/src/CMakeFiles/lua.dir/lctype.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lctype.c.o   -c /home/pi/dev-daccord/lua/src/lctype.c
 
 lua/src/CMakeFiles/lua.dir/lctype.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lctype.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lctype.c > CMakeFiles/lua.dir/lctype.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lctype.c > CMakeFiles/lua.dir/lctype.c.i
 
 lua/src/CMakeFiles/lua.dir/lctype.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lctype.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lctype.c -o CMakeFiles/lua.dir/lctype.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lctype.c -o CMakeFiles/lua.dir/lctype.c.s
 
 lua/src/CMakeFiles/lua.dir/lctype.c.o.requires:
 
@@ -419,16 +419,16 @@ lua/src/CMakeFiles/lua.dir/lctype.c.o.provides.build: lua/src/CMakeFiles/lua.dir
 
 lua/src/CMakeFiles/lua.dir/ldebug.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/ldebug.c.o: lua/src/ldebug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lua/src/CMakeFiles/lua.dir/ldebug.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/ldebug.c.o   -c /home/pi/dev-domoticz/lua/src/ldebug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lua/src/CMakeFiles/lua.dir/ldebug.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/ldebug.c.o   -c /home/pi/dev-daccord/lua/src/ldebug.c
 
 lua/src/CMakeFiles/lua.dir/ldebug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/ldebug.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/ldebug.c > CMakeFiles/lua.dir/ldebug.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/ldebug.c > CMakeFiles/lua.dir/ldebug.c.i
 
 lua/src/CMakeFiles/lua.dir/ldebug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/ldebug.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/ldebug.c -o CMakeFiles/lua.dir/ldebug.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/ldebug.c -o CMakeFiles/lua.dir/ldebug.c.s
 
 lua/src/CMakeFiles/lua.dir/ldebug.c.o.requires:
 
@@ -443,16 +443,16 @@ lua/src/CMakeFiles/lua.dir/ldebug.c.o.provides.build: lua/src/CMakeFiles/lua.dir
 
 lua/src/CMakeFiles/lua.dir/ldo.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/ldo.c.o: lua/src/ldo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lua/src/CMakeFiles/lua.dir/ldo.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/ldo.c.o   -c /home/pi/dev-domoticz/lua/src/ldo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lua/src/CMakeFiles/lua.dir/ldo.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/ldo.c.o   -c /home/pi/dev-daccord/lua/src/ldo.c
 
 lua/src/CMakeFiles/lua.dir/ldo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/ldo.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/ldo.c > CMakeFiles/lua.dir/ldo.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/ldo.c > CMakeFiles/lua.dir/ldo.c.i
 
 lua/src/CMakeFiles/lua.dir/ldo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/ldo.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/ldo.c -o CMakeFiles/lua.dir/ldo.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/ldo.c -o CMakeFiles/lua.dir/ldo.c.s
 
 lua/src/CMakeFiles/lua.dir/ldo.c.o.requires:
 
@@ -467,16 +467,16 @@ lua/src/CMakeFiles/lua.dir/ldo.c.o.provides.build: lua/src/CMakeFiles/lua.dir/ld
 
 lua/src/CMakeFiles/lua.dir/ldump.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/ldump.c.o: lua/src/ldump.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lua/src/CMakeFiles/lua.dir/ldump.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/ldump.c.o   -c /home/pi/dev-domoticz/lua/src/ldump.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lua/src/CMakeFiles/lua.dir/ldump.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/ldump.c.o   -c /home/pi/dev-daccord/lua/src/ldump.c
 
 lua/src/CMakeFiles/lua.dir/ldump.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/ldump.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/ldump.c > CMakeFiles/lua.dir/ldump.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/ldump.c > CMakeFiles/lua.dir/ldump.c.i
 
 lua/src/CMakeFiles/lua.dir/ldump.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/ldump.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/ldump.c -o CMakeFiles/lua.dir/ldump.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/ldump.c -o CMakeFiles/lua.dir/ldump.c.s
 
 lua/src/CMakeFiles/lua.dir/ldump.c.o.requires:
 
@@ -491,16 +491,16 @@ lua/src/CMakeFiles/lua.dir/ldump.c.o.provides.build: lua/src/CMakeFiles/lua.dir/
 
 lua/src/CMakeFiles/lua.dir/lfunc.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lfunc.c.o: lua/src/lfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lua/src/CMakeFiles/lua.dir/lfunc.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lfunc.c.o   -c /home/pi/dev-domoticz/lua/src/lfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lua/src/CMakeFiles/lua.dir/lfunc.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lfunc.c.o   -c /home/pi/dev-daccord/lua/src/lfunc.c
 
 lua/src/CMakeFiles/lua.dir/lfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lfunc.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lfunc.c > CMakeFiles/lua.dir/lfunc.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lfunc.c > CMakeFiles/lua.dir/lfunc.c.i
 
 lua/src/CMakeFiles/lua.dir/lfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lfunc.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lfunc.c -o CMakeFiles/lua.dir/lfunc.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lfunc.c -o CMakeFiles/lua.dir/lfunc.c.s
 
 lua/src/CMakeFiles/lua.dir/lfunc.c.o.requires:
 
@@ -515,16 +515,16 @@ lua/src/CMakeFiles/lua.dir/lfunc.c.o.provides.build: lua/src/CMakeFiles/lua.dir/
 
 lua/src/CMakeFiles/lua.dir/lgc.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lgc.c.o: lua/src/lgc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lua/src/CMakeFiles/lua.dir/lgc.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lgc.c.o   -c /home/pi/dev-domoticz/lua/src/lgc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lua/src/CMakeFiles/lua.dir/lgc.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lgc.c.o   -c /home/pi/dev-daccord/lua/src/lgc.c
 
 lua/src/CMakeFiles/lua.dir/lgc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lgc.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lgc.c > CMakeFiles/lua.dir/lgc.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lgc.c > CMakeFiles/lua.dir/lgc.c.i
 
 lua/src/CMakeFiles/lua.dir/lgc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lgc.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lgc.c -o CMakeFiles/lua.dir/lgc.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lgc.c -o CMakeFiles/lua.dir/lgc.c.s
 
 lua/src/CMakeFiles/lua.dir/lgc.c.o.requires:
 
@@ -539,16 +539,16 @@ lua/src/CMakeFiles/lua.dir/lgc.c.o.provides.build: lua/src/CMakeFiles/lua.dir/lg
 
 lua/src/CMakeFiles/lua.dir/llex.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/llex.c.o: lua/src/llex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lua/src/CMakeFiles/lua.dir/llex.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/llex.c.o   -c /home/pi/dev-domoticz/lua/src/llex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lua/src/CMakeFiles/lua.dir/llex.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/llex.c.o   -c /home/pi/dev-daccord/lua/src/llex.c
 
 lua/src/CMakeFiles/lua.dir/llex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/llex.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/llex.c > CMakeFiles/lua.dir/llex.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/llex.c > CMakeFiles/lua.dir/llex.c.i
 
 lua/src/CMakeFiles/lua.dir/llex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/llex.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/llex.c -o CMakeFiles/lua.dir/llex.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/llex.c -o CMakeFiles/lua.dir/llex.c.s
 
 lua/src/CMakeFiles/lua.dir/llex.c.o.requires:
 
@@ -563,16 +563,16 @@ lua/src/CMakeFiles/lua.dir/llex.c.o.provides.build: lua/src/CMakeFiles/lua.dir/l
 
 lua/src/CMakeFiles/lua.dir/lmem.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lmem.c.o: lua/src/lmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lua/src/CMakeFiles/lua.dir/lmem.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lmem.c.o   -c /home/pi/dev-domoticz/lua/src/lmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lua/src/CMakeFiles/lua.dir/lmem.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lmem.c.o   -c /home/pi/dev-daccord/lua/src/lmem.c
 
 lua/src/CMakeFiles/lua.dir/lmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lmem.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lmem.c > CMakeFiles/lua.dir/lmem.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lmem.c > CMakeFiles/lua.dir/lmem.c.i
 
 lua/src/CMakeFiles/lua.dir/lmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lmem.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lmem.c -o CMakeFiles/lua.dir/lmem.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lmem.c -o CMakeFiles/lua.dir/lmem.c.s
 
 lua/src/CMakeFiles/lua.dir/lmem.c.o.requires:
 
@@ -587,16 +587,16 @@ lua/src/CMakeFiles/lua.dir/lmem.c.o.provides.build: lua/src/CMakeFiles/lua.dir/l
 
 lua/src/CMakeFiles/lua.dir/lobject.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lobject.c.o: lua/src/lobject.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lua/src/CMakeFiles/lua.dir/lobject.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lobject.c.o   -c /home/pi/dev-domoticz/lua/src/lobject.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lua/src/CMakeFiles/lua.dir/lobject.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lobject.c.o   -c /home/pi/dev-daccord/lua/src/lobject.c
 
 lua/src/CMakeFiles/lua.dir/lobject.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lobject.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lobject.c > CMakeFiles/lua.dir/lobject.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lobject.c > CMakeFiles/lua.dir/lobject.c.i
 
 lua/src/CMakeFiles/lua.dir/lobject.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lobject.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lobject.c -o CMakeFiles/lua.dir/lobject.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lobject.c -o CMakeFiles/lua.dir/lobject.c.s
 
 lua/src/CMakeFiles/lua.dir/lobject.c.o.requires:
 
@@ -611,16 +611,16 @@ lua/src/CMakeFiles/lua.dir/lobject.c.o.provides.build: lua/src/CMakeFiles/lua.di
 
 lua/src/CMakeFiles/lua.dir/lopcodes.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lopcodes.c.o: lua/src/lopcodes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lua/src/CMakeFiles/lua.dir/lopcodes.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lopcodes.c.o   -c /home/pi/dev-domoticz/lua/src/lopcodes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lua/src/CMakeFiles/lua.dir/lopcodes.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lopcodes.c.o   -c /home/pi/dev-daccord/lua/src/lopcodes.c
 
 lua/src/CMakeFiles/lua.dir/lopcodes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lopcodes.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lopcodes.c > CMakeFiles/lua.dir/lopcodes.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lopcodes.c > CMakeFiles/lua.dir/lopcodes.c.i
 
 lua/src/CMakeFiles/lua.dir/lopcodes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lopcodes.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lopcodes.c -o CMakeFiles/lua.dir/lopcodes.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lopcodes.c -o CMakeFiles/lua.dir/lopcodes.c.s
 
 lua/src/CMakeFiles/lua.dir/lopcodes.c.o.requires:
 
@@ -635,16 +635,16 @@ lua/src/CMakeFiles/lua.dir/lopcodes.c.o.provides.build: lua/src/CMakeFiles/lua.d
 
 lua/src/CMakeFiles/lua.dir/lparser.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lparser.c.o: lua/src/lparser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lua/src/CMakeFiles/lua.dir/lparser.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lparser.c.o   -c /home/pi/dev-domoticz/lua/src/lparser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lua/src/CMakeFiles/lua.dir/lparser.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lparser.c.o   -c /home/pi/dev-daccord/lua/src/lparser.c
 
 lua/src/CMakeFiles/lua.dir/lparser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lparser.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lparser.c > CMakeFiles/lua.dir/lparser.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lparser.c > CMakeFiles/lua.dir/lparser.c.i
 
 lua/src/CMakeFiles/lua.dir/lparser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lparser.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lparser.c -o CMakeFiles/lua.dir/lparser.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lparser.c -o CMakeFiles/lua.dir/lparser.c.s
 
 lua/src/CMakeFiles/lua.dir/lparser.c.o.requires:
 
@@ -659,16 +659,16 @@ lua/src/CMakeFiles/lua.dir/lparser.c.o.provides.build: lua/src/CMakeFiles/lua.di
 
 lua/src/CMakeFiles/lua.dir/lstate.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lstate.c.o: lua/src/lstate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lua/src/CMakeFiles/lua.dir/lstate.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lstate.c.o   -c /home/pi/dev-domoticz/lua/src/lstate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lua/src/CMakeFiles/lua.dir/lstate.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lstate.c.o   -c /home/pi/dev-daccord/lua/src/lstate.c
 
 lua/src/CMakeFiles/lua.dir/lstate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lstate.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lstate.c > CMakeFiles/lua.dir/lstate.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lstate.c > CMakeFiles/lua.dir/lstate.c.i
 
 lua/src/CMakeFiles/lua.dir/lstate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lstate.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lstate.c -o CMakeFiles/lua.dir/lstate.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lstate.c -o CMakeFiles/lua.dir/lstate.c.s
 
 lua/src/CMakeFiles/lua.dir/lstate.c.o.requires:
 
@@ -683,16 +683,16 @@ lua/src/CMakeFiles/lua.dir/lstate.c.o.provides.build: lua/src/CMakeFiles/lua.dir
 
 lua/src/CMakeFiles/lua.dir/lstring.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lstring.c.o: lua/src/lstring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lua/src/CMakeFiles/lua.dir/lstring.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lstring.c.o   -c /home/pi/dev-domoticz/lua/src/lstring.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lua/src/CMakeFiles/lua.dir/lstring.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lstring.c.o   -c /home/pi/dev-daccord/lua/src/lstring.c
 
 lua/src/CMakeFiles/lua.dir/lstring.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lstring.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lstring.c > CMakeFiles/lua.dir/lstring.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lstring.c > CMakeFiles/lua.dir/lstring.c.i
 
 lua/src/CMakeFiles/lua.dir/lstring.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lstring.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lstring.c -o CMakeFiles/lua.dir/lstring.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lstring.c -o CMakeFiles/lua.dir/lstring.c.s
 
 lua/src/CMakeFiles/lua.dir/lstring.c.o.requires:
 
@@ -707,16 +707,16 @@ lua/src/CMakeFiles/lua.dir/lstring.c.o.provides.build: lua/src/CMakeFiles/lua.di
 
 lua/src/CMakeFiles/lua.dir/ltable.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/ltable.c.o: lua/src/ltable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lua/src/CMakeFiles/lua.dir/ltable.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/ltable.c.o   -c /home/pi/dev-domoticz/lua/src/ltable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lua/src/CMakeFiles/lua.dir/ltable.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/ltable.c.o   -c /home/pi/dev-daccord/lua/src/ltable.c
 
 lua/src/CMakeFiles/lua.dir/ltable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/ltable.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/ltable.c > CMakeFiles/lua.dir/ltable.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/ltable.c > CMakeFiles/lua.dir/ltable.c.i
 
 lua/src/CMakeFiles/lua.dir/ltable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/ltable.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/ltable.c -o CMakeFiles/lua.dir/ltable.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/ltable.c -o CMakeFiles/lua.dir/ltable.c.s
 
 lua/src/CMakeFiles/lua.dir/ltable.c.o.requires:
 
@@ -731,16 +731,16 @@ lua/src/CMakeFiles/lua.dir/ltable.c.o.provides.build: lua/src/CMakeFiles/lua.dir
 
 lua/src/CMakeFiles/lua.dir/ltm.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/ltm.c.o: lua/src/ltm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lua/src/CMakeFiles/lua.dir/ltm.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/ltm.c.o   -c /home/pi/dev-domoticz/lua/src/ltm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lua/src/CMakeFiles/lua.dir/ltm.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/ltm.c.o   -c /home/pi/dev-daccord/lua/src/ltm.c
 
 lua/src/CMakeFiles/lua.dir/ltm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/ltm.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/ltm.c > CMakeFiles/lua.dir/ltm.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/ltm.c > CMakeFiles/lua.dir/ltm.c.i
 
 lua/src/CMakeFiles/lua.dir/ltm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/ltm.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/ltm.c -o CMakeFiles/lua.dir/ltm.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/ltm.c -o CMakeFiles/lua.dir/ltm.c.s
 
 lua/src/CMakeFiles/lua.dir/ltm.c.o.requires:
 
@@ -755,16 +755,16 @@ lua/src/CMakeFiles/lua.dir/ltm.c.o.provides.build: lua/src/CMakeFiles/lua.dir/lt
 
 lua/src/CMakeFiles/lua.dir/lundump.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lundump.c.o: lua/src/lundump.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lua/src/CMakeFiles/lua.dir/lundump.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lundump.c.o   -c /home/pi/dev-domoticz/lua/src/lundump.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lua/src/CMakeFiles/lua.dir/lundump.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lundump.c.o   -c /home/pi/dev-daccord/lua/src/lundump.c
 
 lua/src/CMakeFiles/lua.dir/lundump.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lundump.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lundump.c > CMakeFiles/lua.dir/lundump.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lundump.c > CMakeFiles/lua.dir/lundump.c.i
 
 lua/src/CMakeFiles/lua.dir/lundump.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lundump.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lundump.c -o CMakeFiles/lua.dir/lundump.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lundump.c -o CMakeFiles/lua.dir/lundump.c.s
 
 lua/src/CMakeFiles/lua.dir/lundump.c.o.requires:
 
@@ -779,16 +779,16 @@ lua/src/CMakeFiles/lua.dir/lundump.c.o.provides.build: lua/src/CMakeFiles/lua.di
 
 lua/src/CMakeFiles/lua.dir/lvm.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lvm.c.o: lua/src/lvm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lua/src/CMakeFiles/lua.dir/lvm.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lvm.c.o   -c /home/pi/dev-domoticz/lua/src/lvm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lua/src/CMakeFiles/lua.dir/lvm.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lvm.c.o   -c /home/pi/dev-daccord/lua/src/lvm.c
 
 lua/src/CMakeFiles/lua.dir/lvm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lvm.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lvm.c > CMakeFiles/lua.dir/lvm.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lvm.c > CMakeFiles/lua.dir/lvm.c.i
 
 lua/src/CMakeFiles/lua.dir/lvm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lvm.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lvm.c -o CMakeFiles/lua.dir/lvm.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lvm.c -o CMakeFiles/lua.dir/lvm.c.s
 
 lua/src/CMakeFiles/lua.dir/lvm.c.o.requires:
 
@@ -803,16 +803,16 @@ lua/src/CMakeFiles/lua.dir/lvm.c.o.provides.build: lua/src/CMakeFiles/lua.dir/lv
 
 lua/src/CMakeFiles/lua.dir/lzio.c.o: lua/src/CMakeFiles/lua.dir/flags.make
 lua/src/CMakeFiles/lua.dir/lzio.c.o: lua/src/lzio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lua/src/CMakeFiles/lua.dir/lzio.c.o"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lzio.c.o   -c /home/pi/dev-domoticz/lua/src/lzio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lua/src/CMakeFiles/lua.dir/lzio.c.o"
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/lzio.c.o   -c /home/pi/dev-daccord/lua/src/lzio.c
 
 lua/src/CMakeFiles/lua.dir/lzio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lua.dir/lzio.c.i"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-domoticz/lua/src/lzio.c > CMakeFiles/lua.dir/lzio.c.i
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/dev-daccord/lua/src/lzio.c > CMakeFiles/lua.dir/lzio.c.i
 
 lua/src/CMakeFiles/lua.dir/lzio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lua.dir/lzio.c.s"
-	cd /home/pi/dev-domoticz/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-domoticz/lua/src/lzio.c -o CMakeFiles/lua.dir/lzio.c.s
+	cd /home/pi/dev-daccord/lua/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/dev-daccord/lua/src/lzio.c -o CMakeFiles/lua.dir/lzio.c.s
 
 lua/src/CMakeFiles/lua.dir/lzio.c.o.requires:
 
@@ -897,9 +897,9 @@ lua/src/liblua.a: lua/src/CMakeFiles/lua.dir/lvm.c.o
 lua/src/liblua.a: lua/src/CMakeFiles/lua.dir/lzio.c.o
 lua/src/liblua.a: lua/src/CMakeFiles/lua.dir/build.make
 lua/src/liblua.a: lua/src/CMakeFiles/lua.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C static library liblua.a"
-	cd /home/pi/dev-domoticz/lua/src && $(CMAKE_COMMAND) -P CMakeFiles/lua.dir/cmake_clean_target.cmake
-	cd /home/pi/dev-domoticz/lua/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lua.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C static library liblua.a"
+	cd /home/pi/dev-daccord/lua/src && $(CMAKE_COMMAND) -P CMakeFiles/lua.dir/cmake_clean_target.cmake
+	cd /home/pi/dev-daccord/lua/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lua.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lua/src/CMakeFiles/lua.dir/build: lua/src/liblua.a
@@ -942,10 +942,10 @@ lua/src/CMakeFiles/lua.dir/requires: lua/src/CMakeFiles/lua.dir/lzio.c.o.require
 .PHONY : lua/src/CMakeFiles/lua.dir/requires
 
 lua/src/CMakeFiles/lua.dir/clean:
-	cd /home/pi/dev-domoticz/lua/src && $(CMAKE_COMMAND) -P CMakeFiles/lua.dir/cmake_clean.cmake
+	cd /home/pi/dev-daccord/lua/src && $(CMAKE_COMMAND) -P CMakeFiles/lua.dir/cmake_clean.cmake
 .PHONY : lua/src/CMakeFiles/lua.dir/clean
 
 lua/src/CMakeFiles/lua.dir/depend:
-	cd /home/pi/dev-domoticz && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/dev-domoticz /home/pi/dev-domoticz/lua/src /home/pi/dev-domoticz /home/pi/dev-domoticz/lua/src /home/pi/dev-domoticz/lua/src/CMakeFiles/lua.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/dev-daccord && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/dev-daccord /home/pi/dev-daccord/lua/src /home/pi/dev-daccord /home/pi/dev-daccord/lua/src /home/pi/dev-daccord/lua/src/CMakeFiles/lua.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lua/src/CMakeFiles/lua.dir/depend
 

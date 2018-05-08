@@ -7,11 +7,11 @@ C_FLAGS = -O3 -DNDEBUG
 
 C_DEFINES = -DWITH_TLS
 
-C_INCLUDES = -I/home/pi/dev-domoticz/MQTT 
+C_INCLUDES = -I/home/pi/dev-daccord/MQTT 
 
 CXX_FLAGS = -O3 -DNDEBUG  
 
 CXX_DEFINES = -DWITH_TLS
 
-CXX_INCLUDES = -I/home/pi/dev-domoticz/MQTT 
+CXX_INCLUDES = -I/home/pi/dev-daccord/MQTT 
 

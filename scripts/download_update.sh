@@ -18,8 +18,8 @@ if [ "$2" = "/beta" ]; then
   CHANNEL="beta"
 fi
 
-archive_file="http://www.domoticz.com/download.php?channel=${CHANNEL}&type=release&system=${OS}&machine=${MACH}"
-checksum_file="http://www.domoticz.com/download.php?channel=${CHANNEL}&type=checksum&system=${OS}&machine=${MACH}"
+archive_file="http://ivmech.com/daccord/release/daccord_${OS}_${MACH}.tgz"
+checksum_file="http://ivmech.com/daccord/release/daccord_${OS}_${MACH}.tgz.sha256sum"
 
 # Download checksum
 wget -q "${checksum_file}" -O update.tgz.sha256sum

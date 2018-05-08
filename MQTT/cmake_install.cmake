@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/dev-domoticz/MQTT
+# Install script for directory: /home/pi/dev-daccord/MQTT
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

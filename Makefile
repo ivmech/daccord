@@ -177,17 +177,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named daccord
+# Target rules for targets named domoticz
 
 # Build rule for target.
-daccord: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 daccord
-.PHONY : daccord
+domoticz: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 domoticz
+.PHONY : domoticz
 
 # fast build rule for target.
-daccord/fast:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/build
-.PHONY : daccord/fast
+domoticz/fast:
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/build
+.PHONY : domoticz/fast
 
 #=============================================================================
 # Target rules for targets named revisiontag
@@ -203,17 +203,17 @@ revisiontag/fast:
 .PHONY : revisiontag/fast
 
 #=============================================================================
-# Target rules for targets named daccord_gch
+# Target rules for targets named domoticz_gch
 
 # Build rule for target.
-daccord_gch: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 daccord_gch
-.PHONY : daccord_gch
+domoticz_gch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 domoticz_gch
+.PHONY : domoticz_gch
 
 # fast build rule for target.
-daccord_gch/fast:
-	$(MAKE) -f CMakeFiles/daccord_gch.dir/build.make CMakeFiles/daccord_gch.dir/build
-.PHONY : daccord_gch/fast
+domoticz_gch/fast:
+	$(MAKE) -f CMakeFiles/domoticz_gch.dir/build.make CMakeFiles/domoticz_gch.dir/build
+.PHONY : domoticz_gch/fast
 
 #=============================================================================
 # Target rules for targets named lua
@@ -260,7 +260,7 @@ hardware/1Wire.o: hardware/1Wire.cpp.o
 
 # target to build an object file
 hardware/1Wire.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire.cpp.o
 .PHONY : hardware/1Wire.cpp.o
 
 hardware/1Wire.i: hardware/1Wire.cpp.i
@@ -269,7 +269,7 @@ hardware/1Wire.i: hardware/1Wire.cpp.i
 
 # target to preprocess a source file
 hardware/1Wire.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire.cpp.i
 .PHONY : hardware/1Wire.cpp.i
 
 hardware/1Wire.s: hardware/1Wire.cpp.s
@@ -278,7 +278,7 @@ hardware/1Wire.s: hardware/1Wire.cpp.s
 
 # target to generate assembly for a file
 hardware/1Wire.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire.cpp.s
 .PHONY : hardware/1Wire.cpp.s
 
 hardware/1Wire/1WireByKernel.o: hardware/1Wire/1WireByKernel.cpp.o
@@ -287,7 +287,7 @@ hardware/1Wire/1WireByKernel.o: hardware/1Wire/1WireByKernel.cpp.o
 
 # target to build an object file
 hardware/1Wire/1WireByKernel.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire/1WireByKernel.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.o
 .PHONY : hardware/1Wire/1WireByKernel.cpp.o
 
 hardware/1Wire/1WireByKernel.i: hardware/1Wire/1WireByKernel.cpp.i
@@ -296,7 +296,7 @@ hardware/1Wire/1WireByKernel.i: hardware/1Wire/1WireByKernel.cpp.i
 
 # target to preprocess a source file
 hardware/1Wire/1WireByKernel.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire/1WireByKernel.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.i
 .PHONY : hardware/1Wire/1WireByKernel.cpp.i
 
 hardware/1Wire/1WireByKernel.s: hardware/1Wire/1WireByKernel.cpp.s
@@ -305,7 +305,7 @@ hardware/1Wire/1WireByKernel.s: hardware/1Wire/1WireByKernel.cpp.s
 
 # target to generate assembly for a file
 hardware/1Wire/1WireByKernel.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire/1WireByKernel.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.s
 .PHONY : hardware/1Wire/1WireByKernel.cpp.s
 
 hardware/1Wire/1WireByOWFS.o: hardware/1Wire/1WireByOWFS.cpp.o
@@ -314,7 +314,7 @@ hardware/1Wire/1WireByOWFS.o: hardware/1Wire/1WireByOWFS.cpp.o
 
 # target to build an object file
 hardware/1Wire/1WireByOWFS.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire/1WireByOWFS.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.o
 .PHONY : hardware/1Wire/1WireByOWFS.cpp.o
 
 hardware/1Wire/1WireByOWFS.i: hardware/1Wire/1WireByOWFS.cpp.i
@@ -323,7 +323,7 @@ hardware/1Wire/1WireByOWFS.i: hardware/1Wire/1WireByOWFS.cpp.i
 
 # target to preprocess a source file
 hardware/1Wire/1WireByOWFS.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire/1WireByOWFS.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.i
 .PHONY : hardware/1Wire/1WireByOWFS.cpp.i
 
 hardware/1Wire/1WireByOWFS.s: hardware/1Wire/1WireByOWFS.cpp.s
@@ -332,7 +332,7 @@ hardware/1Wire/1WireByOWFS.s: hardware/1Wire/1WireByOWFS.cpp.s
 
 # target to generate assembly for a file
 hardware/1Wire/1WireByOWFS.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire/1WireByOWFS.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.s
 .PHONY : hardware/1Wire/1WireByOWFS.cpp.s
 
 hardware/1Wire/1WireCommon.o: hardware/1Wire/1WireCommon.cpp.o
@@ -341,7 +341,7 @@ hardware/1Wire/1WireCommon.o: hardware/1Wire/1WireCommon.cpp.o
 
 # target to build an object file
 hardware/1Wire/1WireCommon.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire/1WireCommon.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.o
 .PHONY : hardware/1Wire/1WireCommon.cpp.o
 
 hardware/1Wire/1WireCommon.i: hardware/1Wire/1WireCommon.cpp.i
@@ -350,7 +350,7 @@ hardware/1Wire/1WireCommon.i: hardware/1Wire/1WireCommon.cpp.i
 
 # target to preprocess a source file
 hardware/1Wire/1WireCommon.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire/1WireCommon.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.i
 .PHONY : hardware/1Wire/1WireCommon.cpp.i
 
 hardware/1Wire/1WireCommon.s: hardware/1Wire/1WireCommon.cpp.s
@@ -359,7 +359,7 @@ hardware/1Wire/1WireCommon.s: hardware/1Wire/1WireCommon.cpp.s
 
 # target to generate assembly for a file
 hardware/1Wire/1WireCommon.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire/1WireCommon.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.s
 .PHONY : hardware/1Wire/1WireCommon.cpp.s
 
 hardware/1Wire/1WireForWindows.o: hardware/1Wire/1WireForWindows.cpp.o
@@ -368,7 +368,7 @@ hardware/1Wire/1WireForWindows.o: hardware/1Wire/1WireForWindows.cpp.o
 
 # target to build an object file
 hardware/1Wire/1WireForWindows.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire/1WireForWindows.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.o
 .PHONY : hardware/1Wire/1WireForWindows.cpp.o
 
 hardware/1Wire/1WireForWindows.i: hardware/1Wire/1WireForWindows.cpp.i
@@ -377,7 +377,7 @@ hardware/1Wire/1WireForWindows.i: hardware/1Wire/1WireForWindows.cpp.i
 
 # target to preprocess a source file
 hardware/1Wire/1WireForWindows.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire/1WireForWindows.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.i
 .PHONY : hardware/1Wire/1WireForWindows.cpp.i
 
 hardware/1Wire/1WireForWindows.s: hardware/1Wire/1WireForWindows.cpp.s
@@ -386,7 +386,7 @@ hardware/1Wire/1WireForWindows.s: hardware/1Wire/1WireForWindows.cpp.s
 
 # target to generate assembly for a file
 hardware/1Wire/1WireForWindows.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/1Wire/1WireForWindows.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.s
 .PHONY : hardware/1Wire/1WireForWindows.cpp.s
 
 hardware/ASyncSerial.o: hardware/ASyncSerial.cpp.o
@@ -395,7 +395,7 @@ hardware/ASyncSerial.o: hardware/ASyncSerial.cpp.o
 
 # target to build an object file
 hardware/ASyncSerial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ASyncSerial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.o
 .PHONY : hardware/ASyncSerial.cpp.o
 
 hardware/ASyncSerial.i: hardware/ASyncSerial.cpp.i
@@ -404,7 +404,7 @@ hardware/ASyncSerial.i: hardware/ASyncSerial.cpp.i
 
 # target to preprocess a source file
 hardware/ASyncSerial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ASyncSerial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.i
 .PHONY : hardware/ASyncSerial.cpp.i
 
 hardware/ASyncSerial.s: hardware/ASyncSerial.cpp.s
@@ -413,7 +413,7 @@ hardware/ASyncSerial.s: hardware/ASyncSerial.cpp.s
 
 # target to generate assembly for a file
 hardware/ASyncSerial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ASyncSerial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.s
 .PHONY : hardware/ASyncSerial.cpp.s
 
 hardware/ASyncTCP.o: hardware/ASyncTCP.cpp.o
@@ -422,7 +422,7 @@ hardware/ASyncTCP.o: hardware/ASyncTCP.cpp.o
 
 # target to build an object file
 hardware/ASyncTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ASyncTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.o
 .PHONY : hardware/ASyncTCP.cpp.o
 
 hardware/ASyncTCP.i: hardware/ASyncTCP.cpp.i
@@ -431,7 +431,7 @@ hardware/ASyncTCP.i: hardware/ASyncTCP.cpp.i
 
 # target to preprocess a source file
 hardware/ASyncTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ASyncTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.i
 .PHONY : hardware/ASyncTCP.cpp.i
 
 hardware/ASyncTCP.s: hardware/ASyncTCP.cpp.s
@@ -440,7 +440,7 @@ hardware/ASyncTCP.s: hardware/ASyncTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/ASyncTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ASyncTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.s
 .PHONY : hardware/ASyncTCP.cpp.s
 
 hardware/AccuWeather.o: hardware/AccuWeather.cpp.o
@@ -449,7 +449,7 @@ hardware/AccuWeather.o: hardware/AccuWeather.cpp.o
 
 # target to build an object file
 hardware/AccuWeather.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/AccuWeather.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.o
 .PHONY : hardware/AccuWeather.cpp.o
 
 hardware/AccuWeather.i: hardware/AccuWeather.cpp.i
@@ -458,7 +458,7 @@ hardware/AccuWeather.i: hardware/AccuWeather.cpp.i
 
 # target to preprocess a source file
 hardware/AccuWeather.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/AccuWeather.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.i
 .PHONY : hardware/AccuWeather.cpp.i
 
 hardware/AccuWeather.s: hardware/AccuWeather.cpp.s
@@ -467,7 +467,7 @@ hardware/AccuWeather.s: hardware/AccuWeather.cpp.s
 
 # target to generate assembly for a file
 hardware/AccuWeather.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/AccuWeather.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.s
 .PHONY : hardware/AccuWeather.cpp.s
 
 hardware/AnnaThermostat.o: hardware/AnnaThermostat.cpp.o
@@ -476,7 +476,7 @@ hardware/AnnaThermostat.o: hardware/AnnaThermostat.cpp.o
 
 # target to build an object file
 hardware/AnnaThermostat.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/AnnaThermostat.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.o
 .PHONY : hardware/AnnaThermostat.cpp.o
 
 hardware/AnnaThermostat.i: hardware/AnnaThermostat.cpp.i
@@ -485,7 +485,7 @@ hardware/AnnaThermostat.i: hardware/AnnaThermostat.cpp.i
 
 # target to preprocess a source file
 hardware/AnnaThermostat.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/AnnaThermostat.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.i
 .PHONY : hardware/AnnaThermostat.cpp.i
 
 hardware/AnnaThermostat.s: hardware/AnnaThermostat.cpp.s
@@ -494,7 +494,7 @@ hardware/AnnaThermostat.s: hardware/AnnaThermostat.cpp.s
 
 # target to generate assembly for a file
 hardware/AnnaThermostat.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/AnnaThermostat.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.s
 .PHONY : hardware/AnnaThermostat.cpp.s
 
 hardware/Arilux.o: hardware/Arilux.cpp.o
@@ -503,7 +503,7 @@ hardware/Arilux.o: hardware/Arilux.cpp.o
 
 # target to build an object file
 hardware/Arilux.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Arilux.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Arilux.cpp.o
 .PHONY : hardware/Arilux.cpp.o
 
 hardware/Arilux.i: hardware/Arilux.cpp.i
@@ -512,7 +512,7 @@ hardware/Arilux.i: hardware/Arilux.cpp.i
 
 # target to preprocess a source file
 hardware/Arilux.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Arilux.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Arilux.cpp.i
 .PHONY : hardware/Arilux.cpp.i
 
 hardware/Arilux.s: hardware/Arilux.cpp.s
@@ -521,7 +521,7 @@ hardware/Arilux.s: hardware/Arilux.cpp.s
 
 # target to generate assembly for a file
 hardware/Arilux.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Arilux.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Arilux.cpp.s
 .PHONY : hardware/Arilux.cpp.s
 
 hardware/AtagOne.o: hardware/AtagOne.cpp.o
@@ -530,7 +530,7 @@ hardware/AtagOne.o: hardware/AtagOne.cpp.o
 
 # target to build an object file
 hardware/AtagOne.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/AtagOne.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.o
 .PHONY : hardware/AtagOne.cpp.o
 
 hardware/AtagOne.i: hardware/AtagOne.cpp.i
@@ -539,7 +539,7 @@ hardware/AtagOne.i: hardware/AtagOne.cpp.i
 
 # target to preprocess a source file
 hardware/AtagOne.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/AtagOne.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.i
 .PHONY : hardware/AtagOne.cpp.i
 
 hardware/AtagOne.s: hardware/AtagOne.cpp.s
@@ -548,7 +548,7 @@ hardware/AtagOne.s: hardware/AtagOne.cpp.s
 
 # target to generate assembly for a file
 hardware/AtagOne.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/AtagOne.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.s
 .PHONY : hardware/AtagOne.cpp.s
 
 hardware/BleBox.o: hardware/BleBox.cpp.o
@@ -557,7 +557,7 @@ hardware/BleBox.o: hardware/BleBox.cpp.o
 
 # target to build an object file
 hardware/BleBox.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/BleBox.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/BleBox.cpp.o
 .PHONY : hardware/BleBox.cpp.o
 
 hardware/BleBox.i: hardware/BleBox.cpp.i
@@ -566,7 +566,7 @@ hardware/BleBox.i: hardware/BleBox.cpp.i
 
 # target to preprocess a source file
 hardware/BleBox.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/BleBox.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/BleBox.cpp.i
 .PHONY : hardware/BleBox.cpp.i
 
 hardware/BleBox.s: hardware/BleBox.cpp.s
@@ -575,7 +575,7 @@ hardware/BleBox.s: hardware/BleBox.cpp.s
 
 # target to generate assembly for a file
 hardware/BleBox.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/BleBox.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/BleBox.cpp.s
 .PHONY : hardware/BleBox.cpp.s
 
 hardware/ColorSwitch.o: hardware/ColorSwitch.cpp.o
@@ -584,7 +584,7 @@ hardware/ColorSwitch.o: hardware/ColorSwitch.cpp.o
 
 # target to build an object file
 hardware/ColorSwitch.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ColorSwitch.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.o
 .PHONY : hardware/ColorSwitch.cpp.o
 
 hardware/ColorSwitch.i: hardware/ColorSwitch.cpp.i
@@ -593,7 +593,7 @@ hardware/ColorSwitch.i: hardware/ColorSwitch.cpp.i
 
 # target to preprocess a source file
 hardware/ColorSwitch.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ColorSwitch.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.i
 .PHONY : hardware/ColorSwitch.cpp.i
 
 hardware/ColorSwitch.s: hardware/ColorSwitch.cpp.s
@@ -602,7 +602,7 @@ hardware/ColorSwitch.s: hardware/ColorSwitch.cpp.s
 
 # target to generate assembly for a file
 hardware/ColorSwitch.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ColorSwitch.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.s
 .PHONY : hardware/ColorSwitch.cpp.s
 
 hardware/Comm5SMTCP.o: hardware/Comm5SMTCP.cpp.o
@@ -611,7 +611,7 @@ hardware/Comm5SMTCP.o: hardware/Comm5SMTCP.cpp.o
 
 # target to build an object file
 hardware/Comm5SMTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Comm5SMTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.o
 .PHONY : hardware/Comm5SMTCP.cpp.o
 
 hardware/Comm5SMTCP.i: hardware/Comm5SMTCP.cpp.i
@@ -620,7 +620,7 @@ hardware/Comm5SMTCP.i: hardware/Comm5SMTCP.cpp.i
 
 # target to preprocess a source file
 hardware/Comm5SMTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Comm5SMTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.i
 .PHONY : hardware/Comm5SMTCP.cpp.i
 
 hardware/Comm5SMTCP.s: hardware/Comm5SMTCP.cpp.s
@@ -629,7 +629,7 @@ hardware/Comm5SMTCP.s: hardware/Comm5SMTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/Comm5SMTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Comm5SMTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.s
 .PHONY : hardware/Comm5SMTCP.cpp.s
 
 hardware/Comm5Serial.o: hardware/Comm5Serial.cpp.o
@@ -638,7 +638,7 @@ hardware/Comm5Serial.o: hardware/Comm5Serial.cpp.o
 
 # target to build an object file
 hardware/Comm5Serial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Comm5Serial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.o
 .PHONY : hardware/Comm5Serial.cpp.o
 
 hardware/Comm5Serial.i: hardware/Comm5Serial.cpp.i
@@ -647,7 +647,7 @@ hardware/Comm5Serial.i: hardware/Comm5Serial.cpp.i
 
 # target to preprocess a source file
 hardware/Comm5Serial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Comm5Serial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.i
 .PHONY : hardware/Comm5Serial.cpp.i
 
 hardware/Comm5Serial.s: hardware/Comm5Serial.cpp.s
@@ -656,7 +656,7 @@ hardware/Comm5Serial.s: hardware/Comm5Serial.cpp.s
 
 # target to generate assembly for a file
 hardware/Comm5Serial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Comm5Serial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.s
 .PHONY : hardware/Comm5Serial.cpp.s
 
 hardware/Comm5TCP.o: hardware/Comm5TCP.cpp.o
@@ -665,7 +665,7 @@ hardware/Comm5TCP.o: hardware/Comm5TCP.cpp.o
 
 # target to build an object file
 hardware/Comm5TCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Comm5TCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.o
 .PHONY : hardware/Comm5TCP.cpp.o
 
 hardware/Comm5TCP.i: hardware/Comm5TCP.cpp.i
@@ -674,7 +674,7 @@ hardware/Comm5TCP.i: hardware/Comm5TCP.cpp.i
 
 # target to preprocess a source file
 hardware/Comm5TCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Comm5TCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.i
 .PHONY : hardware/Comm5TCP.cpp.i
 
 hardware/Comm5TCP.s: hardware/Comm5TCP.cpp.s
@@ -683,7 +683,7 @@ hardware/Comm5TCP.s: hardware/Comm5TCP.cpp.s
 
 # target to generate assembly for a file
 hardware/Comm5TCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Comm5TCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.s
 .PHONY : hardware/Comm5TCP.cpp.s
 
 hardware/CurrentCostMeterBase.o: hardware/CurrentCostMeterBase.cpp.o
@@ -692,7 +692,7 @@ hardware/CurrentCostMeterBase.o: hardware/CurrentCostMeterBase.cpp.o
 
 # target to build an object file
 hardware/CurrentCostMeterBase.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/CurrentCostMeterBase.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.o
 .PHONY : hardware/CurrentCostMeterBase.cpp.o
 
 hardware/CurrentCostMeterBase.i: hardware/CurrentCostMeterBase.cpp.i
@@ -701,7 +701,7 @@ hardware/CurrentCostMeterBase.i: hardware/CurrentCostMeterBase.cpp.i
 
 # target to preprocess a source file
 hardware/CurrentCostMeterBase.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/CurrentCostMeterBase.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.i
 .PHONY : hardware/CurrentCostMeterBase.cpp.i
 
 hardware/CurrentCostMeterBase.s: hardware/CurrentCostMeterBase.cpp.s
@@ -710,7 +710,7 @@ hardware/CurrentCostMeterBase.s: hardware/CurrentCostMeterBase.cpp.s
 
 # target to generate assembly for a file
 hardware/CurrentCostMeterBase.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/CurrentCostMeterBase.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.s
 .PHONY : hardware/CurrentCostMeterBase.cpp.s
 
 hardware/CurrentCostMeterSerial.o: hardware/CurrentCostMeterSerial.cpp.o
@@ -719,7 +719,7 @@ hardware/CurrentCostMeterSerial.o: hardware/CurrentCostMeterSerial.cpp.o
 
 # target to build an object file
 hardware/CurrentCostMeterSerial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/CurrentCostMeterSerial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.o
 .PHONY : hardware/CurrentCostMeterSerial.cpp.o
 
 hardware/CurrentCostMeterSerial.i: hardware/CurrentCostMeterSerial.cpp.i
@@ -728,7 +728,7 @@ hardware/CurrentCostMeterSerial.i: hardware/CurrentCostMeterSerial.cpp.i
 
 # target to preprocess a source file
 hardware/CurrentCostMeterSerial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/CurrentCostMeterSerial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.i
 .PHONY : hardware/CurrentCostMeterSerial.cpp.i
 
 hardware/CurrentCostMeterSerial.s: hardware/CurrentCostMeterSerial.cpp.s
@@ -737,7 +737,7 @@ hardware/CurrentCostMeterSerial.s: hardware/CurrentCostMeterSerial.cpp.s
 
 # target to generate assembly for a file
 hardware/CurrentCostMeterSerial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/CurrentCostMeterSerial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.s
 .PHONY : hardware/CurrentCostMeterSerial.cpp.s
 
 hardware/CurrentCostMeterTCP.o: hardware/CurrentCostMeterTCP.cpp.o
@@ -746,7 +746,7 @@ hardware/CurrentCostMeterTCP.o: hardware/CurrentCostMeterTCP.cpp.o
 
 # target to build an object file
 hardware/CurrentCostMeterTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/CurrentCostMeterTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.o
 .PHONY : hardware/CurrentCostMeterTCP.cpp.o
 
 hardware/CurrentCostMeterTCP.i: hardware/CurrentCostMeterTCP.cpp.i
@@ -755,7 +755,7 @@ hardware/CurrentCostMeterTCP.i: hardware/CurrentCostMeterTCP.cpp.i
 
 # target to preprocess a source file
 hardware/CurrentCostMeterTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/CurrentCostMeterTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.i
 .PHONY : hardware/CurrentCostMeterTCP.cpp.i
 
 hardware/CurrentCostMeterTCP.s: hardware/CurrentCostMeterTCP.cpp.s
@@ -764,7 +764,7 @@ hardware/CurrentCostMeterTCP.s: hardware/CurrentCostMeterTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/CurrentCostMeterTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/CurrentCostMeterTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.s
 .PHONY : hardware/CurrentCostMeterTCP.cpp.s
 
 hardware/Daikin.o: hardware/Daikin.cpp.o
@@ -773,7 +773,7 @@ hardware/Daikin.o: hardware/Daikin.cpp.o
 
 # target to build an object file
 hardware/Daikin.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Daikin.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Daikin.cpp.o
 .PHONY : hardware/Daikin.cpp.o
 
 hardware/Daikin.i: hardware/Daikin.cpp.i
@@ -782,7 +782,7 @@ hardware/Daikin.i: hardware/Daikin.cpp.i
 
 # target to preprocess a source file
 hardware/Daikin.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Daikin.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Daikin.cpp.i
 .PHONY : hardware/Daikin.cpp.i
 
 hardware/Daikin.s: hardware/Daikin.cpp.s
@@ -791,7 +791,7 @@ hardware/Daikin.s: hardware/Daikin.cpp.s
 
 # target to generate assembly for a file
 hardware/Daikin.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Daikin.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Daikin.cpp.s
 .PHONY : hardware/Daikin.cpp.s
 
 hardware/DarkSky.o: hardware/DarkSky.cpp.o
@@ -800,7 +800,7 @@ hardware/DarkSky.o: hardware/DarkSky.cpp.o
 
 # target to build an object file
 hardware/DarkSky.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/DarkSky.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.o
 .PHONY : hardware/DarkSky.cpp.o
 
 hardware/DarkSky.i: hardware/DarkSky.cpp.i
@@ -809,7 +809,7 @@ hardware/DarkSky.i: hardware/DarkSky.cpp.i
 
 # target to preprocess a source file
 hardware/DarkSky.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/DarkSky.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.i
 .PHONY : hardware/DarkSky.cpp.i
 
 hardware/DarkSky.s: hardware/DarkSky.cpp.s
@@ -818,7 +818,7 @@ hardware/DarkSky.s: hardware/DarkSky.cpp.s
 
 # target to generate assembly for a file
 hardware/DarkSky.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/DarkSky.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.s
 .PHONY : hardware/DarkSky.cpp.s
 
 hardware/DavisLoggerSerial.o: hardware/DavisLoggerSerial.cpp.o
@@ -827,7 +827,7 @@ hardware/DavisLoggerSerial.o: hardware/DavisLoggerSerial.cpp.o
 
 # target to build an object file
 hardware/DavisLoggerSerial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/DavisLoggerSerial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.o
 .PHONY : hardware/DavisLoggerSerial.cpp.o
 
 hardware/DavisLoggerSerial.i: hardware/DavisLoggerSerial.cpp.i
@@ -836,7 +836,7 @@ hardware/DavisLoggerSerial.i: hardware/DavisLoggerSerial.cpp.i
 
 # target to preprocess a source file
 hardware/DavisLoggerSerial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/DavisLoggerSerial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.i
 .PHONY : hardware/DavisLoggerSerial.cpp.i
 
 hardware/DavisLoggerSerial.s: hardware/DavisLoggerSerial.cpp.s
@@ -845,7 +845,7 @@ hardware/DavisLoggerSerial.s: hardware/DavisLoggerSerial.cpp.s
 
 # target to generate assembly for a file
 hardware/DavisLoggerSerial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/DavisLoggerSerial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.s
 .PHONY : hardware/DavisLoggerSerial.cpp.s
 
 hardware/DenkoviSmartdenIPInOut.o: hardware/DenkoviSmartdenIPInOut.cpp.o
@@ -854,7 +854,7 @@ hardware/DenkoviSmartdenIPInOut.o: hardware/DenkoviSmartdenIPInOut.cpp.o
 
 # target to build an object file
 hardware/DenkoviSmartdenIPInOut.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/DenkoviSmartdenIPInOut.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.o
 .PHONY : hardware/DenkoviSmartdenIPInOut.cpp.o
 
 hardware/DenkoviSmartdenIPInOut.i: hardware/DenkoviSmartdenIPInOut.cpp.i
@@ -863,7 +863,7 @@ hardware/DenkoviSmartdenIPInOut.i: hardware/DenkoviSmartdenIPInOut.cpp.i
 
 # target to preprocess a source file
 hardware/DenkoviSmartdenIPInOut.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/DenkoviSmartdenIPInOut.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.i
 .PHONY : hardware/DenkoviSmartdenIPInOut.cpp.i
 
 hardware/DenkoviSmartdenIPInOut.s: hardware/DenkoviSmartdenIPInOut.cpp.s
@@ -872,7 +872,7 @@ hardware/DenkoviSmartdenIPInOut.s: hardware/DenkoviSmartdenIPInOut.cpp.s
 
 # target to generate assembly for a file
 hardware/DenkoviSmartdenIPInOut.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/DenkoviSmartdenIPInOut.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.s
 .PHONY : hardware/DenkoviSmartdenIPInOut.cpp.s
 
 hardware/DenkoviSmartdenLan.o: hardware/DenkoviSmartdenLan.cpp.o
@@ -881,7 +881,7 @@ hardware/DenkoviSmartdenLan.o: hardware/DenkoviSmartdenLan.cpp.o
 
 # target to build an object file
 hardware/DenkoviSmartdenLan.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/DenkoviSmartdenLan.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.o
 .PHONY : hardware/DenkoviSmartdenLan.cpp.o
 
 hardware/DenkoviSmartdenLan.i: hardware/DenkoviSmartdenLan.cpp.i
@@ -890,7 +890,7 @@ hardware/DenkoviSmartdenLan.i: hardware/DenkoviSmartdenLan.cpp.i
 
 # target to preprocess a source file
 hardware/DenkoviSmartdenLan.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/DenkoviSmartdenLan.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.i
 .PHONY : hardware/DenkoviSmartdenLan.cpp.i
 
 hardware/DenkoviSmartdenLan.s: hardware/DenkoviSmartdenLan.cpp.s
@@ -899,89 +899,89 @@ hardware/DenkoviSmartdenLan.s: hardware/DenkoviSmartdenLan.cpp.s
 
 # target to generate assembly for a file
 hardware/DenkoviSmartdenLan.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/DenkoviSmartdenLan.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.s
 .PHONY : hardware/DenkoviSmartdenLan.cpp.s
 
-hardware/daccordHardware.o: hardware/daccordHardware.cpp.o
+hardware/DomoticzHardware.o: hardware/DomoticzHardware.cpp.o
 
-.PHONY : hardware/daccordHardware.o
-
-# target to build an object file
-hardware/daccordHardware.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/daccordHardware.cpp.o
-.PHONY : hardware/daccordHardware.cpp.o
-
-hardware/daccordHardware.i: hardware/daccordHardware.cpp.i
-
-.PHONY : hardware/daccordHardware.i
-
-# target to preprocess a source file
-hardware/daccordHardware.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/daccordHardware.cpp.i
-.PHONY : hardware/daccordHardware.cpp.i
-
-hardware/daccordHardware.s: hardware/daccordHardware.cpp.s
-
-.PHONY : hardware/daccordHardware.s
-
-# target to generate assembly for a file
-hardware/daccordHardware.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/daccordHardware.cpp.s
-.PHONY : hardware/daccordHardware.cpp.s
-
-hardware/daccordInternal.o: hardware/daccordInternal.cpp.o
-
-.PHONY : hardware/daccordInternal.o
+.PHONY : hardware/DomoticzHardware.o
 
 # target to build an object file
-hardware/daccordInternal.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/daccordInternal.cpp.o
-.PHONY : hardware/daccordInternal.cpp.o
+hardware/DomoticzHardware.cpp.o:
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.o
+.PHONY : hardware/DomoticzHardware.cpp.o
 
-hardware/daccordInternal.i: hardware/daccordInternal.cpp.i
+hardware/DomoticzHardware.i: hardware/DomoticzHardware.cpp.i
 
-.PHONY : hardware/daccordInternal.i
+.PHONY : hardware/DomoticzHardware.i
 
 # target to preprocess a source file
-hardware/daccordInternal.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/daccordInternal.cpp.i
-.PHONY : hardware/daccordInternal.cpp.i
+hardware/DomoticzHardware.cpp.i:
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.i
+.PHONY : hardware/DomoticzHardware.cpp.i
 
-hardware/daccordInternal.s: hardware/daccordInternal.cpp.s
+hardware/DomoticzHardware.s: hardware/DomoticzHardware.cpp.s
 
-.PHONY : hardware/daccordInternal.s
+.PHONY : hardware/DomoticzHardware.s
 
 # target to generate assembly for a file
-hardware/daccordInternal.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/daccordInternal.cpp.s
-.PHONY : hardware/daccordInternal.cpp.s
+hardware/DomoticzHardware.cpp.s:
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.s
+.PHONY : hardware/DomoticzHardware.cpp.s
 
-hardware/daccordTCP.o: hardware/daccordTCP.cpp.o
+hardware/DomoticzInternal.o: hardware/DomoticzInternal.cpp.o
 
-.PHONY : hardware/daccordTCP.o
+.PHONY : hardware/DomoticzInternal.o
 
 # target to build an object file
-hardware/daccordTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/daccordTCP.cpp.o
-.PHONY : hardware/daccordTCP.cpp.o
+hardware/DomoticzInternal.cpp.o:
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.o
+.PHONY : hardware/DomoticzInternal.cpp.o
 
-hardware/daccordTCP.i: hardware/daccordTCP.cpp.i
+hardware/DomoticzInternal.i: hardware/DomoticzInternal.cpp.i
 
-.PHONY : hardware/daccordTCP.i
+.PHONY : hardware/DomoticzInternal.i
 
 # target to preprocess a source file
-hardware/daccordTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/daccordTCP.cpp.i
-.PHONY : hardware/daccordTCP.cpp.i
+hardware/DomoticzInternal.cpp.i:
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.i
+.PHONY : hardware/DomoticzInternal.cpp.i
 
-hardware/daccordTCP.s: hardware/daccordTCP.cpp.s
+hardware/DomoticzInternal.s: hardware/DomoticzInternal.cpp.s
 
-.PHONY : hardware/daccordTCP.s
+.PHONY : hardware/DomoticzInternal.s
 
 # target to generate assembly for a file
-hardware/daccordTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/daccordTCP.cpp.s
-.PHONY : hardware/daccordTCP.cpp.s
+hardware/DomoticzInternal.cpp.s:
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.s
+.PHONY : hardware/DomoticzInternal.cpp.s
+
+hardware/DomoticzTCP.o: hardware/DomoticzTCP.cpp.o
+
+.PHONY : hardware/DomoticzTCP.o
+
+# target to build an object file
+hardware/DomoticzTCP.cpp.o:
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.o
+.PHONY : hardware/DomoticzTCP.cpp.o
+
+hardware/DomoticzTCP.i: hardware/DomoticzTCP.cpp.i
+
+.PHONY : hardware/DomoticzTCP.i
+
+# target to preprocess a source file
+hardware/DomoticzTCP.cpp.i:
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.i
+.PHONY : hardware/DomoticzTCP.cpp.i
+
+hardware/DomoticzTCP.s: hardware/DomoticzTCP.cpp.s
+
+.PHONY : hardware/DomoticzTCP.s
+
+# target to generate assembly for a file
+hardware/DomoticzTCP.cpp.s:
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.s
+.PHONY : hardware/DomoticzTCP.cpp.s
 
 hardware/Dummy.o: hardware/Dummy.cpp.o
 
@@ -989,7 +989,7 @@ hardware/Dummy.o: hardware/Dummy.cpp.o
 
 # target to build an object file
 hardware/Dummy.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Dummy.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Dummy.cpp.o
 .PHONY : hardware/Dummy.cpp.o
 
 hardware/Dummy.i: hardware/Dummy.cpp.i
@@ -998,7 +998,7 @@ hardware/Dummy.i: hardware/Dummy.cpp.i
 
 # target to preprocess a source file
 hardware/Dummy.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Dummy.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Dummy.cpp.i
 .PHONY : hardware/Dummy.cpp.i
 
 hardware/Dummy.s: hardware/Dummy.cpp.s
@@ -1007,7 +1007,7 @@ hardware/Dummy.s: hardware/Dummy.cpp.s
 
 # target to generate assembly for a file
 hardware/Dummy.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Dummy.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Dummy.cpp.s
 .PHONY : hardware/Dummy.cpp.s
 
 hardware/ETH8020.o: hardware/ETH8020.cpp.o
@@ -1016,7 +1016,7 @@ hardware/ETH8020.o: hardware/ETH8020.cpp.o
 
 # target to build an object file
 hardware/ETH8020.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ETH8020.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.o
 .PHONY : hardware/ETH8020.cpp.o
 
 hardware/ETH8020.i: hardware/ETH8020.cpp.i
@@ -1025,7 +1025,7 @@ hardware/ETH8020.i: hardware/ETH8020.cpp.i
 
 # target to preprocess a source file
 hardware/ETH8020.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ETH8020.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.i
 .PHONY : hardware/ETH8020.cpp.i
 
 hardware/ETH8020.s: hardware/ETH8020.cpp.s
@@ -1034,7 +1034,7 @@ hardware/ETH8020.s: hardware/ETH8020.cpp.s
 
 # target to generate assembly for a file
 hardware/ETH8020.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ETH8020.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.s
 .PHONY : hardware/ETH8020.cpp.s
 
 hardware/Ec3kMeterTCP.o: hardware/Ec3kMeterTCP.cpp.o
@@ -1043,7 +1043,7 @@ hardware/Ec3kMeterTCP.o: hardware/Ec3kMeterTCP.cpp.o
 
 # target to build an object file
 hardware/Ec3kMeterTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Ec3kMeterTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.o
 .PHONY : hardware/Ec3kMeterTCP.cpp.o
 
 hardware/Ec3kMeterTCP.i: hardware/Ec3kMeterTCP.cpp.i
@@ -1052,7 +1052,7 @@ hardware/Ec3kMeterTCP.i: hardware/Ec3kMeterTCP.cpp.i
 
 # target to preprocess a source file
 hardware/Ec3kMeterTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Ec3kMeterTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.i
 .PHONY : hardware/Ec3kMeterTCP.cpp.i
 
 hardware/Ec3kMeterTCP.s: hardware/Ec3kMeterTCP.cpp.s
@@ -1061,7 +1061,7 @@ hardware/Ec3kMeterTCP.s: hardware/Ec3kMeterTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/Ec3kMeterTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Ec3kMeterTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.s
 .PHONY : hardware/Ec3kMeterTCP.cpp.s
 
 hardware/EcoCompteur.o: hardware/EcoCompteur.cpp.o
@@ -1070,7 +1070,7 @@ hardware/EcoCompteur.o: hardware/EcoCompteur.cpp.o
 
 # target to build an object file
 hardware/EcoCompteur.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EcoCompteur.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.o
 .PHONY : hardware/EcoCompteur.cpp.o
 
 hardware/EcoCompteur.i: hardware/EcoCompteur.cpp.i
@@ -1079,7 +1079,7 @@ hardware/EcoCompteur.i: hardware/EcoCompteur.cpp.i
 
 # target to preprocess a source file
 hardware/EcoCompteur.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EcoCompteur.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.i
 .PHONY : hardware/EcoCompteur.cpp.i
 
 hardware/EcoCompteur.s: hardware/EcoCompteur.cpp.s
@@ -1088,7 +1088,7 @@ hardware/EcoCompteur.s: hardware/EcoCompteur.cpp.s
 
 # target to generate assembly for a file
 hardware/EcoCompteur.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EcoCompteur.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.s
 .PHONY : hardware/EcoCompteur.cpp.s
 
 hardware/EcoDevices.o: hardware/EcoDevices.cpp.o
@@ -1097,7 +1097,7 @@ hardware/EcoDevices.o: hardware/EcoDevices.cpp.o
 
 # target to build an object file
 hardware/EcoDevices.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EcoDevices.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.o
 .PHONY : hardware/EcoDevices.cpp.o
 
 hardware/EcoDevices.i: hardware/EcoDevices.cpp.i
@@ -1106,7 +1106,7 @@ hardware/EcoDevices.i: hardware/EcoDevices.cpp.i
 
 # target to preprocess a source file
 hardware/EcoDevices.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EcoDevices.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.i
 .PHONY : hardware/EcoDevices.cpp.i
 
 hardware/EcoDevices.s: hardware/EcoDevices.cpp.s
@@ -1115,7 +1115,7 @@ hardware/EcoDevices.s: hardware/EcoDevices.cpp.s
 
 # target to generate assembly for a file
 hardware/EcoDevices.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EcoDevices.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.s
 .PHONY : hardware/EcoDevices.cpp.s
 
 hardware/EnOceanESP2.o: hardware/EnOceanESP2.cpp.o
@@ -1124,7 +1124,7 @@ hardware/EnOceanESP2.o: hardware/EnOceanESP2.cpp.o
 
 # target to build an object file
 hardware/EnOceanESP2.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EnOceanESP2.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.o
 .PHONY : hardware/EnOceanESP2.cpp.o
 
 hardware/EnOceanESP2.i: hardware/EnOceanESP2.cpp.i
@@ -1133,7 +1133,7 @@ hardware/EnOceanESP2.i: hardware/EnOceanESP2.cpp.i
 
 # target to preprocess a source file
 hardware/EnOceanESP2.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EnOceanESP2.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.i
 .PHONY : hardware/EnOceanESP2.cpp.i
 
 hardware/EnOceanESP2.s: hardware/EnOceanESP2.cpp.s
@@ -1142,7 +1142,7 @@ hardware/EnOceanESP2.s: hardware/EnOceanESP2.cpp.s
 
 # target to generate assembly for a file
 hardware/EnOceanESP2.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EnOceanESP2.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.s
 .PHONY : hardware/EnOceanESP2.cpp.s
 
 hardware/EnOceanESP3.o: hardware/EnOceanESP3.cpp.o
@@ -1151,7 +1151,7 @@ hardware/EnOceanESP3.o: hardware/EnOceanESP3.cpp.o
 
 # target to build an object file
 hardware/EnOceanESP3.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EnOceanESP3.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.o
 .PHONY : hardware/EnOceanESP3.cpp.o
 
 hardware/EnOceanESP3.i: hardware/EnOceanESP3.cpp.i
@@ -1160,7 +1160,7 @@ hardware/EnOceanESP3.i: hardware/EnOceanESP3.cpp.i
 
 # target to preprocess a source file
 hardware/EnOceanESP3.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EnOceanESP3.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.i
 .PHONY : hardware/EnOceanESP3.cpp.i
 
 hardware/EnOceanESP3.s: hardware/EnOceanESP3.cpp.s
@@ -1169,7 +1169,7 @@ hardware/EnOceanESP3.s: hardware/EnOceanESP3.cpp.s
 
 # target to generate assembly for a file
 hardware/EnOceanESP3.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EnOceanESP3.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.s
 .PHONY : hardware/EnOceanESP3.cpp.s
 
 hardware/EnphaseAPI.o: hardware/EnphaseAPI.cpp.o
@@ -1178,7 +1178,7 @@ hardware/EnphaseAPI.o: hardware/EnphaseAPI.cpp.o
 
 # target to build an object file
 hardware/EnphaseAPI.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EnphaseAPI.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.o
 .PHONY : hardware/EnphaseAPI.cpp.o
 
 hardware/EnphaseAPI.i: hardware/EnphaseAPI.cpp.i
@@ -1187,7 +1187,7 @@ hardware/EnphaseAPI.i: hardware/EnphaseAPI.cpp.i
 
 # target to preprocess a source file
 hardware/EnphaseAPI.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EnphaseAPI.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.i
 .PHONY : hardware/EnphaseAPI.cpp.i
 
 hardware/EnphaseAPI.s: hardware/EnphaseAPI.cpp.s
@@ -1196,7 +1196,7 @@ hardware/EnphaseAPI.s: hardware/EnphaseAPI.cpp.s
 
 # target to generate assembly for a file
 hardware/EnphaseAPI.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EnphaseAPI.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.s
 .PHONY : hardware/EnphaseAPI.cpp.s
 
 hardware/EvohomeBase.o: hardware/EvohomeBase.cpp.o
@@ -1205,7 +1205,7 @@ hardware/EvohomeBase.o: hardware/EvohomeBase.cpp.o
 
 # target to build an object file
 hardware/EvohomeBase.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeBase.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.o
 .PHONY : hardware/EvohomeBase.cpp.o
 
 hardware/EvohomeBase.i: hardware/EvohomeBase.cpp.i
@@ -1214,7 +1214,7 @@ hardware/EvohomeBase.i: hardware/EvohomeBase.cpp.i
 
 # target to preprocess a source file
 hardware/EvohomeBase.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeBase.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.i
 .PHONY : hardware/EvohomeBase.cpp.i
 
 hardware/EvohomeBase.s: hardware/EvohomeBase.cpp.s
@@ -1223,7 +1223,7 @@ hardware/EvohomeBase.s: hardware/EvohomeBase.cpp.s
 
 # target to generate assembly for a file
 hardware/EvohomeBase.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeBase.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.s
 .PHONY : hardware/EvohomeBase.cpp.s
 
 hardware/EvohomeRadio.o: hardware/EvohomeRadio.cpp.o
@@ -1232,7 +1232,7 @@ hardware/EvohomeRadio.o: hardware/EvohomeRadio.cpp.o
 
 # target to build an object file
 hardware/EvohomeRadio.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeRadio.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.o
 .PHONY : hardware/EvohomeRadio.cpp.o
 
 hardware/EvohomeRadio.i: hardware/EvohomeRadio.cpp.i
@@ -1241,7 +1241,7 @@ hardware/EvohomeRadio.i: hardware/EvohomeRadio.cpp.i
 
 # target to preprocess a source file
 hardware/EvohomeRadio.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeRadio.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.i
 .PHONY : hardware/EvohomeRadio.cpp.i
 
 hardware/EvohomeRadio.s: hardware/EvohomeRadio.cpp.s
@@ -1250,7 +1250,7 @@ hardware/EvohomeRadio.s: hardware/EvohomeRadio.cpp.s
 
 # target to generate assembly for a file
 hardware/EvohomeRadio.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeRadio.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.s
 .PHONY : hardware/EvohomeRadio.cpp.s
 
 hardware/EvohomeScript.o: hardware/EvohomeScript.cpp.o
@@ -1259,7 +1259,7 @@ hardware/EvohomeScript.o: hardware/EvohomeScript.cpp.o
 
 # target to build an object file
 hardware/EvohomeScript.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeScript.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.o
 .PHONY : hardware/EvohomeScript.cpp.o
 
 hardware/EvohomeScript.i: hardware/EvohomeScript.cpp.i
@@ -1268,7 +1268,7 @@ hardware/EvohomeScript.i: hardware/EvohomeScript.cpp.i
 
 # target to preprocess a source file
 hardware/EvohomeScript.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeScript.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.i
 .PHONY : hardware/EvohomeScript.cpp.i
 
 hardware/EvohomeScript.s: hardware/EvohomeScript.cpp.s
@@ -1277,7 +1277,7 @@ hardware/EvohomeScript.s: hardware/EvohomeScript.cpp.s
 
 # target to generate assembly for a file
 hardware/EvohomeScript.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeScript.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.s
 .PHONY : hardware/EvohomeScript.cpp.s
 
 hardware/EvohomeSerial.o: hardware/EvohomeSerial.cpp.o
@@ -1286,7 +1286,7 @@ hardware/EvohomeSerial.o: hardware/EvohomeSerial.cpp.o
 
 # target to build an object file
 hardware/EvohomeSerial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeSerial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.o
 .PHONY : hardware/EvohomeSerial.cpp.o
 
 hardware/EvohomeSerial.i: hardware/EvohomeSerial.cpp.i
@@ -1295,7 +1295,7 @@ hardware/EvohomeSerial.i: hardware/EvohomeSerial.cpp.i
 
 # target to preprocess a source file
 hardware/EvohomeSerial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeSerial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.i
 .PHONY : hardware/EvohomeSerial.cpp.i
 
 hardware/EvohomeSerial.s: hardware/EvohomeSerial.cpp.s
@@ -1304,7 +1304,7 @@ hardware/EvohomeSerial.s: hardware/EvohomeSerial.cpp.s
 
 # target to generate assembly for a file
 hardware/EvohomeSerial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeSerial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.s
 .PHONY : hardware/EvohomeSerial.cpp.s
 
 hardware/EvohomeTCP.o: hardware/EvohomeTCP.cpp.o
@@ -1313,7 +1313,7 @@ hardware/EvohomeTCP.o: hardware/EvohomeTCP.cpp.o
 
 # target to build an object file
 hardware/EvohomeTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.o
 .PHONY : hardware/EvohomeTCP.cpp.o
 
 hardware/EvohomeTCP.i: hardware/EvohomeTCP.cpp.i
@@ -1322,7 +1322,7 @@ hardware/EvohomeTCP.i: hardware/EvohomeTCP.cpp.i
 
 # target to preprocess a source file
 hardware/EvohomeTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.i
 .PHONY : hardware/EvohomeTCP.cpp.i
 
 hardware/EvohomeTCP.s: hardware/EvohomeTCP.cpp.s
@@ -1331,7 +1331,7 @@ hardware/EvohomeTCP.s: hardware/EvohomeTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/EvohomeTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.s
 .PHONY : hardware/EvohomeTCP.cpp.s
 
 hardware/EvohomeWeb.o: hardware/EvohomeWeb.cpp.o
@@ -1340,7 +1340,7 @@ hardware/EvohomeWeb.o: hardware/EvohomeWeb.cpp.o
 
 # target to build an object file
 hardware/EvohomeWeb.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeWeb.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.o
 .PHONY : hardware/EvohomeWeb.cpp.o
 
 hardware/EvohomeWeb.i: hardware/EvohomeWeb.cpp.i
@@ -1349,7 +1349,7 @@ hardware/EvohomeWeb.i: hardware/EvohomeWeb.cpp.i
 
 # target to preprocess a source file
 hardware/EvohomeWeb.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeWeb.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.i
 .PHONY : hardware/EvohomeWeb.cpp.i
 
 hardware/EvohomeWeb.s: hardware/EvohomeWeb.cpp.s
@@ -1358,7 +1358,7 @@ hardware/EvohomeWeb.s: hardware/EvohomeWeb.cpp.s
 
 # target to generate assembly for a file
 hardware/EvohomeWeb.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/EvohomeWeb.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.s
 .PHONY : hardware/EvohomeWeb.cpp.s
 
 hardware/FritzboxTCP.o: hardware/FritzboxTCP.cpp.o
@@ -1367,7 +1367,7 @@ hardware/FritzboxTCP.o: hardware/FritzboxTCP.cpp.o
 
 # target to build an object file
 hardware/FritzboxTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/FritzboxTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.o
 .PHONY : hardware/FritzboxTCP.cpp.o
 
 hardware/FritzboxTCP.i: hardware/FritzboxTCP.cpp.i
@@ -1376,7 +1376,7 @@ hardware/FritzboxTCP.i: hardware/FritzboxTCP.cpp.i
 
 # target to preprocess a source file
 hardware/FritzboxTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/FritzboxTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.i
 .PHONY : hardware/FritzboxTCP.cpp.i
 
 hardware/FritzboxTCP.s: hardware/FritzboxTCP.cpp.s
@@ -1385,7 +1385,7 @@ hardware/FritzboxTCP.s: hardware/FritzboxTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/FritzboxTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/FritzboxTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.s
 .PHONY : hardware/FritzboxTCP.cpp.s
 
 hardware/GoodweAPI.o: hardware/GoodweAPI.cpp.o
@@ -1394,7 +1394,7 @@ hardware/GoodweAPI.o: hardware/GoodweAPI.cpp.o
 
 # target to build an object file
 hardware/GoodweAPI.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/GoodweAPI.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.o
 .PHONY : hardware/GoodweAPI.cpp.o
 
 hardware/GoodweAPI.i: hardware/GoodweAPI.cpp.i
@@ -1403,7 +1403,7 @@ hardware/GoodweAPI.i: hardware/GoodweAPI.cpp.i
 
 # target to preprocess a source file
 hardware/GoodweAPI.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/GoodweAPI.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.i
 .PHONY : hardware/GoodweAPI.cpp.i
 
 hardware/GoodweAPI.s: hardware/GoodweAPI.cpp.s
@@ -1412,7 +1412,7 @@ hardware/GoodweAPI.s: hardware/GoodweAPI.cpp.s
 
 # target to generate assembly for a file
 hardware/GoodweAPI.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/GoodweAPI.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.s
 .PHONY : hardware/GoodweAPI.cpp.s
 
 hardware/Gpio.o: hardware/Gpio.cpp.o
@@ -1421,7 +1421,7 @@ hardware/Gpio.o: hardware/Gpio.cpp.o
 
 # target to build an object file
 hardware/Gpio.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Gpio.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Gpio.cpp.o
 .PHONY : hardware/Gpio.cpp.o
 
 hardware/Gpio.i: hardware/Gpio.cpp.i
@@ -1430,7 +1430,7 @@ hardware/Gpio.i: hardware/Gpio.cpp.i
 
 # target to preprocess a source file
 hardware/Gpio.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Gpio.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Gpio.cpp.i
 .PHONY : hardware/Gpio.cpp.i
 
 hardware/Gpio.s: hardware/Gpio.cpp.s
@@ -1439,7 +1439,7 @@ hardware/Gpio.s: hardware/Gpio.cpp.s
 
 # target to generate assembly for a file
 hardware/Gpio.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Gpio.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Gpio.cpp.s
 .PHONY : hardware/Gpio.cpp.s
 
 hardware/GpioPin.o: hardware/GpioPin.cpp.o
@@ -1448,7 +1448,7 @@ hardware/GpioPin.o: hardware/GpioPin.cpp.o
 
 # target to build an object file
 hardware/GpioPin.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/GpioPin.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.o
 .PHONY : hardware/GpioPin.cpp.o
 
 hardware/GpioPin.i: hardware/GpioPin.cpp.i
@@ -1457,7 +1457,7 @@ hardware/GpioPin.i: hardware/GpioPin.cpp.i
 
 # target to preprocess a source file
 hardware/GpioPin.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/GpioPin.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.i
 .PHONY : hardware/GpioPin.cpp.i
 
 hardware/GpioPin.s: hardware/GpioPin.cpp.s
@@ -1466,7 +1466,7 @@ hardware/GpioPin.s: hardware/GpioPin.cpp.s
 
 # target to generate assembly for a file
 hardware/GpioPin.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/GpioPin.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.s
 .PHONY : hardware/GpioPin.cpp.s
 
 hardware/HEOS.o: hardware/HEOS.cpp.o
@@ -1475,7 +1475,7 @@ hardware/HEOS.o: hardware/HEOS.cpp.o
 
 # target to build an object file
 hardware/HEOS.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/HEOS.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/HEOS.cpp.o
 .PHONY : hardware/HEOS.cpp.o
 
 hardware/HEOS.i: hardware/HEOS.cpp.i
@@ -1484,7 +1484,7 @@ hardware/HEOS.i: hardware/HEOS.cpp.i
 
 # target to preprocess a source file
 hardware/HEOS.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/HEOS.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/HEOS.cpp.i
 .PHONY : hardware/HEOS.cpp.i
 
 hardware/HEOS.s: hardware/HEOS.cpp.s
@@ -1493,7 +1493,7 @@ hardware/HEOS.s: hardware/HEOS.cpp.s
 
 # target to generate assembly for a file
 hardware/HEOS.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/HEOS.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/HEOS.cpp.s
 .PHONY : hardware/HEOS.cpp.s
 
 hardware/HardwareMonitor.o: hardware/HardwareMonitor.cpp.o
@@ -1502,7 +1502,7 @@ hardware/HardwareMonitor.o: hardware/HardwareMonitor.cpp.o
 
 # target to build an object file
 hardware/HardwareMonitor.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/HardwareMonitor.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.o
 .PHONY : hardware/HardwareMonitor.cpp.o
 
 hardware/HardwareMonitor.i: hardware/HardwareMonitor.cpp.i
@@ -1511,7 +1511,7 @@ hardware/HardwareMonitor.i: hardware/HardwareMonitor.cpp.i
 
 # target to preprocess a source file
 hardware/HardwareMonitor.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/HardwareMonitor.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.i
 .PHONY : hardware/HardwareMonitor.cpp.i
 
 hardware/HardwareMonitor.s: hardware/HardwareMonitor.cpp.s
@@ -1520,7 +1520,7 @@ hardware/HardwareMonitor.s: hardware/HardwareMonitor.cpp.s
 
 # target to generate assembly for a file
 hardware/HardwareMonitor.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/HardwareMonitor.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.s
 .PHONY : hardware/HardwareMonitor.cpp.s
 
 hardware/HarmonyHub.o: hardware/HarmonyHub.cpp.o
@@ -1529,7 +1529,7 @@ hardware/HarmonyHub.o: hardware/HarmonyHub.cpp.o
 
 # target to build an object file
 hardware/HarmonyHub.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/HarmonyHub.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.o
 .PHONY : hardware/HarmonyHub.cpp.o
 
 hardware/HarmonyHub.i: hardware/HarmonyHub.cpp.i
@@ -1538,7 +1538,7 @@ hardware/HarmonyHub.i: hardware/HarmonyHub.cpp.i
 
 # target to preprocess a source file
 hardware/HarmonyHub.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/HarmonyHub.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.i
 .PHONY : hardware/HarmonyHub.cpp.i
 
 hardware/HarmonyHub.s: hardware/HarmonyHub.cpp.s
@@ -1547,7 +1547,7 @@ hardware/HarmonyHub.s: hardware/HarmonyHub.cpp.s
 
 # target to generate assembly for a file
 hardware/HarmonyHub.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/HarmonyHub.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.s
 .PHONY : hardware/HarmonyHub.cpp.s
 
 hardware/Honeywell.o: hardware/Honeywell.cpp.o
@@ -1556,7 +1556,7 @@ hardware/Honeywell.o: hardware/Honeywell.cpp.o
 
 # target to build an object file
 hardware/Honeywell.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Honeywell.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.o
 .PHONY : hardware/Honeywell.cpp.o
 
 hardware/Honeywell.i: hardware/Honeywell.cpp.i
@@ -1565,7 +1565,7 @@ hardware/Honeywell.i: hardware/Honeywell.cpp.i
 
 # target to preprocess a source file
 hardware/Honeywell.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Honeywell.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.i
 .PHONY : hardware/Honeywell.cpp.i
 
 hardware/Honeywell.s: hardware/Honeywell.cpp.s
@@ -1574,7 +1574,7 @@ hardware/Honeywell.s: hardware/Honeywell.cpp.s
 
 # target to generate assembly for a file
 hardware/Honeywell.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Honeywell.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.s
 .PHONY : hardware/Honeywell.cpp.s
 
 hardware/HttpPoller.o: hardware/HttpPoller.cpp.o
@@ -1583,7 +1583,7 @@ hardware/HttpPoller.o: hardware/HttpPoller.cpp.o
 
 # target to build an object file
 hardware/HttpPoller.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/HttpPoller.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.o
 .PHONY : hardware/HttpPoller.cpp.o
 
 hardware/HttpPoller.i: hardware/HttpPoller.cpp.i
@@ -1592,7 +1592,7 @@ hardware/HttpPoller.i: hardware/HttpPoller.cpp.i
 
 # target to preprocess a source file
 hardware/HttpPoller.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/HttpPoller.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.i
 .PHONY : hardware/HttpPoller.cpp.i
 
 hardware/HttpPoller.s: hardware/HttpPoller.cpp.s
@@ -1601,7 +1601,7 @@ hardware/HttpPoller.s: hardware/HttpPoller.cpp.s
 
 # target to generate assembly for a file
 hardware/HttpPoller.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/HttpPoller.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.s
 .PHONY : hardware/HttpPoller.cpp.s
 
 hardware/I2C.o: hardware/I2C.cpp.o
@@ -1610,7 +1610,7 @@ hardware/I2C.o: hardware/I2C.cpp.o
 
 # target to build an object file
 hardware/I2C.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/I2C.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/I2C.cpp.o
 .PHONY : hardware/I2C.cpp.o
 
 hardware/I2C.i: hardware/I2C.cpp.i
@@ -1619,7 +1619,7 @@ hardware/I2C.i: hardware/I2C.cpp.i
 
 # target to preprocess a source file
 hardware/I2C.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/I2C.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/I2C.cpp.i
 .PHONY : hardware/I2C.cpp.i
 
 hardware/I2C.s: hardware/I2C.cpp.s
@@ -1628,7 +1628,7 @@ hardware/I2C.s: hardware/I2C.cpp.s
 
 # target to generate assembly for a file
 hardware/I2C.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/I2C.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/I2C.cpp.s
 .PHONY : hardware/I2C.cpp.s
 
 hardware/ICYThermostat.o: hardware/ICYThermostat.cpp.o
@@ -1637,7 +1637,7 @@ hardware/ICYThermostat.o: hardware/ICYThermostat.cpp.o
 
 # target to build an object file
 hardware/ICYThermostat.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ICYThermostat.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.o
 .PHONY : hardware/ICYThermostat.cpp.o
 
 hardware/ICYThermostat.i: hardware/ICYThermostat.cpp.i
@@ -1646,7 +1646,7 @@ hardware/ICYThermostat.i: hardware/ICYThermostat.cpp.i
 
 # target to preprocess a source file
 hardware/ICYThermostat.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ICYThermostat.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.i
 .PHONY : hardware/ICYThermostat.cpp.i
 
 hardware/ICYThermostat.s: hardware/ICYThermostat.cpp.s
@@ -1655,7 +1655,7 @@ hardware/ICYThermostat.s: hardware/ICYThermostat.cpp.s
 
 # target to generate assembly for a file
 hardware/ICYThermostat.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ICYThermostat.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.s
 .PHONY : hardware/ICYThermostat.cpp.s
 
 hardware/InComfort.o: hardware/InComfort.cpp.o
@@ -1664,7 +1664,7 @@ hardware/InComfort.o: hardware/InComfort.cpp.o
 
 # target to build an object file
 hardware/InComfort.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/InComfort.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/InComfort.cpp.o
 .PHONY : hardware/InComfort.cpp.o
 
 hardware/InComfort.i: hardware/InComfort.cpp.i
@@ -1673,7 +1673,7 @@ hardware/InComfort.i: hardware/InComfort.cpp.i
 
 # target to preprocess a source file
 hardware/InComfort.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/InComfort.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/InComfort.cpp.i
 .PHONY : hardware/InComfort.cpp.i
 
 hardware/InComfort.s: hardware/InComfort.cpp.s
@@ -1682,7 +1682,7 @@ hardware/InComfort.s: hardware/InComfort.cpp.s
 
 # target to generate assembly for a file
 hardware/InComfort.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/InComfort.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/InComfort.cpp.s
 .PHONY : hardware/InComfort.cpp.s
 
 hardware/KMTronic433.o: hardware/KMTronic433.cpp.o
@@ -1691,7 +1691,7 @@ hardware/KMTronic433.o: hardware/KMTronic433.cpp.o
 
 # target to build an object file
 hardware/KMTronic433.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronic433.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.o
 .PHONY : hardware/KMTronic433.cpp.o
 
 hardware/KMTronic433.i: hardware/KMTronic433.cpp.i
@@ -1700,7 +1700,7 @@ hardware/KMTronic433.i: hardware/KMTronic433.cpp.i
 
 # target to preprocess a source file
 hardware/KMTronic433.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronic433.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.i
 .PHONY : hardware/KMTronic433.cpp.i
 
 hardware/KMTronic433.s: hardware/KMTronic433.cpp.s
@@ -1709,7 +1709,7 @@ hardware/KMTronic433.s: hardware/KMTronic433.cpp.s
 
 # target to generate assembly for a file
 hardware/KMTronic433.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronic433.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.s
 .PHONY : hardware/KMTronic433.cpp.s
 
 hardware/KMTronicBase.o: hardware/KMTronicBase.cpp.o
@@ -1718,7 +1718,7 @@ hardware/KMTronicBase.o: hardware/KMTronicBase.cpp.o
 
 # target to build an object file
 hardware/KMTronicBase.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronicBase.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.o
 .PHONY : hardware/KMTronicBase.cpp.o
 
 hardware/KMTronicBase.i: hardware/KMTronicBase.cpp.i
@@ -1727,7 +1727,7 @@ hardware/KMTronicBase.i: hardware/KMTronicBase.cpp.i
 
 # target to preprocess a source file
 hardware/KMTronicBase.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronicBase.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.i
 .PHONY : hardware/KMTronicBase.cpp.i
 
 hardware/KMTronicBase.s: hardware/KMTronicBase.cpp.s
@@ -1736,7 +1736,7 @@ hardware/KMTronicBase.s: hardware/KMTronicBase.cpp.s
 
 # target to generate assembly for a file
 hardware/KMTronicBase.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronicBase.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.s
 .PHONY : hardware/KMTronicBase.cpp.s
 
 hardware/KMTronicSerial.o: hardware/KMTronicSerial.cpp.o
@@ -1745,7 +1745,7 @@ hardware/KMTronicSerial.o: hardware/KMTronicSerial.cpp.o
 
 # target to build an object file
 hardware/KMTronicSerial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronicSerial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.o
 .PHONY : hardware/KMTronicSerial.cpp.o
 
 hardware/KMTronicSerial.i: hardware/KMTronicSerial.cpp.i
@@ -1754,7 +1754,7 @@ hardware/KMTronicSerial.i: hardware/KMTronicSerial.cpp.i
 
 # target to preprocess a source file
 hardware/KMTronicSerial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronicSerial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.i
 .PHONY : hardware/KMTronicSerial.cpp.i
 
 hardware/KMTronicSerial.s: hardware/KMTronicSerial.cpp.s
@@ -1763,7 +1763,7 @@ hardware/KMTronicSerial.s: hardware/KMTronicSerial.cpp.s
 
 # target to generate assembly for a file
 hardware/KMTronicSerial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronicSerial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.s
 .PHONY : hardware/KMTronicSerial.cpp.s
 
 hardware/KMTronicTCP.o: hardware/KMTronicTCP.cpp.o
@@ -1772,7 +1772,7 @@ hardware/KMTronicTCP.o: hardware/KMTronicTCP.cpp.o
 
 # target to build an object file
 hardware/KMTronicTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronicTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.o
 .PHONY : hardware/KMTronicTCP.cpp.o
 
 hardware/KMTronicTCP.i: hardware/KMTronicTCP.cpp.i
@@ -1781,7 +1781,7 @@ hardware/KMTronicTCP.i: hardware/KMTronicTCP.cpp.i
 
 # target to preprocess a source file
 hardware/KMTronicTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronicTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.i
 .PHONY : hardware/KMTronicTCP.cpp.i
 
 hardware/KMTronicTCP.s: hardware/KMTronicTCP.cpp.s
@@ -1790,7 +1790,7 @@ hardware/KMTronicTCP.s: hardware/KMTronicTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/KMTronicTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronicTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.s
 .PHONY : hardware/KMTronicTCP.cpp.s
 
 hardware/KMTronicUDP.o: hardware/KMTronicUDP.cpp.o
@@ -1799,7 +1799,7 @@ hardware/KMTronicUDP.o: hardware/KMTronicUDP.cpp.o
 
 # target to build an object file
 hardware/KMTronicUDP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronicUDP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.o
 .PHONY : hardware/KMTronicUDP.cpp.o
 
 hardware/KMTronicUDP.i: hardware/KMTronicUDP.cpp.i
@@ -1808,7 +1808,7 @@ hardware/KMTronicUDP.i: hardware/KMTronicUDP.cpp.i
 
 # target to preprocess a source file
 hardware/KMTronicUDP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronicUDP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.i
 .PHONY : hardware/KMTronicUDP.cpp.i
 
 hardware/KMTronicUDP.s: hardware/KMTronicUDP.cpp.s
@@ -1817,7 +1817,7 @@ hardware/KMTronicUDP.s: hardware/KMTronicUDP.cpp.s
 
 # target to generate assembly for a file
 hardware/KMTronicUDP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/KMTronicUDP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.s
 .PHONY : hardware/KMTronicUDP.cpp.s
 
 hardware/Kodi.o: hardware/Kodi.cpp.o
@@ -1826,7 +1826,7 @@ hardware/Kodi.o: hardware/Kodi.cpp.o
 
 # target to build an object file
 hardware/Kodi.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Kodi.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Kodi.cpp.o
 .PHONY : hardware/Kodi.cpp.o
 
 hardware/Kodi.i: hardware/Kodi.cpp.i
@@ -1835,7 +1835,7 @@ hardware/Kodi.i: hardware/Kodi.cpp.i
 
 # target to preprocess a source file
 hardware/Kodi.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Kodi.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Kodi.cpp.i
 .PHONY : hardware/Kodi.cpp.i
 
 hardware/Kodi.s: hardware/Kodi.cpp.s
@@ -1844,7 +1844,7 @@ hardware/Kodi.s: hardware/Kodi.cpp.s
 
 # target to generate assembly for a file
 hardware/Kodi.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Kodi.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Kodi.cpp.s
 .PHONY : hardware/Kodi.cpp.s
 
 hardware/Limitless.o: hardware/Limitless.cpp.o
@@ -1853,7 +1853,7 @@ hardware/Limitless.o: hardware/Limitless.cpp.o
 
 # target to build an object file
 hardware/Limitless.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Limitless.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Limitless.cpp.o
 .PHONY : hardware/Limitless.cpp.o
 
 hardware/Limitless.i: hardware/Limitless.cpp.i
@@ -1862,7 +1862,7 @@ hardware/Limitless.i: hardware/Limitless.cpp.i
 
 # target to preprocess a source file
 hardware/Limitless.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Limitless.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Limitless.cpp.i
 .PHONY : hardware/Limitless.cpp.i
 
 hardware/Limitless.s: hardware/Limitless.cpp.s
@@ -1871,7 +1871,7 @@ hardware/Limitless.s: hardware/Limitless.cpp.s
 
 # target to generate assembly for a file
 hardware/Limitless.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Limitless.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Limitless.cpp.s
 .PHONY : hardware/Limitless.cpp.s
 
 hardware/LogitechMediaServer.o: hardware/LogitechMediaServer.cpp.o
@@ -1880,7 +1880,7 @@ hardware/LogitechMediaServer.o: hardware/LogitechMediaServer.cpp.o
 
 # target to build an object file
 hardware/LogitechMediaServer.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/LogitechMediaServer.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.o
 .PHONY : hardware/LogitechMediaServer.cpp.o
 
 hardware/LogitechMediaServer.i: hardware/LogitechMediaServer.cpp.i
@@ -1889,7 +1889,7 @@ hardware/LogitechMediaServer.i: hardware/LogitechMediaServer.cpp.i
 
 # target to preprocess a source file
 hardware/LogitechMediaServer.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/LogitechMediaServer.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.i
 .PHONY : hardware/LogitechMediaServer.cpp.i
 
 hardware/LogitechMediaServer.s: hardware/LogitechMediaServer.cpp.s
@@ -1898,7 +1898,7 @@ hardware/LogitechMediaServer.s: hardware/LogitechMediaServer.cpp.s
 
 # target to generate assembly for a file
 hardware/LogitechMediaServer.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/LogitechMediaServer.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.s
 .PHONY : hardware/LogitechMediaServer.cpp.s
 
 hardware/MQTT.o: hardware/MQTT.cpp.o
@@ -1907,7 +1907,7 @@ hardware/MQTT.o: hardware/MQTT.cpp.o
 
 # target to build an object file
 hardware/MQTT.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MQTT.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MQTT.cpp.o
 .PHONY : hardware/MQTT.cpp.o
 
 hardware/MQTT.i: hardware/MQTT.cpp.i
@@ -1916,7 +1916,7 @@ hardware/MQTT.i: hardware/MQTT.cpp.i
 
 # target to preprocess a source file
 hardware/MQTT.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MQTT.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MQTT.cpp.i
 .PHONY : hardware/MQTT.cpp.i
 
 hardware/MQTT.s: hardware/MQTT.cpp.s
@@ -1925,7 +1925,7 @@ hardware/MQTT.s: hardware/MQTT.cpp.s
 
 # target to generate assembly for a file
 hardware/MQTT.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MQTT.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MQTT.cpp.s
 .PHONY : hardware/MQTT.cpp.s
 
 hardware/Meteostick.o: hardware/Meteostick.cpp.o
@@ -1934,7 +1934,7 @@ hardware/Meteostick.o: hardware/Meteostick.cpp.o
 
 # target to build an object file
 hardware/Meteostick.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Meteostick.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.o
 .PHONY : hardware/Meteostick.cpp.o
 
 hardware/Meteostick.i: hardware/Meteostick.cpp.i
@@ -1943,7 +1943,7 @@ hardware/Meteostick.i: hardware/Meteostick.cpp.i
 
 # target to preprocess a source file
 hardware/Meteostick.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Meteostick.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.i
 .PHONY : hardware/Meteostick.cpp.i
 
 hardware/Meteostick.s: hardware/Meteostick.cpp.s
@@ -1952,7 +1952,7 @@ hardware/Meteostick.s: hardware/Meteostick.cpp.s
 
 # target to generate assembly for a file
 hardware/Meteostick.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Meteostick.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.s
 .PHONY : hardware/Meteostick.cpp.s
 
 hardware/MochadTCP.o: hardware/MochadTCP.cpp.o
@@ -1961,7 +1961,7 @@ hardware/MochadTCP.o: hardware/MochadTCP.cpp.o
 
 # target to build an object file
 hardware/MochadTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MochadTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.o
 .PHONY : hardware/MochadTCP.cpp.o
 
 hardware/MochadTCP.i: hardware/MochadTCP.cpp.i
@@ -1970,7 +1970,7 @@ hardware/MochadTCP.i: hardware/MochadTCP.cpp.i
 
 # target to preprocess a source file
 hardware/MochadTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MochadTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.i
 .PHONY : hardware/MochadTCP.cpp.i
 
 hardware/MochadTCP.s: hardware/MochadTCP.cpp.s
@@ -1979,7 +1979,7 @@ hardware/MochadTCP.s: hardware/MochadTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/MochadTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MochadTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.s
 .PHONY : hardware/MochadTCP.cpp.s
 
 hardware/MultiFun.o: hardware/MultiFun.cpp.o
@@ -1988,7 +1988,7 @@ hardware/MultiFun.o: hardware/MultiFun.cpp.o
 
 # target to build an object file
 hardware/MultiFun.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MultiFun.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.o
 .PHONY : hardware/MultiFun.cpp.o
 
 hardware/MultiFun.i: hardware/MultiFun.cpp.i
@@ -1997,7 +1997,7 @@ hardware/MultiFun.i: hardware/MultiFun.cpp.i
 
 # target to preprocess a source file
 hardware/MultiFun.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MultiFun.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.i
 .PHONY : hardware/MultiFun.cpp.i
 
 hardware/MultiFun.s: hardware/MultiFun.cpp.s
@@ -2006,7 +2006,7 @@ hardware/MultiFun.s: hardware/MultiFun.cpp.s
 
 # target to generate assembly for a file
 hardware/MultiFun.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MultiFun.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.s
 .PHONY : hardware/MultiFun.cpp.s
 
 hardware/MySensorsBase.o: hardware/MySensorsBase.cpp.o
@@ -2015,7 +2015,7 @@ hardware/MySensorsBase.o: hardware/MySensorsBase.cpp.o
 
 # target to build an object file
 hardware/MySensorsBase.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MySensorsBase.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.o
 .PHONY : hardware/MySensorsBase.cpp.o
 
 hardware/MySensorsBase.i: hardware/MySensorsBase.cpp.i
@@ -2024,7 +2024,7 @@ hardware/MySensorsBase.i: hardware/MySensorsBase.cpp.i
 
 # target to preprocess a source file
 hardware/MySensorsBase.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MySensorsBase.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.i
 .PHONY : hardware/MySensorsBase.cpp.i
 
 hardware/MySensorsBase.s: hardware/MySensorsBase.cpp.s
@@ -2033,7 +2033,7 @@ hardware/MySensorsBase.s: hardware/MySensorsBase.cpp.s
 
 # target to generate assembly for a file
 hardware/MySensorsBase.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MySensorsBase.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.s
 .PHONY : hardware/MySensorsBase.cpp.s
 
 hardware/MySensorsMQTT.o: hardware/MySensorsMQTT.cpp.o
@@ -2042,7 +2042,7 @@ hardware/MySensorsMQTT.o: hardware/MySensorsMQTT.cpp.o
 
 # target to build an object file
 hardware/MySensorsMQTT.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MySensorsMQTT.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.o
 .PHONY : hardware/MySensorsMQTT.cpp.o
 
 hardware/MySensorsMQTT.i: hardware/MySensorsMQTT.cpp.i
@@ -2051,7 +2051,7 @@ hardware/MySensorsMQTT.i: hardware/MySensorsMQTT.cpp.i
 
 # target to preprocess a source file
 hardware/MySensorsMQTT.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MySensorsMQTT.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.i
 .PHONY : hardware/MySensorsMQTT.cpp.i
 
 hardware/MySensorsMQTT.s: hardware/MySensorsMQTT.cpp.s
@@ -2060,7 +2060,7 @@ hardware/MySensorsMQTT.s: hardware/MySensorsMQTT.cpp.s
 
 # target to generate assembly for a file
 hardware/MySensorsMQTT.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MySensorsMQTT.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.s
 .PHONY : hardware/MySensorsMQTT.cpp.s
 
 hardware/MySensorsSerial.o: hardware/MySensorsSerial.cpp.o
@@ -2069,7 +2069,7 @@ hardware/MySensorsSerial.o: hardware/MySensorsSerial.cpp.o
 
 # target to build an object file
 hardware/MySensorsSerial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MySensorsSerial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.o
 .PHONY : hardware/MySensorsSerial.cpp.o
 
 hardware/MySensorsSerial.i: hardware/MySensorsSerial.cpp.i
@@ -2078,7 +2078,7 @@ hardware/MySensorsSerial.i: hardware/MySensorsSerial.cpp.i
 
 # target to preprocess a source file
 hardware/MySensorsSerial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MySensorsSerial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.i
 .PHONY : hardware/MySensorsSerial.cpp.i
 
 hardware/MySensorsSerial.s: hardware/MySensorsSerial.cpp.s
@@ -2087,7 +2087,7 @@ hardware/MySensorsSerial.s: hardware/MySensorsSerial.cpp.s
 
 # target to generate assembly for a file
 hardware/MySensorsSerial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MySensorsSerial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.s
 .PHONY : hardware/MySensorsSerial.cpp.s
 
 hardware/MySensorsTCP.o: hardware/MySensorsTCP.cpp.o
@@ -2096,7 +2096,7 @@ hardware/MySensorsTCP.o: hardware/MySensorsTCP.cpp.o
 
 # target to build an object file
 hardware/MySensorsTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MySensorsTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.o
 .PHONY : hardware/MySensorsTCP.cpp.o
 
 hardware/MySensorsTCP.i: hardware/MySensorsTCP.cpp.i
@@ -2105,7 +2105,7 @@ hardware/MySensorsTCP.i: hardware/MySensorsTCP.cpp.i
 
 # target to preprocess a source file
 hardware/MySensorsTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MySensorsTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.i
 .PHONY : hardware/MySensorsTCP.cpp.i
 
 hardware/MySensorsTCP.s: hardware/MySensorsTCP.cpp.s
@@ -2114,7 +2114,7 @@ hardware/MySensorsTCP.s: hardware/MySensorsTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/MySensorsTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/MySensorsTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.s
 .PHONY : hardware/MySensorsTCP.cpp.s
 
 hardware/NefitEasy.o: hardware/NefitEasy.cpp.o
@@ -2123,7 +2123,7 @@ hardware/NefitEasy.o: hardware/NefitEasy.cpp.o
 
 # target to build an object file
 hardware/NefitEasy.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/NefitEasy.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.o
 .PHONY : hardware/NefitEasy.cpp.o
 
 hardware/NefitEasy.i: hardware/NefitEasy.cpp.i
@@ -2132,7 +2132,7 @@ hardware/NefitEasy.i: hardware/NefitEasy.cpp.i
 
 # target to preprocess a source file
 hardware/NefitEasy.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/NefitEasy.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.i
 .PHONY : hardware/NefitEasy.cpp.i
 
 hardware/NefitEasy.s: hardware/NefitEasy.cpp.s
@@ -2141,7 +2141,7 @@ hardware/NefitEasy.s: hardware/NefitEasy.cpp.s
 
 # target to generate assembly for a file
 hardware/NefitEasy.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/NefitEasy.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.s
 .PHONY : hardware/NefitEasy.cpp.s
 
 hardware/Nest.o: hardware/Nest.cpp.o
@@ -2150,7 +2150,7 @@ hardware/Nest.o: hardware/Nest.cpp.o
 
 # target to build an object file
 hardware/Nest.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Nest.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Nest.cpp.o
 .PHONY : hardware/Nest.cpp.o
 
 hardware/Nest.i: hardware/Nest.cpp.i
@@ -2159,7 +2159,7 @@ hardware/Nest.i: hardware/Nest.cpp.i
 
 # target to preprocess a source file
 hardware/Nest.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Nest.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Nest.cpp.i
 .PHONY : hardware/Nest.cpp.i
 
 hardware/Nest.s: hardware/Nest.cpp.s
@@ -2168,7 +2168,7 @@ hardware/Nest.s: hardware/Nest.cpp.s
 
 # target to generate assembly for a file
 hardware/Nest.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Nest.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Nest.cpp.s
 .PHONY : hardware/Nest.cpp.s
 
 hardware/NestOAuthAPI.o: hardware/NestOAuthAPI.cpp.o
@@ -2177,7 +2177,7 @@ hardware/NestOAuthAPI.o: hardware/NestOAuthAPI.cpp.o
 
 # target to build an object file
 hardware/NestOAuthAPI.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/NestOAuthAPI.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.o
 .PHONY : hardware/NestOAuthAPI.cpp.o
 
 hardware/NestOAuthAPI.i: hardware/NestOAuthAPI.cpp.i
@@ -2186,7 +2186,7 @@ hardware/NestOAuthAPI.i: hardware/NestOAuthAPI.cpp.i
 
 # target to preprocess a source file
 hardware/NestOAuthAPI.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/NestOAuthAPI.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.i
 .PHONY : hardware/NestOAuthAPI.cpp.i
 
 hardware/NestOAuthAPI.s: hardware/NestOAuthAPI.cpp.s
@@ -2195,7 +2195,7 @@ hardware/NestOAuthAPI.s: hardware/NestOAuthAPI.cpp.s
 
 # target to generate assembly for a file
 hardware/NestOAuthAPI.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/NestOAuthAPI.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.s
 .PHONY : hardware/NestOAuthAPI.cpp.s
 
 hardware/Netatmo.o: hardware/Netatmo.cpp.o
@@ -2204,7 +2204,7 @@ hardware/Netatmo.o: hardware/Netatmo.cpp.o
 
 # target to build an object file
 hardware/Netatmo.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Netatmo.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.o
 .PHONY : hardware/Netatmo.cpp.o
 
 hardware/Netatmo.i: hardware/Netatmo.cpp.i
@@ -2213,7 +2213,7 @@ hardware/Netatmo.i: hardware/Netatmo.cpp.i
 
 # target to preprocess a source file
 hardware/Netatmo.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Netatmo.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.i
 .PHONY : hardware/Netatmo.cpp.i
 
 hardware/Netatmo.s: hardware/Netatmo.cpp.s
@@ -2222,7 +2222,7 @@ hardware/Netatmo.s: hardware/Netatmo.cpp.s
 
 # target to generate assembly for a file
 hardware/Netatmo.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Netatmo.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.s
 .PHONY : hardware/Netatmo.cpp.s
 
 hardware/OTGWBase.o: hardware/OTGWBase.cpp.o
@@ -2231,7 +2231,7 @@ hardware/OTGWBase.o: hardware/OTGWBase.cpp.o
 
 # target to build an object file
 hardware/OTGWBase.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OTGWBase.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.o
 .PHONY : hardware/OTGWBase.cpp.o
 
 hardware/OTGWBase.i: hardware/OTGWBase.cpp.i
@@ -2240,7 +2240,7 @@ hardware/OTGWBase.i: hardware/OTGWBase.cpp.i
 
 # target to preprocess a source file
 hardware/OTGWBase.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OTGWBase.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.i
 .PHONY : hardware/OTGWBase.cpp.i
 
 hardware/OTGWBase.s: hardware/OTGWBase.cpp.s
@@ -2249,7 +2249,7 @@ hardware/OTGWBase.s: hardware/OTGWBase.cpp.s
 
 # target to generate assembly for a file
 hardware/OTGWBase.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OTGWBase.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.s
 .PHONY : hardware/OTGWBase.cpp.s
 
 hardware/OTGWSerial.o: hardware/OTGWSerial.cpp.o
@@ -2258,7 +2258,7 @@ hardware/OTGWSerial.o: hardware/OTGWSerial.cpp.o
 
 # target to build an object file
 hardware/OTGWSerial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OTGWSerial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.o
 .PHONY : hardware/OTGWSerial.cpp.o
 
 hardware/OTGWSerial.i: hardware/OTGWSerial.cpp.i
@@ -2267,7 +2267,7 @@ hardware/OTGWSerial.i: hardware/OTGWSerial.cpp.i
 
 # target to preprocess a source file
 hardware/OTGWSerial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OTGWSerial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.i
 .PHONY : hardware/OTGWSerial.cpp.i
 
 hardware/OTGWSerial.s: hardware/OTGWSerial.cpp.s
@@ -2276,7 +2276,7 @@ hardware/OTGWSerial.s: hardware/OTGWSerial.cpp.s
 
 # target to generate assembly for a file
 hardware/OTGWSerial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OTGWSerial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.s
 .PHONY : hardware/OTGWSerial.cpp.s
 
 hardware/OTGWTCP.o: hardware/OTGWTCP.cpp.o
@@ -2285,7 +2285,7 @@ hardware/OTGWTCP.o: hardware/OTGWTCP.cpp.o
 
 # target to build an object file
 hardware/OTGWTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OTGWTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.o
 .PHONY : hardware/OTGWTCP.cpp.o
 
 hardware/OTGWTCP.i: hardware/OTGWTCP.cpp.i
@@ -2294,7 +2294,7 @@ hardware/OTGWTCP.i: hardware/OTGWTCP.cpp.i
 
 # target to preprocess a source file
 hardware/OTGWTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OTGWTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.i
 .PHONY : hardware/OTGWTCP.cpp.i
 
 hardware/OTGWTCP.s: hardware/OTGWTCP.cpp.s
@@ -2303,7 +2303,7 @@ hardware/OTGWTCP.s: hardware/OTGWTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/OTGWTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OTGWTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.s
 .PHONY : hardware/OTGWTCP.cpp.s
 
 hardware/OnkyoAVTCP.o: hardware/OnkyoAVTCP.cpp.o
@@ -2312,7 +2312,7 @@ hardware/OnkyoAVTCP.o: hardware/OnkyoAVTCP.cpp.o
 
 # target to build an object file
 hardware/OnkyoAVTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OnkyoAVTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.o
 .PHONY : hardware/OnkyoAVTCP.cpp.o
 
 hardware/OnkyoAVTCP.i: hardware/OnkyoAVTCP.cpp.i
@@ -2321,7 +2321,7 @@ hardware/OnkyoAVTCP.i: hardware/OnkyoAVTCP.cpp.i
 
 # target to preprocess a source file
 hardware/OnkyoAVTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OnkyoAVTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.i
 .PHONY : hardware/OnkyoAVTCP.cpp.i
 
 hardware/OnkyoAVTCP.s: hardware/OnkyoAVTCP.cpp.s
@@ -2330,7 +2330,7 @@ hardware/OnkyoAVTCP.s: hardware/OnkyoAVTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/OnkyoAVTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OnkyoAVTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.s
 .PHONY : hardware/OnkyoAVTCP.cpp.s
 
 hardware/OpenWeatherMap.o: hardware/OpenWeatherMap.cpp.o
@@ -2339,7 +2339,7 @@ hardware/OpenWeatherMap.o: hardware/OpenWeatherMap.cpp.o
 
 # target to build an object file
 hardware/OpenWeatherMap.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OpenWeatherMap.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.o
 .PHONY : hardware/OpenWeatherMap.cpp.o
 
 hardware/OpenWeatherMap.i: hardware/OpenWeatherMap.cpp.i
@@ -2348,7 +2348,7 @@ hardware/OpenWeatherMap.i: hardware/OpenWeatherMap.cpp.i
 
 # target to preprocess a source file
 hardware/OpenWeatherMap.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OpenWeatherMap.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.i
 .PHONY : hardware/OpenWeatherMap.cpp.i
 
 hardware/OpenWeatherMap.s: hardware/OpenWeatherMap.cpp.s
@@ -2357,7 +2357,7 @@ hardware/OpenWeatherMap.s: hardware/OpenWeatherMap.cpp.s
 
 # target to generate assembly for a file
 hardware/OpenWeatherMap.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OpenWeatherMap.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.s
 .PHONY : hardware/OpenWeatherMap.cpp.s
 
 hardware/OpenWebNetTCP.o: hardware/OpenWebNetTCP.cpp.o
@@ -2366,7 +2366,7 @@ hardware/OpenWebNetTCP.o: hardware/OpenWebNetTCP.cpp.o
 
 # target to build an object file
 hardware/OpenWebNetTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OpenWebNetTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.o
 .PHONY : hardware/OpenWebNetTCP.cpp.o
 
 hardware/OpenWebNetTCP.i: hardware/OpenWebNetTCP.cpp.i
@@ -2375,7 +2375,7 @@ hardware/OpenWebNetTCP.i: hardware/OpenWebNetTCP.cpp.i
 
 # target to preprocess a source file
 hardware/OpenWebNetTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OpenWebNetTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.i
 .PHONY : hardware/OpenWebNetTCP.cpp.i
 
 hardware/OpenWebNetTCP.s: hardware/OpenWebNetTCP.cpp.s
@@ -2384,7 +2384,7 @@ hardware/OpenWebNetTCP.s: hardware/OpenWebNetTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/OpenWebNetTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OpenWebNetTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.s
 .PHONY : hardware/OpenWebNetTCP.cpp.s
 
 hardware/OpenWebNetUSB.o: hardware/OpenWebNetUSB.cpp.o
@@ -2393,7 +2393,7 @@ hardware/OpenWebNetUSB.o: hardware/OpenWebNetUSB.cpp.o
 
 # target to build an object file
 hardware/OpenWebNetUSB.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OpenWebNetUSB.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.o
 .PHONY : hardware/OpenWebNetUSB.cpp.o
 
 hardware/OpenWebNetUSB.i: hardware/OpenWebNetUSB.cpp.i
@@ -2402,7 +2402,7 @@ hardware/OpenWebNetUSB.i: hardware/OpenWebNetUSB.cpp.i
 
 # target to preprocess a source file
 hardware/OpenWebNetUSB.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OpenWebNetUSB.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.i
 .PHONY : hardware/OpenWebNetUSB.cpp.i
 
 hardware/OpenWebNetUSB.s: hardware/OpenWebNetUSB.cpp.s
@@ -2411,7 +2411,7 @@ hardware/OpenWebNetUSB.s: hardware/OpenWebNetUSB.cpp.s
 
 # target to generate assembly for a file
 hardware/OpenWebNetUSB.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OpenWebNetUSB.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.s
 .PHONY : hardware/OpenWebNetUSB.cpp.s
 
 hardware/OpenZWave.o: hardware/OpenZWave.cpp.o
@@ -2420,7 +2420,7 @@ hardware/OpenZWave.o: hardware/OpenZWave.cpp.o
 
 # target to build an object file
 hardware/OpenZWave.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OpenZWave.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.o
 .PHONY : hardware/OpenZWave.cpp.o
 
 hardware/OpenZWave.i: hardware/OpenZWave.cpp.i
@@ -2429,7 +2429,7 @@ hardware/OpenZWave.i: hardware/OpenZWave.cpp.i
 
 # target to preprocess a source file
 hardware/OpenZWave.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OpenZWave.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.i
 .PHONY : hardware/OpenZWave.cpp.i
 
 hardware/OpenZWave.s: hardware/OpenZWave.cpp.s
@@ -2438,7 +2438,7 @@ hardware/OpenZWave.s: hardware/OpenZWave.cpp.s
 
 # target to generate assembly for a file
 hardware/OpenZWave.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/OpenZWave.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.s
 .PHONY : hardware/OpenZWave.cpp.s
 
 hardware/P1MeterBase.o: hardware/P1MeterBase.cpp.o
@@ -2447,7 +2447,7 @@ hardware/P1MeterBase.o: hardware/P1MeterBase.cpp.o
 
 # target to build an object file
 hardware/P1MeterBase.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/P1MeterBase.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.o
 .PHONY : hardware/P1MeterBase.cpp.o
 
 hardware/P1MeterBase.i: hardware/P1MeterBase.cpp.i
@@ -2456,7 +2456,7 @@ hardware/P1MeterBase.i: hardware/P1MeterBase.cpp.i
 
 # target to preprocess a source file
 hardware/P1MeterBase.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/P1MeterBase.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.i
 .PHONY : hardware/P1MeterBase.cpp.i
 
 hardware/P1MeterBase.s: hardware/P1MeterBase.cpp.s
@@ -2465,7 +2465,7 @@ hardware/P1MeterBase.s: hardware/P1MeterBase.cpp.s
 
 # target to generate assembly for a file
 hardware/P1MeterBase.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/P1MeterBase.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.s
 .PHONY : hardware/P1MeterBase.cpp.s
 
 hardware/P1MeterSerial.o: hardware/P1MeterSerial.cpp.o
@@ -2474,7 +2474,7 @@ hardware/P1MeterSerial.o: hardware/P1MeterSerial.cpp.o
 
 # target to build an object file
 hardware/P1MeterSerial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/P1MeterSerial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.o
 .PHONY : hardware/P1MeterSerial.cpp.o
 
 hardware/P1MeterSerial.i: hardware/P1MeterSerial.cpp.i
@@ -2483,7 +2483,7 @@ hardware/P1MeterSerial.i: hardware/P1MeterSerial.cpp.i
 
 # target to preprocess a source file
 hardware/P1MeterSerial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/P1MeterSerial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.i
 .PHONY : hardware/P1MeterSerial.cpp.i
 
 hardware/P1MeterSerial.s: hardware/P1MeterSerial.cpp.s
@@ -2492,7 +2492,7 @@ hardware/P1MeterSerial.s: hardware/P1MeterSerial.cpp.s
 
 # target to generate assembly for a file
 hardware/P1MeterSerial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/P1MeterSerial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.s
 .PHONY : hardware/P1MeterSerial.cpp.s
 
 hardware/P1MeterTCP.o: hardware/P1MeterTCP.cpp.o
@@ -2501,7 +2501,7 @@ hardware/P1MeterTCP.o: hardware/P1MeterTCP.cpp.o
 
 # target to build an object file
 hardware/P1MeterTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/P1MeterTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.o
 .PHONY : hardware/P1MeterTCP.cpp.o
 
 hardware/P1MeterTCP.i: hardware/P1MeterTCP.cpp.i
@@ -2510,7 +2510,7 @@ hardware/P1MeterTCP.i: hardware/P1MeterTCP.cpp.i
 
 # target to preprocess a source file
 hardware/P1MeterTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/P1MeterTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.i
 .PHONY : hardware/P1MeterTCP.cpp.i
 
 hardware/P1MeterTCP.s: hardware/P1MeterTCP.cpp.s
@@ -2519,7 +2519,7 @@ hardware/P1MeterTCP.s: hardware/P1MeterTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/P1MeterTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/P1MeterTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.s
 .PHONY : hardware/P1MeterTCP.cpp.s
 
 hardware/PVOutput_Input.o: hardware/PVOutput_Input.cpp.o
@@ -2528,7 +2528,7 @@ hardware/PVOutput_Input.o: hardware/PVOutput_Input.cpp.o
 
 # target to build an object file
 hardware/PVOutput_Input.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PVOutput_Input.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.o
 .PHONY : hardware/PVOutput_Input.cpp.o
 
 hardware/PVOutput_Input.i: hardware/PVOutput_Input.cpp.i
@@ -2537,7 +2537,7 @@ hardware/PVOutput_Input.i: hardware/PVOutput_Input.cpp.i
 
 # target to preprocess a source file
 hardware/PVOutput_Input.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PVOutput_Input.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.i
 .PHONY : hardware/PVOutput_Input.cpp.i
 
 hardware/PVOutput_Input.s: hardware/PVOutput_Input.cpp.s
@@ -2546,7 +2546,7 @@ hardware/PVOutput_Input.s: hardware/PVOutput_Input.cpp.s
 
 # target to generate assembly for a file
 hardware/PVOutput_Input.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PVOutput_Input.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.s
 .PHONY : hardware/PVOutput_Input.cpp.s
 
 hardware/PanasonicTV.o: hardware/PanasonicTV.cpp.o
@@ -2555,7 +2555,7 @@ hardware/PanasonicTV.o: hardware/PanasonicTV.cpp.o
 
 # target to build an object file
 hardware/PanasonicTV.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PanasonicTV.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.o
 .PHONY : hardware/PanasonicTV.cpp.o
 
 hardware/PanasonicTV.i: hardware/PanasonicTV.cpp.i
@@ -2564,7 +2564,7 @@ hardware/PanasonicTV.i: hardware/PanasonicTV.cpp.i
 
 # target to preprocess a source file
 hardware/PanasonicTV.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PanasonicTV.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.i
 .PHONY : hardware/PanasonicTV.cpp.i
 
 hardware/PanasonicTV.s: hardware/PanasonicTV.cpp.s
@@ -2573,7 +2573,7 @@ hardware/PanasonicTV.s: hardware/PanasonicTV.cpp.s
 
 # target to generate assembly for a file
 hardware/PanasonicTV.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PanasonicTV.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.s
 .PHONY : hardware/PanasonicTV.cpp.s
 
 hardware/PhilipsHue/PhilipsHue.o: hardware/PhilipsHue/PhilipsHue.cpp.o
@@ -2582,7 +2582,7 @@ hardware/PhilipsHue/PhilipsHue.o: hardware/PhilipsHue/PhilipsHue.cpp.o
 
 # target to build an object file
 hardware/PhilipsHue/PhilipsHue.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PhilipsHue/PhilipsHue.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.o
 .PHONY : hardware/PhilipsHue/PhilipsHue.cpp.o
 
 hardware/PhilipsHue/PhilipsHue.i: hardware/PhilipsHue/PhilipsHue.cpp.i
@@ -2591,7 +2591,7 @@ hardware/PhilipsHue/PhilipsHue.i: hardware/PhilipsHue/PhilipsHue.cpp.i
 
 # target to preprocess a source file
 hardware/PhilipsHue/PhilipsHue.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PhilipsHue/PhilipsHue.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.i
 .PHONY : hardware/PhilipsHue/PhilipsHue.cpp.i
 
 hardware/PhilipsHue/PhilipsHue.s: hardware/PhilipsHue/PhilipsHue.cpp.s
@@ -2600,7 +2600,7 @@ hardware/PhilipsHue/PhilipsHue.s: hardware/PhilipsHue/PhilipsHue.cpp.s
 
 # target to generate assembly for a file
 hardware/PhilipsHue/PhilipsHue.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PhilipsHue/PhilipsHue.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.s
 .PHONY : hardware/PhilipsHue/PhilipsHue.cpp.s
 
 hardware/PhilipsHue/PhilipsHueHelper.o: hardware/PhilipsHue/PhilipsHueHelper.cpp.o
@@ -2609,7 +2609,7 @@ hardware/PhilipsHue/PhilipsHueHelper.o: hardware/PhilipsHue/PhilipsHueHelper.cpp
 
 # target to build an object file
 hardware/PhilipsHue/PhilipsHueHelper.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.o
 .PHONY : hardware/PhilipsHue/PhilipsHueHelper.cpp.o
 
 hardware/PhilipsHue/PhilipsHueHelper.i: hardware/PhilipsHue/PhilipsHueHelper.cpp.i
@@ -2618,7 +2618,7 @@ hardware/PhilipsHue/PhilipsHueHelper.i: hardware/PhilipsHue/PhilipsHueHelper.cpp
 
 # target to preprocess a source file
 hardware/PhilipsHue/PhilipsHueHelper.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.i
 .PHONY : hardware/PhilipsHue/PhilipsHueHelper.cpp.i
 
 hardware/PhilipsHue/PhilipsHueHelper.s: hardware/PhilipsHue/PhilipsHueHelper.cpp.s
@@ -2627,7 +2627,7 @@ hardware/PhilipsHue/PhilipsHueHelper.s: hardware/PhilipsHue/PhilipsHueHelper.cpp
 
 # target to generate assembly for a file
 hardware/PhilipsHue/PhilipsHueHelper.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.s
 .PHONY : hardware/PhilipsHue/PhilipsHueHelper.cpp.s
 
 hardware/PhilipsHue/PhilipsHueSensors.o: hardware/PhilipsHue/PhilipsHueSensors.cpp.o
@@ -2636,7 +2636,7 @@ hardware/PhilipsHue/PhilipsHueSensors.o: hardware/PhilipsHue/PhilipsHueSensors.c
 
 # target to build an object file
 hardware/PhilipsHue/PhilipsHueSensors.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.o
 .PHONY : hardware/PhilipsHue/PhilipsHueSensors.cpp.o
 
 hardware/PhilipsHue/PhilipsHueSensors.i: hardware/PhilipsHue/PhilipsHueSensors.cpp.i
@@ -2645,7 +2645,7 @@ hardware/PhilipsHue/PhilipsHueSensors.i: hardware/PhilipsHue/PhilipsHueSensors.c
 
 # target to preprocess a source file
 hardware/PhilipsHue/PhilipsHueSensors.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.i
 .PHONY : hardware/PhilipsHue/PhilipsHueSensors.cpp.i
 
 hardware/PhilipsHue/PhilipsHueSensors.s: hardware/PhilipsHue/PhilipsHueSensors.cpp.s
@@ -2654,7 +2654,7 @@ hardware/PhilipsHue/PhilipsHueSensors.s: hardware/PhilipsHue/PhilipsHueSensors.c
 
 # target to generate assembly for a file
 hardware/PhilipsHue/PhilipsHueSensors.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.s
 .PHONY : hardware/PhilipsHue/PhilipsHueSensors.cpp.s
 
 hardware/PiFace.o: hardware/PiFace.cpp.o
@@ -2663,7 +2663,7 @@ hardware/PiFace.o: hardware/PiFace.cpp.o
 
 # target to build an object file
 hardware/PiFace.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PiFace.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PiFace.cpp.o
 .PHONY : hardware/PiFace.cpp.o
 
 hardware/PiFace.i: hardware/PiFace.cpp.i
@@ -2672,7 +2672,7 @@ hardware/PiFace.i: hardware/PiFace.cpp.i
 
 # target to preprocess a source file
 hardware/PiFace.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PiFace.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PiFace.cpp.i
 .PHONY : hardware/PiFace.cpp.i
 
 hardware/PiFace.s: hardware/PiFace.cpp.s
@@ -2681,7 +2681,7 @@ hardware/PiFace.s: hardware/PiFace.cpp.s
 
 # target to generate assembly for a file
 hardware/PiFace.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/PiFace.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/PiFace.cpp.s
 .PHONY : hardware/PiFace.cpp.s
 
 hardware/Pinger.o: hardware/Pinger.cpp.o
@@ -2690,7 +2690,7 @@ hardware/Pinger.o: hardware/Pinger.cpp.o
 
 # target to build an object file
 hardware/Pinger.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Pinger.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Pinger.cpp.o
 .PHONY : hardware/Pinger.cpp.o
 
 hardware/Pinger.i: hardware/Pinger.cpp.i
@@ -2699,7 +2699,7 @@ hardware/Pinger.i: hardware/Pinger.cpp.i
 
 # target to preprocess a source file
 hardware/Pinger.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Pinger.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Pinger.cpp.i
 .PHONY : hardware/Pinger.cpp.i
 
 hardware/Pinger.s: hardware/Pinger.cpp.s
@@ -2708,7 +2708,7 @@ hardware/Pinger.s: hardware/Pinger.cpp.s
 
 # target to generate assembly for a file
 hardware/Pinger.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Pinger.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Pinger.cpp.s
 .PHONY : hardware/Pinger.cpp.s
 
 hardware/RAVEn.o: hardware/RAVEn.cpp.o
@@ -2717,7 +2717,7 @@ hardware/RAVEn.o: hardware/RAVEn.cpp.o
 
 # target to build an object file
 hardware/RAVEn.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RAVEn.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.o
 .PHONY : hardware/RAVEn.cpp.o
 
 hardware/RAVEn.i: hardware/RAVEn.cpp.i
@@ -2726,7 +2726,7 @@ hardware/RAVEn.i: hardware/RAVEn.cpp.i
 
 # target to preprocess a source file
 hardware/RAVEn.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RAVEn.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.i
 .PHONY : hardware/RAVEn.cpp.i
 
 hardware/RAVEn.s: hardware/RAVEn.cpp.s
@@ -2735,7 +2735,7 @@ hardware/RAVEn.s: hardware/RAVEn.cpp.s
 
 # target to generate assembly for a file
 hardware/RAVEn.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RAVEn.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.s
 .PHONY : hardware/RAVEn.cpp.s
 
 hardware/RFLinkBase.o: hardware/RFLinkBase.cpp.o
@@ -2744,7 +2744,7 @@ hardware/RFLinkBase.o: hardware/RFLinkBase.cpp.o
 
 # target to build an object file
 hardware/RFLinkBase.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFLinkBase.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.o
 .PHONY : hardware/RFLinkBase.cpp.o
 
 hardware/RFLinkBase.i: hardware/RFLinkBase.cpp.i
@@ -2753,7 +2753,7 @@ hardware/RFLinkBase.i: hardware/RFLinkBase.cpp.i
 
 # target to preprocess a source file
 hardware/RFLinkBase.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFLinkBase.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.i
 .PHONY : hardware/RFLinkBase.cpp.i
 
 hardware/RFLinkBase.s: hardware/RFLinkBase.cpp.s
@@ -2762,7 +2762,7 @@ hardware/RFLinkBase.s: hardware/RFLinkBase.cpp.s
 
 # target to generate assembly for a file
 hardware/RFLinkBase.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFLinkBase.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.s
 .PHONY : hardware/RFLinkBase.cpp.s
 
 hardware/RFLinkSerial.o: hardware/RFLinkSerial.cpp.o
@@ -2771,7 +2771,7 @@ hardware/RFLinkSerial.o: hardware/RFLinkSerial.cpp.o
 
 # target to build an object file
 hardware/RFLinkSerial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFLinkSerial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.o
 .PHONY : hardware/RFLinkSerial.cpp.o
 
 hardware/RFLinkSerial.i: hardware/RFLinkSerial.cpp.i
@@ -2780,7 +2780,7 @@ hardware/RFLinkSerial.i: hardware/RFLinkSerial.cpp.i
 
 # target to preprocess a source file
 hardware/RFLinkSerial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFLinkSerial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.i
 .PHONY : hardware/RFLinkSerial.cpp.i
 
 hardware/RFLinkSerial.s: hardware/RFLinkSerial.cpp.s
@@ -2789,7 +2789,7 @@ hardware/RFLinkSerial.s: hardware/RFLinkSerial.cpp.s
 
 # target to generate assembly for a file
 hardware/RFLinkSerial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFLinkSerial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.s
 .PHONY : hardware/RFLinkSerial.cpp.s
 
 hardware/RFLinkTCP.o: hardware/RFLinkTCP.cpp.o
@@ -2798,7 +2798,7 @@ hardware/RFLinkTCP.o: hardware/RFLinkTCP.cpp.o
 
 # target to build an object file
 hardware/RFLinkTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFLinkTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.o
 .PHONY : hardware/RFLinkTCP.cpp.o
 
 hardware/RFLinkTCP.i: hardware/RFLinkTCP.cpp.i
@@ -2807,7 +2807,7 @@ hardware/RFLinkTCP.i: hardware/RFLinkTCP.cpp.i
 
 # target to preprocess a source file
 hardware/RFLinkTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFLinkTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.i
 .PHONY : hardware/RFLinkTCP.cpp.i
 
 hardware/RFLinkTCP.s: hardware/RFLinkTCP.cpp.s
@@ -2816,7 +2816,7 @@ hardware/RFLinkTCP.s: hardware/RFLinkTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/RFLinkTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFLinkTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.s
 .PHONY : hardware/RFLinkTCP.cpp.s
 
 hardware/RFXBase.o: hardware/RFXBase.cpp.o
@@ -2825,7 +2825,7 @@ hardware/RFXBase.o: hardware/RFXBase.cpp.o
 
 # target to build an object file
 hardware/RFXBase.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFXBase.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.o
 .PHONY : hardware/RFXBase.cpp.o
 
 hardware/RFXBase.i: hardware/RFXBase.cpp.i
@@ -2834,7 +2834,7 @@ hardware/RFXBase.i: hardware/RFXBase.cpp.i
 
 # target to preprocess a source file
 hardware/RFXBase.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFXBase.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.i
 .PHONY : hardware/RFXBase.cpp.i
 
 hardware/RFXBase.s: hardware/RFXBase.cpp.s
@@ -2843,7 +2843,7 @@ hardware/RFXBase.s: hardware/RFXBase.cpp.s
 
 # target to generate assembly for a file
 hardware/RFXBase.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFXBase.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.s
 .PHONY : hardware/RFXBase.cpp.s
 
 hardware/RFXComSerial.o: hardware/RFXComSerial.cpp.o
@@ -2852,7 +2852,7 @@ hardware/RFXComSerial.o: hardware/RFXComSerial.cpp.o
 
 # target to build an object file
 hardware/RFXComSerial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFXComSerial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.o
 .PHONY : hardware/RFXComSerial.cpp.o
 
 hardware/RFXComSerial.i: hardware/RFXComSerial.cpp.i
@@ -2861,7 +2861,7 @@ hardware/RFXComSerial.i: hardware/RFXComSerial.cpp.i
 
 # target to preprocess a source file
 hardware/RFXComSerial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFXComSerial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.i
 .PHONY : hardware/RFXComSerial.cpp.i
 
 hardware/RFXComSerial.s: hardware/RFXComSerial.cpp.s
@@ -2870,7 +2870,7 @@ hardware/RFXComSerial.s: hardware/RFXComSerial.cpp.s
 
 # target to generate assembly for a file
 hardware/RFXComSerial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFXComSerial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.s
 .PHONY : hardware/RFXComSerial.cpp.s
 
 hardware/RFXComTCP.o: hardware/RFXComTCP.cpp.o
@@ -2879,7 +2879,7 @@ hardware/RFXComTCP.o: hardware/RFXComTCP.cpp.o
 
 # target to build an object file
 hardware/RFXComTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFXComTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.o
 .PHONY : hardware/RFXComTCP.cpp.o
 
 hardware/RFXComTCP.i: hardware/RFXComTCP.cpp.i
@@ -2888,7 +2888,7 @@ hardware/RFXComTCP.i: hardware/RFXComTCP.cpp.i
 
 # target to preprocess a source file
 hardware/RFXComTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFXComTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.i
 .PHONY : hardware/RFXComTCP.cpp.i
 
 hardware/RFXComTCP.s: hardware/RFXComTCP.cpp.s
@@ -2897,7 +2897,7 @@ hardware/RFXComTCP.s: hardware/RFXComTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/RFXComTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RFXComTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.s
 .PHONY : hardware/RFXComTCP.cpp.s
 
 hardware/Razberry.o: hardware/Razberry.cpp.o
@@ -2906,7 +2906,7 @@ hardware/Razberry.o: hardware/Razberry.cpp.o
 
 # target to build an object file
 hardware/Razberry.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Razberry.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Razberry.cpp.o
 .PHONY : hardware/Razberry.cpp.o
 
 hardware/Razberry.i: hardware/Razberry.cpp.i
@@ -2915,7 +2915,7 @@ hardware/Razberry.i: hardware/Razberry.cpp.i
 
 # target to preprocess a source file
 hardware/Razberry.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Razberry.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Razberry.cpp.i
 .PHONY : hardware/Razberry.cpp.i
 
 hardware/Razberry.s: hardware/Razberry.cpp.s
@@ -2924,7 +2924,7 @@ hardware/Razberry.s: hardware/Razberry.cpp.s
 
 # target to generate assembly for a file
 hardware/Razberry.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Razberry.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Razberry.cpp.s
 .PHONY : hardware/Razberry.cpp.s
 
 hardware/Rego6XXSerial.o: hardware/Rego6XXSerial.cpp.o
@@ -2933,7 +2933,7 @@ hardware/Rego6XXSerial.o: hardware/Rego6XXSerial.cpp.o
 
 # target to build an object file
 hardware/Rego6XXSerial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Rego6XXSerial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.o
 .PHONY : hardware/Rego6XXSerial.cpp.o
 
 hardware/Rego6XXSerial.i: hardware/Rego6XXSerial.cpp.i
@@ -2942,7 +2942,7 @@ hardware/Rego6XXSerial.i: hardware/Rego6XXSerial.cpp.i
 
 # target to preprocess a source file
 hardware/Rego6XXSerial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Rego6XXSerial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.i
 .PHONY : hardware/Rego6XXSerial.cpp.i
 
 hardware/Rego6XXSerial.s: hardware/Rego6XXSerial.cpp.s
@@ -2951,7 +2951,7 @@ hardware/Rego6XXSerial.s: hardware/Rego6XXSerial.cpp.s
 
 # target to generate assembly for a file
 hardware/Rego6XXSerial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Rego6XXSerial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.s
 .PHONY : hardware/Rego6XXSerial.cpp.s
 
 hardware/RelayNet.o: hardware/RelayNet.cpp.o
@@ -2960,7 +2960,7 @@ hardware/RelayNet.o: hardware/RelayNet.cpp.o
 
 # target to build an object file
 hardware/RelayNet.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RelayNet.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.o
 .PHONY : hardware/RelayNet.cpp.o
 
 hardware/RelayNet.i: hardware/RelayNet.cpp.i
@@ -2969,7 +2969,7 @@ hardware/RelayNet.i: hardware/RelayNet.cpp.i
 
 # target to preprocess a source file
 hardware/RelayNet.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RelayNet.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.i
 .PHONY : hardware/RelayNet.cpp.i
 
 hardware/RelayNet.s: hardware/RelayNet.cpp.s
@@ -2978,7 +2978,7 @@ hardware/RelayNet.s: hardware/RelayNet.cpp.s
 
 # target to generate assembly for a file
 hardware/RelayNet.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/RelayNet.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.s
 .PHONY : hardware/RelayNet.cpp.s
 
 hardware/Rtl433.o: hardware/Rtl433.cpp.o
@@ -2987,7 +2987,7 @@ hardware/Rtl433.o: hardware/Rtl433.cpp.o
 
 # target to build an object file
 hardware/Rtl433.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Rtl433.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.o
 .PHONY : hardware/Rtl433.cpp.o
 
 hardware/Rtl433.i: hardware/Rtl433.cpp.i
@@ -2996,7 +2996,7 @@ hardware/Rtl433.i: hardware/Rtl433.cpp.i
 
 # target to preprocess a source file
 hardware/Rtl433.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Rtl433.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.i
 .PHONY : hardware/Rtl433.cpp.i
 
 hardware/Rtl433.s: hardware/Rtl433.cpp.s
@@ -3005,7 +3005,7 @@ hardware/Rtl433.s: hardware/Rtl433.cpp.s
 
 # target to generate assembly for a file
 hardware/Rtl433.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Rtl433.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.s
 .PHONY : hardware/Rtl433.cpp.s
 
 hardware/S0MeterBase.o: hardware/S0MeterBase.cpp.o
@@ -3014,7 +3014,7 @@ hardware/S0MeterBase.o: hardware/S0MeterBase.cpp.o
 
 # target to build an object file
 hardware/S0MeterBase.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/S0MeterBase.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.o
 .PHONY : hardware/S0MeterBase.cpp.o
 
 hardware/S0MeterBase.i: hardware/S0MeterBase.cpp.i
@@ -3023,7 +3023,7 @@ hardware/S0MeterBase.i: hardware/S0MeterBase.cpp.i
 
 # target to preprocess a source file
 hardware/S0MeterBase.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/S0MeterBase.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.i
 .PHONY : hardware/S0MeterBase.cpp.i
 
 hardware/S0MeterBase.s: hardware/S0MeterBase.cpp.s
@@ -3032,7 +3032,7 @@ hardware/S0MeterBase.s: hardware/S0MeterBase.cpp.s
 
 # target to generate assembly for a file
 hardware/S0MeterBase.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/S0MeterBase.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.s
 .PHONY : hardware/S0MeterBase.cpp.s
 
 hardware/S0MeterSerial.o: hardware/S0MeterSerial.cpp.o
@@ -3041,7 +3041,7 @@ hardware/S0MeterSerial.o: hardware/S0MeterSerial.cpp.o
 
 # target to build an object file
 hardware/S0MeterSerial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/S0MeterSerial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.o
 .PHONY : hardware/S0MeterSerial.cpp.o
 
 hardware/S0MeterSerial.i: hardware/S0MeterSerial.cpp.i
@@ -3050,7 +3050,7 @@ hardware/S0MeterSerial.i: hardware/S0MeterSerial.cpp.i
 
 # target to preprocess a source file
 hardware/S0MeterSerial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/S0MeterSerial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.i
 .PHONY : hardware/S0MeterSerial.cpp.i
 
 hardware/S0MeterSerial.s: hardware/S0MeterSerial.cpp.s
@@ -3059,7 +3059,7 @@ hardware/S0MeterSerial.s: hardware/S0MeterSerial.cpp.s
 
 # target to generate assembly for a file
 hardware/S0MeterSerial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/S0MeterSerial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.s
 .PHONY : hardware/S0MeterSerial.cpp.s
 
 hardware/S0MeterTCP.o: hardware/S0MeterTCP.cpp.o
@@ -3068,7 +3068,7 @@ hardware/S0MeterTCP.o: hardware/S0MeterTCP.cpp.o
 
 # target to build an object file
 hardware/S0MeterTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/S0MeterTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.o
 .PHONY : hardware/S0MeterTCP.cpp.o
 
 hardware/S0MeterTCP.i: hardware/S0MeterTCP.cpp.i
@@ -3077,7 +3077,7 @@ hardware/S0MeterTCP.i: hardware/S0MeterTCP.cpp.i
 
 # target to preprocess a source file
 hardware/S0MeterTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/S0MeterTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.i
 .PHONY : hardware/S0MeterTCP.cpp.i
 
 hardware/S0MeterTCP.s: hardware/S0MeterTCP.cpp.s
@@ -3086,7 +3086,7 @@ hardware/S0MeterTCP.s: hardware/S0MeterTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/S0MeterTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/S0MeterTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.s
 .PHONY : hardware/S0MeterTCP.cpp.s
 
 hardware/SBFSpot.o: hardware/SBFSpot.cpp.o
@@ -3095,7 +3095,7 @@ hardware/SBFSpot.o: hardware/SBFSpot.cpp.o
 
 # target to build an object file
 hardware/SBFSpot.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SBFSpot.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.o
 .PHONY : hardware/SBFSpot.cpp.o
 
 hardware/SBFSpot.i: hardware/SBFSpot.cpp.i
@@ -3104,7 +3104,7 @@ hardware/SBFSpot.i: hardware/SBFSpot.cpp.i
 
 # target to preprocess a source file
 hardware/SBFSpot.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SBFSpot.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.i
 .PHONY : hardware/SBFSpot.cpp.i
 
 hardware/SBFSpot.s: hardware/SBFSpot.cpp.s
@@ -3113,7 +3113,7 @@ hardware/SBFSpot.s: hardware/SBFSpot.cpp.s
 
 # target to generate assembly for a file
 hardware/SBFSpot.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SBFSpot.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.s
 .PHONY : hardware/SBFSpot.cpp.s
 
 hardware/SatelIntegra.o: hardware/SatelIntegra.cpp.o
@@ -3122,7 +3122,7 @@ hardware/SatelIntegra.o: hardware/SatelIntegra.cpp.o
 
 # target to build an object file
 hardware/SatelIntegra.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SatelIntegra.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.o
 .PHONY : hardware/SatelIntegra.cpp.o
 
 hardware/SatelIntegra.i: hardware/SatelIntegra.cpp.i
@@ -3131,7 +3131,7 @@ hardware/SatelIntegra.i: hardware/SatelIntegra.cpp.i
 
 # target to preprocess a source file
 hardware/SatelIntegra.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SatelIntegra.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.i
 .PHONY : hardware/SatelIntegra.cpp.i
 
 hardware/SatelIntegra.s: hardware/SatelIntegra.cpp.s
@@ -3140,7 +3140,7 @@ hardware/SatelIntegra.s: hardware/SatelIntegra.cpp.s
 
 # target to generate assembly for a file
 hardware/SatelIntegra.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SatelIntegra.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.s
 .PHONY : hardware/SatelIntegra.cpp.s
 
 hardware/SolarEdgeAPI.o: hardware/SolarEdgeAPI.cpp.o
@@ -3149,7 +3149,7 @@ hardware/SolarEdgeAPI.o: hardware/SolarEdgeAPI.cpp.o
 
 # target to build an object file
 hardware/SolarEdgeAPI.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SolarEdgeAPI.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.o
 .PHONY : hardware/SolarEdgeAPI.cpp.o
 
 hardware/SolarEdgeAPI.i: hardware/SolarEdgeAPI.cpp.i
@@ -3158,7 +3158,7 @@ hardware/SolarEdgeAPI.i: hardware/SolarEdgeAPI.cpp.i
 
 # target to preprocess a source file
 hardware/SolarEdgeAPI.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SolarEdgeAPI.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.i
 .PHONY : hardware/SolarEdgeAPI.cpp.i
 
 hardware/SolarEdgeAPI.s: hardware/SolarEdgeAPI.cpp.s
@@ -3167,7 +3167,7 @@ hardware/SolarEdgeAPI.s: hardware/SolarEdgeAPI.cpp.s
 
 # target to generate assembly for a file
 hardware/SolarEdgeAPI.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SolarEdgeAPI.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.s
 .PHONY : hardware/SolarEdgeAPI.cpp.s
 
 hardware/SolarMaxTCP.o: hardware/SolarMaxTCP.cpp.o
@@ -3176,7 +3176,7 @@ hardware/SolarMaxTCP.o: hardware/SolarMaxTCP.cpp.o
 
 # target to build an object file
 hardware/SolarMaxTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SolarMaxTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.o
 .PHONY : hardware/SolarMaxTCP.cpp.o
 
 hardware/SolarMaxTCP.i: hardware/SolarMaxTCP.cpp.i
@@ -3185,7 +3185,7 @@ hardware/SolarMaxTCP.i: hardware/SolarMaxTCP.cpp.i
 
 # target to preprocess a source file
 hardware/SolarMaxTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SolarMaxTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.i
 .PHONY : hardware/SolarMaxTCP.cpp.i
 
 hardware/SolarMaxTCP.s: hardware/SolarMaxTCP.cpp.s
@@ -3194,7 +3194,7 @@ hardware/SolarMaxTCP.s: hardware/SolarMaxTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/SolarMaxTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SolarMaxTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.s
 .PHONY : hardware/SolarMaxTCP.cpp.s
 
 hardware/Sterbox.o: hardware/Sterbox.cpp.o
@@ -3203,7 +3203,7 @@ hardware/Sterbox.o: hardware/Sterbox.cpp.o
 
 # target to build an object file
 hardware/Sterbox.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Sterbox.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.o
 .PHONY : hardware/Sterbox.cpp.o
 
 hardware/Sterbox.i: hardware/Sterbox.cpp.i
@@ -3212,7 +3212,7 @@ hardware/Sterbox.i: hardware/Sterbox.cpp.i
 
 # target to preprocess a source file
 hardware/Sterbox.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Sterbox.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.i
 .PHONY : hardware/Sterbox.cpp.i
 
 hardware/Sterbox.s: hardware/Sterbox.cpp.s
@@ -3221,7 +3221,7 @@ hardware/Sterbox.s: hardware/Sterbox.cpp.s
 
 # target to generate assembly for a file
 hardware/Sterbox.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Sterbox.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.s
 .PHONY : hardware/Sterbox.cpp.s
 
 hardware/SysfsGpio.o: hardware/SysfsGpio.cpp.o
@@ -3230,7 +3230,7 @@ hardware/SysfsGpio.o: hardware/SysfsGpio.cpp.o
 
 # target to build an object file
 hardware/SysfsGpio.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SysfsGpio.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.o
 .PHONY : hardware/SysfsGpio.cpp.o
 
 hardware/SysfsGpio.i: hardware/SysfsGpio.cpp.i
@@ -3239,7 +3239,7 @@ hardware/SysfsGpio.i: hardware/SysfsGpio.cpp.i
 
 # target to preprocess a source file
 hardware/SysfsGpio.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SysfsGpio.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.i
 .PHONY : hardware/SysfsGpio.cpp.i
 
 hardware/SysfsGpio.s: hardware/SysfsGpio.cpp.s
@@ -3248,7 +3248,7 @@ hardware/SysfsGpio.s: hardware/SysfsGpio.cpp.s
 
 # target to generate assembly for a file
 hardware/SysfsGpio.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/SysfsGpio.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.s
 .PHONY : hardware/SysfsGpio.cpp.s
 
 hardware/TCPProxy/tcpproxy_server.o: hardware/TCPProxy/tcpproxy_server.cpp.o
@@ -3257,7 +3257,7 @@ hardware/TCPProxy/tcpproxy_server.o: hardware/TCPProxy/tcpproxy_server.cpp.o
 
 # target to build an object file
 hardware/TCPProxy/tcpproxy_server.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TCPProxy/tcpproxy_server.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.o
 .PHONY : hardware/TCPProxy/tcpproxy_server.cpp.o
 
 hardware/TCPProxy/tcpproxy_server.i: hardware/TCPProxy/tcpproxy_server.cpp.i
@@ -3266,7 +3266,7 @@ hardware/TCPProxy/tcpproxy_server.i: hardware/TCPProxy/tcpproxy_server.cpp.i
 
 # target to preprocess a source file
 hardware/TCPProxy/tcpproxy_server.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TCPProxy/tcpproxy_server.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.i
 .PHONY : hardware/TCPProxy/tcpproxy_server.cpp.i
 
 hardware/TCPProxy/tcpproxy_server.s: hardware/TCPProxy/tcpproxy_server.cpp.s
@@ -3275,7 +3275,7 @@ hardware/TCPProxy/tcpproxy_server.s: hardware/TCPProxy/tcpproxy_server.cpp.s
 
 # target to generate assembly for a file
 hardware/TCPProxy/tcpproxy_server.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TCPProxy/tcpproxy_server.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.s
 .PHONY : hardware/TCPProxy/tcpproxy_server.cpp.s
 
 hardware/TE923.o: hardware/TE923.cpp.o
@@ -3284,7 +3284,7 @@ hardware/TE923.o: hardware/TE923.cpp.o
 
 # target to build an object file
 hardware/TE923.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TE923.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TE923.cpp.o
 .PHONY : hardware/TE923.cpp.o
 
 hardware/TE923.i: hardware/TE923.cpp.i
@@ -3293,7 +3293,7 @@ hardware/TE923.i: hardware/TE923.cpp.i
 
 # target to preprocess a source file
 hardware/TE923.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TE923.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TE923.cpp.i
 .PHONY : hardware/TE923.cpp.i
 
 hardware/TE923.s: hardware/TE923.cpp.s
@@ -3302,7 +3302,7 @@ hardware/TE923.s: hardware/TE923.cpp.s
 
 # target to generate assembly for a file
 hardware/TE923.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TE923.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TE923.cpp.s
 .PHONY : hardware/TE923.cpp.s
 
 hardware/TE923Tool.o: hardware/TE923Tool.cpp.o
@@ -3311,7 +3311,7 @@ hardware/TE923Tool.o: hardware/TE923Tool.cpp.o
 
 # target to build an object file
 hardware/TE923Tool.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TE923Tool.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.o
 .PHONY : hardware/TE923Tool.cpp.o
 
 hardware/TE923Tool.i: hardware/TE923Tool.cpp.i
@@ -3320,7 +3320,7 @@ hardware/TE923Tool.i: hardware/TE923Tool.cpp.i
 
 # target to preprocess a source file
 hardware/TE923Tool.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TE923Tool.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.i
 .PHONY : hardware/TE923Tool.cpp.i
 
 hardware/TE923Tool.s: hardware/TE923Tool.cpp.s
@@ -3329,7 +3329,7 @@ hardware/TE923Tool.s: hardware/TE923Tool.cpp.s
 
 # target to generate assembly for a file
 hardware/TE923Tool.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TE923Tool.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.s
 .PHONY : hardware/TE923Tool.cpp.s
 
 hardware/Tado.o: hardware/Tado.cpp.o
@@ -3338,7 +3338,7 @@ hardware/Tado.o: hardware/Tado.cpp.o
 
 # target to build an object file
 hardware/Tado.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Tado.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Tado.cpp.o
 .PHONY : hardware/Tado.cpp.o
 
 hardware/Tado.i: hardware/Tado.cpp.i
@@ -3347,7 +3347,7 @@ hardware/Tado.i: hardware/Tado.cpp.i
 
 # target to preprocess a source file
 hardware/Tado.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Tado.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Tado.cpp.i
 .PHONY : hardware/Tado.cpp.i
 
 hardware/Tado.s: hardware/Tado.cpp.s
@@ -3356,7 +3356,7 @@ hardware/Tado.s: hardware/Tado.cpp.s
 
 # target to generate assembly for a file
 hardware/Tado.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Tado.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Tado.cpp.s
 .PHONY : hardware/Tado.cpp.s
 
 hardware/TeleinfoBase.o: hardware/TeleinfoBase.cpp.o
@@ -3365,7 +3365,7 @@ hardware/TeleinfoBase.o: hardware/TeleinfoBase.cpp.o
 
 # target to build an object file
 hardware/TeleinfoBase.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TeleinfoBase.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.o
 .PHONY : hardware/TeleinfoBase.cpp.o
 
 hardware/TeleinfoBase.i: hardware/TeleinfoBase.cpp.i
@@ -3374,7 +3374,7 @@ hardware/TeleinfoBase.i: hardware/TeleinfoBase.cpp.i
 
 # target to preprocess a source file
 hardware/TeleinfoBase.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TeleinfoBase.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.i
 .PHONY : hardware/TeleinfoBase.cpp.i
 
 hardware/TeleinfoBase.s: hardware/TeleinfoBase.cpp.s
@@ -3383,7 +3383,7 @@ hardware/TeleinfoBase.s: hardware/TeleinfoBase.cpp.s
 
 # target to generate assembly for a file
 hardware/TeleinfoBase.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TeleinfoBase.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.s
 .PHONY : hardware/TeleinfoBase.cpp.s
 
 hardware/TeleinfoSerial.o: hardware/TeleinfoSerial.cpp.o
@@ -3392,7 +3392,7 @@ hardware/TeleinfoSerial.o: hardware/TeleinfoSerial.cpp.o
 
 # target to build an object file
 hardware/TeleinfoSerial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TeleinfoSerial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.o
 .PHONY : hardware/TeleinfoSerial.cpp.o
 
 hardware/TeleinfoSerial.i: hardware/TeleinfoSerial.cpp.i
@@ -3401,7 +3401,7 @@ hardware/TeleinfoSerial.i: hardware/TeleinfoSerial.cpp.i
 
 # target to preprocess a source file
 hardware/TeleinfoSerial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TeleinfoSerial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.i
 .PHONY : hardware/TeleinfoSerial.cpp.i
 
 hardware/TeleinfoSerial.s: hardware/TeleinfoSerial.cpp.s
@@ -3410,7 +3410,7 @@ hardware/TeleinfoSerial.s: hardware/TeleinfoSerial.cpp.s
 
 # target to generate assembly for a file
 hardware/TeleinfoSerial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/TeleinfoSerial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.s
 .PHONY : hardware/TeleinfoSerial.cpp.s
 
 hardware/Tellstick.o: hardware/Tellstick.cpp.o
@@ -3419,7 +3419,7 @@ hardware/Tellstick.o: hardware/Tellstick.cpp.o
 
 # target to build an object file
 hardware/Tellstick.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Tellstick.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.o
 .PHONY : hardware/Tellstick.cpp.o
 
 hardware/Tellstick.i: hardware/Tellstick.cpp.i
@@ -3428,7 +3428,7 @@ hardware/Tellstick.i: hardware/Tellstick.cpp.i
 
 # target to preprocess a source file
 hardware/Tellstick.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Tellstick.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.i
 .PHONY : hardware/Tellstick.cpp.i
 
 hardware/Tellstick.s: hardware/Tellstick.cpp.s
@@ -3437,7 +3437,7 @@ hardware/Tellstick.s: hardware/Tellstick.cpp.s
 
 # target to generate assembly for a file
 hardware/Tellstick.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Tellstick.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.s
 .PHONY : hardware/Tellstick.cpp.s
 
 hardware/Thermosmart.o: hardware/Thermosmart.cpp.o
@@ -3446,7 +3446,7 @@ hardware/Thermosmart.o: hardware/Thermosmart.cpp.o
 
 # target to build an object file
 hardware/Thermosmart.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Thermosmart.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.o
 .PHONY : hardware/Thermosmart.cpp.o
 
 hardware/Thermosmart.i: hardware/Thermosmart.cpp.i
@@ -3455,7 +3455,7 @@ hardware/Thermosmart.i: hardware/Thermosmart.cpp.i
 
 # target to preprocess a source file
 hardware/Thermosmart.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Thermosmart.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.i
 .PHONY : hardware/Thermosmart.cpp.i
 
 hardware/Thermosmart.s: hardware/Thermosmart.cpp.s
@@ -3464,7 +3464,7 @@ hardware/Thermosmart.s: hardware/Thermosmart.cpp.s
 
 # target to generate assembly for a file
 hardware/Thermosmart.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Thermosmart.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.s
 .PHONY : hardware/Thermosmart.cpp.s
 
 hardware/ToonThermostat.o: hardware/ToonThermostat.cpp.o
@@ -3473,7 +3473,7 @@ hardware/ToonThermostat.o: hardware/ToonThermostat.cpp.o
 
 # target to build an object file
 hardware/ToonThermostat.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ToonThermostat.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.o
 .PHONY : hardware/ToonThermostat.cpp.o
 
 hardware/ToonThermostat.i: hardware/ToonThermostat.cpp.i
@@ -3482,7 +3482,7 @@ hardware/ToonThermostat.i: hardware/ToonThermostat.cpp.i
 
 # target to preprocess a source file
 hardware/ToonThermostat.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ToonThermostat.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.i
 .PHONY : hardware/ToonThermostat.cpp.i
 
 hardware/ToonThermostat.s: hardware/ToonThermostat.cpp.s
@@ -3491,7 +3491,7 @@ hardware/ToonThermostat.s: hardware/ToonThermostat.cpp.s
 
 # target to generate assembly for a file
 hardware/ToonThermostat.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ToonThermostat.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.s
 .PHONY : hardware/ToonThermostat.cpp.s
 
 hardware/USBtin.o: hardware/USBtin.cpp.o
@@ -3500,7 +3500,7 @@ hardware/USBtin.o: hardware/USBtin.cpp.o
 
 # target to build an object file
 hardware/USBtin.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/USBtin.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/USBtin.cpp.o
 .PHONY : hardware/USBtin.cpp.o
 
 hardware/USBtin.i: hardware/USBtin.cpp.i
@@ -3509,7 +3509,7 @@ hardware/USBtin.i: hardware/USBtin.cpp.i
 
 # target to preprocess a source file
 hardware/USBtin.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/USBtin.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/USBtin.cpp.i
 .PHONY : hardware/USBtin.cpp.i
 
 hardware/USBtin.s: hardware/USBtin.cpp.s
@@ -3518,7 +3518,7 @@ hardware/USBtin.s: hardware/USBtin.cpp.s
 
 # target to generate assembly for a file
 hardware/USBtin.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/USBtin.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/USBtin.cpp.s
 .PHONY : hardware/USBtin.cpp.s
 
 hardware/USBtin_MultiblocV8.o: hardware/USBtin_MultiblocV8.cpp.o
@@ -3527,7 +3527,7 @@ hardware/USBtin_MultiblocV8.o: hardware/USBtin_MultiblocV8.cpp.o
 
 # target to build an object file
 hardware/USBtin_MultiblocV8.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/USBtin_MultiblocV8.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.o
 .PHONY : hardware/USBtin_MultiblocV8.cpp.o
 
 hardware/USBtin_MultiblocV8.i: hardware/USBtin_MultiblocV8.cpp.i
@@ -3536,7 +3536,7 @@ hardware/USBtin_MultiblocV8.i: hardware/USBtin_MultiblocV8.cpp.i
 
 # target to preprocess a source file
 hardware/USBtin_MultiblocV8.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/USBtin_MultiblocV8.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.i
 .PHONY : hardware/USBtin_MultiblocV8.cpp.i
 
 hardware/USBtin_MultiblocV8.s: hardware/USBtin_MultiblocV8.cpp.s
@@ -3545,7 +3545,7 @@ hardware/USBtin_MultiblocV8.s: hardware/USBtin_MultiblocV8.cpp.s
 
 # target to generate assembly for a file
 hardware/USBtin_MultiblocV8.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/USBtin_MultiblocV8.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.s
 .PHONY : hardware/USBtin_MultiblocV8.cpp.s
 
 hardware/VolcraftCO20.o: hardware/VolcraftCO20.cpp.o
@@ -3554,7 +3554,7 @@ hardware/VolcraftCO20.o: hardware/VolcraftCO20.cpp.o
 
 # target to build an object file
 hardware/VolcraftCO20.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/VolcraftCO20.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.o
 .PHONY : hardware/VolcraftCO20.cpp.o
 
 hardware/VolcraftCO20.i: hardware/VolcraftCO20.cpp.i
@@ -3563,7 +3563,7 @@ hardware/VolcraftCO20.i: hardware/VolcraftCO20.cpp.i
 
 # target to preprocess a source file
 hardware/VolcraftCO20.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/VolcraftCO20.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.i
 .PHONY : hardware/VolcraftCO20.cpp.i
 
 hardware/VolcraftCO20.s: hardware/VolcraftCO20.cpp.s
@@ -3572,7 +3572,7 @@ hardware/VolcraftCO20.s: hardware/VolcraftCO20.cpp.s
 
 # target to generate assembly for a file
 hardware/VolcraftCO20.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/VolcraftCO20.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.s
 .PHONY : hardware/VolcraftCO20.cpp.s
 
 hardware/WOL.o: hardware/WOL.cpp.o
@@ -3581,7 +3581,7 @@ hardware/WOL.o: hardware/WOL.cpp.o
 
 # target to build an object file
 hardware/WOL.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/WOL.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/WOL.cpp.o
 .PHONY : hardware/WOL.cpp.o
 
 hardware/WOL.i: hardware/WOL.cpp.i
@@ -3590,7 +3590,7 @@ hardware/WOL.i: hardware/WOL.cpp.i
 
 # target to preprocess a source file
 hardware/WOL.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/WOL.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/WOL.cpp.i
 .PHONY : hardware/WOL.cpp.i
 
 hardware/WOL.s: hardware/WOL.cpp.s
@@ -3599,7 +3599,7 @@ hardware/WOL.s: hardware/WOL.cpp.s
 
 # target to generate assembly for a file
 hardware/WOL.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/WOL.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/WOL.cpp.s
 .PHONY : hardware/WOL.cpp.s
 
 hardware/Winddelen.o: hardware/Winddelen.cpp.o
@@ -3608,7 +3608,7 @@ hardware/Winddelen.o: hardware/Winddelen.cpp.o
 
 # target to build an object file
 hardware/Winddelen.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Winddelen.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.o
 .PHONY : hardware/Winddelen.cpp.o
 
 hardware/Winddelen.i: hardware/Winddelen.cpp.i
@@ -3617,7 +3617,7 @@ hardware/Winddelen.i: hardware/Winddelen.cpp.i
 
 # target to preprocess a source file
 hardware/Winddelen.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Winddelen.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.i
 .PHONY : hardware/Winddelen.cpp.i
 
 hardware/Winddelen.s: hardware/Winddelen.cpp.s
@@ -3626,7 +3626,7 @@ hardware/Winddelen.s: hardware/Winddelen.cpp.s
 
 # target to generate assembly for a file
 hardware/Winddelen.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Winddelen.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.s
 .PHONY : hardware/Winddelen.cpp.s
 
 hardware/Wunderground.o: hardware/Wunderground.cpp.o
@@ -3635,7 +3635,7 @@ hardware/Wunderground.o: hardware/Wunderground.cpp.o
 
 # target to build an object file
 hardware/Wunderground.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Wunderground.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.o
 .PHONY : hardware/Wunderground.cpp.o
 
 hardware/Wunderground.i: hardware/Wunderground.cpp.i
@@ -3644,7 +3644,7 @@ hardware/Wunderground.i: hardware/Wunderground.cpp.i
 
 # target to preprocess a source file
 hardware/Wunderground.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Wunderground.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.i
 .PHONY : hardware/Wunderground.cpp.i
 
 hardware/Wunderground.s: hardware/Wunderground.cpp.s
@@ -3653,7 +3653,7 @@ hardware/Wunderground.s: hardware/Wunderground.cpp.s
 
 # target to generate assembly for a file
 hardware/Wunderground.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Wunderground.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.s
 .PHONY : hardware/Wunderground.cpp.s
 
 hardware/XiaomiGateway.o: hardware/XiaomiGateway.cpp.o
@@ -3662,7 +3662,7 @@ hardware/XiaomiGateway.o: hardware/XiaomiGateway.cpp.o
 
 # target to build an object file
 hardware/XiaomiGateway.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/XiaomiGateway.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.o
 .PHONY : hardware/XiaomiGateway.cpp.o
 
 hardware/XiaomiGateway.i: hardware/XiaomiGateway.cpp.i
@@ -3671,7 +3671,7 @@ hardware/XiaomiGateway.i: hardware/XiaomiGateway.cpp.i
 
 # target to preprocess a source file
 hardware/XiaomiGateway.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/XiaomiGateway.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.i
 .PHONY : hardware/XiaomiGateway.cpp.i
 
 hardware/XiaomiGateway.s: hardware/XiaomiGateway.cpp.s
@@ -3680,7 +3680,7 @@ hardware/XiaomiGateway.s: hardware/XiaomiGateway.cpp.s
 
 # target to generate assembly for a file
 hardware/XiaomiGateway.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/XiaomiGateway.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.s
 .PHONY : hardware/XiaomiGateway.cpp.s
 
 hardware/Yeelight.o: hardware/Yeelight.cpp.o
@@ -3689,7 +3689,7 @@ hardware/Yeelight.o: hardware/Yeelight.cpp.o
 
 # target to build an object file
 hardware/Yeelight.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Yeelight.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.o
 .PHONY : hardware/Yeelight.cpp.o
 
 hardware/Yeelight.i: hardware/Yeelight.cpp.i
@@ -3698,7 +3698,7 @@ hardware/Yeelight.i: hardware/Yeelight.cpp.i
 
 # target to preprocess a source file
 hardware/Yeelight.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Yeelight.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.i
 .PHONY : hardware/Yeelight.cpp.i
 
 hardware/Yeelight.s: hardware/Yeelight.cpp.s
@@ -3707,7 +3707,7 @@ hardware/Yeelight.s: hardware/Yeelight.cpp.s
 
 # target to generate assembly for a file
 hardware/Yeelight.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/Yeelight.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.s
 .PHONY : hardware/Yeelight.cpp.s
 
 hardware/YouLess.o: hardware/YouLess.cpp.o
@@ -3716,7 +3716,7 @@ hardware/YouLess.o: hardware/YouLess.cpp.o
 
 # target to build an object file
 hardware/YouLess.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/YouLess.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/YouLess.cpp.o
 .PHONY : hardware/YouLess.cpp.o
 
 hardware/YouLess.i: hardware/YouLess.cpp.i
@@ -3725,7 +3725,7 @@ hardware/YouLess.i: hardware/YouLess.cpp.i
 
 # target to preprocess a source file
 hardware/YouLess.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/YouLess.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/YouLess.cpp.i
 .PHONY : hardware/YouLess.cpp.i
 
 hardware/YouLess.s: hardware/YouLess.cpp.s
@@ -3734,7 +3734,7 @@ hardware/YouLess.s: hardware/YouLess.cpp.s
 
 # target to generate assembly for a file
 hardware/YouLess.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/YouLess.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/YouLess.cpp.s
 .PHONY : hardware/YouLess.cpp.s
 
 hardware/ZWaveBase.o: hardware/ZWaveBase.cpp.o
@@ -3743,7 +3743,7 @@ hardware/ZWaveBase.o: hardware/ZWaveBase.cpp.o
 
 # target to build an object file
 hardware/ZWaveBase.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ZWaveBase.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.o
 .PHONY : hardware/ZWaveBase.cpp.o
 
 hardware/ZWaveBase.i: hardware/ZWaveBase.cpp.i
@@ -3752,7 +3752,7 @@ hardware/ZWaveBase.i: hardware/ZWaveBase.cpp.i
 
 # target to preprocess a source file
 hardware/ZWaveBase.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ZWaveBase.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.i
 .PHONY : hardware/ZWaveBase.cpp.i
 
 hardware/ZWaveBase.s: hardware/ZWaveBase.cpp.s
@@ -3761,7 +3761,7 @@ hardware/ZWaveBase.s: hardware/ZWaveBase.cpp.s
 
 # target to generate assembly for a file
 hardware/ZWaveBase.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ZWaveBase.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.s
 .PHONY : hardware/ZWaveBase.cpp.s
 
 hardware/ZiBlueBase.o: hardware/ZiBlueBase.cpp.o
@@ -3770,7 +3770,7 @@ hardware/ZiBlueBase.o: hardware/ZiBlueBase.cpp.o
 
 # target to build an object file
 hardware/ZiBlueBase.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ZiBlueBase.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.o
 .PHONY : hardware/ZiBlueBase.cpp.o
 
 hardware/ZiBlueBase.i: hardware/ZiBlueBase.cpp.i
@@ -3779,7 +3779,7 @@ hardware/ZiBlueBase.i: hardware/ZiBlueBase.cpp.i
 
 # target to preprocess a source file
 hardware/ZiBlueBase.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ZiBlueBase.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.i
 .PHONY : hardware/ZiBlueBase.cpp.i
 
 hardware/ZiBlueBase.s: hardware/ZiBlueBase.cpp.s
@@ -3788,7 +3788,7 @@ hardware/ZiBlueBase.s: hardware/ZiBlueBase.cpp.s
 
 # target to generate assembly for a file
 hardware/ZiBlueBase.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ZiBlueBase.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.s
 .PHONY : hardware/ZiBlueBase.cpp.s
 
 hardware/ZiBlueSerial.o: hardware/ZiBlueSerial.cpp.o
@@ -3797,7 +3797,7 @@ hardware/ZiBlueSerial.o: hardware/ZiBlueSerial.cpp.o
 
 # target to build an object file
 hardware/ZiBlueSerial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ZiBlueSerial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.o
 .PHONY : hardware/ZiBlueSerial.cpp.o
 
 hardware/ZiBlueSerial.i: hardware/ZiBlueSerial.cpp.i
@@ -3806,7 +3806,7 @@ hardware/ZiBlueSerial.i: hardware/ZiBlueSerial.cpp.i
 
 # target to preprocess a source file
 hardware/ZiBlueSerial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ZiBlueSerial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.i
 .PHONY : hardware/ZiBlueSerial.cpp.i
 
 hardware/ZiBlueSerial.s: hardware/ZiBlueSerial.cpp.s
@@ -3815,7 +3815,7 @@ hardware/ZiBlueSerial.s: hardware/ZiBlueSerial.cpp.s
 
 # target to generate assembly for a file
 hardware/ZiBlueSerial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ZiBlueSerial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.s
 .PHONY : hardware/ZiBlueSerial.cpp.s
 
 hardware/ZiBlueTCP.o: hardware/ZiBlueTCP.cpp.o
@@ -3824,7 +3824,7 @@ hardware/ZiBlueTCP.o: hardware/ZiBlueTCP.cpp.o
 
 # target to build an object file
 hardware/ZiBlueTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ZiBlueTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.o
 .PHONY : hardware/ZiBlueTCP.cpp.o
 
 hardware/ZiBlueTCP.i: hardware/ZiBlueTCP.cpp.i
@@ -3833,7 +3833,7 @@ hardware/ZiBlueTCP.i: hardware/ZiBlueTCP.cpp.i
 
 # target to preprocess a source file
 hardware/ZiBlueTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ZiBlueTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.i
 .PHONY : hardware/ZiBlueTCP.cpp.i
 
 hardware/ZiBlueTCP.s: hardware/ZiBlueTCP.cpp.s
@@ -3842,7 +3842,7 @@ hardware/ZiBlueTCP.s: hardware/ZiBlueTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/ZiBlueTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/ZiBlueTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.s
 .PHONY : hardware/ZiBlueTCP.cpp.s
 
 hardware/csocket.o: hardware/csocket.cpp.o
@@ -3851,7 +3851,7 @@ hardware/csocket.o: hardware/csocket.cpp.o
 
 # target to build an object file
 hardware/csocket.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/csocket.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/csocket.cpp.o
 .PHONY : hardware/csocket.cpp.o
 
 hardware/csocket.i: hardware/csocket.cpp.i
@@ -3860,7 +3860,7 @@ hardware/csocket.i: hardware/csocket.cpp.i
 
 # target to preprocess a source file
 hardware/csocket.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/csocket.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/csocket.cpp.i
 .PHONY : hardware/csocket.cpp.i
 
 hardware/csocket.s: hardware/csocket.cpp.s
@@ -3869,7 +3869,7 @@ hardware/csocket.s: hardware/csocket.cpp.s
 
 # target to generate assembly for a file
 hardware/csocket.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/csocket.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/csocket.cpp.s
 .PHONY : hardware/csocket.cpp.s
 
 hardware/eHouse/EhouseEvents.o: hardware/eHouse/EhouseEvents.cpp.o
@@ -3878,7 +3878,7 @@ hardware/eHouse/EhouseEvents.o: hardware/eHouse/EhouseEvents.cpp.o
 
 # target to build an object file
 hardware/eHouse/EhouseEvents.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/eHouse/EhouseEvents.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.o
 .PHONY : hardware/eHouse/EhouseEvents.cpp.o
 
 hardware/eHouse/EhouseEvents.i: hardware/eHouse/EhouseEvents.cpp.i
@@ -3887,7 +3887,7 @@ hardware/eHouse/EhouseEvents.i: hardware/eHouse/EhouseEvents.cpp.i
 
 # target to preprocess a source file
 hardware/eHouse/EhouseEvents.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/eHouse/EhouseEvents.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.i
 .PHONY : hardware/eHouse/EhouseEvents.cpp.i
 
 hardware/eHouse/EhouseEvents.s: hardware/eHouse/EhouseEvents.cpp.s
@@ -3896,7 +3896,7 @@ hardware/eHouse/EhouseEvents.s: hardware/eHouse/EhouseEvents.cpp.s
 
 # target to generate assembly for a file
 hardware/eHouse/EhouseEvents.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/eHouse/EhouseEvents.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.s
 .PHONY : hardware/eHouse/EhouseEvents.cpp.s
 
 hardware/eHouse/EhouseTcpClient.o: hardware/eHouse/EhouseTcpClient.cpp.o
@@ -3905,7 +3905,7 @@ hardware/eHouse/EhouseTcpClient.o: hardware/eHouse/EhouseTcpClient.cpp.o
 
 # target to build an object file
 hardware/eHouse/EhouseTcpClient.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/eHouse/EhouseTcpClient.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.o
 .PHONY : hardware/eHouse/EhouseTcpClient.cpp.o
 
 hardware/eHouse/EhouseTcpClient.i: hardware/eHouse/EhouseTcpClient.cpp.i
@@ -3914,7 +3914,7 @@ hardware/eHouse/EhouseTcpClient.i: hardware/eHouse/EhouseTcpClient.cpp.i
 
 # target to preprocess a source file
 hardware/eHouse/EhouseTcpClient.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/eHouse/EhouseTcpClient.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.i
 .PHONY : hardware/eHouse/EhouseTcpClient.cpp.i
 
 hardware/eHouse/EhouseTcpClient.s: hardware/eHouse/EhouseTcpClient.cpp.s
@@ -3923,7 +3923,7 @@ hardware/eHouse/EhouseTcpClient.s: hardware/eHouse/EhouseTcpClient.cpp.s
 
 # target to generate assembly for a file
 hardware/eHouse/EhouseTcpClient.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/eHouse/EhouseTcpClient.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.s
 .PHONY : hardware/eHouse/EhouseTcpClient.cpp.s
 
 hardware/eHouse/EhouseUdpListener.o: hardware/eHouse/EhouseUdpListener.cpp.o
@@ -3932,7 +3932,7 @@ hardware/eHouse/EhouseUdpListener.o: hardware/eHouse/EhouseUdpListener.cpp.o
 
 # target to build an object file
 hardware/eHouse/EhouseUdpListener.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/eHouse/EhouseUdpListener.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.o
 .PHONY : hardware/eHouse/EhouseUdpListener.cpp.o
 
 hardware/eHouse/EhouseUdpListener.i: hardware/eHouse/EhouseUdpListener.cpp.i
@@ -3941,7 +3941,7 @@ hardware/eHouse/EhouseUdpListener.i: hardware/eHouse/EhouseUdpListener.cpp.i
 
 # target to preprocess a source file
 hardware/eHouse/EhouseUdpListener.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/eHouse/EhouseUdpListener.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.i
 .PHONY : hardware/eHouse/EhouseUdpListener.cpp.i
 
 hardware/eHouse/EhouseUdpListener.s: hardware/eHouse/EhouseUdpListener.cpp.s
@@ -3950,7 +3950,7 @@ hardware/eHouse/EhouseUdpListener.s: hardware/eHouse/EhouseUdpListener.cpp.s
 
 # target to generate assembly for a file
 hardware/eHouse/EhouseUdpListener.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/eHouse/EhouseUdpListener.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.s
 .PHONY : hardware/eHouse/EhouseUdpListener.cpp.s
 
 hardware/eHouseTCP.o: hardware/eHouseTCP.cpp.o
@@ -3959,7 +3959,7 @@ hardware/eHouseTCP.o: hardware/eHouseTCP.cpp.o
 
 # target to build an object file
 hardware/eHouseTCP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/eHouseTCP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.o
 .PHONY : hardware/eHouseTCP.cpp.o
 
 hardware/eHouseTCP.i: hardware/eHouseTCP.cpp.i
@@ -3968,7 +3968,7 @@ hardware/eHouseTCP.i: hardware/eHouseTCP.cpp.i
 
 # target to preprocess a source file
 hardware/eHouseTCP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/eHouseTCP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.i
 .PHONY : hardware/eHouseTCP.cpp.i
 
 hardware/eHouseTCP.s: hardware/eHouseTCP.cpp.s
@@ -3977,7 +3977,7 @@ hardware/eHouseTCP.s: hardware/eHouseTCP.cpp.s
 
 # target to generate assembly for a file
 hardware/eHouseTCP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/eHouseTCP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.s
 .PHONY : hardware/eHouseTCP.cpp.s
 
 hardware/openwebnet/bt_openwebnet.o: hardware/openwebnet/bt_openwebnet.cpp.o
@@ -3986,7 +3986,7 @@ hardware/openwebnet/bt_openwebnet.o: hardware/openwebnet/bt_openwebnet.cpp.o
 
 # target to build an object file
 hardware/openwebnet/bt_openwebnet.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/openwebnet/bt_openwebnet.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.o
 .PHONY : hardware/openwebnet/bt_openwebnet.cpp.o
 
 hardware/openwebnet/bt_openwebnet.i: hardware/openwebnet/bt_openwebnet.cpp.i
@@ -3995,7 +3995,7 @@ hardware/openwebnet/bt_openwebnet.i: hardware/openwebnet/bt_openwebnet.cpp.i
 
 # target to preprocess a source file
 hardware/openwebnet/bt_openwebnet.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/openwebnet/bt_openwebnet.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.i
 .PHONY : hardware/openwebnet/bt_openwebnet.cpp.i
 
 hardware/openwebnet/bt_openwebnet.s: hardware/openwebnet/bt_openwebnet.cpp.s
@@ -4004,7 +4004,7 @@ hardware/openwebnet/bt_openwebnet.s: hardware/openwebnet/bt_openwebnet.cpp.s
 
 # target to generate assembly for a file
 hardware/openwebnet/bt_openwebnet.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/openwebnet/bt_openwebnet.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.s
 .PHONY : hardware/openwebnet/bt_openwebnet.cpp.s
 
 hardware/openzwave/control_panel/ozwcp.o: hardware/openzwave/control_panel/ozwcp.cpp.o
@@ -4013,7 +4013,7 @@ hardware/openzwave/control_panel/ozwcp.o: hardware/openzwave/control_panel/ozwcp
 
 # target to build an object file
 hardware/openzwave/control_panel/ozwcp.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/openzwave/control_panel/ozwcp.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.o
 .PHONY : hardware/openzwave/control_panel/ozwcp.cpp.o
 
 hardware/openzwave/control_panel/ozwcp.i: hardware/openzwave/control_panel/ozwcp.cpp.i
@@ -4022,7 +4022,7 @@ hardware/openzwave/control_panel/ozwcp.i: hardware/openzwave/control_panel/ozwcp
 
 # target to preprocess a source file
 hardware/openzwave/control_panel/ozwcp.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/openzwave/control_panel/ozwcp.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.i
 .PHONY : hardware/openzwave/control_panel/ozwcp.cpp.i
 
 hardware/openzwave/control_panel/ozwcp.s: hardware/openzwave/control_panel/ozwcp.cpp.s
@@ -4031,7 +4031,7 @@ hardware/openzwave/control_panel/ozwcp.s: hardware/openzwave/control_panel/ozwcp
 
 # target to generate assembly for a file
 hardware/openzwave/control_panel/ozwcp.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/openzwave/control_panel/ozwcp.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.s
 .PHONY : hardware/openzwave/control_panel/ozwcp.cpp.s
 
 hardware/openzwave/control_panel/zwavelib.o: hardware/openzwave/control_panel/zwavelib.cpp.o
@@ -4040,7 +4040,7 @@ hardware/openzwave/control_panel/zwavelib.o: hardware/openzwave/control_panel/zw
 
 # target to build an object file
 hardware/openzwave/control_panel/zwavelib.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/openzwave/control_panel/zwavelib.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.o
 .PHONY : hardware/openzwave/control_panel/zwavelib.cpp.o
 
 hardware/openzwave/control_panel/zwavelib.i: hardware/openzwave/control_panel/zwavelib.cpp.i
@@ -4049,7 +4049,7 @@ hardware/openzwave/control_panel/zwavelib.i: hardware/openzwave/control_panel/zw
 
 # target to preprocess a source file
 hardware/openzwave/control_panel/zwavelib.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/openzwave/control_panel/zwavelib.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.i
 .PHONY : hardware/openzwave/control_panel/zwavelib.cpp.i
 
 hardware/openzwave/control_panel/zwavelib.s: hardware/openzwave/control_panel/zwavelib.cpp.s
@@ -4058,7 +4058,7 @@ hardware/openzwave/control_panel/zwavelib.s: hardware/openzwave/control_panel/zw
 
 # target to generate assembly for a file
 hardware/openzwave/control_panel/zwavelib.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/openzwave/control_panel/zwavelib.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.s
 .PHONY : hardware/openzwave/control_panel/zwavelib.cpp.s
 
 hardware/plugins/DelayedLink.o: hardware/plugins/DelayedLink.cpp.o
@@ -4067,7 +4067,7 @@ hardware/plugins/DelayedLink.o: hardware/plugins/DelayedLink.cpp.o
 
 # target to build an object file
 hardware/plugins/DelayedLink.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/DelayedLink.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.o
 .PHONY : hardware/plugins/DelayedLink.cpp.o
 
 hardware/plugins/DelayedLink.i: hardware/plugins/DelayedLink.cpp.i
@@ -4076,7 +4076,7 @@ hardware/plugins/DelayedLink.i: hardware/plugins/DelayedLink.cpp.i
 
 # target to preprocess a source file
 hardware/plugins/DelayedLink.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/DelayedLink.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.i
 .PHONY : hardware/plugins/DelayedLink.cpp.i
 
 hardware/plugins/DelayedLink.s: hardware/plugins/DelayedLink.cpp.s
@@ -4085,7 +4085,7 @@ hardware/plugins/DelayedLink.s: hardware/plugins/DelayedLink.cpp.s
 
 # target to generate assembly for a file
 hardware/plugins/DelayedLink.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/DelayedLink.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.s
 .PHONY : hardware/plugins/DelayedLink.cpp.s
 
 hardware/plugins/PluginManager.o: hardware/plugins/PluginManager.cpp.o
@@ -4094,7 +4094,7 @@ hardware/plugins/PluginManager.o: hardware/plugins/PluginManager.cpp.o
 
 # target to build an object file
 hardware/plugins/PluginManager.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/PluginManager.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.o
 .PHONY : hardware/plugins/PluginManager.cpp.o
 
 hardware/plugins/PluginManager.i: hardware/plugins/PluginManager.cpp.i
@@ -4103,7 +4103,7 @@ hardware/plugins/PluginManager.i: hardware/plugins/PluginManager.cpp.i
 
 # target to preprocess a source file
 hardware/plugins/PluginManager.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/PluginManager.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.i
 .PHONY : hardware/plugins/PluginManager.cpp.i
 
 hardware/plugins/PluginManager.s: hardware/plugins/PluginManager.cpp.s
@@ -4112,7 +4112,7 @@ hardware/plugins/PluginManager.s: hardware/plugins/PluginManager.cpp.s
 
 # target to generate assembly for a file
 hardware/plugins/PluginManager.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/PluginManager.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.s
 .PHONY : hardware/plugins/PluginManager.cpp.s
 
 hardware/plugins/PluginProtocols.o: hardware/plugins/PluginProtocols.cpp.o
@@ -4121,7 +4121,7 @@ hardware/plugins/PluginProtocols.o: hardware/plugins/PluginProtocols.cpp.o
 
 # target to build an object file
 hardware/plugins/PluginProtocols.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/PluginProtocols.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.o
 .PHONY : hardware/plugins/PluginProtocols.cpp.o
 
 hardware/plugins/PluginProtocols.i: hardware/plugins/PluginProtocols.cpp.i
@@ -4130,7 +4130,7 @@ hardware/plugins/PluginProtocols.i: hardware/plugins/PluginProtocols.cpp.i
 
 # target to preprocess a source file
 hardware/plugins/PluginProtocols.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/PluginProtocols.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.i
 .PHONY : hardware/plugins/PluginProtocols.cpp.i
 
 hardware/plugins/PluginProtocols.s: hardware/plugins/PluginProtocols.cpp.s
@@ -4139,7 +4139,7 @@ hardware/plugins/PluginProtocols.s: hardware/plugins/PluginProtocols.cpp.s
 
 # target to generate assembly for a file
 hardware/plugins/PluginProtocols.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/PluginProtocols.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.s
 .PHONY : hardware/plugins/PluginProtocols.cpp.s
 
 hardware/plugins/PluginTransports.o: hardware/plugins/PluginTransports.cpp.o
@@ -4148,7 +4148,7 @@ hardware/plugins/PluginTransports.o: hardware/plugins/PluginTransports.cpp.o
 
 # target to build an object file
 hardware/plugins/PluginTransports.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/PluginTransports.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.o
 .PHONY : hardware/plugins/PluginTransports.cpp.o
 
 hardware/plugins/PluginTransports.i: hardware/plugins/PluginTransports.cpp.i
@@ -4157,7 +4157,7 @@ hardware/plugins/PluginTransports.i: hardware/plugins/PluginTransports.cpp.i
 
 # target to preprocess a source file
 hardware/plugins/PluginTransports.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/PluginTransports.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.i
 .PHONY : hardware/plugins/PluginTransports.cpp.i
 
 hardware/plugins/PluginTransports.s: hardware/plugins/PluginTransports.cpp.s
@@ -4166,7 +4166,7 @@ hardware/plugins/PluginTransports.s: hardware/plugins/PluginTransports.cpp.s
 
 # target to generate assembly for a file
 hardware/plugins/PluginTransports.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/PluginTransports.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.s
 .PHONY : hardware/plugins/PluginTransports.cpp.s
 
 hardware/plugins/Plugins.o: hardware/plugins/Plugins.cpp.o
@@ -4175,7 +4175,7 @@ hardware/plugins/Plugins.o: hardware/plugins/Plugins.cpp.o
 
 # target to build an object file
 hardware/plugins/Plugins.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/Plugins.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.o
 .PHONY : hardware/plugins/Plugins.cpp.o
 
 hardware/plugins/Plugins.i: hardware/plugins/Plugins.cpp.i
@@ -4184,7 +4184,7 @@ hardware/plugins/Plugins.i: hardware/plugins/Plugins.cpp.i
 
 # target to preprocess a source file
 hardware/plugins/Plugins.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/Plugins.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.i
 .PHONY : hardware/plugins/Plugins.cpp.i
 
 hardware/plugins/Plugins.s: hardware/plugins/Plugins.cpp.s
@@ -4193,7 +4193,7 @@ hardware/plugins/Plugins.s: hardware/plugins/Plugins.cpp.s
 
 # target to generate assembly for a file
 hardware/plugins/Plugins.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/Plugins.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.s
 .PHONY : hardware/plugins/Plugins.cpp.s
 
 hardware/plugins/PythonObjects.o: hardware/plugins/PythonObjects.cpp.o
@@ -4202,7 +4202,7 @@ hardware/plugins/PythonObjects.o: hardware/plugins/PythonObjects.cpp.o
 
 # target to build an object file
 hardware/plugins/PythonObjects.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/PythonObjects.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.o
 .PHONY : hardware/plugins/PythonObjects.cpp.o
 
 hardware/plugins/PythonObjects.i: hardware/plugins/PythonObjects.cpp.i
@@ -4211,7 +4211,7 @@ hardware/plugins/PythonObjects.i: hardware/plugins/PythonObjects.cpp.i
 
 # target to preprocess a source file
 hardware/plugins/PythonObjects.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/PythonObjects.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.i
 .PHONY : hardware/plugins/PythonObjects.cpp.i
 
 hardware/plugins/PythonObjects.s: hardware/plugins/PythonObjects.cpp.s
@@ -4220,7 +4220,7 @@ hardware/plugins/PythonObjects.s: hardware/plugins/PythonObjects.cpp.s
 
 # target to generate assembly for a file
 hardware/plugins/PythonObjects.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/plugins/PythonObjects.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.s
 .PHONY : hardware/plugins/PythonObjects.cpp.s
 
 hardware/serial/impl/unix.o: hardware/serial/impl/unix.cpp.o
@@ -4229,7 +4229,7 @@ hardware/serial/impl/unix.o: hardware/serial/impl/unix.cpp.o
 
 # target to build an object file
 hardware/serial/impl/unix.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/serial/impl/unix.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.o
 .PHONY : hardware/serial/impl/unix.cpp.o
 
 hardware/serial/impl/unix.i: hardware/serial/impl/unix.cpp.i
@@ -4238,7 +4238,7 @@ hardware/serial/impl/unix.i: hardware/serial/impl/unix.cpp.i
 
 # target to preprocess a source file
 hardware/serial/impl/unix.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/serial/impl/unix.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.i
 .PHONY : hardware/serial/impl/unix.cpp.i
 
 hardware/serial/impl/unix.s: hardware/serial/impl/unix.cpp.s
@@ -4247,7 +4247,7 @@ hardware/serial/impl/unix.s: hardware/serial/impl/unix.cpp.s
 
 # target to generate assembly for a file
 hardware/serial/impl/unix.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/serial/impl/unix.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.s
 .PHONY : hardware/serial/impl/unix.cpp.s
 
 hardware/serial/serial.o: hardware/serial/serial.cpp.o
@@ -4256,7 +4256,7 @@ hardware/serial/serial.o: hardware/serial/serial.cpp.o
 
 # target to build an object file
 hardware/serial/serial.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/serial/serial.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.o
 .PHONY : hardware/serial/serial.cpp.o
 
 hardware/serial/serial.i: hardware/serial/serial.cpp.i
@@ -4265,7 +4265,7 @@ hardware/serial/serial.i: hardware/serial/serial.cpp.i
 
 # target to preprocess a source file
 hardware/serial/serial.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/serial/serial.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.i
 .PHONY : hardware/serial/serial.cpp.i
 
 hardware/serial/serial.s: hardware/serial/serial.cpp.s
@@ -4274,7 +4274,7 @@ hardware/serial/serial.s: hardware/serial/serial.cpp.s
 
 # target to generate assembly for a file
 hardware/serial/serial.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/hardware/serial/serial.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.s
 .PHONY : hardware/serial/serial.cpp.s
 
 httpclient/HTTPClient.o: httpclient/HTTPClient.cpp.o
@@ -4283,7 +4283,7 @@ httpclient/HTTPClient.o: httpclient/HTTPClient.cpp.o
 
 # target to build an object file
 httpclient/HTTPClient.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/httpclient/HTTPClient.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.o
 .PHONY : httpclient/HTTPClient.cpp.o
 
 httpclient/HTTPClient.i: httpclient/HTTPClient.cpp.i
@@ -4292,7 +4292,7 @@ httpclient/HTTPClient.i: httpclient/HTTPClient.cpp.i
 
 # target to preprocess a source file
 httpclient/HTTPClient.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/httpclient/HTTPClient.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.i
 .PHONY : httpclient/HTTPClient.cpp.i
 
 httpclient/HTTPClient.s: httpclient/HTTPClient.cpp.s
@@ -4301,7 +4301,7 @@ httpclient/HTTPClient.s: httpclient/HTTPClient.cpp.s
 
 # target to generate assembly for a file
 httpclient/HTTPClient.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/httpclient/HTTPClient.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.s
 .PHONY : httpclient/HTTPClient.cpp.s
 
 httpclient/UrlEncode.o: httpclient/UrlEncode.cpp.o
@@ -4310,7 +4310,7 @@ httpclient/UrlEncode.o: httpclient/UrlEncode.cpp.o
 
 # target to build an object file
 httpclient/UrlEncode.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/httpclient/UrlEncode.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.o
 .PHONY : httpclient/UrlEncode.cpp.o
 
 httpclient/UrlEncode.i: httpclient/UrlEncode.cpp.i
@@ -4319,7 +4319,7 @@ httpclient/UrlEncode.i: httpclient/UrlEncode.cpp.i
 
 # target to preprocess a source file
 httpclient/UrlEncode.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/httpclient/UrlEncode.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.i
 .PHONY : httpclient/UrlEncode.cpp.i
 
 httpclient/UrlEncode.s: httpclient/UrlEncode.cpp.s
@@ -4328,7 +4328,7 @@ httpclient/UrlEncode.s: httpclient/UrlEncode.cpp.s
 
 # target to generate assembly for a file
 httpclient/UrlEncode.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/httpclient/UrlEncode.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.s
 .PHONY : httpclient/UrlEncode.cpp.s
 
 json/json_reader.o: json/json_reader.cpp.o
@@ -4337,7 +4337,7 @@ json/json_reader.o: json/json_reader.cpp.o
 
 # target to build an object file
 json/json_reader.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/json/json_reader.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/json/json_reader.cpp.o
 .PHONY : json/json_reader.cpp.o
 
 json/json_reader.i: json/json_reader.cpp.i
@@ -4346,7 +4346,7 @@ json/json_reader.i: json/json_reader.cpp.i
 
 # target to preprocess a source file
 json/json_reader.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/json/json_reader.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/json/json_reader.cpp.i
 .PHONY : json/json_reader.cpp.i
 
 json/json_reader.s: json/json_reader.cpp.s
@@ -4355,7 +4355,7 @@ json/json_reader.s: json/json_reader.cpp.s
 
 # target to generate assembly for a file
 json/json_reader.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/json/json_reader.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/json/json_reader.cpp.s
 .PHONY : json/json_reader.cpp.s
 
 json/json_value.o: json/json_value.cpp.o
@@ -4364,7 +4364,7 @@ json/json_value.o: json/json_value.cpp.o
 
 # target to build an object file
 json/json_value.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/json/json_value.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/json/json_value.cpp.o
 .PHONY : json/json_value.cpp.o
 
 json/json_value.i: json/json_value.cpp.i
@@ -4373,7 +4373,7 @@ json/json_value.i: json/json_value.cpp.i
 
 # target to preprocess a source file
 json/json_value.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/json/json_value.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/json/json_value.cpp.i
 .PHONY : json/json_value.cpp.i
 
 json/json_value.s: json/json_value.cpp.s
@@ -4382,7 +4382,7 @@ json/json_value.s: json/json_value.cpp.s
 
 # target to generate assembly for a file
 json/json_value.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/json/json_value.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/json/json_value.cpp.s
 .PHONY : json/json_value.cpp.s
 
 json/json_writer.o: json/json_writer.cpp.o
@@ -4391,7 +4391,7 @@ json/json_writer.o: json/json_writer.cpp.o
 
 # target to build an object file
 json/json_writer.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/json/json_writer.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/json/json_writer.cpp.o
 .PHONY : json/json_writer.cpp.o
 
 json/json_writer.i: json/json_writer.cpp.i
@@ -4400,7 +4400,7 @@ json/json_writer.i: json/json_writer.cpp.i
 
 # target to preprocess a source file
 json/json_writer.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/json/json_writer.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/json/json_writer.cpp.i
 .PHONY : json/json_writer.cpp.i
 
 json/json_writer.s: json/json_writer.cpp.s
@@ -4409,7 +4409,7 @@ json/json_writer.s: json/json_writer.cpp.s
 
 # target to generate assembly for a file
 json/json_writer.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/json/json_writer.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/json/json_writer.cpp.s
 .PHONY : json/json_writer.cpp.s
 
 main/Camera.o: main/Camera.cpp.o
@@ -4418,7 +4418,7 @@ main/Camera.o: main/Camera.cpp.o
 
 # target to build an object file
 main/Camera.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/Camera.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/Camera.cpp.o
 .PHONY : main/Camera.cpp.o
 
 main/Camera.i: main/Camera.cpp.i
@@ -4427,7 +4427,7 @@ main/Camera.i: main/Camera.cpp.i
 
 # target to preprocess a source file
 main/Camera.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/Camera.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/Camera.cpp.i
 .PHONY : main/Camera.cpp.i
 
 main/Camera.s: main/Camera.cpp.s
@@ -4436,7 +4436,7 @@ main/Camera.s: main/Camera.cpp.s
 
 # target to generate assembly for a file
 main/Camera.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/Camera.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/Camera.cpp.s
 .PHONY : main/Camera.cpp.s
 
 main/CmdLine.o: main/CmdLine.cpp.o
@@ -4445,7 +4445,7 @@ main/CmdLine.o: main/CmdLine.cpp.o
 
 # target to build an object file
 main/CmdLine.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/CmdLine.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/CmdLine.cpp.o
 .PHONY : main/CmdLine.cpp.o
 
 main/CmdLine.i: main/CmdLine.cpp.i
@@ -4454,7 +4454,7 @@ main/CmdLine.i: main/CmdLine.cpp.i
 
 # target to preprocess a source file
 main/CmdLine.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/CmdLine.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/CmdLine.cpp.i
 .PHONY : main/CmdLine.cpp.i
 
 main/CmdLine.s: main/CmdLine.cpp.s
@@ -4463,7 +4463,7 @@ main/CmdLine.s: main/CmdLine.cpp.s
 
 # target to generate assembly for a file
 main/CmdLine.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/CmdLine.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/CmdLine.cpp.s
 .PHONY : main/CmdLine.cpp.s
 
 main/EventSystem.o: main/EventSystem.cpp.o
@@ -4472,7 +4472,7 @@ main/EventSystem.o: main/EventSystem.cpp.o
 
 # target to build an object file
 main/EventSystem.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/EventSystem.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/EventSystem.cpp.o
 .PHONY : main/EventSystem.cpp.o
 
 main/EventSystem.i: main/EventSystem.cpp.i
@@ -4481,7 +4481,7 @@ main/EventSystem.i: main/EventSystem.cpp.i
 
 # target to preprocess a source file
 main/EventSystem.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/EventSystem.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/EventSystem.cpp.i
 .PHONY : main/EventSystem.cpp.i
 
 main/EventSystem.s: main/EventSystem.cpp.s
@@ -4490,7 +4490,7 @@ main/EventSystem.s: main/EventSystem.cpp.s
 
 # target to generate assembly for a file
 main/EventSystem.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/EventSystem.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/EventSystem.cpp.s
 .PHONY : main/EventSystem.cpp.s
 
 main/EventsPythonDevice.o: main/EventsPythonDevice.cpp.o
@@ -4499,7 +4499,7 @@ main/EventsPythonDevice.o: main/EventsPythonDevice.cpp.o
 
 # target to build an object file
 main/EventsPythonDevice.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/EventsPythonDevice.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.o
 .PHONY : main/EventsPythonDevice.cpp.o
 
 main/EventsPythonDevice.i: main/EventsPythonDevice.cpp.i
@@ -4508,7 +4508,7 @@ main/EventsPythonDevice.i: main/EventsPythonDevice.cpp.i
 
 # target to preprocess a source file
 main/EventsPythonDevice.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/EventsPythonDevice.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.i
 .PHONY : main/EventsPythonDevice.cpp.i
 
 main/EventsPythonDevice.s: main/EventsPythonDevice.cpp.s
@@ -4517,7 +4517,7 @@ main/EventsPythonDevice.s: main/EventsPythonDevice.cpp.s
 
 # target to generate assembly for a file
 main/EventsPythonDevice.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/EventsPythonDevice.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.s
 .PHONY : main/EventsPythonDevice.cpp.s
 
 main/EventsPythonModule.o: main/EventsPythonModule.cpp.o
@@ -4526,7 +4526,7 @@ main/EventsPythonModule.o: main/EventsPythonModule.cpp.o
 
 # target to build an object file
 main/EventsPythonModule.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/EventsPythonModule.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.o
 .PHONY : main/EventsPythonModule.cpp.o
 
 main/EventsPythonModule.i: main/EventsPythonModule.cpp.i
@@ -4535,7 +4535,7 @@ main/EventsPythonModule.i: main/EventsPythonModule.cpp.i
 
 # target to preprocess a source file
 main/EventsPythonModule.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/EventsPythonModule.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.i
 .PHONY : main/EventsPythonModule.cpp.i
 
 main/EventsPythonModule.s: main/EventsPythonModule.cpp.s
@@ -4544,7 +4544,7 @@ main/EventsPythonModule.s: main/EventsPythonModule.cpp.s
 
 # target to generate assembly for a file
 main/EventsPythonModule.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/EventsPythonModule.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.s
 .PHONY : main/EventsPythonModule.cpp.s
 
 main/Helper.o: main/Helper.cpp.o
@@ -4553,7 +4553,7 @@ main/Helper.o: main/Helper.cpp.o
 
 # target to build an object file
 main/Helper.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/Helper.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/Helper.cpp.o
 .PHONY : main/Helper.cpp.o
 
 main/Helper.i: main/Helper.cpp.i
@@ -4562,7 +4562,7 @@ main/Helper.i: main/Helper.cpp.i
 
 # target to preprocess a source file
 main/Helper.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/Helper.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/Helper.cpp.i
 .PHONY : main/Helper.cpp.i
 
 main/Helper.s: main/Helper.cpp.s
@@ -4571,7 +4571,7 @@ main/Helper.s: main/Helper.cpp.s
 
 # target to generate assembly for a file
 main/Helper.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/Helper.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/Helper.cpp.s
 .PHONY : main/Helper.cpp.s
 
 main/IFTTT.o: main/IFTTT.cpp.o
@@ -4580,7 +4580,7 @@ main/IFTTT.o: main/IFTTT.cpp.o
 
 # target to build an object file
 main/IFTTT.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/IFTTT.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/IFTTT.cpp.o
 .PHONY : main/IFTTT.cpp.o
 
 main/IFTTT.i: main/IFTTT.cpp.i
@@ -4589,7 +4589,7 @@ main/IFTTT.i: main/IFTTT.cpp.i
 
 # target to preprocess a source file
 main/IFTTT.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/IFTTT.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/IFTTT.cpp.i
 .PHONY : main/IFTTT.cpp.i
 
 main/IFTTT.s: main/IFTTT.cpp.s
@@ -4598,7 +4598,7 @@ main/IFTTT.s: main/IFTTT.cpp.s
 
 # target to generate assembly for a file
 main/IFTTT.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/IFTTT.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/IFTTT.cpp.s
 .PHONY : main/IFTTT.cpp.s
 
 main/Logger.o: main/Logger.cpp.o
@@ -4607,7 +4607,7 @@ main/Logger.o: main/Logger.cpp.o
 
 # target to build an object file
 main/Logger.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/Logger.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/Logger.cpp.o
 .PHONY : main/Logger.cpp.o
 
 main/Logger.i: main/Logger.cpp.i
@@ -4616,7 +4616,7 @@ main/Logger.i: main/Logger.cpp.i
 
 # target to preprocess a source file
 main/Logger.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/Logger.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/Logger.cpp.i
 .PHONY : main/Logger.cpp.i
 
 main/Logger.s: main/Logger.cpp.s
@@ -4625,7 +4625,7 @@ main/Logger.s: main/Logger.cpp.s
 
 # target to generate assembly for a file
 main/Logger.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/Logger.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/Logger.cpp.s
 .PHONY : main/Logger.cpp.s
 
 main/LuaCommon.o: main/LuaCommon.cpp.o
@@ -4634,7 +4634,7 @@ main/LuaCommon.o: main/LuaCommon.cpp.o
 
 # target to build an object file
 main/LuaCommon.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/LuaCommon.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/LuaCommon.cpp.o
 .PHONY : main/LuaCommon.cpp.o
 
 main/LuaCommon.i: main/LuaCommon.cpp.i
@@ -4643,7 +4643,7 @@ main/LuaCommon.i: main/LuaCommon.cpp.i
 
 # target to preprocess a source file
 main/LuaCommon.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/LuaCommon.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/LuaCommon.cpp.i
 .PHONY : main/LuaCommon.cpp.i
 
 main/LuaCommon.s: main/LuaCommon.cpp.s
@@ -4652,7 +4652,7 @@ main/LuaCommon.s: main/LuaCommon.cpp.s
 
 # target to generate assembly for a file
 main/LuaCommon.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/LuaCommon.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/LuaCommon.cpp.s
 .PHONY : main/LuaCommon.cpp.s
 
 main/LuaHandler.o: main/LuaHandler.cpp.o
@@ -4661,7 +4661,7 @@ main/LuaHandler.o: main/LuaHandler.cpp.o
 
 # target to build an object file
 main/LuaHandler.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/LuaHandler.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/LuaHandler.cpp.o
 .PHONY : main/LuaHandler.cpp.o
 
 main/LuaHandler.i: main/LuaHandler.cpp.i
@@ -4670,7 +4670,7 @@ main/LuaHandler.i: main/LuaHandler.cpp.i
 
 # target to preprocess a source file
 main/LuaHandler.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/LuaHandler.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/LuaHandler.cpp.i
 .PHONY : main/LuaHandler.cpp.i
 
 main/LuaHandler.s: main/LuaHandler.cpp.s
@@ -4679,7 +4679,7 @@ main/LuaHandler.s: main/LuaHandler.cpp.s
 
 # target to generate assembly for a file
 main/LuaHandler.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/LuaHandler.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/LuaHandler.cpp.s
 .PHONY : main/LuaHandler.cpp.s
 
 main/RFXNames.o: main/RFXNames.cpp.o
@@ -4688,7 +4688,7 @@ main/RFXNames.o: main/RFXNames.cpp.o
 
 # target to build an object file
 main/RFXNames.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/RFXNames.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/RFXNames.cpp.o
 .PHONY : main/RFXNames.cpp.o
 
 main/RFXNames.i: main/RFXNames.cpp.i
@@ -4697,7 +4697,7 @@ main/RFXNames.i: main/RFXNames.cpp.i
 
 # target to preprocess a source file
 main/RFXNames.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/RFXNames.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/RFXNames.cpp.i
 .PHONY : main/RFXNames.cpp.i
 
 main/RFXNames.s: main/RFXNames.cpp.s
@@ -4706,7 +4706,7 @@ main/RFXNames.s: main/RFXNames.cpp.s
 
 # target to generate assembly for a file
 main/RFXNames.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/RFXNames.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/RFXNames.cpp.s
 .PHONY : main/RFXNames.cpp.s
 
 main/SQLHelper.o: main/SQLHelper.cpp.o
@@ -4715,7 +4715,7 @@ main/SQLHelper.o: main/SQLHelper.cpp.o
 
 # target to build an object file
 main/SQLHelper.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/SQLHelper.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/SQLHelper.cpp.o
 .PHONY : main/SQLHelper.cpp.o
 
 main/SQLHelper.i: main/SQLHelper.cpp.i
@@ -4724,7 +4724,7 @@ main/SQLHelper.i: main/SQLHelper.cpp.i
 
 # target to preprocess a source file
 main/SQLHelper.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/SQLHelper.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/SQLHelper.cpp.i
 .PHONY : main/SQLHelper.cpp.i
 
 main/SQLHelper.s: main/SQLHelper.cpp.s
@@ -4733,7 +4733,7 @@ main/SQLHelper.s: main/SQLHelper.cpp.s
 
 # target to generate assembly for a file
 main/SQLHelper.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/SQLHelper.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/SQLHelper.cpp.s
 .PHONY : main/SQLHelper.cpp.s
 
 main/Scheduler.o: main/Scheduler.cpp.o
@@ -4742,7 +4742,7 @@ main/Scheduler.o: main/Scheduler.cpp.o
 
 # target to build an object file
 main/Scheduler.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/Scheduler.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/Scheduler.cpp.o
 .PHONY : main/Scheduler.cpp.o
 
 main/Scheduler.i: main/Scheduler.cpp.i
@@ -4751,7 +4751,7 @@ main/Scheduler.i: main/Scheduler.cpp.i
 
 # target to preprocess a source file
 main/Scheduler.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/Scheduler.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/Scheduler.cpp.i
 .PHONY : main/Scheduler.cpp.i
 
 main/Scheduler.s: main/Scheduler.cpp.s
@@ -4760,7 +4760,7 @@ main/Scheduler.s: main/Scheduler.cpp.s
 
 # target to generate assembly for a file
 main/Scheduler.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/Scheduler.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/Scheduler.cpp.s
 .PHONY : main/Scheduler.cpp.s
 
 main/SunRiseSet.o: main/SunRiseSet.cpp.o
@@ -4769,7 +4769,7 @@ main/SunRiseSet.o: main/SunRiseSet.cpp.o
 
 # target to build an object file
 main/SunRiseSet.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/SunRiseSet.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.o
 .PHONY : main/SunRiseSet.cpp.o
 
 main/SunRiseSet.i: main/SunRiseSet.cpp.i
@@ -4778,7 +4778,7 @@ main/SunRiseSet.i: main/SunRiseSet.cpp.i
 
 # target to preprocess a source file
 main/SunRiseSet.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/SunRiseSet.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.i
 .PHONY : main/SunRiseSet.cpp.i
 
 main/SunRiseSet.s: main/SunRiseSet.cpp.s
@@ -4787,7 +4787,7 @@ main/SunRiseSet.s: main/SunRiseSet.cpp.s
 
 # target to generate assembly for a file
 main/SunRiseSet.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/SunRiseSet.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.s
 .PHONY : main/SunRiseSet.cpp.s
 
 main/WebServer.o: main/WebServer.cpp.o
@@ -4796,7 +4796,7 @@ main/WebServer.o: main/WebServer.cpp.o
 
 # target to build an object file
 main/WebServer.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/WebServer.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/WebServer.cpp.o
 .PHONY : main/WebServer.cpp.o
 
 main/WebServer.i: main/WebServer.cpp.i
@@ -4805,7 +4805,7 @@ main/WebServer.i: main/WebServer.cpp.i
 
 # target to preprocess a source file
 main/WebServer.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/WebServer.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/WebServer.cpp.i
 .PHONY : main/WebServer.cpp.i
 
 main/WebServer.s: main/WebServer.cpp.s
@@ -4814,7 +4814,7 @@ main/WebServer.s: main/WebServer.cpp.s
 
 # target to generate assembly for a file
 main/WebServer.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/WebServer.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/WebServer.cpp.s
 .PHONY : main/WebServer.cpp.s
 
 main/WebServerHelper.o: main/WebServerHelper.cpp.o
@@ -4823,7 +4823,7 @@ main/WebServerHelper.o: main/WebServerHelper.cpp.o
 
 # target to build an object file
 main/WebServerHelper.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/WebServerHelper.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.o
 .PHONY : main/WebServerHelper.cpp.o
 
 main/WebServerHelper.i: main/WebServerHelper.cpp.i
@@ -4832,7 +4832,7 @@ main/WebServerHelper.i: main/WebServerHelper.cpp.i
 
 # target to preprocess a source file
 main/WebServerHelper.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/WebServerHelper.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.i
 .PHONY : main/WebServerHelper.cpp.i
 
 main/WebServerHelper.s: main/WebServerHelper.cpp.s
@@ -4841,7 +4841,7 @@ main/WebServerHelper.s: main/WebServerHelper.cpp.s
 
 # target to generate assembly for a file
 main/WebServerHelper.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/WebServerHelper.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.s
 .PHONY : main/WebServerHelper.cpp.s
 
 main/WindCalculation.o: main/WindCalculation.cpp.o
@@ -4850,7 +4850,7 @@ main/WindCalculation.o: main/WindCalculation.cpp.o
 
 # target to build an object file
 main/WindCalculation.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/WindCalculation.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/WindCalculation.cpp.o
 .PHONY : main/WindCalculation.cpp.o
 
 main/WindCalculation.i: main/WindCalculation.cpp.i
@@ -4859,7 +4859,7 @@ main/WindCalculation.i: main/WindCalculation.cpp.i
 
 # target to preprocess a source file
 main/WindCalculation.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/WindCalculation.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/WindCalculation.cpp.i
 .PHONY : main/WindCalculation.cpp.i
 
 main/WindCalculation.s: main/WindCalculation.cpp.s
@@ -4868,35 +4868,35 @@ main/WindCalculation.s: main/WindCalculation.cpp.s
 
 # target to generate assembly for a file
 main/WindCalculation.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/WindCalculation.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/WindCalculation.cpp.s
 .PHONY : main/WindCalculation.cpp.s
 
-main/daccord.o: main/daccord.cpp.o
+main/domoticz.o: main/domoticz.cpp.o
 
-.PHONY : main/daccord.o
+.PHONY : main/domoticz.o
 
 # target to build an object file
-main/daccord.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/daccord.cpp.o
-.PHONY : main/daccord.cpp.o
+main/domoticz.cpp.o:
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/domoticz.cpp.o
+.PHONY : main/domoticz.cpp.o
 
-main/daccord.i: main/daccord.cpp.i
+main/domoticz.i: main/domoticz.cpp.i
 
-.PHONY : main/daccord.i
+.PHONY : main/domoticz.i
 
 # target to preprocess a source file
-main/daccord.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/daccord.cpp.i
-.PHONY : main/daccord.cpp.i
+main/domoticz.cpp.i:
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/domoticz.cpp.i
+.PHONY : main/domoticz.cpp.i
 
-main/daccord.s: main/daccord.cpp.s
+main/domoticz.s: main/domoticz.cpp.s
 
-.PHONY : main/daccord.s
+.PHONY : main/domoticz.s
 
 # target to generate assembly for a file
-main/daccord.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/daccord.cpp.s
-.PHONY : main/daccord.cpp.s
+main/domoticz.cpp.s:
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/domoticz.cpp.s
+.PHONY : main/domoticz.cpp.s
 
 main/dzVents.o: main/dzVents.cpp.o
 
@@ -4904,7 +4904,7 @@ main/dzVents.o: main/dzVents.cpp.o
 
 # target to build an object file
 main/dzVents.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/dzVents.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/dzVents.cpp.o
 .PHONY : main/dzVents.cpp.o
 
 main/dzVents.i: main/dzVents.cpp.i
@@ -4913,7 +4913,7 @@ main/dzVents.i: main/dzVents.cpp.i
 
 # target to preprocess a source file
 main/dzVents.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/dzVents.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/dzVents.cpp.i
 .PHONY : main/dzVents.cpp.i
 
 main/dzVents.s: main/dzVents.cpp.s
@@ -4922,7 +4922,7 @@ main/dzVents.s: main/dzVents.cpp.s
 
 # target to generate assembly for a file
 main/dzVents.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/dzVents.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/dzVents.cpp.s
 .PHONY : main/dzVents.cpp.s
 
 main/localtime_r.o: main/localtime_r.cpp.o
@@ -4931,7 +4931,7 @@ main/localtime_r.o: main/localtime_r.cpp.o
 
 # target to build an object file
 main/localtime_r.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/localtime_r.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/localtime_r.cpp.o
 .PHONY : main/localtime_r.cpp.o
 
 main/localtime_r.i: main/localtime_r.cpp.i
@@ -4940,7 +4940,7 @@ main/localtime_r.i: main/localtime_r.cpp.i
 
 # target to preprocess a source file
 main/localtime_r.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/localtime_r.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/localtime_r.cpp.i
 .PHONY : main/localtime_r.cpp.i
 
 main/localtime_r.s: main/localtime_r.cpp.s
@@ -4949,7 +4949,7 @@ main/localtime_r.s: main/localtime_r.cpp.s
 
 # target to generate assembly for a file
 main/localtime_r.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/localtime_r.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/localtime_r.cpp.s
 .PHONY : main/localtime_r.cpp.s
 
 main/mainworker.o: main/mainworker.cpp.o
@@ -4958,7 +4958,7 @@ main/mainworker.o: main/mainworker.cpp.o
 
 # target to build an object file
 main/mainworker.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/mainworker.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/mainworker.cpp.o
 .PHONY : main/mainworker.cpp.o
 
 main/mainworker.i: main/mainworker.cpp.i
@@ -4967,7 +4967,7 @@ main/mainworker.i: main/mainworker.cpp.i
 
 # target to preprocess a source file
 main/mainworker.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/mainworker.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/mainworker.cpp.i
 .PHONY : main/mainworker.cpp.i
 
 main/mainworker.s: main/mainworker.cpp.s
@@ -4976,7 +4976,7 @@ main/mainworker.s: main/mainworker.cpp.s
 
 # target to generate assembly for a file
 main/mainworker.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/mainworker.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/mainworker.cpp.s
 .PHONY : main/mainworker.cpp.s
 
 main/stdafx.o: main/stdafx.cpp.o
@@ -4985,7 +4985,7 @@ main/stdafx.o: main/stdafx.cpp.o
 
 # target to build an object file
 main/stdafx.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/stdafx.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/stdafx.cpp.o
 .PHONY : main/stdafx.cpp.o
 
 main/stdafx.i: main/stdafx.cpp.i
@@ -4994,7 +4994,7 @@ main/stdafx.i: main/stdafx.cpp.i
 
 # target to preprocess a source file
 main/stdafx.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/stdafx.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/stdafx.cpp.i
 .PHONY : main/stdafx.cpp.i
 
 main/stdafx.s: main/stdafx.cpp.s
@@ -5003,7 +5003,7 @@ main/stdafx.s: main/stdafx.cpp.s
 
 # target to generate assembly for a file
 main/stdafx.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/main/stdafx.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/main/stdafx.cpp.s
 .PHONY : main/stdafx.cpp.s
 
 notifications/NotificationBase.o: notifications/NotificationBase.cpp.o
@@ -5012,7 +5012,7 @@ notifications/NotificationBase.o: notifications/NotificationBase.cpp.o
 
 # target to build an object file
 notifications/NotificationBase.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationBase.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.o
 .PHONY : notifications/NotificationBase.cpp.o
 
 notifications/NotificationBase.i: notifications/NotificationBase.cpp.i
@@ -5021,7 +5021,7 @@ notifications/NotificationBase.i: notifications/NotificationBase.cpp.i
 
 # target to preprocess a source file
 notifications/NotificationBase.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationBase.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.i
 .PHONY : notifications/NotificationBase.cpp.i
 
 notifications/NotificationBase.s: notifications/NotificationBase.cpp.s
@@ -5030,7 +5030,7 @@ notifications/NotificationBase.s: notifications/NotificationBase.cpp.s
 
 # target to generate assembly for a file
 notifications/NotificationBase.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationBase.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.s
 .PHONY : notifications/NotificationBase.cpp.s
 
 notifications/NotificationBrowser.o: notifications/NotificationBrowser.cpp.o
@@ -5039,7 +5039,7 @@ notifications/NotificationBrowser.o: notifications/NotificationBrowser.cpp.o
 
 # target to build an object file
 notifications/NotificationBrowser.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationBrowser.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.o
 .PHONY : notifications/NotificationBrowser.cpp.o
 
 notifications/NotificationBrowser.i: notifications/NotificationBrowser.cpp.i
@@ -5048,7 +5048,7 @@ notifications/NotificationBrowser.i: notifications/NotificationBrowser.cpp.i
 
 # target to preprocess a source file
 notifications/NotificationBrowser.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationBrowser.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.i
 .PHONY : notifications/NotificationBrowser.cpp.i
 
 notifications/NotificationBrowser.s: notifications/NotificationBrowser.cpp.s
@@ -5057,7 +5057,7 @@ notifications/NotificationBrowser.s: notifications/NotificationBrowser.cpp.s
 
 # target to generate assembly for a file
 notifications/NotificationBrowser.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationBrowser.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.s
 .PHONY : notifications/NotificationBrowser.cpp.s
 
 notifications/NotificationEmail.o: notifications/NotificationEmail.cpp.o
@@ -5066,7 +5066,7 @@ notifications/NotificationEmail.o: notifications/NotificationEmail.cpp.o
 
 # target to build an object file
 notifications/NotificationEmail.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationEmail.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.o
 .PHONY : notifications/NotificationEmail.cpp.o
 
 notifications/NotificationEmail.i: notifications/NotificationEmail.cpp.i
@@ -5075,7 +5075,7 @@ notifications/NotificationEmail.i: notifications/NotificationEmail.cpp.i
 
 # target to preprocess a source file
 notifications/NotificationEmail.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationEmail.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.i
 .PHONY : notifications/NotificationEmail.cpp.i
 
 notifications/NotificationEmail.s: notifications/NotificationEmail.cpp.s
@@ -5084,7 +5084,7 @@ notifications/NotificationEmail.s: notifications/NotificationEmail.cpp.s
 
 # target to generate assembly for a file
 notifications/NotificationEmail.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationEmail.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.s
 .PHONY : notifications/NotificationEmail.cpp.s
 
 notifications/NotificationGCM.o: notifications/NotificationGCM.cpp.o
@@ -5093,7 +5093,7 @@ notifications/NotificationGCM.o: notifications/NotificationGCM.cpp.o
 
 # target to build an object file
 notifications/NotificationGCM.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationGCM.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.o
 .PHONY : notifications/NotificationGCM.cpp.o
 
 notifications/NotificationGCM.i: notifications/NotificationGCM.cpp.i
@@ -5102,7 +5102,7 @@ notifications/NotificationGCM.i: notifications/NotificationGCM.cpp.i
 
 # target to preprocess a source file
 notifications/NotificationGCM.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationGCM.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.i
 .PHONY : notifications/NotificationGCM.cpp.i
 
 notifications/NotificationGCM.s: notifications/NotificationGCM.cpp.s
@@ -5111,7 +5111,7 @@ notifications/NotificationGCM.s: notifications/NotificationGCM.cpp.s
 
 # target to generate assembly for a file
 notifications/NotificationGCM.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationGCM.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.s
 .PHONY : notifications/NotificationGCM.cpp.s
 
 notifications/NotificationHTTP.o: notifications/NotificationHTTP.cpp.o
@@ -5120,7 +5120,7 @@ notifications/NotificationHTTP.o: notifications/NotificationHTTP.cpp.o
 
 # target to build an object file
 notifications/NotificationHTTP.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationHTTP.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.o
 .PHONY : notifications/NotificationHTTP.cpp.o
 
 notifications/NotificationHTTP.i: notifications/NotificationHTTP.cpp.i
@@ -5129,7 +5129,7 @@ notifications/NotificationHTTP.i: notifications/NotificationHTTP.cpp.i
 
 # target to preprocess a source file
 notifications/NotificationHTTP.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationHTTP.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.i
 .PHONY : notifications/NotificationHTTP.cpp.i
 
 notifications/NotificationHTTP.s: notifications/NotificationHTTP.cpp.s
@@ -5138,7 +5138,7 @@ notifications/NotificationHTTP.s: notifications/NotificationHTTP.cpp.s
 
 # target to generate assembly for a file
 notifications/NotificationHTTP.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationHTTP.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.s
 .PHONY : notifications/NotificationHTTP.cpp.s
 
 notifications/NotificationHelper.o: notifications/NotificationHelper.cpp.o
@@ -5147,7 +5147,7 @@ notifications/NotificationHelper.o: notifications/NotificationHelper.cpp.o
 
 # target to build an object file
 notifications/NotificationHelper.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationHelper.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.o
 .PHONY : notifications/NotificationHelper.cpp.o
 
 notifications/NotificationHelper.i: notifications/NotificationHelper.cpp.i
@@ -5156,7 +5156,7 @@ notifications/NotificationHelper.i: notifications/NotificationHelper.cpp.i
 
 # target to preprocess a source file
 notifications/NotificationHelper.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationHelper.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.i
 .PHONY : notifications/NotificationHelper.cpp.i
 
 notifications/NotificationHelper.s: notifications/NotificationHelper.cpp.s
@@ -5165,7 +5165,7 @@ notifications/NotificationHelper.s: notifications/NotificationHelper.cpp.s
 
 # target to generate assembly for a file
 notifications/NotificationHelper.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationHelper.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.s
 .PHONY : notifications/NotificationHelper.cpp.s
 
 notifications/NotificationKodi.o: notifications/NotificationKodi.cpp.o
@@ -5174,7 +5174,7 @@ notifications/NotificationKodi.o: notifications/NotificationKodi.cpp.o
 
 # target to build an object file
 notifications/NotificationKodi.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationKodi.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.o
 .PHONY : notifications/NotificationKodi.cpp.o
 
 notifications/NotificationKodi.i: notifications/NotificationKodi.cpp.i
@@ -5183,7 +5183,7 @@ notifications/NotificationKodi.i: notifications/NotificationKodi.cpp.i
 
 # target to preprocess a source file
 notifications/NotificationKodi.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationKodi.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.i
 .PHONY : notifications/NotificationKodi.cpp.i
 
 notifications/NotificationKodi.s: notifications/NotificationKodi.cpp.s
@@ -5192,7 +5192,7 @@ notifications/NotificationKodi.s: notifications/NotificationKodi.cpp.s
 
 # target to generate assembly for a file
 notifications/NotificationKodi.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationKodi.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.s
 .PHONY : notifications/NotificationKodi.cpp.s
 
 notifications/NotificationLogitechMediaServer.o: notifications/NotificationLogitechMediaServer.cpp.o
@@ -5201,7 +5201,7 @@ notifications/NotificationLogitechMediaServer.o: notifications/NotificationLogit
 
 # target to build an object file
 notifications/NotificationLogitechMediaServer.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationLogitechMediaServer.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.o
 .PHONY : notifications/NotificationLogitechMediaServer.cpp.o
 
 notifications/NotificationLogitechMediaServer.i: notifications/NotificationLogitechMediaServer.cpp.i
@@ -5210,7 +5210,7 @@ notifications/NotificationLogitechMediaServer.i: notifications/NotificationLogit
 
 # target to preprocess a source file
 notifications/NotificationLogitechMediaServer.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationLogitechMediaServer.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.i
 .PHONY : notifications/NotificationLogitechMediaServer.cpp.i
 
 notifications/NotificationLogitechMediaServer.s: notifications/NotificationLogitechMediaServer.cpp.s
@@ -5219,7 +5219,7 @@ notifications/NotificationLogitechMediaServer.s: notifications/NotificationLogit
 
 # target to generate assembly for a file
 notifications/NotificationLogitechMediaServer.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationLogitechMediaServer.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.s
 .PHONY : notifications/NotificationLogitechMediaServer.cpp.s
 
 notifications/NotificationNma.o: notifications/NotificationNma.cpp.o
@@ -5228,7 +5228,7 @@ notifications/NotificationNma.o: notifications/NotificationNma.cpp.o
 
 # target to build an object file
 notifications/NotificationNma.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationNma.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.o
 .PHONY : notifications/NotificationNma.cpp.o
 
 notifications/NotificationNma.i: notifications/NotificationNma.cpp.i
@@ -5237,7 +5237,7 @@ notifications/NotificationNma.i: notifications/NotificationNma.cpp.i
 
 # target to preprocess a source file
 notifications/NotificationNma.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationNma.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.i
 .PHONY : notifications/NotificationNma.cpp.i
 
 notifications/NotificationNma.s: notifications/NotificationNma.cpp.s
@@ -5246,7 +5246,7 @@ notifications/NotificationNma.s: notifications/NotificationNma.cpp.s
 
 # target to generate assembly for a file
 notifications/NotificationNma.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationNma.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.s
 .PHONY : notifications/NotificationNma.cpp.s
 
 notifications/NotificationProwl.o: notifications/NotificationProwl.cpp.o
@@ -5255,7 +5255,7 @@ notifications/NotificationProwl.o: notifications/NotificationProwl.cpp.o
 
 # target to build an object file
 notifications/NotificationProwl.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationProwl.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.o
 .PHONY : notifications/NotificationProwl.cpp.o
 
 notifications/NotificationProwl.i: notifications/NotificationProwl.cpp.i
@@ -5264,7 +5264,7 @@ notifications/NotificationProwl.i: notifications/NotificationProwl.cpp.i
 
 # target to preprocess a source file
 notifications/NotificationProwl.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationProwl.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.i
 .PHONY : notifications/NotificationProwl.cpp.i
 
 notifications/NotificationProwl.s: notifications/NotificationProwl.cpp.s
@@ -5273,7 +5273,7 @@ notifications/NotificationProwl.s: notifications/NotificationProwl.cpp.s
 
 # target to generate assembly for a file
 notifications/NotificationProwl.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationProwl.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.s
 .PHONY : notifications/NotificationProwl.cpp.s
 
 notifications/NotificationPushalot.o: notifications/NotificationPushalot.cpp.o
@@ -5282,7 +5282,7 @@ notifications/NotificationPushalot.o: notifications/NotificationPushalot.cpp.o
 
 # target to build an object file
 notifications/NotificationPushalot.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationPushalot.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.o
 .PHONY : notifications/NotificationPushalot.cpp.o
 
 notifications/NotificationPushalot.i: notifications/NotificationPushalot.cpp.i
@@ -5291,7 +5291,7 @@ notifications/NotificationPushalot.i: notifications/NotificationPushalot.cpp.i
 
 # target to preprocess a source file
 notifications/NotificationPushalot.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationPushalot.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.i
 .PHONY : notifications/NotificationPushalot.cpp.i
 
 notifications/NotificationPushalot.s: notifications/NotificationPushalot.cpp.s
@@ -5300,7 +5300,7 @@ notifications/NotificationPushalot.s: notifications/NotificationPushalot.cpp.s
 
 # target to generate assembly for a file
 notifications/NotificationPushalot.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationPushalot.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.s
 .PHONY : notifications/NotificationPushalot.cpp.s
 
 notifications/NotificationPushbullet.o: notifications/NotificationPushbullet.cpp.o
@@ -5309,7 +5309,7 @@ notifications/NotificationPushbullet.o: notifications/NotificationPushbullet.cpp
 
 # target to build an object file
 notifications/NotificationPushbullet.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationPushbullet.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.o
 .PHONY : notifications/NotificationPushbullet.cpp.o
 
 notifications/NotificationPushbullet.i: notifications/NotificationPushbullet.cpp.i
@@ -5318,7 +5318,7 @@ notifications/NotificationPushbullet.i: notifications/NotificationPushbullet.cpp
 
 # target to preprocess a source file
 notifications/NotificationPushbullet.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationPushbullet.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.i
 .PHONY : notifications/NotificationPushbullet.cpp.i
 
 notifications/NotificationPushbullet.s: notifications/NotificationPushbullet.cpp.s
@@ -5327,7 +5327,7 @@ notifications/NotificationPushbullet.s: notifications/NotificationPushbullet.cpp
 
 # target to generate assembly for a file
 notifications/NotificationPushbullet.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationPushbullet.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.s
 .PHONY : notifications/NotificationPushbullet.cpp.s
 
 notifications/NotificationPushover.o: notifications/NotificationPushover.cpp.o
@@ -5336,7 +5336,7 @@ notifications/NotificationPushover.o: notifications/NotificationPushover.cpp.o
 
 # target to build an object file
 notifications/NotificationPushover.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationPushover.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.o
 .PHONY : notifications/NotificationPushover.cpp.o
 
 notifications/NotificationPushover.i: notifications/NotificationPushover.cpp.i
@@ -5345,7 +5345,7 @@ notifications/NotificationPushover.i: notifications/NotificationPushover.cpp.i
 
 # target to preprocess a source file
 notifications/NotificationPushover.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationPushover.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.i
 .PHONY : notifications/NotificationPushover.cpp.i
 
 notifications/NotificationPushover.s: notifications/NotificationPushover.cpp.s
@@ -5354,7 +5354,7 @@ notifications/NotificationPushover.s: notifications/NotificationPushover.cpp.s
 
 # target to generate assembly for a file
 notifications/NotificationPushover.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationPushover.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.s
 .PHONY : notifications/NotificationPushover.cpp.s
 
 notifications/NotificationPushsafer.o: notifications/NotificationPushsafer.cpp.o
@@ -5363,7 +5363,7 @@ notifications/NotificationPushsafer.o: notifications/NotificationPushsafer.cpp.o
 
 # target to build an object file
 notifications/NotificationPushsafer.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationPushsafer.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.o
 .PHONY : notifications/NotificationPushsafer.cpp.o
 
 notifications/NotificationPushsafer.i: notifications/NotificationPushsafer.cpp.i
@@ -5372,7 +5372,7 @@ notifications/NotificationPushsafer.i: notifications/NotificationPushsafer.cpp.i
 
 # target to preprocess a source file
 notifications/NotificationPushsafer.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationPushsafer.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.i
 .PHONY : notifications/NotificationPushsafer.cpp.i
 
 notifications/NotificationPushsafer.s: notifications/NotificationPushsafer.cpp.s
@@ -5381,7 +5381,7 @@ notifications/NotificationPushsafer.s: notifications/NotificationPushsafer.cpp.s
 
 # target to generate assembly for a file
 notifications/NotificationPushsafer.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationPushsafer.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.s
 .PHONY : notifications/NotificationPushsafer.cpp.s
 
 notifications/NotificationSMS.o: notifications/NotificationSMS.cpp.o
@@ -5390,7 +5390,7 @@ notifications/NotificationSMS.o: notifications/NotificationSMS.cpp.o
 
 # target to build an object file
 notifications/NotificationSMS.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationSMS.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.o
 .PHONY : notifications/NotificationSMS.cpp.o
 
 notifications/NotificationSMS.i: notifications/NotificationSMS.cpp.i
@@ -5399,7 +5399,7 @@ notifications/NotificationSMS.i: notifications/NotificationSMS.cpp.i
 
 # target to preprocess a source file
 notifications/NotificationSMS.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationSMS.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.i
 .PHONY : notifications/NotificationSMS.cpp.i
 
 notifications/NotificationSMS.s: notifications/NotificationSMS.cpp.s
@@ -5408,7 +5408,7 @@ notifications/NotificationSMS.s: notifications/NotificationSMS.cpp.s
 
 # target to generate assembly for a file
 notifications/NotificationSMS.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationSMS.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.s
 .PHONY : notifications/NotificationSMS.cpp.s
 
 notifications/NotificationTelegram.o: notifications/NotificationTelegram.cpp.o
@@ -5417,7 +5417,7 @@ notifications/NotificationTelegram.o: notifications/NotificationTelegram.cpp.o
 
 # target to build an object file
 notifications/NotificationTelegram.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationTelegram.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.o
 .PHONY : notifications/NotificationTelegram.cpp.o
 
 notifications/NotificationTelegram.i: notifications/NotificationTelegram.cpp.i
@@ -5426,7 +5426,7 @@ notifications/NotificationTelegram.i: notifications/NotificationTelegram.cpp.i
 
 # target to preprocess a source file
 notifications/NotificationTelegram.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationTelegram.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.i
 .PHONY : notifications/NotificationTelegram.cpp.i
 
 notifications/NotificationTelegram.s: notifications/NotificationTelegram.cpp.s
@@ -5435,7 +5435,7 @@ notifications/NotificationTelegram.s: notifications/NotificationTelegram.cpp.s
 
 # target to generate assembly for a file
 notifications/NotificationTelegram.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/notifications/NotificationTelegram.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.s
 .PHONY : notifications/NotificationTelegram.cpp.s
 
 push/BasePush.o: push/BasePush.cpp.o
@@ -5444,7 +5444,7 @@ push/BasePush.o: push/BasePush.cpp.o
 
 # target to build an object file
 push/BasePush.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/BasePush.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/BasePush.cpp.o
 .PHONY : push/BasePush.cpp.o
 
 push/BasePush.i: push/BasePush.cpp.i
@@ -5453,7 +5453,7 @@ push/BasePush.i: push/BasePush.cpp.i
 
 # target to preprocess a source file
 push/BasePush.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/BasePush.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/BasePush.cpp.i
 .PHONY : push/BasePush.cpp.i
 
 push/BasePush.s: push/BasePush.cpp.s
@@ -5462,7 +5462,7 @@ push/BasePush.s: push/BasePush.cpp.s
 
 # target to generate assembly for a file
 push/BasePush.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/BasePush.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/BasePush.cpp.s
 .PHONY : push/BasePush.cpp.s
 
 push/FibaroPush.o: push/FibaroPush.cpp.o
@@ -5471,7 +5471,7 @@ push/FibaroPush.o: push/FibaroPush.cpp.o
 
 # target to build an object file
 push/FibaroPush.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/FibaroPush.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/FibaroPush.cpp.o
 .PHONY : push/FibaroPush.cpp.o
 
 push/FibaroPush.i: push/FibaroPush.cpp.i
@@ -5480,7 +5480,7 @@ push/FibaroPush.i: push/FibaroPush.cpp.i
 
 # target to preprocess a source file
 push/FibaroPush.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/FibaroPush.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/FibaroPush.cpp.i
 .PHONY : push/FibaroPush.cpp.i
 
 push/FibaroPush.s: push/FibaroPush.cpp.s
@@ -5489,7 +5489,7 @@ push/FibaroPush.s: push/FibaroPush.cpp.s
 
 # target to generate assembly for a file
 push/FibaroPush.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/FibaroPush.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/FibaroPush.cpp.s
 .PHONY : push/FibaroPush.cpp.s
 
 push/GooglePubSubPush.o: push/GooglePubSubPush.cpp.o
@@ -5498,7 +5498,7 @@ push/GooglePubSubPush.o: push/GooglePubSubPush.cpp.o
 
 # target to build an object file
 push/GooglePubSubPush.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/GooglePubSubPush.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.o
 .PHONY : push/GooglePubSubPush.cpp.o
 
 push/GooglePubSubPush.i: push/GooglePubSubPush.cpp.i
@@ -5507,7 +5507,7 @@ push/GooglePubSubPush.i: push/GooglePubSubPush.cpp.i
 
 # target to preprocess a source file
 push/GooglePubSubPush.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/GooglePubSubPush.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.i
 .PHONY : push/GooglePubSubPush.cpp.i
 
 push/GooglePubSubPush.s: push/GooglePubSubPush.cpp.s
@@ -5516,7 +5516,7 @@ push/GooglePubSubPush.s: push/GooglePubSubPush.cpp.s
 
 # target to generate assembly for a file
 push/GooglePubSubPush.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/GooglePubSubPush.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.s
 .PHONY : push/GooglePubSubPush.cpp.s
 
 push/HttpPush.o: push/HttpPush.cpp.o
@@ -5525,7 +5525,7 @@ push/HttpPush.o: push/HttpPush.cpp.o
 
 # target to build an object file
 push/HttpPush.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/HttpPush.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/HttpPush.cpp.o
 .PHONY : push/HttpPush.cpp.o
 
 push/HttpPush.i: push/HttpPush.cpp.i
@@ -5534,7 +5534,7 @@ push/HttpPush.i: push/HttpPush.cpp.i
 
 # target to preprocess a source file
 push/HttpPush.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/HttpPush.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/HttpPush.cpp.i
 .PHONY : push/HttpPush.cpp.i
 
 push/HttpPush.s: push/HttpPush.cpp.s
@@ -5543,7 +5543,7 @@ push/HttpPush.s: push/HttpPush.cpp.s
 
 # target to generate assembly for a file
 push/HttpPush.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/HttpPush.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/HttpPush.cpp.s
 .PHONY : push/HttpPush.cpp.s
 
 push/InfluxPush.o: push/InfluxPush.cpp.o
@@ -5552,7 +5552,7 @@ push/InfluxPush.o: push/InfluxPush.cpp.o
 
 # target to build an object file
 push/InfluxPush.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/InfluxPush.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/InfluxPush.cpp.o
 .PHONY : push/InfluxPush.cpp.o
 
 push/InfluxPush.i: push/InfluxPush.cpp.i
@@ -5561,7 +5561,7 @@ push/InfluxPush.i: push/InfluxPush.cpp.i
 
 # target to preprocess a source file
 push/InfluxPush.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/InfluxPush.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/InfluxPush.cpp.i
 .PHONY : push/InfluxPush.cpp.i
 
 push/InfluxPush.s: push/InfluxPush.cpp.s
@@ -5570,7 +5570,7 @@ push/InfluxPush.s: push/InfluxPush.cpp.s
 
 # target to generate assembly for a file
 push/InfluxPush.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/InfluxPush.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/InfluxPush.cpp.s
 .PHONY : push/InfluxPush.cpp.s
 
 push/WebsocketPush.o: push/WebsocketPush.cpp.o
@@ -5579,7 +5579,7 @@ push/WebsocketPush.o: push/WebsocketPush.cpp.o
 
 # target to build an object file
 push/WebsocketPush.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/WebsocketPush.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.o
 .PHONY : push/WebsocketPush.cpp.o
 
 push/WebsocketPush.i: push/WebsocketPush.cpp.i
@@ -5588,7 +5588,7 @@ push/WebsocketPush.i: push/WebsocketPush.cpp.i
 
 # target to preprocess a source file
 push/WebsocketPush.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/WebsocketPush.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.i
 .PHONY : push/WebsocketPush.cpp.i
 
 push/WebsocketPush.s: push/WebsocketPush.cpp.s
@@ -5597,7 +5597,7 @@ push/WebsocketPush.s: push/WebsocketPush.cpp.s
 
 # target to generate assembly for a file
 push/WebsocketPush.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/push/WebsocketPush.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.s
 .PHONY : push/WebsocketPush.cpp.s
 
 smtpclient/SMTPClient.o: smtpclient/SMTPClient.cpp.o
@@ -5606,7 +5606,7 @@ smtpclient/SMTPClient.o: smtpclient/SMTPClient.cpp.o
 
 # target to build an object file
 smtpclient/SMTPClient.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/smtpclient/SMTPClient.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.o
 .PHONY : smtpclient/SMTPClient.cpp.o
 
 smtpclient/SMTPClient.i: smtpclient/SMTPClient.cpp.i
@@ -5615,7 +5615,7 @@ smtpclient/SMTPClient.i: smtpclient/SMTPClient.cpp.i
 
 # target to preprocess a source file
 smtpclient/SMTPClient.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/smtpclient/SMTPClient.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.i
 .PHONY : smtpclient/SMTPClient.cpp.i
 
 smtpclient/SMTPClient.s: smtpclient/SMTPClient.cpp.s
@@ -5624,7 +5624,7 @@ smtpclient/SMTPClient.s: smtpclient/SMTPClient.cpp.s
 
 # target to generate assembly for a file
 smtpclient/SMTPClient.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/smtpclient/SMTPClient.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.s
 .PHONY : smtpclient/SMTPClient.cpp.s
 
 tcpserver/TCPClient.o: tcpserver/TCPClient.cpp.o
@@ -5633,7 +5633,7 @@ tcpserver/TCPClient.o: tcpserver/TCPClient.cpp.o
 
 # target to build an object file
 tcpserver/TCPClient.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tcpserver/TCPClient.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.o
 .PHONY : tcpserver/TCPClient.cpp.o
 
 tcpserver/TCPClient.i: tcpserver/TCPClient.cpp.i
@@ -5642,7 +5642,7 @@ tcpserver/TCPClient.i: tcpserver/TCPClient.cpp.i
 
 # target to preprocess a source file
 tcpserver/TCPClient.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tcpserver/TCPClient.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.i
 .PHONY : tcpserver/TCPClient.cpp.i
 
 tcpserver/TCPClient.s: tcpserver/TCPClient.cpp.s
@@ -5651,7 +5651,7 @@ tcpserver/TCPClient.s: tcpserver/TCPClient.cpp.s
 
 # target to generate assembly for a file
 tcpserver/TCPClient.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tcpserver/TCPClient.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.s
 .PHONY : tcpserver/TCPClient.cpp.s
 
 tcpserver/TCPServer.o: tcpserver/TCPServer.cpp.o
@@ -5660,7 +5660,7 @@ tcpserver/TCPServer.o: tcpserver/TCPServer.cpp.o
 
 # target to build an object file
 tcpserver/TCPServer.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tcpserver/TCPServer.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.o
 .PHONY : tcpserver/TCPServer.cpp.o
 
 tcpserver/TCPServer.i: tcpserver/TCPServer.cpp.i
@@ -5669,7 +5669,7 @@ tcpserver/TCPServer.i: tcpserver/TCPServer.cpp.i
 
 # target to preprocess a source file
 tcpserver/TCPServer.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tcpserver/TCPServer.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.i
 .PHONY : tcpserver/TCPServer.cpp.i
 
 tcpserver/TCPServer.s: tcpserver/TCPServer.cpp.s
@@ -5678,7 +5678,7 @@ tcpserver/TCPServer.s: tcpserver/TCPServer.cpp.s
 
 # target to generate assembly for a file
 tcpserver/TCPServer.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tcpserver/TCPServer.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.s
 .PHONY : tcpserver/TCPServer.cpp.s
 
 tinyxpath/action_store.o: tinyxpath/action_store.cpp.o
@@ -5687,7 +5687,7 @@ tinyxpath/action_store.o: tinyxpath/action_store.cpp.o
 
 # target to build an object file
 tinyxpath/action_store.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/action_store.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.o
 .PHONY : tinyxpath/action_store.cpp.o
 
 tinyxpath/action_store.i: tinyxpath/action_store.cpp.i
@@ -5696,7 +5696,7 @@ tinyxpath/action_store.i: tinyxpath/action_store.cpp.i
 
 # target to preprocess a source file
 tinyxpath/action_store.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/action_store.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.i
 .PHONY : tinyxpath/action_store.cpp.i
 
 tinyxpath/action_store.s: tinyxpath/action_store.cpp.s
@@ -5705,7 +5705,7 @@ tinyxpath/action_store.s: tinyxpath/action_store.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/action_store.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/action_store.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.s
 .PHONY : tinyxpath/action_store.cpp.s
 
 tinyxpath/htmlutil.o: tinyxpath/htmlutil.cpp.o
@@ -5714,7 +5714,7 @@ tinyxpath/htmlutil.o: tinyxpath/htmlutil.cpp.o
 
 # target to build an object file
 tinyxpath/htmlutil.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/htmlutil.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.o
 .PHONY : tinyxpath/htmlutil.cpp.o
 
 tinyxpath/htmlutil.i: tinyxpath/htmlutil.cpp.i
@@ -5723,7 +5723,7 @@ tinyxpath/htmlutil.i: tinyxpath/htmlutil.cpp.i
 
 # target to preprocess a source file
 tinyxpath/htmlutil.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/htmlutil.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.i
 .PHONY : tinyxpath/htmlutil.cpp.i
 
 tinyxpath/htmlutil.s: tinyxpath/htmlutil.cpp.s
@@ -5732,7 +5732,7 @@ tinyxpath/htmlutil.s: tinyxpath/htmlutil.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/htmlutil.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/htmlutil.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.s
 .PHONY : tinyxpath/htmlutil.cpp.s
 
 tinyxpath/lex_util.o: tinyxpath/lex_util.cpp.o
@@ -5741,7 +5741,7 @@ tinyxpath/lex_util.o: tinyxpath/lex_util.cpp.o
 
 # target to build an object file
 tinyxpath/lex_util.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/lex_util.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.o
 .PHONY : tinyxpath/lex_util.cpp.o
 
 tinyxpath/lex_util.i: tinyxpath/lex_util.cpp.i
@@ -5750,7 +5750,7 @@ tinyxpath/lex_util.i: tinyxpath/lex_util.cpp.i
 
 # target to preprocess a source file
 tinyxpath/lex_util.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/lex_util.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.i
 .PHONY : tinyxpath/lex_util.cpp.i
 
 tinyxpath/lex_util.s: tinyxpath/lex_util.cpp.s
@@ -5759,7 +5759,7 @@ tinyxpath/lex_util.s: tinyxpath/lex_util.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/lex_util.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/lex_util.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.s
 .PHONY : tinyxpath/lex_util.cpp.s
 
 tinyxpath/node_set.o: tinyxpath/node_set.cpp.o
@@ -5768,7 +5768,7 @@ tinyxpath/node_set.o: tinyxpath/node_set.cpp.o
 
 # target to build an object file
 tinyxpath/node_set.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/node_set.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.o
 .PHONY : tinyxpath/node_set.cpp.o
 
 tinyxpath/node_set.i: tinyxpath/node_set.cpp.i
@@ -5777,7 +5777,7 @@ tinyxpath/node_set.i: tinyxpath/node_set.cpp.i
 
 # target to preprocess a source file
 tinyxpath/node_set.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/node_set.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.i
 .PHONY : tinyxpath/node_set.cpp.i
 
 tinyxpath/node_set.s: tinyxpath/node_set.cpp.s
@@ -5786,7 +5786,7 @@ tinyxpath/node_set.s: tinyxpath/node_set.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/node_set.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/node_set.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.s
 .PHONY : tinyxpath/node_set.cpp.s
 
 tinyxpath/tinystr.o: tinyxpath/tinystr.cpp.o
@@ -5795,7 +5795,7 @@ tinyxpath/tinystr.o: tinyxpath/tinystr.cpp.o
 
 # target to build an object file
 tinyxpath/tinystr.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tinystr.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.o
 .PHONY : tinyxpath/tinystr.cpp.o
 
 tinyxpath/tinystr.i: tinyxpath/tinystr.cpp.i
@@ -5804,7 +5804,7 @@ tinyxpath/tinystr.i: tinyxpath/tinystr.cpp.i
 
 # target to preprocess a source file
 tinyxpath/tinystr.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tinystr.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.i
 .PHONY : tinyxpath/tinystr.cpp.i
 
 tinyxpath/tinystr.s: tinyxpath/tinystr.cpp.s
@@ -5813,7 +5813,7 @@ tinyxpath/tinystr.s: tinyxpath/tinystr.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/tinystr.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tinystr.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.s
 .PHONY : tinyxpath/tinystr.cpp.s
 
 tinyxpath/tinyxml.o: tinyxpath/tinyxml.cpp.o
@@ -5822,7 +5822,7 @@ tinyxpath/tinyxml.o: tinyxpath/tinyxml.cpp.o
 
 # target to build an object file
 tinyxpath/tinyxml.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tinyxml.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.o
 .PHONY : tinyxpath/tinyxml.cpp.o
 
 tinyxpath/tinyxml.i: tinyxpath/tinyxml.cpp.i
@@ -5831,7 +5831,7 @@ tinyxpath/tinyxml.i: tinyxpath/tinyxml.cpp.i
 
 # target to preprocess a source file
 tinyxpath/tinyxml.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tinyxml.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.i
 .PHONY : tinyxpath/tinyxml.cpp.i
 
 tinyxpath/tinyxml.s: tinyxpath/tinyxml.cpp.s
@@ -5840,7 +5840,7 @@ tinyxpath/tinyxml.s: tinyxpath/tinyxml.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/tinyxml.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tinyxml.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.s
 .PHONY : tinyxpath/tinyxml.cpp.s
 
 tinyxpath/tinyxmlerror.o: tinyxpath/tinyxmlerror.cpp.o
@@ -5849,7 +5849,7 @@ tinyxpath/tinyxmlerror.o: tinyxpath/tinyxmlerror.cpp.o
 
 # target to build an object file
 tinyxpath/tinyxmlerror.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tinyxmlerror.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.o
 .PHONY : tinyxpath/tinyxmlerror.cpp.o
 
 tinyxpath/tinyxmlerror.i: tinyxpath/tinyxmlerror.cpp.i
@@ -5858,7 +5858,7 @@ tinyxpath/tinyxmlerror.i: tinyxpath/tinyxmlerror.cpp.i
 
 # target to preprocess a source file
 tinyxpath/tinyxmlerror.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tinyxmlerror.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.i
 .PHONY : tinyxpath/tinyxmlerror.cpp.i
 
 tinyxpath/tinyxmlerror.s: tinyxpath/tinyxmlerror.cpp.s
@@ -5867,7 +5867,7 @@ tinyxpath/tinyxmlerror.s: tinyxpath/tinyxmlerror.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/tinyxmlerror.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tinyxmlerror.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.s
 .PHONY : tinyxpath/tinyxmlerror.cpp.s
 
 tinyxpath/tinyxmlparser.o: tinyxpath/tinyxmlparser.cpp.o
@@ -5876,7 +5876,7 @@ tinyxpath/tinyxmlparser.o: tinyxpath/tinyxmlparser.cpp.o
 
 # target to build an object file
 tinyxpath/tinyxmlparser.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tinyxmlparser.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.o
 .PHONY : tinyxpath/tinyxmlparser.cpp.o
 
 tinyxpath/tinyxmlparser.i: tinyxpath/tinyxmlparser.cpp.i
@@ -5885,7 +5885,7 @@ tinyxpath/tinyxmlparser.i: tinyxpath/tinyxmlparser.cpp.i
 
 # target to preprocess a source file
 tinyxpath/tinyxmlparser.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tinyxmlparser.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.i
 .PHONY : tinyxpath/tinyxmlparser.cpp.i
 
 tinyxpath/tinyxmlparser.s: tinyxpath/tinyxmlparser.cpp.s
@@ -5894,7 +5894,7 @@ tinyxpath/tinyxmlparser.s: tinyxpath/tinyxmlparser.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/tinyxmlparser.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tinyxmlparser.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.s
 .PHONY : tinyxpath/tinyxmlparser.cpp.s
 
 tinyxpath/tokenlist.o: tinyxpath/tokenlist.cpp.o
@@ -5903,7 +5903,7 @@ tinyxpath/tokenlist.o: tinyxpath/tokenlist.cpp.o
 
 # target to build an object file
 tinyxpath/tokenlist.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tokenlist.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.o
 .PHONY : tinyxpath/tokenlist.cpp.o
 
 tinyxpath/tokenlist.i: tinyxpath/tokenlist.cpp.i
@@ -5912,7 +5912,7 @@ tinyxpath/tokenlist.i: tinyxpath/tokenlist.cpp.i
 
 # target to preprocess a source file
 tinyxpath/tokenlist.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tokenlist.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.i
 .PHONY : tinyxpath/tokenlist.cpp.i
 
 tinyxpath/tokenlist.s: tinyxpath/tokenlist.cpp.s
@@ -5921,7 +5921,7 @@ tinyxpath/tokenlist.s: tinyxpath/tokenlist.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/tokenlist.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/tokenlist.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.s
 .PHONY : tinyxpath/tokenlist.cpp.s
 
 tinyxpath/xml_util.o: tinyxpath/xml_util.cpp.o
@@ -5930,7 +5930,7 @@ tinyxpath/xml_util.o: tinyxpath/xml_util.cpp.o
 
 # target to build an object file
 tinyxpath/xml_util.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xml_util.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.o
 .PHONY : tinyxpath/xml_util.cpp.o
 
 tinyxpath/xml_util.i: tinyxpath/xml_util.cpp.i
@@ -5939,7 +5939,7 @@ tinyxpath/xml_util.i: tinyxpath/xml_util.cpp.i
 
 # target to preprocess a source file
 tinyxpath/xml_util.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xml_util.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.i
 .PHONY : tinyxpath/xml_util.cpp.i
 
 tinyxpath/xml_util.s: tinyxpath/xml_util.cpp.s
@@ -5948,7 +5948,7 @@ tinyxpath/xml_util.s: tinyxpath/xml_util.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/xml_util.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xml_util.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.s
 .PHONY : tinyxpath/xml_util.cpp.s
 
 tinyxpath/xpath_expression.o: tinyxpath/xpath_expression.cpp.o
@@ -5957,7 +5957,7 @@ tinyxpath/xpath_expression.o: tinyxpath/xpath_expression.cpp.o
 
 # target to build an object file
 tinyxpath/xpath_expression.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_expression.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.o
 .PHONY : tinyxpath/xpath_expression.cpp.o
 
 tinyxpath/xpath_expression.i: tinyxpath/xpath_expression.cpp.i
@@ -5966,7 +5966,7 @@ tinyxpath/xpath_expression.i: tinyxpath/xpath_expression.cpp.i
 
 # target to preprocess a source file
 tinyxpath/xpath_expression.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_expression.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.i
 .PHONY : tinyxpath/xpath_expression.cpp.i
 
 tinyxpath/xpath_expression.s: tinyxpath/xpath_expression.cpp.s
@@ -5975,7 +5975,7 @@ tinyxpath/xpath_expression.s: tinyxpath/xpath_expression.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/xpath_expression.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_expression.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.s
 .PHONY : tinyxpath/xpath_expression.cpp.s
 
 tinyxpath/xpath_processor.o: tinyxpath/xpath_processor.cpp.o
@@ -5984,7 +5984,7 @@ tinyxpath/xpath_processor.o: tinyxpath/xpath_processor.cpp.o
 
 # target to build an object file
 tinyxpath/xpath_processor.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_processor.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.o
 .PHONY : tinyxpath/xpath_processor.cpp.o
 
 tinyxpath/xpath_processor.i: tinyxpath/xpath_processor.cpp.i
@@ -5993,7 +5993,7 @@ tinyxpath/xpath_processor.i: tinyxpath/xpath_processor.cpp.i
 
 # target to preprocess a source file
 tinyxpath/xpath_processor.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_processor.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.i
 .PHONY : tinyxpath/xpath_processor.cpp.i
 
 tinyxpath/xpath_processor.s: tinyxpath/xpath_processor.cpp.s
@@ -6002,7 +6002,7 @@ tinyxpath/xpath_processor.s: tinyxpath/xpath_processor.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/xpath_processor.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_processor.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.s
 .PHONY : tinyxpath/xpath_processor.cpp.s
 
 tinyxpath/xpath_stack.o: tinyxpath/xpath_stack.cpp.o
@@ -6011,7 +6011,7 @@ tinyxpath/xpath_stack.o: tinyxpath/xpath_stack.cpp.o
 
 # target to build an object file
 tinyxpath/xpath_stack.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_stack.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.o
 .PHONY : tinyxpath/xpath_stack.cpp.o
 
 tinyxpath/xpath_stack.i: tinyxpath/xpath_stack.cpp.i
@@ -6020,7 +6020,7 @@ tinyxpath/xpath_stack.i: tinyxpath/xpath_stack.cpp.i
 
 # target to preprocess a source file
 tinyxpath/xpath_stack.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_stack.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.i
 .PHONY : tinyxpath/xpath_stack.cpp.i
 
 tinyxpath/xpath_stack.s: tinyxpath/xpath_stack.cpp.s
@@ -6029,7 +6029,7 @@ tinyxpath/xpath_stack.s: tinyxpath/xpath_stack.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/xpath_stack.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_stack.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.s
 .PHONY : tinyxpath/xpath_stack.cpp.s
 
 tinyxpath/xpath_static.o: tinyxpath/xpath_static.cpp.o
@@ -6038,7 +6038,7 @@ tinyxpath/xpath_static.o: tinyxpath/xpath_static.cpp.o
 
 # target to build an object file
 tinyxpath/xpath_static.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_static.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.o
 .PHONY : tinyxpath/xpath_static.cpp.o
 
 tinyxpath/xpath_static.i: tinyxpath/xpath_static.cpp.i
@@ -6047,7 +6047,7 @@ tinyxpath/xpath_static.i: tinyxpath/xpath_static.cpp.i
 
 # target to preprocess a source file
 tinyxpath/xpath_static.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_static.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.i
 .PHONY : tinyxpath/xpath_static.cpp.i
 
 tinyxpath/xpath_static.s: tinyxpath/xpath_static.cpp.s
@@ -6056,7 +6056,7 @@ tinyxpath/xpath_static.s: tinyxpath/xpath_static.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/xpath_static.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_static.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.s
 .PHONY : tinyxpath/xpath_static.cpp.s
 
 tinyxpath/xpath_stream.o: tinyxpath/xpath_stream.cpp.o
@@ -6065,7 +6065,7 @@ tinyxpath/xpath_stream.o: tinyxpath/xpath_stream.cpp.o
 
 # target to build an object file
 tinyxpath/xpath_stream.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_stream.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.o
 .PHONY : tinyxpath/xpath_stream.cpp.o
 
 tinyxpath/xpath_stream.i: tinyxpath/xpath_stream.cpp.i
@@ -6074,7 +6074,7 @@ tinyxpath/xpath_stream.i: tinyxpath/xpath_stream.cpp.i
 
 # target to preprocess a source file
 tinyxpath/xpath_stream.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_stream.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.i
 .PHONY : tinyxpath/xpath_stream.cpp.i
 
 tinyxpath/xpath_stream.s: tinyxpath/xpath_stream.cpp.s
@@ -6083,7 +6083,7 @@ tinyxpath/xpath_stream.s: tinyxpath/xpath_stream.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/xpath_stream.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_stream.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.s
 .PHONY : tinyxpath/xpath_stream.cpp.s
 
 tinyxpath/xpath_syntax.o: tinyxpath/xpath_syntax.cpp.o
@@ -6092,7 +6092,7 @@ tinyxpath/xpath_syntax.o: tinyxpath/xpath_syntax.cpp.o
 
 # target to build an object file
 tinyxpath/xpath_syntax.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_syntax.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.o
 .PHONY : tinyxpath/xpath_syntax.cpp.o
 
 tinyxpath/xpath_syntax.i: tinyxpath/xpath_syntax.cpp.i
@@ -6101,7 +6101,7 @@ tinyxpath/xpath_syntax.i: tinyxpath/xpath_syntax.cpp.i
 
 # target to preprocess a source file
 tinyxpath/xpath_syntax.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_syntax.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.i
 .PHONY : tinyxpath/xpath_syntax.cpp.i
 
 tinyxpath/xpath_syntax.s: tinyxpath/xpath_syntax.cpp.s
@@ -6110,7 +6110,7 @@ tinyxpath/xpath_syntax.s: tinyxpath/xpath_syntax.cpp.s
 
 # target to generate assembly for a file
 tinyxpath/xpath_syntax.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/tinyxpath/xpath_syntax.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.s
 .PHONY : tinyxpath/xpath_syntax.cpp.s
 
 webserver/Base64.o: webserver/Base64.cpp.o
@@ -6119,7 +6119,7 @@ webserver/Base64.o: webserver/Base64.cpp.o
 
 # target to build an object file
 webserver/Base64.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/Base64.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/Base64.cpp.o
 .PHONY : webserver/Base64.cpp.o
 
 webserver/Base64.i: webserver/Base64.cpp.i
@@ -6128,7 +6128,7 @@ webserver/Base64.i: webserver/Base64.cpp.i
 
 # target to preprocess a source file
 webserver/Base64.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/Base64.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/Base64.cpp.i
 .PHONY : webserver/Base64.cpp.i
 
 webserver/Base64.s: webserver/Base64.cpp.s
@@ -6137,7 +6137,7 @@ webserver/Base64.s: webserver/Base64.cpp.s
 
 # target to generate assembly for a file
 webserver/Base64.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/Base64.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/Base64.cpp.s
 .PHONY : webserver/Base64.cpp.s
 
 webserver/WebsocketHandler.o: webserver/WebsocketHandler.cpp.o
@@ -6146,7 +6146,7 @@ webserver/WebsocketHandler.o: webserver/WebsocketHandler.cpp.o
 
 # target to build an object file
 webserver/WebsocketHandler.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/WebsocketHandler.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.o
 .PHONY : webserver/WebsocketHandler.cpp.o
 
 webserver/WebsocketHandler.i: webserver/WebsocketHandler.cpp.i
@@ -6155,7 +6155,7 @@ webserver/WebsocketHandler.i: webserver/WebsocketHandler.cpp.i
 
 # target to preprocess a source file
 webserver/WebsocketHandler.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/WebsocketHandler.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.i
 .PHONY : webserver/WebsocketHandler.cpp.i
 
 webserver/WebsocketHandler.s: webserver/WebsocketHandler.cpp.s
@@ -6164,7 +6164,7 @@ webserver/WebsocketHandler.s: webserver/WebsocketHandler.cpp.s
 
 # target to generate assembly for a file
 webserver/WebsocketHandler.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/WebsocketHandler.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.s
 .PHONY : webserver/WebsocketHandler.cpp.s
 
 webserver/Websockets.o: webserver/Websockets.cpp.o
@@ -6173,7 +6173,7 @@ webserver/Websockets.o: webserver/Websockets.cpp.o
 
 # target to build an object file
 webserver/Websockets.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/Websockets.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/Websockets.cpp.o
 .PHONY : webserver/Websockets.cpp.o
 
 webserver/Websockets.i: webserver/Websockets.cpp.i
@@ -6182,7 +6182,7 @@ webserver/Websockets.i: webserver/Websockets.cpp.i
 
 # target to preprocess a source file
 webserver/Websockets.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/Websockets.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/Websockets.cpp.i
 .PHONY : webserver/Websockets.cpp.i
 
 webserver/Websockets.s: webserver/Websockets.cpp.s
@@ -6191,7 +6191,7 @@ webserver/Websockets.s: webserver/Websockets.cpp.s
 
 # target to generate assembly for a file
 webserver/Websockets.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/Websockets.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/Websockets.cpp.s
 .PHONY : webserver/Websockets.cpp.s
 
 webserver/cWebem.o: webserver/cWebem.cpp.o
@@ -6200,7 +6200,7 @@ webserver/cWebem.o: webserver/cWebem.cpp.o
 
 # target to build an object file
 webserver/cWebem.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/cWebem.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/cWebem.cpp.o
 .PHONY : webserver/cWebem.cpp.o
 
 webserver/cWebem.i: webserver/cWebem.cpp.i
@@ -6209,7 +6209,7 @@ webserver/cWebem.i: webserver/cWebem.cpp.i
 
 # target to preprocess a source file
 webserver/cWebem.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/cWebem.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/cWebem.cpp.i
 .PHONY : webserver/cWebem.cpp.i
 
 webserver/cWebem.s: webserver/cWebem.cpp.s
@@ -6218,7 +6218,7 @@ webserver/cWebem.s: webserver/cWebem.cpp.s
 
 # target to generate assembly for a file
 webserver/cWebem.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/cWebem.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/cWebem.cpp.s
 .PHONY : webserver/cWebem.cpp.s
 
 webserver/connection.o: webserver/connection.cpp.o
@@ -6227,7 +6227,7 @@ webserver/connection.o: webserver/connection.cpp.o
 
 # target to build an object file
 webserver/connection.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/connection.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/connection.cpp.o
 .PHONY : webserver/connection.cpp.o
 
 webserver/connection.i: webserver/connection.cpp.i
@@ -6236,7 +6236,7 @@ webserver/connection.i: webserver/connection.cpp.i
 
 # target to preprocess a source file
 webserver/connection.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/connection.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/connection.cpp.i
 .PHONY : webserver/connection.cpp.i
 
 webserver/connection.s: webserver/connection.cpp.s
@@ -6245,7 +6245,7 @@ webserver/connection.s: webserver/connection.cpp.s
 
 # target to generate assembly for a file
 webserver/connection.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/connection.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/connection.cpp.s
 .PHONY : webserver/connection.cpp.s
 
 webserver/connection_manager.o: webserver/connection_manager.cpp.o
@@ -6254,7 +6254,7 @@ webserver/connection_manager.o: webserver/connection_manager.cpp.o
 
 # target to build an object file
 webserver/connection_manager.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/connection_manager.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.o
 .PHONY : webserver/connection_manager.cpp.o
 
 webserver/connection_manager.i: webserver/connection_manager.cpp.i
@@ -6263,7 +6263,7 @@ webserver/connection_manager.i: webserver/connection_manager.cpp.i
 
 # target to preprocess a source file
 webserver/connection_manager.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/connection_manager.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.i
 .PHONY : webserver/connection_manager.cpp.i
 
 webserver/connection_manager.s: webserver/connection_manager.cpp.s
@@ -6272,7 +6272,7 @@ webserver/connection_manager.s: webserver/connection_manager.cpp.s
 
 # target to generate assembly for a file
 webserver/connection_manager.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/connection_manager.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.s
 .PHONY : webserver/connection_manager.cpp.s
 
 webserver/fastcgi.o: webserver/fastcgi.cpp.o
@@ -6281,7 +6281,7 @@ webserver/fastcgi.o: webserver/fastcgi.cpp.o
 
 # target to build an object file
 webserver/fastcgi.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/fastcgi.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.o
 .PHONY : webserver/fastcgi.cpp.o
 
 webserver/fastcgi.i: webserver/fastcgi.cpp.i
@@ -6290,7 +6290,7 @@ webserver/fastcgi.i: webserver/fastcgi.cpp.i
 
 # target to preprocess a source file
 webserver/fastcgi.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/fastcgi.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.i
 .PHONY : webserver/fastcgi.cpp.i
 
 webserver/fastcgi.s: webserver/fastcgi.cpp.s
@@ -6299,7 +6299,7 @@ webserver/fastcgi.s: webserver/fastcgi.cpp.s
 
 # target to generate assembly for a file
 webserver/fastcgi.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/fastcgi.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.s
 .PHONY : webserver/fastcgi.cpp.s
 
 webserver/mime_types.o: webserver/mime_types.cpp.o
@@ -6308,7 +6308,7 @@ webserver/mime_types.o: webserver/mime_types.cpp.o
 
 # target to build an object file
 webserver/mime_types.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/mime_types.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/mime_types.cpp.o
 .PHONY : webserver/mime_types.cpp.o
 
 webserver/mime_types.i: webserver/mime_types.cpp.i
@@ -6317,7 +6317,7 @@ webserver/mime_types.i: webserver/mime_types.cpp.i
 
 # target to preprocess a source file
 webserver/mime_types.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/mime_types.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/mime_types.cpp.i
 .PHONY : webserver/mime_types.cpp.i
 
 webserver/mime_types.s: webserver/mime_types.cpp.s
@@ -6326,7 +6326,7 @@ webserver/mime_types.s: webserver/mime_types.cpp.s
 
 # target to generate assembly for a file
 webserver/mime_types.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/mime_types.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/mime_types.cpp.s
 .PHONY : webserver/mime_types.cpp.s
 
 webserver/proxyclient.o: webserver/proxyclient.cpp.o
@@ -6335,7 +6335,7 @@ webserver/proxyclient.o: webserver/proxyclient.cpp.o
 
 # target to build an object file
 webserver/proxyclient.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/proxyclient.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.o
 .PHONY : webserver/proxyclient.cpp.o
 
 webserver/proxyclient.i: webserver/proxyclient.cpp.i
@@ -6344,7 +6344,7 @@ webserver/proxyclient.i: webserver/proxyclient.cpp.i
 
 # target to preprocess a source file
 webserver/proxyclient.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/proxyclient.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.i
 .PHONY : webserver/proxyclient.cpp.i
 
 webserver/proxyclient.s: webserver/proxyclient.cpp.s
@@ -6353,7 +6353,7 @@ webserver/proxyclient.s: webserver/proxyclient.cpp.s
 
 # target to generate assembly for a file
 webserver/proxyclient.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/proxyclient.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.s
 .PHONY : webserver/proxyclient.cpp.s
 
 webserver/proxycommon.o: webserver/proxycommon.cpp.o
@@ -6362,7 +6362,7 @@ webserver/proxycommon.o: webserver/proxycommon.cpp.o
 
 # target to build an object file
 webserver/proxycommon.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/proxycommon.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.o
 .PHONY : webserver/proxycommon.cpp.o
 
 webserver/proxycommon.i: webserver/proxycommon.cpp.i
@@ -6371,7 +6371,7 @@ webserver/proxycommon.i: webserver/proxycommon.cpp.i
 
 # target to preprocess a source file
 webserver/proxycommon.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/proxycommon.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.i
 .PHONY : webserver/proxycommon.cpp.i
 
 webserver/proxycommon.s: webserver/proxycommon.cpp.s
@@ -6380,7 +6380,7 @@ webserver/proxycommon.s: webserver/proxycommon.cpp.s
 
 # target to generate assembly for a file
 webserver/proxycommon.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/proxycommon.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.s
 .PHONY : webserver/proxycommon.cpp.s
 
 webserver/reply.o: webserver/reply.cpp.o
@@ -6389,7 +6389,7 @@ webserver/reply.o: webserver/reply.cpp.o
 
 # target to build an object file
 webserver/reply.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/reply.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/reply.cpp.o
 .PHONY : webserver/reply.cpp.o
 
 webserver/reply.i: webserver/reply.cpp.i
@@ -6398,7 +6398,7 @@ webserver/reply.i: webserver/reply.cpp.i
 
 # target to preprocess a source file
 webserver/reply.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/reply.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/reply.cpp.i
 .PHONY : webserver/reply.cpp.i
 
 webserver/reply.s: webserver/reply.cpp.s
@@ -6407,7 +6407,7 @@ webserver/reply.s: webserver/reply.cpp.s
 
 # target to generate assembly for a file
 webserver/reply.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/reply.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/reply.cpp.s
 .PHONY : webserver/reply.cpp.s
 
 webserver/request_handler.o: webserver/request_handler.cpp.o
@@ -6416,7 +6416,7 @@ webserver/request_handler.o: webserver/request_handler.cpp.o
 
 # target to build an object file
 webserver/request_handler.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/request_handler.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/request_handler.cpp.o
 .PHONY : webserver/request_handler.cpp.o
 
 webserver/request_handler.i: webserver/request_handler.cpp.i
@@ -6425,7 +6425,7 @@ webserver/request_handler.i: webserver/request_handler.cpp.i
 
 # target to preprocess a source file
 webserver/request_handler.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/request_handler.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/request_handler.cpp.i
 .PHONY : webserver/request_handler.cpp.i
 
 webserver/request_handler.s: webserver/request_handler.cpp.s
@@ -6434,7 +6434,7 @@ webserver/request_handler.s: webserver/request_handler.cpp.s
 
 # target to generate assembly for a file
 webserver/request_handler.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/request_handler.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/request_handler.cpp.s
 .PHONY : webserver/request_handler.cpp.s
 
 webserver/request_parser.o: webserver/request_parser.cpp.o
@@ -6443,7 +6443,7 @@ webserver/request_parser.o: webserver/request_parser.cpp.o
 
 # target to build an object file
 webserver/request_parser.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/request_parser.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/request_parser.cpp.o
 .PHONY : webserver/request_parser.cpp.o
 
 webserver/request_parser.i: webserver/request_parser.cpp.i
@@ -6452,7 +6452,7 @@ webserver/request_parser.i: webserver/request_parser.cpp.i
 
 # target to preprocess a source file
 webserver/request_parser.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/request_parser.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/request_parser.cpp.i
 .PHONY : webserver/request_parser.cpp.i
 
 webserver/request_parser.s: webserver/request_parser.cpp.s
@@ -6461,7 +6461,7 @@ webserver/request_parser.s: webserver/request_parser.cpp.s
 
 # target to generate assembly for a file
 webserver/request_parser.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/request_parser.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/request_parser.cpp.s
 .PHONY : webserver/request_parser.cpp.s
 
 webserver/server.o: webserver/server.cpp.o
@@ -6470,7 +6470,7 @@ webserver/server.o: webserver/server.cpp.o
 
 # target to build an object file
 webserver/server.cpp.o:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/server.cpp.o
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/server.cpp.o
 .PHONY : webserver/server.cpp.o
 
 webserver/server.i: webserver/server.cpp.i
@@ -6479,7 +6479,7 @@ webserver/server.i: webserver/server.cpp.i
 
 # target to preprocess a source file
 webserver/server.cpp.i:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/server.cpp.i
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/server.cpp.i
 .PHONY : webserver/server.cpp.i
 
 webserver/server.s: webserver/server.cpp.s
@@ -6488,7 +6488,7 @@ webserver/server.s: webserver/server.cpp.s
 
 # target to generate assembly for a file
 webserver/server.cpp.s:
-	$(MAKE) -f CMakeFiles/daccord.dir/build.make CMakeFiles/daccord.dir/webserver/server.cpp.s
+	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/webserver/server.cpp.s
 .PHONY : webserver/server.cpp.s
 
 # Help Target
@@ -6498,9 +6498,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... package"
-	@echo "... daccord"
+	@echo "... domoticz"
 	@echo "... revisiontag"
-	@echo "... daccord_gch"
+	@echo "... domoticz_gch"
 	@echo "... edit_cache"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
@@ -6583,15 +6583,15 @@ help:
 	@echo "... hardware/DenkoviSmartdenLan.o"
 	@echo "... hardware/DenkoviSmartdenLan.i"
 	@echo "... hardware/DenkoviSmartdenLan.s"
-	@echo "... hardware/daccordHardware.o"
-	@echo "... hardware/daccordHardware.i"
-	@echo "... hardware/daccordHardware.s"
-	@echo "... hardware/daccordInternal.o"
-	@echo "... hardware/daccordInternal.i"
-	@echo "... hardware/daccordInternal.s"
-	@echo "... hardware/daccordTCP.o"
-	@echo "... hardware/daccordTCP.i"
-	@echo "... hardware/daccordTCP.s"
+	@echo "... hardware/DomoticzHardware.o"
+	@echo "... hardware/DomoticzHardware.i"
+	@echo "... hardware/DomoticzHardware.s"
+	@echo "... hardware/DomoticzInternal.o"
+	@echo "... hardware/DomoticzInternal.i"
+	@echo "... hardware/DomoticzInternal.s"
+	@echo "... hardware/DomoticzTCP.o"
+	@echo "... hardware/DomoticzTCP.i"
+	@echo "... hardware/DomoticzTCP.s"
 	@echo "... hardware/Dummy.o"
 	@echo "... hardware/Dummy.i"
 	@echo "... hardware/Dummy.s"
@@ -7024,9 +7024,9 @@ help:
 	@echo "... main/WindCalculation.o"
 	@echo "... main/WindCalculation.i"
 	@echo "... main/WindCalculation.s"
-	@echo "... main/daccord.o"
-	@echo "... main/daccord.i"
-	@echo "... main/daccord.s"
+	@echo "... main/domoticz.o"
+	@echo "... main/domoticz.i"
+	@echo "... main/domoticz.s"
 	@echo "... main/dzVents.o"
 	@echo "... main/dzVents.i"
 	@echo "... main/dzVents.s"

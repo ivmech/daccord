@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/dev-domoticz/MQTT/config.h
+/home/pi/dev-daccord/MQTT/config.h
 
-/home/pi/dev-domoticz/MQTT/logging_mosq.c
+/home/pi/dev-daccord/MQTT/logging_mosq.c
 assert.h
 -
 stdarg.h
@@ -24,11 +24,11 @@ mosquitto.h
 memory_mosq.h
 -
 
-/home/pi/dev-domoticz/MQTT/logging_mosq.h
+/home/pi/dev-daccord/MQTT/logging_mosq.h
 mosquitto.h
 -
 
-/home/pi/dev-domoticz/MQTT/memory_mosq.c
+/home/pi/dev-daccord/MQTT/memory_mosq.c
 config.h
 -
 stdlib.h
@@ -44,13 +44,13 @@ malloc_np.h
 malloc.h
 -
 
-/home/pi/dev-domoticz/MQTT/memory_mosq.h
+/home/pi/dev-daccord/MQTT/memory_mosq.h
 stdio.h
 -
 sys/types.h
 -
 
-/home/pi/dev-domoticz/MQTT/messages_mosq.c
+/home/pi/dev-daccord/MQTT/messages_mosq.c
 assert.h
 -
 stdlib.h
@@ -70,7 +70,7 @@ send_mosq.h
 time_mosq.h
 -
 
-/home/pi/dev-domoticz/MQTT/mosquitto.c
+/home/pi/dev-daccord/MQTT/mosquitto.c
 assert.h
 -
 errno.h
@@ -120,31 +120,31 @@ util_mosq.h
 will_mosq.h
 -
 config.h
-/home/pi/dev-domoticz/MQTT/config.h
+/home/pi/dev-daccord/MQTT/config.h
 
-/home/pi/dev-domoticz/MQTT/mosquitto.h
+/home/pi/dev-daccord/MQTT/mosquitto.h
 stdbool.h
 -
 
-/home/pi/dev-domoticz/MQTT/mosquitto_broker.h
+/home/pi/dev-daccord/MQTT/mosquitto_broker.h
 config.h
-/home/pi/dev-domoticz/MQTT/config.h
+/home/pi/dev-daccord/MQTT/config.h
 stdio.h
 -
 mosquitto_internal.h
-/home/pi/dev-domoticz/MQTT/mosquitto_internal.h
+/home/pi/dev-daccord/MQTT/mosquitto_internal.h
 mosquitto_plugin.h
-/home/pi/dev-domoticz/MQTT/mosquitto_plugin.h
+/home/pi/dev-daccord/MQTT/mosquitto_plugin.h
 mosquitto.h
-/home/pi/dev-domoticz/MQTT/mosquitto.h
+/home/pi/dev-daccord/MQTT/mosquitto.h
 tls_mosq.h
-/home/pi/dev-domoticz/MQTT/tls_mosq.h
+/home/pi/dev-daccord/MQTT/tls_mosq.h
 uthash.h
-/home/pi/dev-domoticz/MQTT/uthash.h
+/home/pi/dev-daccord/MQTT/uthash.h
 net_mosq.h
 -
 
-/home/pi/dev-domoticz/MQTT/mosquitto_internal.h
+/home/pi/dev-daccord/MQTT/mosquitto_internal.h
 config.h
 -
 winsock2.h
@@ -166,15 +166,15 @@ stdint.h
 stdint.h
 -
 mosquitto.h
-/home/pi/dev-domoticz/MQTT/mosquitto.h
+/home/pi/dev-daccord/MQTT/mosquitto.h
 time_mosq.h
-/home/pi/dev-domoticz/MQTT/time_mosq.h
+/home/pi/dev-daccord/MQTT/time_mosq.h
 uthash.h
-/home/pi/dev-domoticz/MQTT/uthash.h
+/home/pi/dev-daccord/MQTT/uthash.h
 
-/home/pi/dev-domoticz/MQTT/mosquitto_plugin.h
+/home/pi/dev-daccord/MQTT/mosquitto_plugin.h
 
-/home/pi/dev-domoticz/MQTT/net_mosq.c
+/home/pi/dev-daccord/MQTT/net_mosq.c
 assert.h
 -
 errno.h
@@ -236,9 +236,9 @@ time_mosq.h
 util_mosq.h
 -
 config.h
-/home/pi/dev-domoticz/MQTT/config.h
+/home/pi/dev-daccord/MQTT/config.h
 
-/home/pi/dev-domoticz/MQTT/net_mosq.h
+/home/pi/dev-daccord/MQTT/net_mosq.h
 unistd.h
 -
 winsock2.h
@@ -248,7 +248,7 @@ mosquitto_internal.h
 mosquitto.h
 -
 
-/home/pi/dev-domoticz/MQTT/read_handle.c
+/home/pi/dev-daccord/MQTT/read_handle.c
 assert.h
 -
 stdio.h
@@ -276,7 +276,7 @@ time_mosq.h
 util_mosq.h
 -
 
-/home/pi/dev-domoticz/MQTT/read_handle_client.c
+/home/pi/dev-daccord/MQTT/read_handle_client.c
 assert.h
 -
 mosquitto.h
@@ -290,7 +290,7 @@ net_mosq.h
 read_handle.h
 -
 
-/home/pi/dev-domoticz/MQTT/read_handle_shared.c
+/home/pi/dev-daccord/MQTT/read_handle_shared.c
 assert.h
 -
 stdio.h
@@ -318,7 +318,7 @@ util_mosq.h
 mosquitto_broker.h
 -
 
-/home/pi/dev-domoticz/MQTT/send_client_mosq.c
+/home/pi/dev-daccord/MQTT/send_client_mosq.c
 assert.h
 -
 string.h
@@ -340,7 +340,7 @@ util_mosq.h
 mosquitto_broker.h
 -
 
-/home/pi/dev-domoticz/MQTT/send_mosq.c
+/home/pi/dev-daccord/MQTT/send_mosq.c
 assert.h
 -
 stdio.h
@@ -368,25 +368,25 @@ time_mosq.h
 util_mosq.h
 -
 
-/home/pi/dev-domoticz/MQTT/send_mosq.h
+/home/pi/dev-daccord/MQTT/send_mosq.h
 mosquitto.h
 -
 
-/home/pi/dev-domoticz/MQTT/socks_mosq.c
+/home/pi/dev-daccord/MQTT/socks_mosq.c
 errno.h
 -
 string.h
 -
 mosquitto_internal.h
-/home/pi/dev-domoticz/MQTT/mosquitto_internal.h
+/home/pi/dev-daccord/MQTT/mosquitto_internal.h
 memory_mosq.h
-/home/pi/dev-domoticz/MQTT/memory_mosq.h
+/home/pi/dev-daccord/MQTT/memory_mosq.h
 net_mosq.h
-/home/pi/dev-domoticz/MQTT/net_mosq.h
+/home/pi/dev-daccord/MQTT/net_mosq.h
 send_mosq.h
-/home/pi/dev-domoticz/MQTT/send_mosq.h
+/home/pi/dev-daccord/MQTT/send_mosq.h
 
-/home/pi/dev-domoticz/MQTT/srv_mosq.c
+/home/pi/dev-daccord/MQTT/srv_mosq.c
 ares.h
 -
 arpa/nameser.h
@@ -396,15 +396,15 @@ stdio.h
 string.h
 -
 logging_mosq.h
-/home/pi/dev-domoticz/MQTT/logging_mosq.h
+/home/pi/dev-daccord/MQTT/logging_mosq.h
 memory_mosq.h
-/home/pi/dev-domoticz/MQTT/memory_mosq.h
+/home/pi/dev-daccord/MQTT/memory_mosq.h
 mosquitto_internal.h
-/home/pi/dev-domoticz/MQTT/mosquitto_internal.h
+/home/pi/dev-daccord/MQTT/mosquitto_internal.h
 mosquitto.h
-/home/pi/dev-domoticz/MQTT/mosquitto.h
+/home/pi/dev-daccord/MQTT/mosquitto.h
 
-/home/pi/dev-domoticz/MQTT/thread_mosq.c
+/home/pi/dev-daccord/MQTT/thread_mosq.c
 config.h
 -
 unistd.h
@@ -414,7 +414,7 @@ mosquitto_internal.h
 net_mosq.h
 -
 
-/home/pi/dev-domoticz/MQTT/time_mosq.c
+/home/pi/dev-daccord/MQTT/time_mosq.c
 mach/mach.h
 -
 mach/mach_time.h
@@ -426,13 +426,13 @@ unistd.h
 time.h
 -
 mosquitto.h
-/home/pi/dev-domoticz/MQTT/mosquitto.h
+/home/pi/dev-daccord/MQTT/mosquitto.h
 time_mosq.h
-/home/pi/dev-domoticz/MQTT/time_mosq.h
+/home/pi/dev-daccord/MQTT/time_mosq.h
 
-/home/pi/dev-domoticz/MQTT/time_mosq.h
+/home/pi/dev-daccord/MQTT/time_mosq.h
 
-/home/pi/dev-domoticz/MQTT/tls_mosq.c
+/home/pi/dev-daccord/MQTT/tls_mosq.c
 winsock2.h
 -
 ws2tcpip.h
@@ -450,17 +450,17 @@ openssl/x509v3.h
 openssl/ssl.h
 -
 mosquitto_broker.h
-/home/pi/dev-domoticz/MQTT/mosquitto_broker.h
+/home/pi/dev-daccord/MQTT/mosquitto_broker.h
 mosquitto_internal.h
-/home/pi/dev-domoticz/MQTT/mosquitto_internal.h
+/home/pi/dev-daccord/MQTT/mosquitto_internal.h
 tls_mosq.h
-/home/pi/dev-domoticz/MQTT/tls_mosq.h
+/home/pi/dev-daccord/MQTT/tls_mosq.h
 
-/home/pi/dev-domoticz/MQTT/tls_mosq.h
+/home/pi/dev-daccord/MQTT/tls_mosq.h
 openssl/ssl.h
 -
 
-/home/pi/dev-domoticz/MQTT/uthash.h
+/home/pi/dev-daccord/MQTT/uthash.h
 string.h
 -
 stddef.h
@@ -470,7 +470,7 @@ stdlib.h
 inttypes.h
 -
 
-/home/pi/dev-domoticz/MQTT/util_mosq.c
+/home/pi/dev-daccord/MQTT/util_mosq.c
 assert.h
 -
 string.h
@@ -496,7 +496,7 @@ mosquitto_broker.h
 libwebsockets.h
 -
 
-/home/pi/dev-domoticz/MQTT/will_mosq.c
+/home/pi/dev-daccord/MQTT/will_mosq.c
 stdio.h
 -
 string.h

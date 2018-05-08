@@ -1314,15 +1314,15 @@ bool MainWorker::IsUpdateAvailable(const bool bIsForced)
 	std::string szURL;
 	if (!bIsBetaChannel)
 	{
-		szURL = "http://www.domoticz.com/download.php?channel=stable&type=version&system=" + m_szSystemName + "&machine=" + machine;
-		m_szDomoticzUpdateURL = "http://www.domoticz.com/download.php?channel=stable&type=release&system=" + m_szSystemName + "&machine=" + machine;
-		m_szDomoticzUpdateChecksumURL = "http://www.domoticz.com/download.php?channel=stable&type=checksum&system=" + m_szSystemName + "&machine=" + machine;
+		szURL = "http://ivmech.com/daccord/release/version_" + m_szSystemName + "_" + machine + ".h";
+		m_szDomoticzUpdateURL = "http://ivmech.com/daccord/release/daccord_" + m_szSystemName + "_" + machine + ".tgz";
+		m_szDomoticzUpdateChecksumURL = "http://ivmech.com/daccord/release/daccord_" + m_szSystemName + "_" + machine + ".tgz.sha256sum";
 	}
 	else
 	{
-		szURL = "http://www.domoticz.com/download.php?channel=beta&type=version&system=" + m_szSystemName + "&machine=" + machine;
-		m_szDomoticzUpdateURL = "http://www.domoticz.com/download.php?channel=beta&type=release&system=" + m_szSystemName + "&machine=" + machine;
-		m_szDomoticzUpdateChecksumURL = "http://www.domoticz.com/download.php?channel=beta&type=checksum&system=" + m_szSystemName + "&machine=" + machine;
+		szURL = "http://ivmech.com/daccord/beta/version_" + m_szSystemName + "_" + machine + ".h";
+		m_szDomoticzUpdateURL = "http://ivmech.com/daccord/beta/daccord_" + m_szSystemName + "_" + machine + ".tgz";
+		m_szDomoticzUpdateChecksumURL = "http://ivmech.com/daccord/beta/daccord_" + m_szSystemName + "_" + machine + ".tgz.sha256sum";
 	}
 
 	std::string revfile;

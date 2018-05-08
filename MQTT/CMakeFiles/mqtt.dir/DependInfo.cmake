@@ -5,23 +5,23 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/pi/dev-domoticz/MQTT/logging_mosq.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/logging_mosq.c.o"
-  "/home/pi/dev-domoticz/MQTT/memory_mosq.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/memory_mosq.c.o"
-  "/home/pi/dev-domoticz/MQTT/messages_mosq.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/messages_mosq.c.o"
-  "/home/pi/dev-domoticz/MQTT/mosquitto.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/mosquitto.c.o"
-  "/home/pi/dev-domoticz/MQTT/net_mosq.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/net_mosq.c.o"
-  "/home/pi/dev-domoticz/MQTT/read_handle.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/read_handle.c.o"
-  "/home/pi/dev-domoticz/MQTT/read_handle_client.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/read_handle_client.c.o"
-  "/home/pi/dev-domoticz/MQTT/read_handle_shared.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/read_handle_shared.c.o"
-  "/home/pi/dev-domoticz/MQTT/send_client_mosq.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/send_client_mosq.c.o"
-  "/home/pi/dev-domoticz/MQTT/send_mosq.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/send_mosq.c.o"
-  "/home/pi/dev-domoticz/MQTT/socks_mosq.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/socks_mosq.c.o"
-  "/home/pi/dev-domoticz/MQTT/srv_mosq.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/srv_mosq.c.o"
-  "/home/pi/dev-domoticz/MQTT/thread_mosq.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/thread_mosq.c.o"
-  "/home/pi/dev-domoticz/MQTT/time_mosq.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/time_mosq.c.o"
-  "/home/pi/dev-domoticz/MQTT/tls_mosq.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/tls_mosq.c.o"
-  "/home/pi/dev-domoticz/MQTT/util_mosq.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/util_mosq.c.o"
-  "/home/pi/dev-domoticz/MQTT/will_mosq.c" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/will_mosq.c.o"
+  "/home/pi/dev-daccord/MQTT/logging_mosq.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/logging_mosq.c.o"
+  "/home/pi/dev-daccord/MQTT/memory_mosq.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/memory_mosq.c.o"
+  "/home/pi/dev-daccord/MQTT/messages_mosq.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/messages_mosq.c.o"
+  "/home/pi/dev-daccord/MQTT/mosquitto.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/mosquitto.c.o"
+  "/home/pi/dev-daccord/MQTT/net_mosq.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/net_mosq.c.o"
+  "/home/pi/dev-daccord/MQTT/read_handle.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/read_handle.c.o"
+  "/home/pi/dev-daccord/MQTT/read_handle_client.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/read_handle_client.c.o"
+  "/home/pi/dev-daccord/MQTT/read_handle_shared.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/read_handle_shared.c.o"
+  "/home/pi/dev-daccord/MQTT/send_client_mosq.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/send_client_mosq.c.o"
+  "/home/pi/dev-daccord/MQTT/send_mosq.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/send_mosq.c.o"
+  "/home/pi/dev-daccord/MQTT/socks_mosq.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/socks_mosq.c.o"
+  "/home/pi/dev-daccord/MQTT/srv_mosq.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/srv_mosq.c.o"
+  "/home/pi/dev-daccord/MQTT/thread_mosq.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/thread_mosq.c.o"
+  "/home/pi/dev-daccord/MQTT/time_mosq.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/time_mosq.c.o"
+  "/home/pi/dev-daccord/MQTT/tls_mosq.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/tls_mosq.c.o"
+  "/home/pi/dev-daccord/MQTT/util_mosq.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/util_mosq.c.o"
+  "/home/pi/dev-daccord/MQTT/will_mosq.c" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/will_mosq.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -35,7 +35,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "MQTT"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/dev-domoticz/MQTT/mosquittopp.cpp" "/home/pi/dev-domoticz/MQTT/CMakeFiles/mqtt.dir/mosquittopp.cpp.o"
+  "/home/pi/dev-daccord/MQTT/mosquittopp.cpp" "/home/pi/dev-daccord/MQTT/CMakeFiles/mqtt.dir/mosquittopp.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/dev-domoticz
+CMAKE_SOURCE_DIR = /home/pi/dev-daccord
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/dev-domoticz
+CMAKE_BINARY_DIR = /home/pi/dev-daccord
 
 # Include any dependencies generated for this target.
 include CMakeFiles/domoticz.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/domoticz.dir/flags.make
 
 CMakeFiles/domoticz.dir/main/stdafx.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/stdafx.cpp.o: main/stdafx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/domoticz.dir/main/stdafx.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/stdafx.cpp.o -c /home/pi/dev-domoticz/main/stdafx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/domoticz.dir/main/stdafx.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/stdafx.cpp.o -c /home/pi/dev-daccord/main/stdafx.cpp
 
 CMakeFiles/domoticz.dir/main/stdafx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/stdafx.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/stdafx.cpp > CMakeFiles/domoticz.dir/main/stdafx.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/stdafx.cpp > CMakeFiles/domoticz.dir/main/stdafx.cpp.i
 
 CMakeFiles/domoticz.dir/main/stdafx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/stdafx.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/stdafx.cpp -o CMakeFiles/domoticz.dir/main/stdafx.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/stdafx.cpp -o CMakeFiles/domoticz.dir/main/stdafx.cpp.s
 
 CMakeFiles/domoticz.dir/main/stdafx.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/domoticz.dir/main/stdafx.cpp.o.provides.build: CMakeFiles/domoticz.di
 
 CMakeFiles/domoticz.dir/main/CmdLine.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/CmdLine.cpp.o: main/CmdLine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/domoticz.dir/main/CmdLine.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/CmdLine.cpp.o -c /home/pi/dev-domoticz/main/CmdLine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/domoticz.dir/main/CmdLine.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/CmdLine.cpp.o -c /home/pi/dev-daccord/main/CmdLine.cpp
 
 CMakeFiles/domoticz.dir/main/CmdLine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/CmdLine.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/CmdLine.cpp > CMakeFiles/domoticz.dir/main/CmdLine.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/CmdLine.cpp > CMakeFiles/domoticz.dir/main/CmdLine.cpp.i
 
 CMakeFiles/domoticz.dir/main/CmdLine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/CmdLine.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/CmdLine.cpp -o CMakeFiles/domoticz.dir/main/CmdLine.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/CmdLine.cpp -o CMakeFiles/domoticz.dir/main/CmdLine.cpp.s
 
 CMakeFiles/domoticz.dir/main/CmdLine.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/domoticz.dir/main/CmdLine.cpp.o.provides.build: CMakeFiles/domoticz.d
 
 CMakeFiles/domoticz.dir/main/Camera.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/Camera.cpp.o: main/Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/domoticz.dir/main/Camera.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/Camera.cpp.o -c /home/pi/dev-domoticz/main/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/domoticz.dir/main/Camera.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/Camera.cpp.o -c /home/pi/dev-daccord/main/Camera.cpp
 
 CMakeFiles/domoticz.dir/main/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/Camera.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/Camera.cpp > CMakeFiles/domoticz.dir/main/Camera.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/Camera.cpp > CMakeFiles/domoticz.dir/main/Camera.cpp.i
 
 CMakeFiles/domoticz.dir/main/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/Camera.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/Camera.cpp -o CMakeFiles/domoticz.dir/main/Camera.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/Camera.cpp -o CMakeFiles/domoticz.dir/main/Camera.cpp.s
 
 CMakeFiles/domoticz.dir/main/Camera.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/domoticz.dir/main/Camera.cpp.o.provides.build: CMakeFiles/domoticz.di
 
 CMakeFiles/domoticz.dir/main/domoticz.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/domoticz.cpp.o: main/domoticz.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/domoticz.dir/main/domoticz.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/domoticz.cpp.o -c /home/pi/dev-domoticz/main/domoticz.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/domoticz.dir/main/domoticz.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/domoticz.cpp.o -c /home/pi/dev-daccord/main/domoticz.cpp
 
 CMakeFiles/domoticz.dir/main/domoticz.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/domoticz.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/domoticz.cpp > CMakeFiles/domoticz.dir/main/domoticz.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/domoticz.cpp > CMakeFiles/domoticz.dir/main/domoticz.cpp.i
 
 CMakeFiles/domoticz.dir/main/domoticz.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/domoticz.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/domoticz.cpp -o CMakeFiles/domoticz.dir/main/domoticz.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/domoticz.cpp -o CMakeFiles/domoticz.dir/main/domoticz.cpp.s
 
 CMakeFiles/domoticz.dir/main/domoticz.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/domoticz.dir/main/domoticz.cpp.o.provides.build: CMakeFiles/domoticz.
 
 CMakeFiles/domoticz.dir/main/dzVents.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/dzVents.cpp.o: main/dzVents.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/domoticz.dir/main/dzVents.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/dzVents.cpp.o -c /home/pi/dev-domoticz/main/dzVents.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/domoticz.dir/main/dzVents.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/dzVents.cpp.o -c /home/pi/dev-daccord/main/dzVents.cpp
 
 CMakeFiles/domoticz.dir/main/dzVents.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/dzVents.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/dzVents.cpp > CMakeFiles/domoticz.dir/main/dzVents.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/dzVents.cpp > CMakeFiles/domoticz.dir/main/dzVents.cpp.i
 
 CMakeFiles/domoticz.dir/main/dzVents.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/dzVents.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/dzVents.cpp -o CMakeFiles/domoticz.dir/main/dzVents.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/dzVents.cpp -o CMakeFiles/domoticz.dir/main/dzVents.cpp.s
 
 CMakeFiles/domoticz.dir/main/dzVents.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/domoticz.dir/main/dzVents.cpp.o.provides.build: CMakeFiles/domoticz.d
 
 CMakeFiles/domoticz.dir/main/EventSystem.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/EventSystem.cpp.o: main/EventSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/domoticz.dir/main/EventSystem.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/EventSystem.cpp.o -c /home/pi/dev-domoticz/main/EventSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/domoticz.dir/main/EventSystem.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/EventSystem.cpp.o -c /home/pi/dev-daccord/main/EventSystem.cpp
 
 CMakeFiles/domoticz.dir/main/EventSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/EventSystem.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/EventSystem.cpp > CMakeFiles/domoticz.dir/main/EventSystem.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/EventSystem.cpp > CMakeFiles/domoticz.dir/main/EventSystem.cpp.i
 
 CMakeFiles/domoticz.dir/main/EventSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/EventSystem.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/EventSystem.cpp -o CMakeFiles/domoticz.dir/main/EventSystem.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/EventSystem.cpp -o CMakeFiles/domoticz.dir/main/EventSystem.cpp.s
 
 CMakeFiles/domoticz.dir/main/EventSystem.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/domoticz.dir/main/EventSystem.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.o: main/EventsPythonModule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.o -c /home/pi/dev-domoticz/main/EventsPythonModule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.o -c /home/pi/dev-daccord/main/EventsPythonModule.cpp
 
 CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/EventsPythonModule.cpp > CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/EventsPythonModule.cpp > CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.i
 
 CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/EventsPythonModule.cpp -o CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/EventsPythonModule.cpp -o CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.s
 
 CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/domoticz.dir/main/EventsPythonModule.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.o: main/EventsPythonDevice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.o -c /home/pi/dev-domoticz/main/EventsPythonDevice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.o -c /home/pi/dev-daccord/main/EventsPythonDevice.cpp
 
 CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/EventsPythonDevice.cpp > CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/EventsPythonDevice.cpp > CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.i
 
 CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/EventsPythonDevice.cpp -o CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/EventsPythonDevice.cpp -o CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.s
 
 CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/domoticz.dir/main/EventsPythonDevice.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/domoticz.dir/main/Helper.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/Helper.cpp.o: main/Helper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/domoticz.dir/main/Helper.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/Helper.cpp.o -c /home/pi/dev-domoticz/main/Helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/domoticz.dir/main/Helper.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/Helper.cpp.o -c /home/pi/dev-daccord/main/Helper.cpp
 
 CMakeFiles/domoticz.dir/main/Helper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/Helper.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/Helper.cpp > CMakeFiles/domoticz.dir/main/Helper.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/Helper.cpp > CMakeFiles/domoticz.dir/main/Helper.cpp.i
 
 CMakeFiles/domoticz.dir/main/Helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/Helper.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/Helper.cpp -o CMakeFiles/domoticz.dir/main/Helper.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/Helper.cpp -o CMakeFiles/domoticz.dir/main/Helper.cpp.s
 
 CMakeFiles/domoticz.dir/main/Helper.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/domoticz.dir/main/Helper.cpp.o.provides.build: CMakeFiles/domoticz.di
 
 CMakeFiles/domoticz.dir/main/IFTTT.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/IFTTT.cpp.o: main/IFTTT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/domoticz.dir/main/IFTTT.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/IFTTT.cpp.o -c /home/pi/dev-domoticz/main/IFTTT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/domoticz.dir/main/IFTTT.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/IFTTT.cpp.o -c /home/pi/dev-daccord/main/IFTTT.cpp
 
 CMakeFiles/domoticz.dir/main/IFTTT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/IFTTT.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/IFTTT.cpp > CMakeFiles/domoticz.dir/main/IFTTT.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/IFTTT.cpp > CMakeFiles/domoticz.dir/main/IFTTT.cpp.i
 
 CMakeFiles/domoticz.dir/main/IFTTT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/IFTTT.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/IFTTT.cpp -o CMakeFiles/domoticz.dir/main/IFTTT.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/IFTTT.cpp -o CMakeFiles/domoticz.dir/main/IFTTT.cpp.s
 
 CMakeFiles/domoticz.dir/main/IFTTT.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/domoticz.dir/main/IFTTT.cpp.o.provides.build: CMakeFiles/domoticz.dir
 
 CMakeFiles/domoticz.dir/main/localtime_r.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/localtime_r.cpp.o: main/localtime_r.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/domoticz.dir/main/localtime_r.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/localtime_r.cpp.o -c /home/pi/dev-domoticz/main/localtime_r.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/domoticz.dir/main/localtime_r.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/localtime_r.cpp.o -c /home/pi/dev-daccord/main/localtime_r.cpp
 
 CMakeFiles/domoticz.dir/main/localtime_r.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/localtime_r.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/localtime_r.cpp > CMakeFiles/domoticz.dir/main/localtime_r.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/localtime_r.cpp > CMakeFiles/domoticz.dir/main/localtime_r.cpp.i
 
 CMakeFiles/domoticz.dir/main/localtime_r.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/localtime_r.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/localtime_r.cpp -o CMakeFiles/domoticz.dir/main/localtime_r.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/localtime_r.cpp -o CMakeFiles/domoticz.dir/main/localtime_r.cpp.s
 
 CMakeFiles/domoticz.dir/main/localtime_r.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/domoticz.dir/main/localtime_r.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/main/Logger.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/Logger.cpp.o: main/Logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/domoticz.dir/main/Logger.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/Logger.cpp.o -c /home/pi/dev-domoticz/main/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/domoticz.dir/main/Logger.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/Logger.cpp.o -c /home/pi/dev-daccord/main/Logger.cpp
 
 CMakeFiles/domoticz.dir/main/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/Logger.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/Logger.cpp > CMakeFiles/domoticz.dir/main/Logger.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/Logger.cpp > CMakeFiles/domoticz.dir/main/Logger.cpp.i
 
 CMakeFiles/domoticz.dir/main/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/Logger.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/Logger.cpp -o CMakeFiles/domoticz.dir/main/Logger.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/Logger.cpp -o CMakeFiles/domoticz.dir/main/Logger.cpp.s
 
 CMakeFiles/domoticz.dir/main/Logger.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/domoticz.dir/main/Logger.cpp.o.provides.build: CMakeFiles/domoticz.di
 
 CMakeFiles/domoticz.dir/main/LuaCommon.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/LuaCommon.cpp.o: main/LuaCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/domoticz.dir/main/LuaCommon.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/LuaCommon.cpp.o -c /home/pi/dev-domoticz/main/LuaCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/domoticz.dir/main/LuaCommon.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/LuaCommon.cpp.o -c /home/pi/dev-daccord/main/LuaCommon.cpp
 
 CMakeFiles/domoticz.dir/main/LuaCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/LuaCommon.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/LuaCommon.cpp > CMakeFiles/domoticz.dir/main/LuaCommon.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/LuaCommon.cpp > CMakeFiles/domoticz.dir/main/LuaCommon.cpp.i
 
 CMakeFiles/domoticz.dir/main/LuaCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/LuaCommon.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/LuaCommon.cpp -o CMakeFiles/domoticz.dir/main/LuaCommon.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/LuaCommon.cpp -o CMakeFiles/domoticz.dir/main/LuaCommon.cpp.s
 
 CMakeFiles/domoticz.dir/main/LuaCommon.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/domoticz.dir/main/LuaCommon.cpp.o.provides.build: CMakeFiles/domoticz
 
 CMakeFiles/domoticz.dir/main/LuaHandler.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/LuaHandler.cpp.o: main/LuaHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/domoticz.dir/main/LuaHandler.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/LuaHandler.cpp.o -c /home/pi/dev-domoticz/main/LuaHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/domoticz.dir/main/LuaHandler.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/LuaHandler.cpp.o -c /home/pi/dev-daccord/main/LuaHandler.cpp
 
 CMakeFiles/domoticz.dir/main/LuaHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/LuaHandler.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/LuaHandler.cpp > CMakeFiles/domoticz.dir/main/LuaHandler.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/LuaHandler.cpp > CMakeFiles/domoticz.dir/main/LuaHandler.cpp.i
 
 CMakeFiles/domoticz.dir/main/LuaHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/LuaHandler.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/LuaHandler.cpp -o CMakeFiles/domoticz.dir/main/LuaHandler.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/LuaHandler.cpp -o CMakeFiles/domoticz.dir/main/LuaHandler.cpp.s
 
 CMakeFiles/domoticz.dir/main/LuaHandler.cpp.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/domoticz.dir/main/LuaHandler.cpp.o.provides.build: CMakeFiles/domotic
 
 CMakeFiles/domoticz.dir/main/mainworker.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/mainworker.cpp.o: main/mainworker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/domoticz.dir/main/mainworker.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/mainworker.cpp.o -c /home/pi/dev-domoticz/main/mainworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/domoticz.dir/main/mainworker.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/mainworker.cpp.o -c /home/pi/dev-daccord/main/mainworker.cpp
 
 CMakeFiles/domoticz.dir/main/mainworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/mainworker.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/mainworker.cpp > CMakeFiles/domoticz.dir/main/mainworker.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/mainworker.cpp > CMakeFiles/domoticz.dir/main/mainworker.cpp.i
 
 CMakeFiles/domoticz.dir/main/mainworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/mainworker.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/mainworker.cpp -o CMakeFiles/domoticz.dir/main/mainworker.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/mainworker.cpp -o CMakeFiles/domoticz.dir/main/mainworker.cpp.s
 
 CMakeFiles/domoticz.dir/main/mainworker.cpp.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/domoticz.dir/main/mainworker.cpp.o.provides.build: CMakeFiles/domotic
 
 CMakeFiles/domoticz.dir/main/RFXNames.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/RFXNames.cpp.o: main/RFXNames.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/domoticz.dir/main/RFXNames.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/RFXNames.cpp.o -c /home/pi/dev-domoticz/main/RFXNames.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/domoticz.dir/main/RFXNames.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/RFXNames.cpp.o -c /home/pi/dev-daccord/main/RFXNames.cpp
 
 CMakeFiles/domoticz.dir/main/RFXNames.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/RFXNames.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/RFXNames.cpp > CMakeFiles/domoticz.dir/main/RFXNames.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/RFXNames.cpp > CMakeFiles/domoticz.dir/main/RFXNames.cpp.i
 
 CMakeFiles/domoticz.dir/main/RFXNames.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/RFXNames.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/RFXNames.cpp -o CMakeFiles/domoticz.dir/main/RFXNames.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/RFXNames.cpp -o CMakeFiles/domoticz.dir/main/RFXNames.cpp.s
 
 CMakeFiles/domoticz.dir/main/RFXNames.cpp.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/domoticz.dir/main/RFXNames.cpp.o.provides.build: CMakeFiles/domoticz.
 
 CMakeFiles/domoticz.dir/main/Scheduler.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/Scheduler.cpp.o: main/Scheduler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/domoticz.dir/main/Scheduler.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/Scheduler.cpp.o -c /home/pi/dev-domoticz/main/Scheduler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/domoticz.dir/main/Scheduler.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/Scheduler.cpp.o -c /home/pi/dev-daccord/main/Scheduler.cpp
 
 CMakeFiles/domoticz.dir/main/Scheduler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/Scheduler.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/Scheduler.cpp > CMakeFiles/domoticz.dir/main/Scheduler.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/Scheduler.cpp > CMakeFiles/domoticz.dir/main/Scheduler.cpp.i
 
 CMakeFiles/domoticz.dir/main/Scheduler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/Scheduler.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/Scheduler.cpp -o CMakeFiles/domoticz.dir/main/Scheduler.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/Scheduler.cpp -o CMakeFiles/domoticz.dir/main/Scheduler.cpp.s
 
 CMakeFiles/domoticz.dir/main/Scheduler.cpp.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/domoticz.dir/main/Scheduler.cpp.o.provides.build: CMakeFiles/domoticz
 
 CMakeFiles/domoticz.dir/main/SQLHelper.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/SQLHelper.cpp.o: main/SQLHelper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/domoticz.dir/main/SQLHelper.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/SQLHelper.cpp.o -c /home/pi/dev-domoticz/main/SQLHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/domoticz.dir/main/SQLHelper.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/SQLHelper.cpp.o -c /home/pi/dev-daccord/main/SQLHelper.cpp
 
 CMakeFiles/domoticz.dir/main/SQLHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/SQLHelper.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/SQLHelper.cpp > CMakeFiles/domoticz.dir/main/SQLHelper.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/SQLHelper.cpp > CMakeFiles/domoticz.dir/main/SQLHelper.cpp.i
 
 CMakeFiles/domoticz.dir/main/SQLHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/SQLHelper.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/SQLHelper.cpp -o CMakeFiles/domoticz.dir/main/SQLHelper.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/SQLHelper.cpp -o CMakeFiles/domoticz.dir/main/SQLHelper.cpp.s
 
 CMakeFiles/domoticz.dir/main/SQLHelper.cpp.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/domoticz.dir/main/SQLHelper.cpp.o.provides.build: CMakeFiles/domoticz
 
 CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.o: main/SunRiseSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.o -c /home/pi/dev-domoticz/main/SunRiseSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.o -c /home/pi/dev-daccord/main/SunRiseSet.cpp
 
 CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/SunRiseSet.cpp > CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/SunRiseSet.cpp > CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.i
 
 CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/SunRiseSet.cpp -o CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/SunRiseSet.cpp -o CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.s
 
 CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/domoticz.dir/main/SunRiseSet.cpp.o.provides.build: CMakeFiles/domotic
 
 CMakeFiles/domoticz.dir/main/WebServer.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/WebServer.cpp.o: main/WebServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/domoticz.dir/main/WebServer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/WebServer.cpp.o -c /home/pi/dev-domoticz/main/WebServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/domoticz.dir/main/WebServer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/WebServer.cpp.o -c /home/pi/dev-daccord/main/WebServer.cpp
 
 CMakeFiles/domoticz.dir/main/WebServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/WebServer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/WebServer.cpp > CMakeFiles/domoticz.dir/main/WebServer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/WebServer.cpp > CMakeFiles/domoticz.dir/main/WebServer.cpp.i
 
 CMakeFiles/domoticz.dir/main/WebServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/WebServer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/WebServer.cpp -o CMakeFiles/domoticz.dir/main/WebServer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/WebServer.cpp -o CMakeFiles/domoticz.dir/main/WebServer.cpp.s
 
 CMakeFiles/domoticz.dir/main/WebServer.cpp.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/domoticz.dir/main/WebServer.cpp.o.provides.build: CMakeFiles/domoticz
 
 CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.o: main/WebServerHelper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.o -c /home/pi/dev-domoticz/main/WebServerHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.o -c /home/pi/dev-daccord/main/WebServerHelper.cpp
 
 CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/WebServerHelper.cpp > CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/WebServerHelper.cpp > CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.i
 
 CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/WebServerHelper.cpp -o CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/WebServerHelper.cpp -o CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.s
 
 CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/domoticz.dir/main/WebServerHelper.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/main/WindCalculation.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/main/WindCalculation.cpp.o: main/WindCalculation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/domoticz.dir/main/WindCalculation.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/WindCalculation.cpp.o -c /home/pi/dev-domoticz/main/WindCalculation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/domoticz.dir/main/WindCalculation.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/main/WindCalculation.cpp.o -c /home/pi/dev-daccord/main/WindCalculation.cpp
 
 CMakeFiles/domoticz.dir/main/WindCalculation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/main/WindCalculation.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/main/WindCalculation.cpp > CMakeFiles/domoticz.dir/main/WindCalculation.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/main/WindCalculation.cpp > CMakeFiles/domoticz.dir/main/WindCalculation.cpp.i
 
 CMakeFiles/domoticz.dir/main/WindCalculation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/main/WindCalculation.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/main/WindCalculation.cpp -o CMakeFiles/domoticz.dir/main/WindCalculation.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/main/WindCalculation.cpp -o CMakeFiles/domoticz.dir/main/WindCalculation.cpp.s
 
 CMakeFiles/domoticz.dir/main/WindCalculation.cpp.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/domoticz.dir/main/WindCalculation.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/push/BasePush.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/push/BasePush.cpp.o: push/BasePush.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/domoticz.dir/push/BasePush.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/push/BasePush.cpp.o -c /home/pi/dev-domoticz/push/BasePush.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/domoticz.dir/push/BasePush.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/push/BasePush.cpp.o -c /home/pi/dev-daccord/push/BasePush.cpp
 
 CMakeFiles/domoticz.dir/push/BasePush.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/push/BasePush.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/push/BasePush.cpp > CMakeFiles/domoticz.dir/push/BasePush.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/push/BasePush.cpp > CMakeFiles/domoticz.dir/push/BasePush.cpp.i
 
 CMakeFiles/domoticz.dir/push/BasePush.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/push/BasePush.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/push/BasePush.cpp -o CMakeFiles/domoticz.dir/push/BasePush.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/push/BasePush.cpp -o CMakeFiles/domoticz.dir/push/BasePush.cpp.s
 
 CMakeFiles/domoticz.dir/push/BasePush.cpp.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/domoticz.dir/push/BasePush.cpp.o.provides.build: CMakeFiles/domoticz.
 
 CMakeFiles/domoticz.dir/push/FibaroPush.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/push/FibaroPush.cpp.o: push/FibaroPush.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/domoticz.dir/push/FibaroPush.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/push/FibaroPush.cpp.o -c /home/pi/dev-domoticz/push/FibaroPush.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/domoticz.dir/push/FibaroPush.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/push/FibaroPush.cpp.o -c /home/pi/dev-daccord/push/FibaroPush.cpp
 
 CMakeFiles/domoticz.dir/push/FibaroPush.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/push/FibaroPush.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/push/FibaroPush.cpp > CMakeFiles/domoticz.dir/push/FibaroPush.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/push/FibaroPush.cpp > CMakeFiles/domoticz.dir/push/FibaroPush.cpp.i
 
 CMakeFiles/domoticz.dir/push/FibaroPush.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/push/FibaroPush.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/push/FibaroPush.cpp -o CMakeFiles/domoticz.dir/push/FibaroPush.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/push/FibaroPush.cpp -o CMakeFiles/domoticz.dir/push/FibaroPush.cpp.s
 
 CMakeFiles/domoticz.dir/push/FibaroPush.cpp.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/domoticz.dir/push/FibaroPush.cpp.o.provides.build: CMakeFiles/domotic
 
 CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.o: push/GooglePubSubPush.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.o -c /home/pi/dev-domoticz/push/GooglePubSubPush.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.o -c /home/pi/dev-daccord/push/GooglePubSubPush.cpp
 
 CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/push/GooglePubSubPush.cpp > CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/push/GooglePubSubPush.cpp > CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.i
 
 CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/push/GooglePubSubPush.cpp -o CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/push/GooglePubSubPush.cpp -o CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.s
 
 CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/domoticz.dir/push/GooglePubSubPush.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/push/HttpPush.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/push/HttpPush.cpp.o: push/HttpPush.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/domoticz.dir/push/HttpPush.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/push/HttpPush.cpp.o -c /home/pi/dev-domoticz/push/HttpPush.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/domoticz.dir/push/HttpPush.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/push/HttpPush.cpp.o -c /home/pi/dev-daccord/push/HttpPush.cpp
 
 CMakeFiles/domoticz.dir/push/HttpPush.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/push/HttpPush.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/push/HttpPush.cpp > CMakeFiles/domoticz.dir/push/HttpPush.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/push/HttpPush.cpp > CMakeFiles/domoticz.dir/push/HttpPush.cpp.i
 
 CMakeFiles/domoticz.dir/push/HttpPush.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/push/HttpPush.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/push/HttpPush.cpp -o CMakeFiles/domoticz.dir/push/HttpPush.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/push/HttpPush.cpp -o CMakeFiles/domoticz.dir/push/HttpPush.cpp.s
 
 CMakeFiles/domoticz.dir/push/HttpPush.cpp.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/domoticz.dir/push/HttpPush.cpp.o.provides.build: CMakeFiles/domoticz.
 
 CMakeFiles/domoticz.dir/push/InfluxPush.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/push/InfluxPush.cpp.o: push/InfluxPush.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/domoticz.dir/push/InfluxPush.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/push/InfluxPush.cpp.o -c /home/pi/dev-domoticz/push/InfluxPush.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/domoticz.dir/push/InfluxPush.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/push/InfluxPush.cpp.o -c /home/pi/dev-daccord/push/InfluxPush.cpp
 
 CMakeFiles/domoticz.dir/push/InfluxPush.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/push/InfluxPush.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/push/InfluxPush.cpp > CMakeFiles/domoticz.dir/push/InfluxPush.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/push/InfluxPush.cpp > CMakeFiles/domoticz.dir/push/InfluxPush.cpp.i
 
 CMakeFiles/domoticz.dir/push/InfluxPush.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/push/InfluxPush.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/push/InfluxPush.cpp -o CMakeFiles/domoticz.dir/push/InfluxPush.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/push/InfluxPush.cpp -o CMakeFiles/domoticz.dir/push/InfluxPush.cpp.s
 
 CMakeFiles/domoticz.dir/push/InfluxPush.cpp.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/domoticz.dir/push/InfluxPush.cpp.o.provides.build: CMakeFiles/domotic
 
 CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.o: push/WebsocketPush.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.o -c /home/pi/dev-domoticz/push/WebsocketPush.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.o -c /home/pi/dev-daccord/push/WebsocketPush.cpp
 
 CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/push/WebsocketPush.cpp > CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/push/WebsocketPush.cpp > CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.i
 
 CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/push/WebsocketPush.cpp -o CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/push/WebsocketPush.cpp -o CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.s
 
 CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.o.requires:
 
@@ -731,16 +731,16 @@ CMakeFiles/domoticz.dir/push/WebsocketPush.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.o: httpclient/HTTPClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.o -c /home/pi/dev-domoticz/httpclient/HTTPClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.o -c /home/pi/dev-daccord/httpclient/HTTPClient.cpp
 
 CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/httpclient/HTTPClient.cpp > CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/httpclient/HTTPClient.cpp > CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.i
 
 CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/httpclient/HTTPClient.cpp -o CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/httpclient/HTTPClient.cpp -o CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.s
 
 CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.o.requires:
 
@@ -755,16 +755,16 @@ CMakeFiles/domoticz.dir/httpclient/HTTPClient.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.o: httpclient/UrlEncode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.o -c /home/pi/dev-domoticz/httpclient/UrlEncode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.o -c /home/pi/dev-daccord/httpclient/UrlEncode.cpp
 
 CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/httpclient/UrlEncode.cpp > CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/httpclient/UrlEncode.cpp > CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.i
 
 CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/httpclient/UrlEncode.cpp -o CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/httpclient/UrlEncode.cpp -o CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.s
 
 CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.o.requires:
 
@@ -779,16 +779,16 @@ CMakeFiles/domoticz.dir/httpclient/UrlEncode.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/1Wire.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/1Wire.cpp.o: hardware/1Wire.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/domoticz.dir/hardware/1Wire.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/1Wire.cpp.o -c /home/pi/dev-domoticz/hardware/1Wire.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/domoticz.dir/hardware/1Wire.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/1Wire.cpp.o -c /home/pi/dev-daccord/hardware/1Wire.cpp
 
 CMakeFiles/domoticz.dir/hardware/1Wire.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/1Wire.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/1Wire.cpp > CMakeFiles/domoticz.dir/hardware/1Wire.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/1Wire.cpp > CMakeFiles/domoticz.dir/hardware/1Wire.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/1Wire.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/1Wire.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/1Wire.cpp -o CMakeFiles/domoticz.dir/hardware/1Wire.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/1Wire.cpp -o CMakeFiles/domoticz.dir/hardware/1Wire.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/1Wire.cpp.o.requires:
 
@@ -803,16 +803,16 @@ CMakeFiles/domoticz.dir/hardware/1Wire.cpp.o.provides.build: CMakeFiles/domoticz
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.o: hardware/1Wire/1WireByOWFS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.o -c /home/pi/dev-domoticz/hardware/1Wire/1WireByOWFS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.o -c /home/pi/dev-daccord/hardware/1Wire/1WireByOWFS.cpp
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/1Wire/1WireByOWFS.cpp > CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/1Wire/1WireByOWFS.cpp > CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/1Wire/1WireByOWFS.cpp -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/1Wire/1WireByOWFS.cpp -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.o.requires:
 
@@ -827,16 +827,16 @@ CMakeFiles/domoticz.dir/hardware/1Wire/1WireByOWFS.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.o: hardware/1Wire/1WireByKernel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.o -c /home/pi/dev-domoticz/hardware/1Wire/1WireByKernel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.o -c /home/pi/dev-daccord/hardware/1Wire/1WireByKernel.cpp
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/1Wire/1WireByKernel.cpp > CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/1Wire/1WireByKernel.cpp > CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/1Wire/1WireByKernel.cpp -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/1Wire/1WireByKernel.cpp -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.o.requires:
 
@@ -851,16 +851,16 @@ CMakeFiles/domoticz.dir/hardware/1Wire/1WireByKernel.cpp.o.provides.build: CMake
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.o: hardware/1Wire/1WireCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.o -c /home/pi/dev-domoticz/hardware/1Wire/1WireCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.o -c /home/pi/dev-daccord/hardware/1Wire/1WireCommon.cpp
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/1Wire/1WireCommon.cpp > CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/1Wire/1WireCommon.cpp > CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/1Wire/1WireCommon.cpp -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/1Wire/1WireCommon.cpp -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.o.requires:
 
@@ -875,16 +875,16 @@ CMakeFiles/domoticz.dir/hardware/1Wire/1WireCommon.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.o: hardware/1Wire/1WireForWindows.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.o -c /home/pi/dev-domoticz/hardware/1Wire/1WireForWindows.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.o -c /home/pi/dev-daccord/hardware/1Wire/1WireForWindows.cpp
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/1Wire/1WireForWindows.cpp > CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/1Wire/1WireForWindows.cpp > CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/1Wire/1WireForWindows.cpp -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/1Wire/1WireForWindows.cpp -o CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.o.requires:
 
@@ -899,16 +899,16 @@ CMakeFiles/domoticz.dir/hardware/1Wire/1WireForWindows.cpp.o.provides.build: CMa
 
 CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.o: hardware/AccuWeather.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.o -c /home/pi/dev-domoticz/hardware/AccuWeather.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.o -c /home/pi/dev-daccord/hardware/AccuWeather.cpp
 
 CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/AccuWeather.cpp > CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/AccuWeather.cpp > CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/AccuWeather.cpp -o CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/AccuWeather.cpp -o CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.o.requires:
 
@@ -923,16 +923,16 @@ CMakeFiles/domoticz.dir/hardware/AccuWeather.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.o: hardware/AnnaThermostat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.o -c /home/pi/dev-domoticz/hardware/AnnaThermostat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.o -c /home/pi/dev-daccord/hardware/AnnaThermostat.cpp
 
 CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/AnnaThermostat.cpp > CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/AnnaThermostat.cpp > CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/AnnaThermostat.cpp -o CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/AnnaThermostat.cpp -o CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.o.requires:
 
@@ -947,16 +947,16 @@ CMakeFiles/domoticz.dir/hardware/AnnaThermostat.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/domoticz.dir/hardware/Arilux.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Arilux.cpp.o: hardware/Arilux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/domoticz.dir/hardware/Arilux.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Arilux.cpp.o -c /home/pi/dev-domoticz/hardware/Arilux.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/domoticz.dir/hardware/Arilux.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Arilux.cpp.o -c /home/pi/dev-daccord/hardware/Arilux.cpp
 
 CMakeFiles/domoticz.dir/hardware/Arilux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Arilux.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Arilux.cpp > CMakeFiles/domoticz.dir/hardware/Arilux.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Arilux.cpp > CMakeFiles/domoticz.dir/hardware/Arilux.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Arilux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Arilux.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Arilux.cpp -o CMakeFiles/domoticz.dir/hardware/Arilux.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Arilux.cpp -o CMakeFiles/domoticz.dir/hardware/Arilux.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Arilux.cpp.o.requires:
 
@@ -971,16 +971,16 @@ CMakeFiles/domoticz.dir/hardware/Arilux.cpp.o.provides.build: CMakeFiles/domotic
 
 CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.o: hardware/ASyncSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.o -c /home/pi/dev-domoticz/hardware/ASyncSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.o -c /home/pi/dev-daccord/hardware/ASyncSerial.cpp
 
 CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/ASyncSerial.cpp > CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/ASyncSerial.cpp > CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/ASyncSerial.cpp -o CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/ASyncSerial.cpp -o CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.o.requires:
 
@@ -995,16 +995,16 @@ CMakeFiles/domoticz.dir/hardware/ASyncSerial.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.o: hardware/ASyncTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.o -c /home/pi/dev-domoticz/hardware/ASyncTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.o -c /home/pi/dev-daccord/hardware/ASyncTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/ASyncTCP.cpp > CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/ASyncTCP.cpp > CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/ASyncTCP.cpp -o CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/ASyncTCP.cpp -o CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.o.requires:
 
@@ -1019,16 +1019,16 @@ CMakeFiles/domoticz.dir/hardware/ASyncTCP.cpp.o.provides.build: CMakeFiles/domot
 
 CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.o: hardware/AtagOne.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.o -c /home/pi/dev-domoticz/hardware/AtagOne.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.o -c /home/pi/dev-daccord/hardware/AtagOne.cpp
 
 CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/AtagOne.cpp > CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/AtagOne.cpp > CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/AtagOne.cpp -o CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/AtagOne.cpp -o CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.o.requires:
 
@@ -1043,16 +1043,16 @@ CMakeFiles/domoticz.dir/hardware/AtagOne.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/hardware/BleBox.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/BleBox.cpp.o: hardware/BleBox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/domoticz.dir/hardware/BleBox.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/BleBox.cpp.o -c /home/pi/dev-domoticz/hardware/BleBox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/domoticz.dir/hardware/BleBox.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/BleBox.cpp.o -c /home/pi/dev-daccord/hardware/BleBox.cpp
 
 CMakeFiles/domoticz.dir/hardware/BleBox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/BleBox.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/BleBox.cpp > CMakeFiles/domoticz.dir/hardware/BleBox.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/BleBox.cpp > CMakeFiles/domoticz.dir/hardware/BleBox.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/BleBox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/BleBox.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/BleBox.cpp -o CMakeFiles/domoticz.dir/hardware/BleBox.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/BleBox.cpp -o CMakeFiles/domoticz.dir/hardware/BleBox.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/BleBox.cpp.o.requires:
 
@@ -1067,16 +1067,16 @@ CMakeFiles/domoticz.dir/hardware/BleBox.cpp.o.provides.build: CMakeFiles/domotic
 
 CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.o: hardware/ColorSwitch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.o -c /home/pi/dev-domoticz/hardware/ColorSwitch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.o -c /home/pi/dev-daccord/hardware/ColorSwitch.cpp
 
 CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/ColorSwitch.cpp > CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/ColorSwitch.cpp > CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/ColorSwitch.cpp -o CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/ColorSwitch.cpp -o CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.o.requires:
 
@@ -1091,16 +1091,16 @@ CMakeFiles/domoticz.dir/hardware/ColorSwitch.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.o: hardware/Comm5Serial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.o -c /home/pi/dev-domoticz/hardware/Comm5Serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.o -c /home/pi/dev-daccord/hardware/Comm5Serial.cpp
 
 CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Comm5Serial.cpp > CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Comm5Serial.cpp > CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Comm5Serial.cpp -o CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Comm5Serial.cpp -o CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.o.requires:
 
@@ -1115,16 +1115,16 @@ CMakeFiles/domoticz.dir/hardware/Comm5Serial.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.o: hardware/Comm5SMTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.o -c /home/pi/dev-domoticz/hardware/Comm5SMTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.o -c /home/pi/dev-daccord/hardware/Comm5SMTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Comm5SMTCP.cpp > CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Comm5SMTCP.cpp > CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Comm5SMTCP.cpp -o CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Comm5SMTCP.cpp -o CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.o.requires:
 
@@ -1139,16 +1139,16 @@ CMakeFiles/domoticz.dir/hardware/Comm5SMTCP.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.o: hardware/Comm5TCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.o -c /home/pi/dev-domoticz/hardware/Comm5TCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.o -c /home/pi/dev-daccord/hardware/Comm5TCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Comm5TCP.cpp > CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Comm5TCP.cpp > CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Comm5TCP.cpp -o CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Comm5TCP.cpp -o CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.o.requires:
 
@@ -1163,16 +1163,16 @@ CMakeFiles/domoticz.dir/hardware/Comm5TCP.cpp.o.provides.build: CMakeFiles/domot
 
 CMakeFiles/domoticz.dir/hardware/csocket.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/csocket.cpp.o: hardware/csocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/domoticz.dir/hardware/csocket.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/csocket.cpp.o -c /home/pi/dev-domoticz/hardware/csocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/domoticz.dir/hardware/csocket.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/csocket.cpp.o -c /home/pi/dev-daccord/hardware/csocket.cpp
 
 CMakeFiles/domoticz.dir/hardware/csocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/csocket.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/csocket.cpp > CMakeFiles/domoticz.dir/hardware/csocket.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/csocket.cpp > CMakeFiles/domoticz.dir/hardware/csocket.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/csocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/csocket.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/csocket.cpp -o CMakeFiles/domoticz.dir/hardware/csocket.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/csocket.cpp -o CMakeFiles/domoticz.dir/hardware/csocket.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/csocket.cpp.o.requires:
 
@@ -1187,16 +1187,16 @@ CMakeFiles/domoticz.dir/hardware/csocket.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.o: hardware/CurrentCostMeterBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.o -c /home/pi/dev-domoticz/hardware/CurrentCostMeterBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.o -c /home/pi/dev-daccord/hardware/CurrentCostMeterBase.cpp
 
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/CurrentCostMeterBase.cpp > CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/CurrentCostMeterBase.cpp > CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/CurrentCostMeterBase.cpp -o CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/CurrentCostMeterBase.cpp -o CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.o.requires:
 
@@ -1211,16 +1211,16 @@ CMakeFiles/domoticz.dir/hardware/CurrentCostMeterBase.cpp.o.provides.build: CMak
 
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.o: hardware/CurrentCostMeterSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.o -c /home/pi/dev-domoticz/hardware/CurrentCostMeterSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.o -c /home/pi/dev-daccord/hardware/CurrentCostMeterSerial.cpp
 
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/CurrentCostMeterSerial.cpp > CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/CurrentCostMeterSerial.cpp > CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/CurrentCostMeterSerial.cpp -o CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/CurrentCostMeterSerial.cpp -o CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.o.requires:
 
@@ -1235,16 +1235,16 @@ CMakeFiles/domoticz.dir/hardware/CurrentCostMeterSerial.cpp.o.provides.build: CM
 
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.o: hardware/CurrentCostMeterTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.o -c /home/pi/dev-domoticz/hardware/CurrentCostMeterTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.o -c /home/pi/dev-daccord/hardware/CurrentCostMeterTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/CurrentCostMeterTCP.cpp > CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/CurrentCostMeterTCP.cpp > CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/CurrentCostMeterTCP.cpp -o CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/CurrentCostMeterTCP.cpp -o CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.o.requires:
 
@@ -1259,16 +1259,16 @@ CMakeFiles/domoticz.dir/hardware/CurrentCostMeterTCP.cpp.o.provides.build: CMake
 
 CMakeFiles/domoticz.dir/hardware/Daikin.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Daikin.cpp.o: hardware/Daikin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/domoticz.dir/hardware/Daikin.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Daikin.cpp.o -c /home/pi/dev-domoticz/hardware/Daikin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/domoticz.dir/hardware/Daikin.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Daikin.cpp.o -c /home/pi/dev-daccord/hardware/Daikin.cpp
 
 CMakeFiles/domoticz.dir/hardware/Daikin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Daikin.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Daikin.cpp > CMakeFiles/domoticz.dir/hardware/Daikin.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Daikin.cpp > CMakeFiles/domoticz.dir/hardware/Daikin.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Daikin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Daikin.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Daikin.cpp -o CMakeFiles/domoticz.dir/hardware/Daikin.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Daikin.cpp -o CMakeFiles/domoticz.dir/hardware/Daikin.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Daikin.cpp.o.requires:
 
@@ -1283,16 +1283,16 @@ CMakeFiles/domoticz.dir/hardware/Daikin.cpp.o.provides.build: CMakeFiles/domotic
 
 CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.o: hardware/DarkSky.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.o -c /home/pi/dev-domoticz/hardware/DarkSky.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.o -c /home/pi/dev-daccord/hardware/DarkSky.cpp
 
 CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/DarkSky.cpp > CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/DarkSky.cpp > CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/DarkSky.cpp -o CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/DarkSky.cpp -o CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.o.requires:
 
@@ -1307,16 +1307,16 @@ CMakeFiles/domoticz.dir/hardware/DarkSky.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.o: hardware/DavisLoggerSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.o -c /home/pi/dev-domoticz/hardware/DavisLoggerSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.o -c /home/pi/dev-daccord/hardware/DavisLoggerSerial.cpp
 
 CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/DavisLoggerSerial.cpp > CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/DavisLoggerSerial.cpp > CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/DavisLoggerSerial.cpp -o CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/DavisLoggerSerial.cpp -o CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.o.requires:
 
@@ -1331,16 +1331,16 @@ CMakeFiles/domoticz.dir/hardware/DavisLoggerSerial.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.o: hardware/DenkoviSmartdenIPInOut.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.o -c /home/pi/dev-domoticz/hardware/DenkoviSmartdenIPInOut.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.o -c /home/pi/dev-daccord/hardware/DenkoviSmartdenIPInOut.cpp
 
 CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/DenkoviSmartdenIPInOut.cpp > CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/DenkoviSmartdenIPInOut.cpp > CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/DenkoviSmartdenIPInOut.cpp -o CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/DenkoviSmartdenIPInOut.cpp -o CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.o.requires:
 
@@ -1355,16 +1355,16 @@ CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenIPInOut.cpp.o.provides.build: CM
 
 CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.o: hardware/DenkoviSmartdenLan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.o -c /home/pi/dev-domoticz/hardware/DenkoviSmartdenLan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.o -c /home/pi/dev-daccord/hardware/DenkoviSmartdenLan.cpp
 
 CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/DenkoviSmartdenLan.cpp > CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/DenkoviSmartdenLan.cpp > CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/DenkoviSmartdenLan.cpp -o CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/DenkoviSmartdenLan.cpp -o CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.o.requires:
 
@@ -1379,16 +1379,16 @@ CMakeFiles/domoticz.dir/hardware/DenkoviSmartdenLan.cpp.o.provides.build: CMakeF
 
 CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.o: hardware/DomoticzHardware.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.o -c /home/pi/dev-domoticz/hardware/DomoticzHardware.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.o -c /home/pi/dev-daccord/hardware/DomoticzHardware.cpp
 
 CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/DomoticzHardware.cpp > CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/DomoticzHardware.cpp > CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/DomoticzHardware.cpp -o CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/DomoticzHardware.cpp -o CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.o.requires:
 
@@ -1403,16 +1403,16 @@ CMakeFiles/domoticz.dir/hardware/DomoticzHardware.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.o: hardware/DomoticzInternal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.o -c /home/pi/dev-domoticz/hardware/DomoticzInternal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.o -c /home/pi/dev-daccord/hardware/DomoticzInternal.cpp
 
 CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/DomoticzInternal.cpp > CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/DomoticzInternal.cpp > CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/DomoticzInternal.cpp -o CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/DomoticzInternal.cpp -o CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.o.requires:
 
@@ -1427,16 +1427,16 @@ CMakeFiles/domoticz.dir/hardware/DomoticzInternal.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.o: hardware/DomoticzTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.o -c /home/pi/dev-domoticz/hardware/DomoticzTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.o -c /home/pi/dev-daccord/hardware/DomoticzTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/DomoticzTCP.cpp > CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/DomoticzTCP.cpp > CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/DomoticzTCP.cpp -o CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/DomoticzTCP.cpp -o CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.o.requires:
 
@@ -1451,16 +1451,16 @@ CMakeFiles/domoticz.dir/hardware/DomoticzTCP.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/Dummy.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Dummy.cpp.o: hardware/Dummy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/domoticz.dir/hardware/Dummy.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Dummy.cpp.o -c /home/pi/dev-domoticz/hardware/Dummy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/domoticz.dir/hardware/Dummy.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Dummy.cpp.o -c /home/pi/dev-daccord/hardware/Dummy.cpp
 
 CMakeFiles/domoticz.dir/hardware/Dummy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Dummy.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Dummy.cpp > CMakeFiles/domoticz.dir/hardware/Dummy.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Dummy.cpp > CMakeFiles/domoticz.dir/hardware/Dummy.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Dummy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Dummy.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Dummy.cpp -o CMakeFiles/domoticz.dir/hardware/Dummy.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Dummy.cpp -o CMakeFiles/domoticz.dir/hardware/Dummy.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Dummy.cpp.o.requires:
 
@@ -1475,16 +1475,16 @@ CMakeFiles/domoticz.dir/hardware/Dummy.cpp.o.provides.build: CMakeFiles/domoticz
 
 CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.o: hardware/EcoCompteur.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.o -c /home/pi/dev-domoticz/hardware/EcoCompteur.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.o -c /home/pi/dev-daccord/hardware/EcoCompteur.cpp
 
 CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/EcoCompteur.cpp > CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/EcoCompteur.cpp > CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/EcoCompteur.cpp -o CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/EcoCompteur.cpp -o CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.o.requires:
 
@@ -1499,16 +1499,16 @@ CMakeFiles/domoticz.dir/hardware/EcoCompteur.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.o: hardware/EcoDevices.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.o -c /home/pi/dev-domoticz/hardware/EcoDevices.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.o -c /home/pi/dev-daccord/hardware/EcoDevices.cpp
 
 CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/EcoDevices.cpp > CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/EcoDevices.cpp > CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/EcoDevices.cpp -o CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/EcoDevices.cpp -o CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.o.requires:
 
@@ -1523,16 +1523,16 @@ CMakeFiles/domoticz.dir/hardware/EcoDevices.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.o: hardware/eHouseTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.o -c /home/pi/dev-domoticz/hardware/eHouseTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.o -c /home/pi/dev-daccord/hardware/eHouseTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/eHouseTCP.cpp > CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/eHouseTCP.cpp > CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/eHouseTCP.cpp -o CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/eHouseTCP.cpp -o CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.o.requires:
 
@@ -1547,16 +1547,16 @@ CMakeFiles/domoticz.dir/hardware/eHouseTCP.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.o: hardware/eHouse/EhouseEvents.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.o -c /home/pi/dev-domoticz/hardware/eHouse/EhouseEvents.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.o -c /home/pi/dev-daccord/hardware/eHouse/EhouseEvents.cpp
 
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/eHouse/EhouseEvents.cpp > CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/eHouse/EhouseEvents.cpp > CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/eHouse/EhouseEvents.cpp -o CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/eHouse/EhouseEvents.cpp -o CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.o.requires:
 
@@ -1571,16 +1571,16 @@ CMakeFiles/domoticz.dir/hardware/eHouse/EhouseEvents.cpp.o.provides.build: CMake
 
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.o: hardware/eHouse/EhouseTcpClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.o -c /home/pi/dev-domoticz/hardware/eHouse/EhouseTcpClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.o -c /home/pi/dev-daccord/hardware/eHouse/EhouseTcpClient.cpp
 
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/eHouse/EhouseTcpClient.cpp > CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/eHouse/EhouseTcpClient.cpp > CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/eHouse/EhouseTcpClient.cpp -o CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/eHouse/EhouseTcpClient.cpp -o CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.o.requires:
 
@@ -1595,16 +1595,16 @@ CMakeFiles/domoticz.dir/hardware/eHouse/EhouseTcpClient.cpp.o.provides.build: CM
 
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.o: hardware/eHouse/EhouseUdpListener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.o -c /home/pi/dev-domoticz/hardware/eHouse/EhouseUdpListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.o -c /home/pi/dev-daccord/hardware/eHouse/EhouseUdpListener.cpp
 
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/eHouse/EhouseUdpListener.cpp > CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/eHouse/EhouseUdpListener.cpp > CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/eHouse/EhouseUdpListener.cpp -o CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/eHouse/EhouseUdpListener.cpp -o CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.o.requires:
 
@@ -1619,16 +1619,16 @@ CMakeFiles/domoticz.dir/hardware/eHouse/EhouseUdpListener.cpp.o.provides.build: 
 
 CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.o: hardware/EnOceanESP2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.o -c /home/pi/dev-domoticz/hardware/EnOceanESP2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.o -c /home/pi/dev-daccord/hardware/EnOceanESP2.cpp
 
 CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/EnOceanESP2.cpp > CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/EnOceanESP2.cpp > CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/EnOceanESP2.cpp -o CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/EnOceanESP2.cpp -o CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.o.requires:
 
@@ -1643,16 +1643,16 @@ CMakeFiles/domoticz.dir/hardware/EnOceanESP2.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.o: hardware/EnOceanESP3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.o -c /home/pi/dev-domoticz/hardware/EnOceanESP3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.o -c /home/pi/dev-daccord/hardware/EnOceanESP3.cpp
 
 CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/EnOceanESP3.cpp > CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/EnOceanESP3.cpp > CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/EnOceanESP3.cpp -o CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/EnOceanESP3.cpp -o CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.o.requires:
 
@@ -1667,16 +1667,16 @@ CMakeFiles/domoticz.dir/hardware/EnOceanESP3.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.o: hardware/EnphaseAPI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.o -c /home/pi/dev-domoticz/hardware/EnphaseAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.o -c /home/pi/dev-daccord/hardware/EnphaseAPI.cpp
 
 CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/EnphaseAPI.cpp > CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/EnphaseAPI.cpp > CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/EnphaseAPI.cpp -o CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/EnphaseAPI.cpp -o CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.o.requires:
 
@@ -1691,16 +1691,16 @@ CMakeFiles/domoticz.dir/hardware/EnphaseAPI.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.o: hardware/Ec3kMeterTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.o -c /home/pi/dev-domoticz/hardware/Ec3kMeterTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.o -c /home/pi/dev-daccord/hardware/Ec3kMeterTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Ec3kMeterTCP.cpp > CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Ec3kMeterTCP.cpp > CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Ec3kMeterTCP.cpp -o CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Ec3kMeterTCP.cpp -o CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.o.requires:
 
@@ -1715,16 +1715,16 @@ CMakeFiles/domoticz.dir/hardware/Ec3kMeterTCP.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.o: hardware/EvohomeBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.o -c /home/pi/dev-domoticz/hardware/EvohomeBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.o -c /home/pi/dev-daccord/hardware/EvohomeBase.cpp
 
 CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/EvohomeBase.cpp > CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/EvohomeBase.cpp > CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/EvohomeBase.cpp -o CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/EvohomeBase.cpp -o CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.o.requires:
 
@@ -1739,16 +1739,16 @@ CMakeFiles/domoticz.dir/hardware/EvohomeBase.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.o: hardware/EvohomeRadio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.o -c /home/pi/dev-domoticz/hardware/EvohomeRadio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.o -c /home/pi/dev-daccord/hardware/EvohomeRadio.cpp
 
 CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/EvohomeRadio.cpp > CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/EvohomeRadio.cpp > CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/EvohomeRadio.cpp -o CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/EvohomeRadio.cpp -o CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.o.requires:
 
@@ -1763,16 +1763,16 @@ CMakeFiles/domoticz.dir/hardware/EvohomeRadio.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.o: hardware/EvohomeScript.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.o -c /home/pi/dev-domoticz/hardware/EvohomeScript.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.o -c /home/pi/dev-daccord/hardware/EvohomeScript.cpp
 
 CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/EvohomeScript.cpp > CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/EvohomeScript.cpp > CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/EvohomeScript.cpp -o CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/EvohomeScript.cpp -o CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.o.requires:
 
@@ -1787,16 +1787,16 @@ CMakeFiles/domoticz.dir/hardware/EvohomeScript.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.o: hardware/EvohomeSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.o -c /home/pi/dev-domoticz/hardware/EvohomeSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.o -c /home/pi/dev-daccord/hardware/EvohomeSerial.cpp
 
 CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/EvohomeSerial.cpp > CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/EvohomeSerial.cpp > CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/EvohomeSerial.cpp -o CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/EvohomeSerial.cpp -o CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.o.requires:
 
@@ -1811,16 +1811,16 @@ CMakeFiles/domoticz.dir/hardware/EvohomeSerial.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.o: hardware/EvohomeTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.o -c /home/pi/dev-domoticz/hardware/EvohomeTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.o -c /home/pi/dev-daccord/hardware/EvohomeTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/EvohomeTCP.cpp > CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/EvohomeTCP.cpp > CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/EvohomeTCP.cpp -o CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/EvohomeTCP.cpp -o CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.o.requires:
 
@@ -1835,16 +1835,16 @@ CMakeFiles/domoticz.dir/hardware/EvohomeTCP.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.o: hardware/EvohomeWeb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.o -c /home/pi/dev-domoticz/hardware/EvohomeWeb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.o -c /home/pi/dev-daccord/hardware/EvohomeWeb.cpp
 
 CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/EvohomeWeb.cpp > CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/EvohomeWeb.cpp > CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/EvohomeWeb.cpp -o CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/EvohomeWeb.cpp -o CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.o.requires:
 
@@ -1859,16 +1859,16 @@ CMakeFiles/domoticz.dir/hardware/EvohomeWeb.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.o: hardware/ETH8020.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.o -c /home/pi/dev-domoticz/hardware/ETH8020.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.o -c /home/pi/dev-daccord/hardware/ETH8020.cpp
 
 CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/ETH8020.cpp > CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/ETH8020.cpp > CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/ETH8020.cpp -o CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/ETH8020.cpp -o CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.o.requires:
 
@@ -1883,16 +1883,16 @@ CMakeFiles/domoticz.dir/hardware/ETH8020.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.o: hardware/FritzboxTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.o -c /home/pi/dev-domoticz/hardware/FritzboxTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.o -c /home/pi/dev-daccord/hardware/FritzboxTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/FritzboxTCP.cpp > CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/FritzboxTCP.cpp > CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/FritzboxTCP.cpp -o CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/FritzboxTCP.cpp -o CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.o.requires:
 
@@ -1907,16 +1907,16 @@ CMakeFiles/domoticz.dir/hardware/FritzboxTCP.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.o: hardware/GoodweAPI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.o -c /home/pi/dev-domoticz/hardware/GoodweAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.o -c /home/pi/dev-daccord/hardware/GoodweAPI.cpp
 
 CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/GoodweAPI.cpp > CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/GoodweAPI.cpp > CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/GoodweAPI.cpp -o CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/GoodweAPI.cpp -o CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.o.requires:
 
@@ -1931,16 +1931,16 @@ CMakeFiles/domoticz.dir/hardware/GoodweAPI.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/Gpio.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Gpio.cpp.o: hardware/Gpio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/domoticz.dir/hardware/Gpio.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Gpio.cpp.o -c /home/pi/dev-domoticz/hardware/Gpio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/domoticz.dir/hardware/Gpio.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Gpio.cpp.o -c /home/pi/dev-daccord/hardware/Gpio.cpp
 
 CMakeFiles/domoticz.dir/hardware/Gpio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Gpio.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Gpio.cpp > CMakeFiles/domoticz.dir/hardware/Gpio.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Gpio.cpp > CMakeFiles/domoticz.dir/hardware/Gpio.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Gpio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Gpio.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Gpio.cpp -o CMakeFiles/domoticz.dir/hardware/Gpio.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Gpio.cpp -o CMakeFiles/domoticz.dir/hardware/Gpio.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Gpio.cpp.o.requires:
 
@@ -1955,16 +1955,16 @@ CMakeFiles/domoticz.dir/hardware/Gpio.cpp.o.provides.build: CMakeFiles/domoticz.
 
 CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.o: hardware/GpioPin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.o -c /home/pi/dev-domoticz/hardware/GpioPin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.o -c /home/pi/dev-daccord/hardware/GpioPin.cpp
 
 CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/GpioPin.cpp > CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/GpioPin.cpp > CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/GpioPin.cpp -o CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/GpioPin.cpp -o CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.o.requires:
 
@@ -1979,16 +1979,16 @@ CMakeFiles/domoticz.dir/hardware/GpioPin.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.o: hardware/HardwareMonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.o -c /home/pi/dev-domoticz/hardware/HardwareMonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.o -c /home/pi/dev-daccord/hardware/HardwareMonitor.cpp
 
 CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/HardwareMonitor.cpp > CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/HardwareMonitor.cpp > CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/HardwareMonitor.cpp -o CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/HardwareMonitor.cpp -o CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.o.requires:
 
@@ -2003,16 +2003,16 @@ CMakeFiles/domoticz.dir/hardware/HardwareMonitor.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.o: hardware/HarmonyHub.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.o -c /home/pi/dev-domoticz/hardware/HarmonyHub.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.o -c /home/pi/dev-daccord/hardware/HarmonyHub.cpp
 
 CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/HarmonyHub.cpp > CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/HarmonyHub.cpp > CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/HarmonyHub.cpp -o CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/HarmonyHub.cpp -o CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.o.requires:
 
@@ -2027,16 +2027,16 @@ CMakeFiles/domoticz.dir/hardware/HarmonyHub.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.o: hardware/Honeywell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.o -c /home/pi/dev-domoticz/hardware/Honeywell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.o -c /home/pi/dev-daccord/hardware/Honeywell.cpp
 
 CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Honeywell.cpp > CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Honeywell.cpp > CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Honeywell.cpp -o CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Honeywell.cpp -o CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.o.requires:
 
@@ -2051,16 +2051,16 @@ CMakeFiles/domoticz.dir/hardware/Honeywell.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/HEOS.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/HEOS.cpp.o: hardware/HEOS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/domoticz.dir/hardware/HEOS.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/HEOS.cpp.o -c /home/pi/dev-domoticz/hardware/HEOS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/domoticz.dir/hardware/HEOS.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/HEOS.cpp.o -c /home/pi/dev-daccord/hardware/HEOS.cpp
 
 CMakeFiles/domoticz.dir/hardware/HEOS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/HEOS.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/HEOS.cpp > CMakeFiles/domoticz.dir/hardware/HEOS.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/HEOS.cpp > CMakeFiles/domoticz.dir/hardware/HEOS.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/HEOS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/HEOS.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/HEOS.cpp -o CMakeFiles/domoticz.dir/hardware/HEOS.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/HEOS.cpp -o CMakeFiles/domoticz.dir/hardware/HEOS.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/HEOS.cpp.o.requires:
 
@@ -2075,16 +2075,16 @@ CMakeFiles/domoticz.dir/hardware/HEOS.cpp.o.provides.build: CMakeFiles/domoticz.
 
 CMakeFiles/domoticz.dir/hardware/I2C.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/I2C.cpp.o: hardware/I2C.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/domoticz.dir/hardware/I2C.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/I2C.cpp.o -c /home/pi/dev-domoticz/hardware/I2C.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/domoticz.dir/hardware/I2C.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/I2C.cpp.o -c /home/pi/dev-daccord/hardware/I2C.cpp
 
 CMakeFiles/domoticz.dir/hardware/I2C.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/I2C.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/I2C.cpp > CMakeFiles/domoticz.dir/hardware/I2C.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/I2C.cpp > CMakeFiles/domoticz.dir/hardware/I2C.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/I2C.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/I2C.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/I2C.cpp -o CMakeFiles/domoticz.dir/hardware/I2C.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/I2C.cpp -o CMakeFiles/domoticz.dir/hardware/I2C.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/I2C.cpp.o.requires:
 
@@ -2099,16 +2099,16 @@ CMakeFiles/domoticz.dir/hardware/I2C.cpp.o.provides.build: CMakeFiles/domoticz.d
 
 CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.o: hardware/ICYThermostat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.o -c /home/pi/dev-domoticz/hardware/ICYThermostat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.o -c /home/pi/dev-daccord/hardware/ICYThermostat.cpp
 
 CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/ICYThermostat.cpp > CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/ICYThermostat.cpp > CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/ICYThermostat.cpp -o CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/ICYThermostat.cpp -o CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.o.requires:
 
@@ -2123,16 +2123,16 @@ CMakeFiles/domoticz.dir/hardware/ICYThermostat.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/hardware/InComfort.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/InComfort.cpp.o: hardware/InComfort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/domoticz.dir/hardware/InComfort.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/InComfort.cpp.o -c /home/pi/dev-domoticz/hardware/InComfort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/domoticz.dir/hardware/InComfort.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/InComfort.cpp.o -c /home/pi/dev-daccord/hardware/InComfort.cpp
 
 CMakeFiles/domoticz.dir/hardware/InComfort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/InComfort.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/InComfort.cpp > CMakeFiles/domoticz.dir/hardware/InComfort.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/InComfort.cpp > CMakeFiles/domoticz.dir/hardware/InComfort.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/InComfort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/InComfort.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/InComfort.cpp -o CMakeFiles/domoticz.dir/hardware/InComfort.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/InComfort.cpp -o CMakeFiles/domoticz.dir/hardware/InComfort.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/InComfort.cpp.o.requires:
 
@@ -2147,16 +2147,16 @@ CMakeFiles/domoticz.dir/hardware/InComfort.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.o: hardware/KMTronicBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.o -c /home/pi/dev-domoticz/hardware/KMTronicBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.o -c /home/pi/dev-daccord/hardware/KMTronicBase.cpp
 
 CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/KMTronicBase.cpp > CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/KMTronicBase.cpp > CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/KMTronicBase.cpp -o CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/KMTronicBase.cpp -o CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.o.requires:
 
@@ -2171,16 +2171,16 @@ CMakeFiles/domoticz.dir/hardware/KMTronicBase.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.o: hardware/KMTronic433.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.o -c /home/pi/dev-domoticz/hardware/KMTronic433.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.o -c /home/pi/dev-daccord/hardware/KMTronic433.cpp
 
 CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/KMTronic433.cpp > CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/KMTronic433.cpp > CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/KMTronic433.cpp -o CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/KMTronic433.cpp -o CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.o.requires:
 
@@ -2195,16 +2195,16 @@ CMakeFiles/domoticz.dir/hardware/KMTronic433.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.o: hardware/KMTronicSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.o -c /home/pi/dev-domoticz/hardware/KMTronicSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.o -c /home/pi/dev-daccord/hardware/KMTronicSerial.cpp
 
 CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/KMTronicSerial.cpp > CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/KMTronicSerial.cpp > CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/KMTronicSerial.cpp -o CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/KMTronicSerial.cpp -o CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.o.requires:
 
@@ -2219,16 +2219,16 @@ CMakeFiles/domoticz.dir/hardware/KMTronicSerial.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.o: hardware/KMTronicTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.o -c /home/pi/dev-domoticz/hardware/KMTronicTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.o -c /home/pi/dev-daccord/hardware/KMTronicTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/KMTronicTCP.cpp > CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/KMTronicTCP.cpp > CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/KMTronicTCP.cpp -o CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/KMTronicTCP.cpp -o CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.o.requires:
 
@@ -2243,16 +2243,16 @@ CMakeFiles/domoticz.dir/hardware/KMTronicTCP.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.o: hardware/KMTronicUDP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.o -c /home/pi/dev-domoticz/hardware/KMTronicUDP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.o -c /home/pi/dev-daccord/hardware/KMTronicUDP.cpp
 
 CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/KMTronicUDP.cpp > CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/KMTronicUDP.cpp > CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/KMTronicUDP.cpp -o CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/KMTronicUDP.cpp -o CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.o.requires:
 
@@ -2267,16 +2267,16 @@ CMakeFiles/domoticz.dir/hardware/KMTronicUDP.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/Kodi.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Kodi.cpp.o: hardware/Kodi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/domoticz.dir/hardware/Kodi.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Kodi.cpp.o -c /home/pi/dev-domoticz/hardware/Kodi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/domoticz.dir/hardware/Kodi.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Kodi.cpp.o -c /home/pi/dev-daccord/hardware/Kodi.cpp
 
 CMakeFiles/domoticz.dir/hardware/Kodi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Kodi.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Kodi.cpp > CMakeFiles/domoticz.dir/hardware/Kodi.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Kodi.cpp > CMakeFiles/domoticz.dir/hardware/Kodi.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Kodi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Kodi.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Kodi.cpp -o CMakeFiles/domoticz.dir/hardware/Kodi.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Kodi.cpp -o CMakeFiles/domoticz.dir/hardware/Kodi.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Kodi.cpp.o.requires:
 
@@ -2291,16 +2291,16 @@ CMakeFiles/domoticz.dir/hardware/Kodi.cpp.o.provides.build: CMakeFiles/domoticz.
 
 CMakeFiles/domoticz.dir/hardware/Limitless.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Limitless.cpp.o: hardware/Limitless.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/domoticz.dir/hardware/Limitless.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Limitless.cpp.o -c /home/pi/dev-domoticz/hardware/Limitless.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/domoticz.dir/hardware/Limitless.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Limitless.cpp.o -c /home/pi/dev-daccord/hardware/Limitless.cpp
 
 CMakeFiles/domoticz.dir/hardware/Limitless.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Limitless.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Limitless.cpp > CMakeFiles/domoticz.dir/hardware/Limitless.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Limitless.cpp > CMakeFiles/domoticz.dir/hardware/Limitless.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Limitless.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Limitless.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Limitless.cpp -o CMakeFiles/domoticz.dir/hardware/Limitless.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Limitless.cpp -o CMakeFiles/domoticz.dir/hardware/Limitless.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Limitless.cpp.o.requires:
 
@@ -2315,16 +2315,16 @@ CMakeFiles/domoticz.dir/hardware/Limitless.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.o: hardware/LogitechMediaServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.o -c /home/pi/dev-domoticz/hardware/LogitechMediaServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.o -c /home/pi/dev-daccord/hardware/LogitechMediaServer.cpp
 
 CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/LogitechMediaServer.cpp > CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/LogitechMediaServer.cpp > CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/LogitechMediaServer.cpp -o CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/LogitechMediaServer.cpp -o CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.o.requires:
 
@@ -2339,16 +2339,16 @@ CMakeFiles/domoticz.dir/hardware/LogitechMediaServer.cpp.o.provides.build: CMake
 
 CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.o: hardware/Meteostick.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.o -c /home/pi/dev-domoticz/hardware/Meteostick.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.o -c /home/pi/dev-daccord/hardware/Meteostick.cpp
 
 CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Meteostick.cpp > CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Meteostick.cpp > CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Meteostick.cpp -o CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Meteostick.cpp -o CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.o.requires:
 
@@ -2363,16 +2363,16 @@ CMakeFiles/domoticz.dir/hardware/Meteostick.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.o: hardware/MochadTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.o -c /home/pi/dev-domoticz/hardware/MochadTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.o -c /home/pi/dev-daccord/hardware/MochadTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/MochadTCP.cpp > CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/MochadTCP.cpp > CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/MochadTCP.cpp -o CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/MochadTCP.cpp -o CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.o.requires:
 
@@ -2387,16 +2387,16 @@ CMakeFiles/domoticz.dir/hardware/MochadTCP.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/MQTT.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/MQTT.cpp.o: hardware/MQTT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/domoticz.dir/hardware/MQTT.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/MQTT.cpp.o -c /home/pi/dev-domoticz/hardware/MQTT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/domoticz.dir/hardware/MQTT.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/MQTT.cpp.o -c /home/pi/dev-daccord/hardware/MQTT.cpp
 
 CMakeFiles/domoticz.dir/hardware/MQTT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/MQTT.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/MQTT.cpp > CMakeFiles/domoticz.dir/hardware/MQTT.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/MQTT.cpp > CMakeFiles/domoticz.dir/hardware/MQTT.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/MQTT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/MQTT.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/MQTT.cpp -o CMakeFiles/domoticz.dir/hardware/MQTT.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/MQTT.cpp -o CMakeFiles/domoticz.dir/hardware/MQTT.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/MQTT.cpp.o.requires:
 
@@ -2411,16 +2411,16 @@ CMakeFiles/domoticz.dir/hardware/MQTT.cpp.o.provides.build: CMakeFiles/domoticz.
 
 CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.o: hardware/MultiFun.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.o -c /home/pi/dev-domoticz/hardware/MultiFun.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.o -c /home/pi/dev-daccord/hardware/MultiFun.cpp
 
 CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/MultiFun.cpp > CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/MultiFun.cpp > CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/MultiFun.cpp -o CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/MultiFun.cpp -o CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.o.requires:
 
@@ -2435,16 +2435,16 @@ CMakeFiles/domoticz.dir/hardware/MultiFun.cpp.o.provides.build: CMakeFiles/domot
 
 CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.o: hardware/MySensorsBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.o -c /home/pi/dev-domoticz/hardware/MySensorsBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.o -c /home/pi/dev-daccord/hardware/MySensorsBase.cpp
 
 CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/MySensorsBase.cpp > CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/MySensorsBase.cpp > CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/MySensorsBase.cpp -o CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/MySensorsBase.cpp -o CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.o.requires:
 
@@ -2459,16 +2459,16 @@ CMakeFiles/domoticz.dir/hardware/MySensorsBase.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.o: hardware/MySensorsSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.o -c /home/pi/dev-domoticz/hardware/MySensorsSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.o -c /home/pi/dev-daccord/hardware/MySensorsSerial.cpp
 
 CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/MySensorsSerial.cpp > CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/MySensorsSerial.cpp > CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/MySensorsSerial.cpp -o CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/MySensorsSerial.cpp -o CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.o.requires:
 
@@ -2483,16 +2483,16 @@ CMakeFiles/domoticz.dir/hardware/MySensorsSerial.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.o: hardware/MySensorsTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.o -c /home/pi/dev-domoticz/hardware/MySensorsTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.o -c /home/pi/dev-daccord/hardware/MySensorsTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/MySensorsTCP.cpp > CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/MySensorsTCP.cpp > CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/MySensorsTCP.cpp -o CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/MySensorsTCP.cpp -o CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.o.requires:
 
@@ -2507,16 +2507,16 @@ CMakeFiles/domoticz.dir/hardware/MySensorsTCP.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.o: hardware/MySensorsMQTT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.o -c /home/pi/dev-domoticz/hardware/MySensorsMQTT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.o -c /home/pi/dev-daccord/hardware/MySensorsMQTT.cpp
 
 CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/MySensorsMQTT.cpp > CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/MySensorsMQTT.cpp > CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/MySensorsMQTT.cpp -o CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/MySensorsMQTT.cpp -o CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.o.requires:
 
@@ -2531,16 +2531,16 @@ CMakeFiles/domoticz.dir/hardware/MySensorsMQTT.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.o: hardware/NefitEasy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.o -c /home/pi/dev-domoticz/hardware/NefitEasy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.o -c /home/pi/dev-daccord/hardware/NefitEasy.cpp
 
 CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/NefitEasy.cpp > CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/NefitEasy.cpp > CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/NefitEasy.cpp -o CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/NefitEasy.cpp -o CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.o.requires:
 
@@ -2555,16 +2555,16 @@ CMakeFiles/domoticz.dir/hardware/NefitEasy.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/Nest.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Nest.cpp.o: hardware/Nest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/domoticz.dir/hardware/Nest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Nest.cpp.o -c /home/pi/dev-domoticz/hardware/Nest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/domoticz.dir/hardware/Nest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Nest.cpp.o -c /home/pi/dev-daccord/hardware/Nest.cpp
 
 CMakeFiles/domoticz.dir/hardware/Nest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Nest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Nest.cpp > CMakeFiles/domoticz.dir/hardware/Nest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Nest.cpp > CMakeFiles/domoticz.dir/hardware/Nest.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Nest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Nest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Nest.cpp -o CMakeFiles/domoticz.dir/hardware/Nest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Nest.cpp -o CMakeFiles/domoticz.dir/hardware/Nest.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Nest.cpp.o.requires:
 
@@ -2579,16 +2579,16 @@ CMakeFiles/domoticz.dir/hardware/Nest.cpp.o.provides.build: CMakeFiles/domoticz.
 
 CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.o: hardware/NestOAuthAPI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.o -c /home/pi/dev-domoticz/hardware/NestOAuthAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.o -c /home/pi/dev-daccord/hardware/NestOAuthAPI.cpp
 
 CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/NestOAuthAPI.cpp > CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/NestOAuthAPI.cpp > CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/NestOAuthAPI.cpp -o CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/NestOAuthAPI.cpp -o CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.o.requires:
 
@@ -2603,16 +2603,16 @@ CMakeFiles/domoticz.dir/hardware/NestOAuthAPI.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.o: hardware/Netatmo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.o -c /home/pi/dev-domoticz/hardware/Netatmo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.o -c /home/pi/dev-daccord/hardware/Netatmo.cpp
 
 CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Netatmo.cpp > CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Netatmo.cpp > CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Netatmo.cpp -o CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Netatmo.cpp -o CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.o.requires:
 
@@ -2627,16 +2627,16 @@ CMakeFiles/domoticz.dir/hardware/Netatmo.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.o: hardware/HttpPoller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.o -c /home/pi/dev-domoticz/hardware/HttpPoller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.o -c /home/pi/dev-daccord/hardware/HttpPoller.cpp
 
 CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/HttpPoller.cpp > CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/HttpPoller.cpp > CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/HttpPoller.cpp -o CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/HttpPoller.cpp -o CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.o.requires:
 
@@ -2651,16 +2651,16 @@ CMakeFiles/domoticz.dir/hardware/HttpPoller.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.o: hardware/OnkyoAVTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.o -c /home/pi/dev-domoticz/hardware/OnkyoAVTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.o -c /home/pi/dev-daccord/hardware/OnkyoAVTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/OnkyoAVTCP.cpp > CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/OnkyoAVTCP.cpp > CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/OnkyoAVTCP.cpp -o CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/OnkyoAVTCP.cpp -o CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.o.requires:
 
@@ -2675,16 +2675,16 @@ CMakeFiles/domoticz.dir/hardware/OnkyoAVTCP.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.o: hardware/OpenWeatherMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.o -c /home/pi/dev-domoticz/hardware/OpenWeatherMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.o -c /home/pi/dev-daccord/hardware/OpenWeatherMap.cpp
 
 CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/OpenWeatherMap.cpp > CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/OpenWeatherMap.cpp > CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/OpenWeatherMap.cpp -o CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/OpenWeatherMap.cpp -o CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.o.requires:
 
@@ -2699,16 +2699,16 @@ CMakeFiles/domoticz.dir/hardware/OpenWeatherMap.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.o: hardware/OpenWebNetTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.o -c /home/pi/dev-domoticz/hardware/OpenWebNetTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.o -c /home/pi/dev-daccord/hardware/OpenWebNetTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/OpenWebNetTCP.cpp > CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/OpenWebNetTCP.cpp > CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/OpenWebNetTCP.cpp -o CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/OpenWebNetTCP.cpp -o CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.o.requires:
 
@@ -2723,16 +2723,16 @@ CMakeFiles/domoticz.dir/hardware/OpenWebNetTCP.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.o: hardware/OpenWebNetUSB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.o -c /home/pi/dev-domoticz/hardware/OpenWebNetUSB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.o -c /home/pi/dev-daccord/hardware/OpenWebNetUSB.cpp
 
 CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/OpenWebNetUSB.cpp > CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/OpenWebNetUSB.cpp > CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/OpenWebNetUSB.cpp -o CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/OpenWebNetUSB.cpp -o CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.o.requires:
 
@@ -2747,16 +2747,16 @@ CMakeFiles/domoticz.dir/hardware/OpenWebNetUSB.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.o: hardware/openwebnet/bt_openwebnet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.o -c /home/pi/dev-domoticz/hardware/openwebnet/bt_openwebnet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.o -c /home/pi/dev-daccord/hardware/openwebnet/bt_openwebnet.cpp
 
 CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/openwebnet/bt_openwebnet.cpp > CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/openwebnet/bt_openwebnet.cpp > CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/openwebnet/bt_openwebnet.cpp -o CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/openwebnet/bt_openwebnet.cpp -o CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.o.requires:
 
@@ -2771,16 +2771,16 @@ CMakeFiles/domoticz.dir/hardware/openwebnet/bt_openwebnet.cpp.o.provides.build: 
 
 CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.o: hardware/OpenZWave.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.o -c /home/pi/dev-domoticz/hardware/OpenZWave.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.o -c /home/pi/dev-daccord/hardware/OpenZWave.cpp
 
 CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/OpenZWave.cpp > CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/OpenZWave.cpp > CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/OpenZWave.cpp -o CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/OpenZWave.cpp -o CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.o.requires:
 
@@ -2795,16 +2795,16 @@ CMakeFiles/domoticz.dir/hardware/OpenZWave.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.o: hardware/openzwave/control_panel/ozwcp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.o -c /home/pi/dev-domoticz/hardware/openzwave/control_panel/ozwcp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.o -c /home/pi/dev-daccord/hardware/openzwave/control_panel/ozwcp.cpp
 
 CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/openzwave/control_panel/ozwcp.cpp > CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/openzwave/control_panel/ozwcp.cpp > CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/openzwave/control_panel/ozwcp.cpp -o CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/openzwave/control_panel/ozwcp.cpp -o CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.o.requires:
 
@@ -2819,16 +2819,16 @@ CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/ozwcp.cpp.o.provides.bu
 
 CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.o: hardware/openzwave/control_panel/zwavelib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.o -c /home/pi/dev-domoticz/hardware/openzwave/control_panel/zwavelib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.o -c /home/pi/dev-daccord/hardware/openzwave/control_panel/zwavelib.cpp
 
 CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/openzwave/control_panel/zwavelib.cpp > CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/openzwave/control_panel/zwavelib.cpp > CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/openzwave/control_panel/zwavelib.cpp -o CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/openzwave/control_panel/zwavelib.cpp -o CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.o.requires:
 
@@ -2843,16 +2843,16 @@ CMakeFiles/domoticz.dir/hardware/openzwave/control_panel/zwavelib.cpp.o.provides
 
 CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.o: hardware/OTGWBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.o -c /home/pi/dev-domoticz/hardware/OTGWBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.o -c /home/pi/dev-daccord/hardware/OTGWBase.cpp
 
 CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/OTGWBase.cpp > CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/OTGWBase.cpp > CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/OTGWBase.cpp -o CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/OTGWBase.cpp -o CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.o.requires:
 
@@ -2867,16 +2867,16 @@ CMakeFiles/domoticz.dir/hardware/OTGWBase.cpp.o.provides.build: CMakeFiles/domot
 
 CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.o: hardware/OTGWSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.o -c /home/pi/dev-domoticz/hardware/OTGWSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.o -c /home/pi/dev-daccord/hardware/OTGWSerial.cpp
 
 CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/OTGWSerial.cpp > CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/OTGWSerial.cpp > CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/OTGWSerial.cpp -o CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/OTGWSerial.cpp -o CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.o.requires:
 
@@ -2891,16 +2891,16 @@ CMakeFiles/domoticz.dir/hardware/OTGWSerial.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.o: hardware/OTGWTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.o -c /home/pi/dev-domoticz/hardware/OTGWTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.o -c /home/pi/dev-daccord/hardware/OTGWTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/OTGWTCP.cpp > CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/OTGWTCP.cpp > CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/OTGWTCP.cpp -o CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/OTGWTCP.cpp -o CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.o.requires:
 
@@ -2915,16 +2915,16 @@ CMakeFiles/domoticz.dir/hardware/OTGWTCP.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.o: hardware/PanasonicTV.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.o -c /home/pi/dev-domoticz/hardware/PanasonicTV.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.o -c /home/pi/dev-daccord/hardware/PanasonicTV.cpp
 
 CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/PanasonicTV.cpp > CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/PanasonicTV.cpp > CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/PanasonicTV.cpp -o CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/PanasonicTV.cpp -o CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.o.requires:
 
@@ -2939,16 +2939,16 @@ CMakeFiles/domoticz.dir/hardware/PanasonicTV.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.o: hardware/P1MeterBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.o -c /home/pi/dev-domoticz/hardware/P1MeterBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.o -c /home/pi/dev-daccord/hardware/P1MeterBase.cpp
 
 CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/P1MeterBase.cpp > CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/P1MeterBase.cpp > CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/P1MeterBase.cpp -o CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/P1MeterBase.cpp -o CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.o.requires:
 
@@ -2963,16 +2963,16 @@ CMakeFiles/domoticz.dir/hardware/P1MeterBase.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.o: hardware/P1MeterSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.o -c /home/pi/dev-domoticz/hardware/P1MeterSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.o -c /home/pi/dev-daccord/hardware/P1MeterSerial.cpp
 
 CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/P1MeterSerial.cpp > CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/P1MeterSerial.cpp > CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/P1MeterSerial.cpp -o CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/P1MeterSerial.cpp -o CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.o.requires:
 
@@ -2987,16 +2987,16 @@ CMakeFiles/domoticz.dir/hardware/P1MeterSerial.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.o: hardware/P1MeterTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.o -c /home/pi/dev-domoticz/hardware/P1MeterTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.o -c /home/pi/dev-daccord/hardware/P1MeterTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/P1MeterTCP.cpp > CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/P1MeterTCP.cpp > CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/P1MeterTCP.cpp -o CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/P1MeterTCP.cpp -o CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.o.requires:
 
@@ -3011,16 +3011,16 @@ CMakeFiles/domoticz.dir/hardware/P1MeterTCP.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.o: hardware/PhilipsHue/PhilipsHue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.o -c /home/pi/dev-domoticz/hardware/PhilipsHue/PhilipsHue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.o -c /home/pi/dev-daccord/hardware/PhilipsHue/PhilipsHue.cpp
 
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/PhilipsHue/PhilipsHue.cpp > CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/PhilipsHue/PhilipsHue.cpp > CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/PhilipsHue/PhilipsHue.cpp -o CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/PhilipsHue/PhilipsHue.cpp -o CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.o.requires:
 
@@ -3035,16 +3035,16 @@ CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHue.cpp.o.provides.build: CMa
 
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.o: hardware/PhilipsHue/PhilipsHueHelper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.o -c /home/pi/dev-domoticz/hardware/PhilipsHue/PhilipsHueHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.o -c /home/pi/dev-daccord/hardware/PhilipsHue/PhilipsHueHelper.cpp
 
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/PhilipsHue/PhilipsHueHelper.cpp > CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/PhilipsHue/PhilipsHueHelper.cpp > CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/PhilipsHue/PhilipsHueHelper.cpp -o CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/PhilipsHue/PhilipsHueHelper.cpp -o CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.o.requires:
 
@@ -3059,16 +3059,16 @@ CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueHelper.cpp.o.provides.buil
 
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.o: hardware/PhilipsHue/PhilipsHueSensors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.o -c /home/pi/dev-domoticz/hardware/PhilipsHue/PhilipsHueSensors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.o -c /home/pi/dev-daccord/hardware/PhilipsHue/PhilipsHueSensors.cpp
 
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/PhilipsHue/PhilipsHueSensors.cpp > CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/PhilipsHue/PhilipsHueSensors.cpp > CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/PhilipsHue/PhilipsHueSensors.cpp -o CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/PhilipsHue/PhilipsHueSensors.cpp -o CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.o.requires:
 
@@ -3083,16 +3083,16 @@ CMakeFiles/domoticz.dir/hardware/PhilipsHue/PhilipsHueSensors.cpp.o.provides.bui
 
 CMakeFiles/domoticz.dir/hardware/PiFace.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/PiFace.cpp.o: hardware/PiFace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/domoticz.dir/hardware/PiFace.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/PiFace.cpp.o -c /home/pi/dev-domoticz/hardware/PiFace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/domoticz.dir/hardware/PiFace.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/PiFace.cpp.o -c /home/pi/dev-daccord/hardware/PiFace.cpp
 
 CMakeFiles/domoticz.dir/hardware/PiFace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/PiFace.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/PiFace.cpp > CMakeFiles/domoticz.dir/hardware/PiFace.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/PiFace.cpp > CMakeFiles/domoticz.dir/hardware/PiFace.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/PiFace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/PiFace.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/PiFace.cpp -o CMakeFiles/domoticz.dir/hardware/PiFace.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/PiFace.cpp -o CMakeFiles/domoticz.dir/hardware/PiFace.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/PiFace.cpp.o.requires:
 
@@ -3107,16 +3107,16 @@ CMakeFiles/domoticz.dir/hardware/PiFace.cpp.o.provides.build: CMakeFiles/domotic
 
 CMakeFiles/domoticz.dir/hardware/Pinger.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Pinger.cpp.o: hardware/Pinger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/domoticz.dir/hardware/Pinger.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Pinger.cpp.o -c /home/pi/dev-domoticz/hardware/Pinger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/domoticz.dir/hardware/Pinger.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Pinger.cpp.o -c /home/pi/dev-daccord/hardware/Pinger.cpp
 
 CMakeFiles/domoticz.dir/hardware/Pinger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Pinger.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Pinger.cpp > CMakeFiles/domoticz.dir/hardware/Pinger.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Pinger.cpp > CMakeFiles/domoticz.dir/hardware/Pinger.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Pinger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Pinger.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Pinger.cpp -o CMakeFiles/domoticz.dir/hardware/Pinger.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Pinger.cpp -o CMakeFiles/domoticz.dir/hardware/Pinger.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Pinger.cpp.o.requires:
 
@@ -3131,16 +3131,16 @@ CMakeFiles/domoticz.dir/hardware/Pinger.cpp.o.provides.build: CMakeFiles/domotic
 
 CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.o: hardware/PVOutput_Input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.o -c /home/pi/dev-domoticz/hardware/PVOutput_Input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.o -c /home/pi/dev-daccord/hardware/PVOutput_Input.cpp
 
 CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/PVOutput_Input.cpp > CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/PVOutput_Input.cpp > CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/PVOutput_Input.cpp -o CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/PVOutput_Input.cpp -o CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.o.requires:
 
@@ -3155,16 +3155,16 @@ CMakeFiles/domoticz.dir/hardware/PVOutput_Input.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.o: hardware/RAVEn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.o -c /home/pi/dev-domoticz/hardware/RAVEn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.o -c /home/pi/dev-daccord/hardware/RAVEn.cpp
 
 CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/RAVEn.cpp > CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/RAVEn.cpp > CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/RAVEn.cpp -o CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/RAVEn.cpp -o CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.o.requires:
 
@@ -3179,16 +3179,16 @@ CMakeFiles/domoticz.dir/hardware/RAVEn.cpp.o.provides.build: CMakeFiles/domoticz
 
 CMakeFiles/domoticz.dir/hardware/Razberry.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Razberry.cpp.o: hardware/Razberry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/domoticz.dir/hardware/Razberry.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Razberry.cpp.o -c /home/pi/dev-domoticz/hardware/Razberry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/domoticz.dir/hardware/Razberry.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Razberry.cpp.o -c /home/pi/dev-daccord/hardware/Razberry.cpp
 
 CMakeFiles/domoticz.dir/hardware/Razberry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Razberry.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Razberry.cpp > CMakeFiles/domoticz.dir/hardware/Razberry.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Razberry.cpp > CMakeFiles/domoticz.dir/hardware/Razberry.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Razberry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Razberry.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Razberry.cpp -o CMakeFiles/domoticz.dir/hardware/Razberry.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Razberry.cpp -o CMakeFiles/domoticz.dir/hardware/Razberry.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Razberry.cpp.o.requires:
 
@@ -3203,16 +3203,16 @@ CMakeFiles/domoticz.dir/hardware/Razberry.cpp.o.provides.build: CMakeFiles/domot
 
 CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.o: hardware/Rego6XXSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.o -c /home/pi/dev-domoticz/hardware/Rego6XXSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.o -c /home/pi/dev-daccord/hardware/Rego6XXSerial.cpp
 
 CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Rego6XXSerial.cpp > CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Rego6XXSerial.cpp > CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Rego6XXSerial.cpp -o CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Rego6XXSerial.cpp -o CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.o.requires:
 
@@ -3227,16 +3227,16 @@ CMakeFiles/domoticz.dir/hardware/Rego6XXSerial.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.o: hardware/RelayNet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.o -c /home/pi/dev-domoticz/hardware/RelayNet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.o -c /home/pi/dev-daccord/hardware/RelayNet.cpp
 
 CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/RelayNet.cpp > CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/RelayNet.cpp > CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/RelayNet.cpp -o CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/RelayNet.cpp -o CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.o.requires:
 
@@ -3251,16 +3251,16 @@ CMakeFiles/domoticz.dir/hardware/RelayNet.cpp.o.provides.build: CMakeFiles/domot
 
 CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.o: hardware/RFLinkBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.o -c /home/pi/dev-domoticz/hardware/RFLinkBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.o -c /home/pi/dev-daccord/hardware/RFLinkBase.cpp
 
 CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/RFLinkBase.cpp > CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/RFLinkBase.cpp > CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/RFLinkBase.cpp -o CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/RFLinkBase.cpp -o CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.o.requires:
 
@@ -3275,16 +3275,16 @@ CMakeFiles/domoticz.dir/hardware/RFLinkBase.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.o: hardware/RFLinkSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.o -c /home/pi/dev-domoticz/hardware/RFLinkSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.o -c /home/pi/dev-daccord/hardware/RFLinkSerial.cpp
 
 CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/RFLinkSerial.cpp > CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/RFLinkSerial.cpp > CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/RFLinkSerial.cpp -o CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/RFLinkSerial.cpp -o CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.o.requires:
 
@@ -3299,16 +3299,16 @@ CMakeFiles/domoticz.dir/hardware/RFLinkSerial.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.o: hardware/RFLinkTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.o -c /home/pi/dev-domoticz/hardware/RFLinkTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.o -c /home/pi/dev-daccord/hardware/RFLinkTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/RFLinkTCP.cpp > CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/RFLinkTCP.cpp > CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/RFLinkTCP.cpp -o CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/RFLinkTCP.cpp -o CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.o.requires:
 
@@ -3323,16 +3323,16 @@ CMakeFiles/domoticz.dir/hardware/RFLinkTCP.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.o: hardware/RFXBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.o -c /home/pi/dev-domoticz/hardware/RFXBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.o -c /home/pi/dev-daccord/hardware/RFXBase.cpp
 
 CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/RFXBase.cpp > CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/RFXBase.cpp > CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/RFXBase.cpp -o CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/RFXBase.cpp -o CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.o.requires:
 
@@ -3347,16 +3347,16 @@ CMakeFiles/domoticz.dir/hardware/RFXBase.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.o: hardware/RFXComSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.o -c /home/pi/dev-domoticz/hardware/RFXComSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.o -c /home/pi/dev-daccord/hardware/RFXComSerial.cpp
 
 CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/RFXComSerial.cpp > CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/RFXComSerial.cpp > CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/RFXComSerial.cpp -o CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/RFXComSerial.cpp -o CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.o.requires:
 
@@ -3371,16 +3371,16 @@ CMakeFiles/domoticz.dir/hardware/RFXComSerial.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.o: hardware/RFXComTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.o -c /home/pi/dev-domoticz/hardware/RFXComTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.o -c /home/pi/dev-daccord/hardware/RFXComTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/RFXComTCP.cpp > CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/RFXComTCP.cpp > CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/RFXComTCP.cpp -o CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/RFXComTCP.cpp -o CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.o.requires:
 
@@ -3395,16 +3395,16 @@ CMakeFiles/domoticz.dir/hardware/RFXComTCP.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.o: hardware/Rtl433.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.o -c /home/pi/dev-domoticz/hardware/Rtl433.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.o -c /home/pi/dev-daccord/hardware/Rtl433.cpp
 
 CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Rtl433.cpp > CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Rtl433.cpp > CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Rtl433.cpp -o CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Rtl433.cpp -o CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.o.requires:
 
@@ -3419,16 +3419,16 @@ CMakeFiles/domoticz.dir/hardware/Rtl433.cpp.o.provides.build: CMakeFiles/domotic
 
 CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.o: hardware/S0MeterBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.o -c /home/pi/dev-domoticz/hardware/S0MeterBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.o -c /home/pi/dev-daccord/hardware/S0MeterBase.cpp
 
 CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/S0MeterBase.cpp > CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/S0MeterBase.cpp > CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/S0MeterBase.cpp -o CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/S0MeterBase.cpp -o CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.o.requires:
 
@@ -3443,16 +3443,16 @@ CMakeFiles/domoticz.dir/hardware/S0MeterBase.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.o: hardware/S0MeterSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.o -c /home/pi/dev-domoticz/hardware/S0MeterSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.o -c /home/pi/dev-daccord/hardware/S0MeterSerial.cpp
 
 CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/S0MeterSerial.cpp > CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/S0MeterSerial.cpp > CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/S0MeterSerial.cpp -o CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/S0MeterSerial.cpp -o CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.o.requires:
 
@@ -3467,16 +3467,16 @@ CMakeFiles/domoticz.dir/hardware/S0MeterSerial.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.o: hardware/S0MeterTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.o -c /home/pi/dev-domoticz/hardware/S0MeterTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.o -c /home/pi/dev-daccord/hardware/S0MeterTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/S0MeterTCP.cpp > CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/S0MeterTCP.cpp > CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/S0MeterTCP.cpp -o CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/S0MeterTCP.cpp -o CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.o.requires:
 
@@ -3491,16 +3491,16 @@ CMakeFiles/domoticz.dir/hardware/S0MeterTCP.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.o: hardware/SatelIntegra.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.o -c /home/pi/dev-domoticz/hardware/SatelIntegra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.o -c /home/pi/dev-daccord/hardware/SatelIntegra.cpp
 
 CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/SatelIntegra.cpp > CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/SatelIntegra.cpp > CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/SatelIntegra.cpp -o CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/SatelIntegra.cpp -o CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.o.requires:
 
@@ -3515,16 +3515,16 @@ CMakeFiles/domoticz.dir/hardware/SatelIntegra.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.o: hardware/SBFSpot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.o -c /home/pi/dev-domoticz/hardware/SBFSpot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.o -c /home/pi/dev-daccord/hardware/SBFSpot.cpp
 
 CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/SBFSpot.cpp > CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/SBFSpot.cpp > CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/SBFSpot.cpp -o CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/SBFSpot.cpp -o CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.o.requires:
 
@@ -3539,16 +3539,16 @@ CMakeFiles/domoticz.dir/hardware/SBFSpot.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.o: hardware/serial/serial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.o -c /home/pi/dev-domoticz/hardware/serial/serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.o -c /home/pi/dev-daccord/hardware/serial/serial.cpp
 
 CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/serial/serial.cpp > CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/serial/serial.cpp > CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/serial/serial.cpp -o CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/serial/serial.cpp -o CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.o.requires:
 
@@ -3563,16 +3563,16 @@ CMakeFiles/domoticz.dir/hardware/serial/serial.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.o: hardware/serial/impl/unix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.o -c /home/pi/dev-domoticz/hardware/serial/impl/unix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.o -c /home/pi/dev-daccord/hardware/serial/impl/unix.cpp
 
 CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/serial/impl/unix.cpp > CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/serial/impl/unix.cpp > CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/serial/impl/unix.cpp -o CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/serial/impl/unix.cpp -o CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.o.requires:
 
@@ -3587,16 +3587,16 @@ CMakeFiles/domoticz.dir/hardware/serial/impl/unix.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.o: hardware/SolarEdgeAPI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.o -c /home/pi/dev-domoticz/hardware/SolarEdgeAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.o -c /home/pi/dev-daccord/hardware/SolarEdgeAPI.cpp
 
 CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/SolarEdgeAPI.cpp > CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/SolarEdgeAPI.cpp > CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/SolarEdgeAPI.cpp -o CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/SolarEdgeAPI.cpp -o CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.o.requires:
 
@@ -3611,16 +3611,16 @@ CMakeFiles/domoticz.dir/hardware/SolarEdgeAPI.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.o: hardware/SolarMaxTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.o -c /home/pi/dev-domoticz/hardware/SolarMaxTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.o -c /home/pi/dev-daccord/hardware/SolarMaxTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/SolarMaxTCP.cpp > CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/SolarMaxTCP.cpp > CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/SolarMaxTCP.cpp -o CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/SolarMaxTCP.cpp -o CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.o.requires:
 
@@ -3635,16 +3635,16 @@ CMakeFiles/domoticz.dir/hardware/SolarMaxTCP.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.o: hardware/Sterbox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.o -c /home/pi/dev-domoticz/hardware/Sterbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.o -c /home/pi/dev-daccord/hardware/Sterbox.cpp
 
 CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Sterbox.cpp > CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Sterbox.cpp > CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Sterbox.cpp -o CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Sterbox.cpp -o CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.o.requires:
 
@@ -3659,16 +3659,16 @@ CMakeFiles/domoticz.dir/hardware/Sterbox.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.o: hardware/SysfsGpio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.o -c /home/pi/dev-domoticz/hardware/SysfsGpio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.o -c /home/pi/dev-daccord/hardware/SysfsGpio.cpp
 
 CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/SysfsGpio.cpp > CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/SysfsGpio.cpp > CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/SysfsGpio.cpp -o CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/SysfsGpio.cpp -o CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.o.requires:
 
@@ -3683,16 +3683,16 @@ CMakeFiles/domoticz.dir/hardware/SysfsGpio.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/Tado.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Tado.cpp.o: hardware/Tado.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/domoticz.dir/hardware/Tado.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Tado.cpp.o -c /home/pi/dev-domoticz/hardware/Tado.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/domoticz.dir/hardware/Tado.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Tado.cpp.o -c /home/pi/dev-daccord/hardware/Tado.cpp
 
 CMakeFiles/domoticz.dir/hardware/Tado.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Tado.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Tado.cpp > CMakeFiles/domoticz.dir/hardware/Tado.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Tado.cpp > CMakeFiles/domoticz.dir/hardware/Tado.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Tado.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Tado.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Tado.cpp -o CMakeFiles/domoticz.dir/hardware/Tado.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Tado.cpp -o CMakeFiles/domoticz.dir/hardware/Tado.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Tado.cpp.o.requires:
 
@@ -3707,16 +3707,16 @@ CMakeFiles/domoticz.dir/hardware/Tado.cpp.o.provides.build: CMakeFiles/domoticz.
 
 CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.o: hardware/TCPProxy/tcpproxy_server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.o -c /home/pi/dev-domoticz/hardware/TCPProxy/tcpproxy_server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.o -c /home/pi/dev-daccord/hardware/TCPProxy/tcpproxy_server.cpp
 
 CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/TCPProxy/tcpproxy_server.cpp > CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/TCPProxy/tcpproxy_server.cpp > CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/TCPProxy/tcpproxy_server.cpp -o CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/TCPProxy/tcpproxy_server.cpp -o CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.o.requires:
 
@@ -3731,16 +3731,16 @@ CMakeFiles/domoticz.dir/hardware/TCPProxy/tcpproxy_server.cpp.o.provides.build: 
 
 CMakeFiles/domoticz.dir/hardware/TE923.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/TE923.cpp.o: hardware/TE923.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/domoticz.dir/hardware/TE923.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/TE923.cpp.o -c /home/pi/dev-domoticz/hardware/TE923.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/domoticz.dir/hardware/TE923.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/TE923.cpp.o -c /home/pi/dev-daccord/hardware/TE923.cpp
 
 CMakeFiles/domoticz.dir/hardware/TE923.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/TE923.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/TE923.cpp > CMakeFiles/domoticz.dir/hardware/TE923.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/TE923.cpp > CMakeFiles/domoticz.dir/hardware/TE923.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/TE923.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/TE923.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/TE923.cpp -o CMakeFiles/domoticz.dir/hardware/TE923.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/TE923.cpp -o CMakeFiles/domoticz.dir/hardware/TE923.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/TE923.cpp.o.requires:
 
@@ -3755,16 +3755,16 @@ CMakeFiles/domoticz.dir/hardware/TE923.cpp.o.provides.build: CMakeFiles/domoticz
 
 CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.o: hardware/TE923Tool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.o -c /home/pi/dev-domoticz/hardware/TE923Tool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.o -c /home/pi/dev-daccord/hardware/TE923Tool.cpp
 
 CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/TE923Tool.cpp > CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/TE923Tool.cpp > CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/TE923Tool.cpp -o CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/TE923Tool.cpp -o CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.o.requires:
 
@@ -3779,16 +3779,16 @@ CMakeFiles/domoticz.dir/hardware/TE923Tool.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.o: hardware/TeleinfoBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.o -c /home/pi/dev-domoticz/hardware/TeleinfoBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.o -c /home/pi/dev-daccord/hardware/TeleinfoBase.cpp
 
 CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/TeleinfoBase.cpp > CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/TeleinfoBase.cpp > CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/TeleinfoBase.cpp -o CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/TeleinfoBase.cpp -o CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.o.requires:
 
@@ -3803,16 +3803,16 @@ CMakeFiles/domoticz.dir/hardware/TeleinfoBase.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.o: hardware/TeleinfoSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.o -c /home/pi/dev-domoticz/hardware/TeleinfoSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.o -c /home/pi/dev-daccord/hardware/TeleinfoSerial.cpp
 
 CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/TeleinfoSerial.cpp > CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/TeleinfoSerial.cpp > CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/TeleinfoSerial.cpp -o CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/TeleinfoSerial.cpp -o CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.o.requires:
 
@@ -3827,16 +3827,16 @@ CMakeFiles/domoticz.dir/hardware/TeleinfoSerial.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.o: hardware/Tellstick.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.o -c /home/pi/dev-domoticz/hardware/Tellstick.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.o -c /home/pi/dev-daccord/hardware/Tellstick.cpp
 
 CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Tellstick.cpp > CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Tellstick.cpp > CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Tellstick.cpp -o CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Tellstick.cpp -o CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.o.requires:
 
@@ -3851,16 +3851,16 @@ CMakeFiles/domoticz.dir/hardware/Tellstick.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.o: hardware/Thermosmart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.o -c /home/pi/dev-domoticz/hardware/Thermosmart.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.o -c /home/pi/dev-daccord/hardware/Thermosmart.cpp
 
 CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Thermosmart.cpp > CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Thermosmart.cpp > CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Thermosmart.cpp -o CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Thermosmart.cpp -o CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.o.requires:
 
@@ -3875,16 +3875,16 @@ CMakeFiles/domoticz.dir/hardware/Thermosmart.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.o: hardware/ToonThermostat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.o -c /home/pi/dev-domoticz/hardware/ToonThermostat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.o -c /home/pi/dev-daccord/hardware/ToonThermostat.cpp
 
 CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/ToonThermostat.cpp > CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/ToonThermostat.cpp > CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/ToonThermostat.cpp -o CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/ToonThermostat.cpp -o CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.o.requires:
 
@@ -3899,16 +3899,16 @@ CMakeFiles/domoticz.dir/hardware/ToonThermostat.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/domoticz.dir/hardware/USBtin.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/USBtin.cpp.o: hardware/USBtin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/domoticz.dir/hardware/USBtin.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/USBtin.cpp.o -c /home/pi/dev-domoticz/hardware/USBtin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/domoticz.dir/hardware/USBtin.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/USBtin.cpp.o -c /home/pi/dev-daccord/hardware/USBtin.cpp
 
 CMakeFiles/domoticz.dir/hardware/USBtin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/USBtin.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/USBtin.cpp > CMakeFiles/domoticz.dir/hardware/USBtin.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/USBtin.cpp > CMakeFiles/domoticz.dir/hardware/USBtin.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/USBtin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/USBtin.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/USBtin.cpp -o CMakeFiles/domoticz.dir/hardware/USBtin.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/USBtin.cpp -o CMakeFiles/domoticz.dir/hardware/USBtin.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/USBtin.cpp.o.requires:
 
@@ -3923,16 +3923,16 @@ CMakeFiles/domoticz.dir/hardware/USBtin.cpp.o.provides.build: CMakeFiles/domotic
 
 CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.o: hardware/USBtin_MultiblocV8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.o -c /home/pi/dev-domoticz/hardware/USBtin_MultiblocV8.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.o -c /home/pi/dev-daccord/hardware/USBtin_MultiblocV8.cpp
 
 CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/USBtin_MultiblocV8.cpp > CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/USBtin_MultiblocV8.cpp > CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/USBtin_MultiblocV8.cpp -o CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/USBtin_MultiblocV8.cpp -o CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.o.requires:
 
@@ -3947,16 +3947,16 @@ CMakeFiles/domoticz.dir/hardware/USBtin_MultiblocV8.cpp.o.provides.build: CMakeF
 
 CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.o: hardware/VolcraftCO20.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.o -c /home/pi/dev-domoticz/hardware/VolcraftCO20.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.o -c /home/pi/dev-daccord/hardware/VolcraftCO20.cpp
 
 CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/VolcraftCO20.cpp > CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/VolcraftCO20.cpp > CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/VolcraftCO20.cpp -o CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/VolcraftCO20.cpp -o CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.o.requires:
 
@@ -3971,16 +3971,16 @@ CMakeFiles/domoticz.dir/hardware/VolcraftCO20.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.o: hardware/Winddelen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.o -c /home/pi/dev-domoticz/hardware/Winddelen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.o -c /home/pi/dev-daccord/hardware/Winddelen.cpp
 
 CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Winddelen.cpp > CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Winddelen.cpp > CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Winddelen.cpp -o CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Winddelen.cpp -o CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.o.requires:
 
@@ -3995,16 +3995,16 @@ CMakeFiles/domoticz.dir/hardware/Winddelen.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/WOL.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/WOL.cpp.o: hardware/WOL.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/domoticz.dir/hardware/WOL.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/WOL.cpp.o -c /home/pi/dev-domoticz/hardware/WOL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/domoticz.dir/hardware/WOL.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/WOL.cpp.o -c /home/pi/dev-daccord/hardware/WOL.cpp
 
 CMakeFiles/domoticz.dir/hardware/WOL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/WOL.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/WOL.cpp > CMakeFiles/domoticz.dir/hardware/WOL.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/WOL.cpp > CMakeFiles/domoticz.dir/hardware/WOL.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/WOL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/WOL.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/WOL.cpp -o CMakeFiles/domoticz.dir/hardware/WOL.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/WOL.cpp -o CMakeFiles/domoticz.dir/hardware/WOL.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/WOL.cpp.o.requires:
 
@@ -4019,16 +4019,16 @@ CMakeFiles/domoticz.dir/hardware/WOL.cpp.o.provides.build: CMakeFiles/domoticz.d
 
 CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.o: hardware/Wunderground.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.o -c /home/pi/dev-domoticz/hardware/Wunderground.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.o -c /home/pi/dev-daccord/hardware/Wunderground.cpp
 
 CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Wunderground.cpp > CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Wunderground.cpp > CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Wunderground.cpp -o CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Wunderground.cpp -o CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.o.requires:
 
@@ -4043,16 +4043,16 @@ CMakeFiles/domoticz.dir/hardware/Wunderground.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.o: hardware/XiaomiGateway.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.o -c /home/pi/dev-domoticz/hardware/XiaomiGateway.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.o -c /home/pi/dev-daccord/hardware/XiaomiGateway.cpp
 
 CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/XiaomiGateway.cpp > CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/XiaomiGateway.cpp > CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/XiaomiGateway.cpp -o CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/XiaomiGateway.cpp -o CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.o.requires:
 
@@ -4067,16 +4067,16 @@ CMakeFiles/domoticz.dir/hardware/XiaomiGateway.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.o: hardware/Yeelight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.o -c /home/pi/dev-domoticz/hardware/Yeelight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.o -c /home/pi/dev-daccord/hardware/Yeelight.cpp
 
 CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/Yeelight.cpp > CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/Yeelight.cpp > CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/Yeelight.cpp -o CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/Yeelight.cpp -o CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.o.requires:
 
@@ -4091,16 +4091,16 @@ CMakeFiles/domoticz.dir/hardware/Yeelight.cpp.o.provides.build: CMakeFiles/domot
 
 CMakeFiles/domoticz.dir/hardware/YouLess.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/YouLess.cpp.o: hardware/YouLess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/domoticz.dir/hardware/YouLess.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/YouLess.cpp.o -c /home/pi/dev-domoticz/hardware/YouLess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/domoticz.dir/hardware/YouLess.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/YouLess.cpp.o -c /home/pi/dev-daccord/hardware/YouLess.cpp
 
 CMakeFiles/domoticz.dir/hardware/YouLess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/YouLess.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/YouLess.cpp > CMakeFiles/domoticz.dir/hardware/YouLess.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/YouLess.cpp > CMakeFiles/domoticz.dir/hardware/YouLess.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/YouLess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/YouLess.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/YouLess.cpp -o CMakeFiles/domoticz.dir/hardware/YouLess.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/YouLess.cpp -o CMakeFiles/domoticz.dir/hardware/YouLess.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/YouLess.cpp.o.requires:
 
@@ -4115,16 +4115,16 @@ CMakeFiles/domoticz.dir/hardware/YouLess.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.o: hardware/ZiBlueBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.o -c /home/pi/dev-domoticz/hardware/ZiBlueBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.o -c /home/pi/dev-daccord/hardware/ZiBlueBase.cpp
 
 CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/ZiBlueBase.cpp > CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/ZiBlueBase.cpp > CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/ZiBlueBase.cpp -o CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/ZiBlueBase.cpp -o CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.o.requires:
 
@@ -4139,16 +4139,16 @@ CMakeFiles/domoticz.dir/hardware/ZiBlueBase.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.o: hardware/ZiBlueSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.o -c /home/pi/dev-domoticz/hardware/ZiBlueSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.o -c /home/pi/dev-daccord/hardware/ZiBlueSerial.cpp
 
 CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/ZiBlueSerial.cpp > CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/ZiBlueSerial.cpp > CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/ZiBlueSerial.cpp -o CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/ZiBlueSerial.cpp -o CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.o.requires:
 
@@ -4163,16 +4163,16 @@ CMakeFiles/domoticz.dir/hardware/ZiBlueSerial.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.o: hardware/ZiBlueTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.o -c /home/pi/dev-domoticz/hardware/ZiBlueTCP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.o -c /home/pi/dev-daccord/hardware/ZiBlueTCP.cpp
 
 CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/ZiBlueTCP.cpp > CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/ZiBlueTCP.cpp > CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/ZiBlueTCP.cpp -o CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/ZiBlueTCP.cpp -o CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.o.requires:
 
@@ -4187,16 +4187,16 @@ CMakeFiles/domoticz.dir/hardware/ZiBlueTCP.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.o: hardware/ZWaveBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.o -c /home/pi/dev-domoticz/hardware/ZWaveBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.o -c /home/pi/dev-daccord/hardware/ZWaveBase.cpp
 
 CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/ZWaveBase.cpp > CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/ZWaveBase.cpp > CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/ZWaveBase.cpp -o CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/ZWaveBase.cpp -o CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.o.requires:
 
@@ -4211,16 +4211,16 @@ CMakeFiles/domoticz.dir/hardware/ZWaveBase.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.o: hardware/plugins/DelayedLink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.o -c /home/pi/dev-domoticz/hardware/plugins/DelayedLink.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.o -c /home/pi/dev-daccord/hardware/plugins/DelayedLink.cpp
 
 CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/plugins/DelayedLink.cpp > CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/plugins/DelayedLink.cpp > CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/plugins/DelayedLink.cpp -o CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/plugins/DelayedLink.cpp -o CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.o.requires:
 
@@ -4235,16 +4235,16 @@ CMakeFiles/domoticz.dir/hardware/plugins/DelayedLink.cpp.o.provides.build: CMake
 
 CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.o: hardware/plugins/Plugins.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.o -c /home/pi/dev-domoticz/hardware/plugins/Plugins.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.o -c /home/pi/dev-daccord/hardware/plugins/Plugins.cpp
 
 CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/plugins/Plugins.cpp > CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/plugins/Plugins.cpp > CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/plugins/Plugins.cpp -o CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/plugins/Plugins.cpp -o CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.o.requires:
 
@@ -4259,16 +4259,16 @@ CMakeFiles/domoticz.dir/hardware/plugins/Plugins.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.o: hardware/plugins/PluginManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.o -c /home/pi/dev-domoticz/hardware/plugins/PluginManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.o -c /home/pi/dev-daccord/hardware/plugins/PluginManager.cpp
 
 CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/plugins/PluginManager.cpp > CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/plugins/PluginManager.cpp > CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/plugins/PluginManager.cpp -o CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/plugins/PluginManager.cpp -o CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.o.requires:
 
@@ -4283,16 +4283,16 @@ CMakeFiles/domoticz.dir/hardware/plugins/PluginManager.cpp.o.provides.build: CMa
 
 CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.o: hardware/plugins/PluginProtocols.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.o -c /home/pi/dev-domoticz/hardware/plugins/PluginProtocols.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.o -c /home/pi/dev-daccord/hardware/plugins/PluginProtocols.cpp
 
 CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/plugins/PluginProtocols.cpp > CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/plugins/PluginProtocols.cpp > CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/plugins/PluginProtocols.cpp -o CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/plugins/PluginProtocols.cpp -o CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.o.requires:
 
@@ -4307,16 +4307,16 @@ CMakeFiles/domoticz.dir/hardware/plugins/PluginProtocols.cpp.o.provides.build: C
 
 CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.o: hardware/plugins/PluginTransports.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.o -c /home/pi/dev-domoticz/hardware/plugins/PluginTransports.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.o -c /home/pi/dev-daccord/hardware/plugins/PluginTransports.cpp
 
 CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/plugins/PluginTransports.cpp > CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/plugins/PluginTransports.cpp > CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/plugins/PluginTransports.cpp -o CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/plugins/PluginTransports.cpp -o CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.o.requires:
 
@@ -4331,16 +4331,16 @@ CMakeFiles/domoticz.dir/hardware/plugins/PluginTransports.cpp.o.provides.build: 
 
 CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.o: hardware/plugins/PythonObjects.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.o -c /home/pi/dev-domoticz/hardware/plugins/PythonObjects.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.o -c /home/pi/dev-daccord/hardware/plugins/PythonObjects.cpp
 
 CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/hardware/plugins/PythonObjects.cpp > CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/hardware/plugins/PythonObjects.cpp > CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.i
 
 CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/hardware/plugins/PythonObjects.cpp -o CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/hardware/plugins/PythonObjects.cpp -o CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.s
 
 CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.o.requires:
 
@@ -4355,16 +4355,16 @@ CMakeFiles/domoticz.dir/hardware/plugins/PythonObjects.cpp.o.provides.build: CMa
 
 CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.o: notifications/NotificationBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.o -c /home/pi/dev-daccord/notifications/NotificationBase.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationBase.cpp > CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationBase.cpp > CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationBase.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationBase.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.o.requires:
 
@@ -4379,16 +4379,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationBase.cpp.o.provides.build: CMa
 
 CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.o: notifications/NotificationBrowser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationBrowser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.o -c /home/pi/dev-daccord/notifications/NotificationBrowser.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationBrowser.cpp > CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationBrowser.cpp > CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationBrowser.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationBrowser.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.o.requires:
 
@@ -4403,16 +4403,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationBrowser.cpp.o.provides.build: 
 
 CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.o: notifications/NotificationEmail.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationEmail.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.o -c /home/pi/dev-daccord/notifications/NotificationEmail.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationEmail.cpp > CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationEmail.cpp > CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationEmail.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationEmail.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.o.requires:
 
@@ -4427,16 +4427,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationEmail.cpp.o.provides.build: CM
 
 CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.o: notifications/NotificationGCM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationGCM.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.o -c /home/pi/dev-daccord/notifications/NotificationGCM.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationGCM.cpp > CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationGCM.cpp > CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationGCM.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationGCM.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.o.requires:
 
@@ -4451,16 +4451,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationGCM.cpp.o.provides.build: CMak
 
 CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.o: notifications/NotificationHelper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.o -c /home/pi/dev-daccord/notifications/NotificationHelper.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationHelper.cpp > CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationHelper.cpp > CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationHelper.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationHelper.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.o.requires:
 
@@ -4475,16 +4475,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationHelper.cpp.o.provides.build: C
 
 CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.o: notifications/NotificationHTTP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationHTTP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.o -c /home/pi/dev-daccord/notifications/NotificationHTTP.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationHTTP.cpp > CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationHTTP.cpp > CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationHTTP.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationHTTP.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.o.requires:
 
@@ -4499,16 +4499,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationHTTP.cpp.o.provides.build: CMa
 
 CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.o: notifications/NotificationKodi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationKodi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.o -c /home/pi/dev-daccord/notifications/NotificationKodi.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationKodi.cpp > CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationKodi.cpp > CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationKodi.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationKodi.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.o.requires:
 
@@ -4523,16 +4523,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationKodi.cpp.o.provides.build: CMa
 
 CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.o: notifications/NotificationLogitechMediaServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationLogitechMediaServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.o -c /home/pi/dev-daccord/notifications/NotificationLogitechMediaServer.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationLogitechMediaServer.cpp > CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationLogitechMediaServer.cpp > CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationLogitechMediaServer.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationLogitechMediaServer.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.o.requires:
 
@@ -4547,16 +4547,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationLogitechMediaServer.cpp.o.prov
 
 CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.o: notifications/NotificationNma.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationNma.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.o -c /home/pi/dev-daccord/notifications/NotificationNma.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationNma.cpp > CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationNma.cpp > CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationNma.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationNma.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.o.requires:
 
@@ -4571,16 +4571,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationNma.cpp.o.provides.build: CMak
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.o: notifications/NotificationPushbullet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationPushbullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.o -c /home/pi/dev-daccord/notifications/NotificationPushbullet.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationPushbullet.cpp > CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationPushbullet.cpp > CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationPushbullet.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationPushbullet.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.o.requires:
 
@@ -4595,16 +4595,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationPushbullet.cpp.o.provides.buil
 
 CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.o: notifications/NotificationProwl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationProwl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.o -c /home/pi/dev-daccord/notifications/NotificationProwl.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationProwl.cpp > CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationProwl.cpp > CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationProwl.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationProwl.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.o.requires:
 
@@ -4619,16 +4619,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationProwl.cpp.o.provides.build: CM
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.o: notifications/NotificationPushover.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationPushover.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.o -c /home/pi/dev-daccord/notifications/NotificationPushover.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationPushover.cpp > CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationPushover.cpp > CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationPushover.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationPushover.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.o.requires:
 
@@ -4643,16 +4643,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationPushover.cpp.o.provides.build:
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.o: notifications/NotificationPushsafer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationPushsafer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.o -c /home/pi/dev-daccord/notifications/NotificationPushsafer.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationPushsafer.cpp > CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationPushsafer.cpp > CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationPushsafer.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationPushsafer.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.o.requires:
 
@@ -4667,16 +4667,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationPushsafer.cpp.o.provides.build
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.o: notifications/NotificationPushalot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationPushalot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.o -c /home/pi/dev-daccord/notifications/NotificationPushalot.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationPushalot.cpp > CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationPushalot.cpp > CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationPushalot.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationPushalot.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.o.requires:
 
@@ -4691,16 +4691,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationPushalot.cpp.o.provides.build:
 
 CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.o: notifications/NotificationSMS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationSMS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.o -c /home/pi/dev-daccord/notifications/NotificationSMS.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationSMS.cpp > CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationSMS.cpp > CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationSMS.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationSMS.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.o.requires:
 
@@ -4715,16 +4715,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationSMS.cpp.o.provides.build: CMak
 
 CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.o: notifications/NotificationTelegram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.o -c /home/pi/dev-domoticz/notifications/NotificationTelegram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.o -c /home/pi/dev-daccord/notifications/NotificationTelegram.cpp
 
 CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/notifications/NotificationTelegram.cpp > CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/notifications/NotificationTelegram.cpp > CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.i
 
 CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/notifications/NotificationTelegram.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/notifications/NotificationTelegram.cpp -o CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.s
 
 CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.o.requires:
 
@@ -4739,16 +4739,16 @@ CMakeFiles/domoticz.dir/notifications/NotificationTelegram.cpp.o.provides.build:
 
 CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.o: smtpclient/SMTPClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.o -c /home/pi/dev-domoticz/smtpclient/SMTPClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.o -c /home/pi/dev-daccord/smtpclient/SMTPClient.cpp
 
 CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/smtpclient/SMTPClient.cpp > CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/smtpclient/SMTPClient.cpp > CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.i
 
 CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/smtpclient/SMTPClient.cpp -o CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/smtpclient/SMTPClient.cpp -o CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.s
 
 CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.o.requires:
 
@@ -4763,16 +4763,16 @@ CMakeFiles/domoticz.dir/smtpclient/SMTPClient.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.o: tcpserver/TCPClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.o -c /home/pi/dev-domoticz/tcpserver/TCPClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.o -c /home/pi/dev-daccord/tcpserver/TCPClient.cpp
 
 CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tcpserver/TCPClient.cpp > CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tcpserver/TCPClient.cpp > CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.i
 
 CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tcpserver/TCPClient.cpp -o CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tcpserver/TCPClient.cpp -o CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.s
 
 CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.o.requires:
 
@@ -4787,16 +4787,16 @@ CMakeFiles/domoticz.dir/tcpserver/TCPClient.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.o: tcpserver/TCPServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.o -c /home/pi/dev-domoticz/tcpserver/TCPServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.o -c /home/pi/dev-daccord/tcpserver/TCPServer.cpp
 
 CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tcpserver/TCPServer.cpp > CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tcpserver/TCPServer.cpp > CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.i
 
 CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tcpserver/TCPServer.cpp -o CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tcpserver/TCPServer.cpp -o CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.s
 
 CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.o.requires:
 
@@ -4811,16 +4811,16 @@ CMakeFiles/domoticz.dir/tcpserver/TCPServer.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/webserver/Base64.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/webserver/Base64.cpp.o: webserver/Base64.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/domoticz.dir/webserver/Base64.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/Base64.cpp.o -c /home/pi/dev-domoticz/webserver/Base64.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/domoticz.dir/webserver/Base64.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/Base64.cpp.o -c /home/pi/dev-daccord/webserver/Base64.cpp
 
 CMakeFiles/domoticz.dir/webserver/Base64.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/webserver/Base64.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/webserver/Base64.cpp > CMakeFiles/domoticz.dir/webserver/Base64.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/webserver/Base64.cpp > CMakeFiles/domoticz.dir/webserver/Base64.cpp.i
 
 CMakeFiles/domoticz.dir/webserver/Base64.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/webserver/Base64.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/webserver/Base64.cpp -o CMakeFiles/domoticz.dir/webserver/Base64.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/webserver/Base64.cpp -o CMakeFiles/domoticz.dir/webserver/Base64.cpp.s
 
 CMakeFiles/domoticz.dir/webserver/Base64.cpp.o.requires:
 
@@ -4835,16 +4835,16 @@ CMakeFiles/domoticz.dir/webserver/Base64.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/webserver/connection.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/webserver/connection.cpp.o: webserver/connection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/domoticz.dir/webserver/connection.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/connection.cpp.o -c /home/pi/dev-domoticz/webserver/connection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/domoticz.dir/webserver/connection.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/connection.cpp.o -c /home/pi/dev-daccord/webserver/connection.cpp
 
 CMakeFiles/domoticz.dir/webserver/connection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/webserver/connection.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/webserver/connection.cpp > CMakeFiles/domoticz.dir/webserver/connection.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/webserver/connection.cpp > CMakeFiles/domoticz.dir/webserver/connection.cpp.i
 
 CMakeFiles/domoticz.dir/webserver/connection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/webserver/connection.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/webserver/connection.cpp -o CMakeFiles/domoticz.dir/webserver/connection.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/webserver/connection.cpp -o CMakeFiles/domoticz.dir/webserver/connection.cpp.s
 
 CMakeFiles/domoticz.dir/webserver/connection.cpp.o.requires:
 
@@ -4859,16 +4859,16 @@ CMakeFiles/domoticz.dir/webserver/connection.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.o: webserver/connection_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.o -c /home/pi/dev-domoticz/webserver/connection_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.o -c /home/pi/dev-daccord/webserver/connection_manager.cpp
 
 CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/webserver/connection_manager.cpp > CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/webserver/connection_manager.cpp > CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.i
 
 CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/webserver/connection_manager.cpp -o CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/webserver/connection_manager.cpp -o CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.s
 
 CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.o.requires:
 
@@ -4883,16 +4883,16 @@ CMakeFiles/domoticz.dir/webserver/connection_manager.cpp.o.provides.build: CMake
 
 CMakeFiles/domoticz.dir/webserver/cWebem.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/webserver/cWebem.cpp.o: webserver/cWebem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/domoticz.dir/webserver/cWebem.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/cWebem.cpp.o -c /home/pi/dev-domoticz/webserver/cWebem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/domoticz.dir/webserver/cWebem.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/cWebem.cpp.o -c /home/pi/dev-daccord/webserver/cWebem.cpp
 
 CMakeFiles/domoticz.dir/webserver/cWebem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/webserver/cWebem.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/webserver/cWebem.cpp > CMakeFiles/domoticz.dir/webserver/cWebem.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/webserver/cWebem.cpp > CMakeFiles/domoticz.dir/webserver/cWebem.cpp.i
 
 CMakeFiles/domoticz.dir/webserver/cWebem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/webserver/cWebem.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/webserver/cWebem.cpp -o CMakeFiles/domoticz.dir/webserver/cWebem.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/webserver/cWebem.cpp -o CMakeFiles/domoticz.dir/webserver/cWebem.cpp.s
 
 CMakeFiles/domoticz.dir/webserver/cWebem.cpp.o.requires:
 
@@ -4907,16 +4907,16 @@ CMakeFiles/domoticz.dir/webserver/cWebem.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.o: webserver/fastcgi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.o -c /home/pi/dev-domoticz/webserver/fastcgi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.o -c /home/pi/dev-daccord/webserver/fastcgi.cpp
 
 CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/webserver/fastcgi.cpp > CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/webserver/fastcgi.cpp > CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.i
 
 CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/webserver/fastcgi.cpp -o CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/webserver/fastcgi.cpp -o CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.s
 
 CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.o.requires:
 
@@ -4931,16 +4931,16 @@ CMakeFiles/domoticz.dir/webserver/fastcgi.cpp.o.provides.build: CMakeFiles/domot
 
 CMakeFiles/domoticz.dir/webserver/mime_types.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/webserver/mime_types.cpp.o: webserver/mime_types.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object CMakeFiles/domoticz.dir/webserver/mime_types.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/mime_types.cpp.o -c /home/pi/dev-domoticz/webserver/mime_types.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object CMakeFiles/domoticz.dir/webserver/mime_types.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/mime_types.cpp.o -c /home/pi/dev-daccord/webserver/mime_types.cpp
 
 CMakeFiles/domoticz.dir/webserver/mime_types.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/webserver/mime_types.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/webserver/mime_types.cpp > CMakeFiles/domoticz.dir/webserver/mime_types.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/webserver/mime_types.cpp > CMakeFiles/domoticz.dir/webserver/mime_types.cpp.i
 
 CMakeFiles/domoticz.dir/webserver/mime_types.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/webserver/mime_types.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/webserver/mime_types.cpp -o CMakeFiles/domoticz.dir/webserver/mime_types.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/webserver/mime_types.cpp -o CMakeFiles/domoticz.dir/webserver/mime_types.cpp.s
 
 CMakeFiles/domoticz.dir/webserver/mime_types.cpp.o.requires:
 
@@ -4955,16 +4955,16 @@ CMakeFiles/domoticz.dir/webserver/mime_types.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.o: webserver/proxycommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.o -c /home/pi/dev-domoticz/webserver/proxycommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.o -c /home/pi/dev-daccord/webserver/proxycommon.cpp
 
 CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/webserver/proxycommon.cpp > CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/webserver/proxycommon.cpp > CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.i
 
 CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/webserver/proxycommon.cpp -o CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/webserver/proxycommon.cpp -o CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.s
 
 CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.o.requires:
 
@@ -4979,16 +4979,16 @@ CMakeFiles/domoticz.dir/webserver/proxycommon.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.o: webserver/proxyclient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.o -c /home/pi/dev-domoticz/webserver/proxyclient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.o -c /home/pi/dev-daccord/webserver/proxyclient.cpp
 
 CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/webserver/proxyclient.cpp > CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/webserver/proxyclient.cpp > CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.i
 
 CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/webserver/proxyclient.cpp -o CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/webserver/proxyclient.cpp -o CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.s
 
 CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.o.requires:
 
@@ -5003,16 +5003,16 @@ CMakeFiles/domoticz.dir/webserver/proxyclient.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/webserver/reply.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/webserver/reply.cpp.o: webserver/reply.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object CMakeFiles/domoticz.dir/webserver/reply.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/reply.cpp.o -c /home/pi/dev-domoticz/webserver/reply.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object CMakeFiles/domoticz.dir/webserver/reply.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/reply.cpp.o -c /home/pi/dev-daccord/webserver/reply.cpp
 
 CMakeFiles/domoticz.dir/webserver/reply.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/webserver/reply.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/webserver/reply.cpp > CMakeFiles/domoticz.dir/webserver/reply.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/webserver/reply.cpp > CMakeFiles/domoticz.dir/webserver/reply.cpp.i
 
 CMakeFiles/domoticz.dir/webserver/reply.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/webserver/reply.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/webserver/reply.cpp -o CMakeFiles/domoticz.dir/webserver/reply.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/webserver/reply.cpp -o CMakeFiles/domoticz.dir/webserver/reply.cpp.s
 
 CMakeFiles/domoticz.dir/webserver/reply.cpp.o.requires:
 
@@ -5027,16 +5027,16 @@ CMakeFiles/domoticz.dir/webserver/reply.cpp.o.provides.build: CMakeFiles/domotic
 
 CMakeFiles/domoticz.dir/webserver/request_handler.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/webserver/request_handler.cpp.o: webserver/request_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object CMakeFiles/domoticz.dir/webserver/request_handler.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/request_handler.cpp.o -c /home/pi/dev-domoticz/webserver/request_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object CMakeFiles/domoticz.dir/webserver/request_handler.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/request_handler.cpp.o -c /home/pi/dev-daccord/webserver/request_handler.cpp
 
 CMakeFiles/domoticz.dir/webserver/request_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/webserver/request_handler.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/webserver/request_handler.cpp > CMakeFiles/domoticz.dir/webserver/request_handler.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/webserver/request_handler.cpp > CMakeFiles/domoticz.dir/webserver/request_handler.cpp.i
 
 CMakeFiles/domoticz.dir/webserver/request_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/webserver/request_handler.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/webserver/request_handler.cpp -o CMakeFiles/domoticz.dir/webserver/request_handler.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/webserver/request_handler.cpp -o CMakeFiles/domoticz.dir/webserver/request_handler.cpp.s
 
 CMakeFiles/domoticz.dir/webserver/request_handler.cpp.o.requires:
 
@@ -5051,16 +5051,16 @@ CMakeFiles/domoticz.dir/webserver/request_handler.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/domoticz.dir/webserver/request_parser.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/webserver/request_parser.cpp.o: webserver/request_parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object CMakeFiles/domoticz.dir/webserver/request_parser.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/request_parser.cpp.o -c /home/pi/dev-domoticz/webserver/request_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object CMakeFiles/domoticz.dir/webserver/request_parser.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/request_parser.cpp.o -c /home/pi/dev-daccord/webserver/request_parser.cpp
 
 CMakeFiles/domoticz.dir/webserver/request_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/webserver/request_parser.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/webserver/request_parser.cpp > CMakeFiles/domoticz.dir/webserver/request_parser.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/webserver/request_parser.cpp > CMakeFiles/domoticz.dir/webserver/request_parser.cpp.i
 
 CMakeFiles/domoticz.dir/webserver/request_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/webserver/request_parser.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/webserver/request_parser.cpp -o CMakeFiles/domoticz.dir/webserver/request_parser.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/webserver/request_parser.cpp -o CMakeFiles/domoticz.dir/webserver/request_parser.cpp.s
 
 CMakeFiles/domoticz.dir/webserver/request_parser.cpp.o.requires:
 
@@ -5075,16 +5075,16 @@ CMakeFiles/domoticz.dir/webserver/request_parser.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/domoticz.dir/webserver/server.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/webserver/server.cpp.o: webserver/server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/domoticz.dir/webserver/server.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/server.cpp.o -c /home/pi/dev-domoticz/webserver/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/domoticz.dir/webserver/server.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/server.cpp.o -c /home/pi/dev-daccord/webserver/server.cpp
 
 CMakeFiles/domoticz.dir/webserver/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/webserver/server.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/webserver/server.cpp > CMakeFiles/domoticz.dir/webserver/server.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/webserver/server.cpp > CMakeFiles/domoticz.dir/webserver/server.cpp.i
 
 CMakeFiles/domoticz.dir/webserver/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/webserver/server.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/webserver/server.cpp -o CMakeFiles/domoticz.dir/webserver/server.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/webserver/server.cpp -o CMakeFiles/domoticz.dir/webserver/server.cpp.s
 
 CMakeFiles/domoticz.dir/webserver/server.cpp.o.requires:
 
@@ -5099,16 +5099,16 @@ CMakeFiles/domoticz.dir/webserver/server.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/webserver/Websockets.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/webserver/Websockets.cpp.o: webserver/Websockets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building CXX object CMakeFiles/domoticz.dir/webserver/Websockets.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/Websockets.cpp.o -c /home/pi/dev-domoticz/webserver/Websockets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building CXX object CMakeFiles/domoticz.dir/webserver/Websockets.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/Websockets.cpp.o -c /home/pi/dev-daccord/webserver/Websockets.cpp
 
 CMakeFiles/domoticz.dir/webserver/Websockets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/webserver/Websockets.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/webserver/Websockets.cpp > CMakeFiles/domoticz.dir/webserver/Websockets.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/webserver/Websockets.cpp > CMakeFiles/domoticz.dir/webserver/Websockets.cpp.i
 
 CMakeFiles/domoticz.dir/webserver/Websockets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/webserver/Websockets.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/webserver/Websockets.cpp -o CMakeFiles/domoticz.dir/webserver/Websockets.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/webserver/Websockets.cpp -o CMakeFiles/domoticz.dir/webserver/Websockets.cpp.s
 
 CMakeFiles/domoticz.dir/webserver/Websockets.cpp.o.requires:
 
@@ -5123,16 +5123,16 @@ CMakeFiles/domoticz.dir/webserver/Websockets.cpp.o.provides.build: CMakeFiles/do
 
 CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.o: webserver/WebsocketHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.o -c /home/pi/dev-domoticz/webserver/WebsocketHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.o -c /home/pi/dev-daccord/webserver/WebsocketHandler.cpp
 
 CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/webserver/WebsocketHandler.cpp > CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/webserver/WebsocketHandler.cpp > CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.i
 
 CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/webserver/WebsocketHandler.cpp -o CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/webserver/WebsocketHandler.cpp -o CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.s
 
 CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.o.requires:
 
@@ -5147,16 +5147,16 @@ CMakeFiles/domoticz.dir/webserver/WebsocketHandler.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/domoticz.dir/json/json_reader.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/json/json_reader.cpp.o: json/json_reader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object CMakeFiles/domoticz.dir/json/json_reader.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/json/json_reader.cpp.o -c /home/pi/dev-domoticz/json/json_reader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object CMakeFiles/domoticz.dir/json/json_reader.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/json/json_reader.cpp.o -c /home/pi/dev-daccord/json/json_reader.cpp
 
 CMakeFiles/domoticz.dir/json/json_reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/json/json_reader.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/json/json_reader.cpp > CMakeFiles/domoticz.dir/json/json_reader.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/json/json_reader.cpp > CMakeFiles/domoticz.dir/json/json_reader.cpp.i
 
 CMakeFiles/domoticz.dir/json/json_reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/json/json_reader.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/json/json_reader.cpp -o CMakeFiles/domoticz.dir/json/json_reader.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/json/json_reader.cpp -o CMakeFiles/domoticz.dir/json/json_reader.cpp.s
 
 CMakeFiles/domoticz.dir/json/json_reader.cpp.o.requires:
 
@@ -5171,16 +5171,16 @@ CMakeFiles/domoticz.dir/json/json_reader.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/json/json_value.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/json/json_value.cpp.o: json/json_value.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object CMakeFiles/domoticz.dir/json/json_value.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/json/json_value.cpp.o -c /home/pi/dev-domoticz/json/json_value.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object CMakeFiles/domoticz.dir/json/json_value.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/json/json_value.cpp.o -c /home/pi/dev-daccord/json/json_value.cpp
 
 CMakeFiles/domoticz.dir/json/json_value.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/json/json_value.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/json/json_value.cpp > CMakeFiles/domoticz.dir/json/json_value.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/json/json_value.cpp > CMakeFiles/domoticz.dir/json/json_value.cpp.i
 
 CMakeFiles/domoticz.dir/json/json_value.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/json/json_value.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/json/json_value.cpp -o CMakeFiles/domoticz.dir/json/json_value.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/json/json_value.cpp -o CMakeFiles/domoticz.dir/json/json_value.cpp.s
 
 CMakeFiles/domoticz.dir/json/json_value.cpp.o.requires:
 
@@ -5195,16 +5195,16 @@ CMakeFiles/domoticz.dir/json/json_value.cpp.o.provides.build: CMakeFiles/domotic
 
 CMakeFiles/domoticz.dir/json/json_writer.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/json/json_writer.cpp.o: json/json_writer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building CXX object CMakeFiles/domoticz.dir/json/json_writer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/json/json_writer.cpp.o -c /home/pi/dev-domoticz/json/json_writer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building CXX object CMakeFiles/domoticz.dir/json/json_writer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/json/json_writer.cpp.o -c /home/pi/dev-daccord/json/json_writer.cpp
 
 CMakeFiles/domoticz.dir/json/json_writer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/json/json_writer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/json/json_writer.cpp > CMakeFiles/domoticz.dir/json/json_writer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/json/json_writer.cpp > CMakeFiles/domoticz.dir/json/json_writer.cpp.i
 
 CMakeFiles/domoticz.dir/json/json_writer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/json/json_writer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/json/json_writer.cpp -o CMakeFiles/domoticz.dir/json/json_writer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/json/json_writer.cpp -o CMakeFiles/domoticz.dir/json/json_writer.cpp.s
 
 CMakeFiles/domoticz.dir/json/json_writer.cpp.o.requires:
 
@@ -5219,16 +5219,16 @@ CMakeFiles/domoticz.dir/json/json_writer.cpp.o.provides.build: CMakeFiles/domoti
 
 CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.o: tinyxpath/action_store.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.o -c /home/pi/dev-domoticz/tinyxpath/action_store.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.o -c /home/pi/dev-daccord/tinyxpath/action_store.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/action_store.cpp > CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/action_store.cpp > CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/action_store.cpp -o CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/action_store.cpp -o CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.o.requires:
 
@@ -5243,16 +5243,16 @@ CMakeFiles/domoticz.dir/tinyxpath/action_store.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.o: tinyxpath/htmlutil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.o -c /home/pi/dev-domoticz/tinyxpath/htmlutil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.o -c /home/pi/dev-daccord/tinyxpath/htmlutil.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/htmlutil.cpp > CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/htmlutil.cpp > CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/htmlutil.cpp -o CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/htmlutil.cpp -o CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.o.requires:
 
@@ -5267,16 +5267,16 @@ CMakeFiles/domoticz.dir/tinyxpath/htmlutil.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.o: tinyxpath/lex_util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.o -c /home/pi/dev-domoticz/tinyxpath/lex_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.o -c /home/pi/dev-daccord/tinyxpath/lex_util.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/lex_util.cpp > CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/lex_util.cpp > CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/lex_util.cpp -o CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/lex_util.cpp -o CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.o.requires:
 
@@ -5291,16 +5291,16 @@ CMakeFiles/domoticz.dir/tinyxpath/lex_util.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.o: tinyxpath/node_set.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.o -c /home/pi/dev-domoticz/tinyxpath/node_set.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.o -c /home/pi/dev-daccord/tinyxpath/node_set.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/node_set.cpp > CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/node_set.cpp > CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/node_set.cpp -o CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/node_set.cpp -o CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.o.requires:
 
@@ -5315,16 +5315,16 @@ CMakeFiles/domoticz.dir/tinyxpath/node_set.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.o: tinyxpath/tinystr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.o -c /home/pi/dev-domoticz/tinyxpath/tinystr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.o -c /home/pi/dev-daccord/tinyxpath/tinystr.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/tinystr.cpp > CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/tinystr.cpp > CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/tinystr.cpp -o CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/tinystr.cpp -o CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.o.requires:
 
@@ -5339,16 +5339,16 @@ CMakeFiles/domoticz.dir/tinyxpath/tinystr.cpp.o.provides.build: CMakeFiles/domot
 
 CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.o: tinyxpath/tinyxml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.o -c /home/pi/dev-domoticz/tinyxpath/tinyxml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.o -c /home/pi/dev-daccord/tinyxpath/tinyxml.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/tinyxml.cpp > CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/tinyxml.cpp > CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/tinyxml.cpp -o CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/tinyxml.cpp -o CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.o.requires:
 
@@ -5363,16 +5363,16 @@ CMakeFiles/domoticz.dir/tinyxpath/tinyxml.cpp.o.provides.build: CMakeFiles/domot
 
 CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.o: tinyxpath/tinyxmlerror.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.o -c /home/pi/dev-domoticz/tinyxpath/tinyxmlerror.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.o -c /home/pi/dev-daccord/tinyxpath/tinyxmlerror.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/tinyxmlerror.cpp > CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/tinyxmlerror.cpp > CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/tinyxmlerror.cpp -o CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/tinyxmlerror.cpp -o CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.o.requires:
 
@@ -5387,16 +5387,16 @@ CMakeFiles/domoticz.dir/tinyxpath/tinyxmlerror.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.o: tinyxpath/tinyxmlparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.o -c /home/pi/dev-domoticz/tinyxpath/tinyxmlparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.o -c /home/pi/dev-daccord/tinyxpath/tinyxmlparser.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/tinyxmlparser.cpp > CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/tinyxmlparser.cpp > CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/tinyxmlparser.cpp -o CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/tinyxmlparser.cpp -o CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.o.requires:
 
@@ -5411,16 +5411,16 @@ CMakeFiles/domoticz.dir/tinyxpath/tinyxmlparser.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.o: tinyxpath/tokenlist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.o -c /home/pi/dev-domoticz/tinyxpath/tokenlist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.o -c /home/pi/dev-daccord/tinyxpath/tokenlist.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/tokenlist.cpp > CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/tokenlist.cpp > CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/tokenlist.cpp -o CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/tokenlist.cpp -o CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.o.requires:
 
@@ -5435,16 +5435,16 @@ CMakeFiles/domoticz.dir/tinyxpath/tokenlist.cpp.o.provides.build: CMakeFiles/dom
 
 CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.o: tinyxpath/xml_util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.o -c /home/pi/dev-domoticz/tinyxpath/xml_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.o -c /home/pi/dev-daccord/tinyxpath/xml_util.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/xml_util.cpp > CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/xml_util.cpp > CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/xml_util.cpp -o CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/xml_util.cpp -o CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.o.requires:
 
@@ -5459,16 +5459,16 @@ CMakeFiles/domoticz.dir/tinyxpath/xml_util.cpp.o.provides.build: CMakeFiles/domo
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.o: tinyxpath/xpath_expression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.o -c /home/pi/dev-domoticz/tinyxpath/xpath_expression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.o -c /home/pi/dev-daccord/tinyxpath/xpath_expression.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/xpath_expression.cpp > CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/xpath_expression.cpp > CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/xpath_expression.cpp -o CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/xpath_expression.cpp -o CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.o.requires:
 
@@ -5483,16 +5483,16 @@ CMakeFiles/domoticz.dir/tinyxpath/xpath_expression.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.o: tinyxpath/xpath_processor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.o -c /home/pi/dev-domoticz/tinyxpath/xpath_processor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.o -c /home/pi/dev-daccord/tinyxpath/xpath_processor.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/xpath_processor.cpp > CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/xpath_processor.cpp > CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/xpath_processor.cpp -o CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/xpath_processor.cpp -o CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.o.requires:
 
@@ -5507,16 +5507,16 @@ CMakeFiles/domoticz.dir/tinyxpath/xpath_processor.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.o: tinyxpath/xpath_stream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.o -c /home/pi/dev-domoticz/tinyxpath/xpath_stream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.o -c /home/pi/dev-daccord/tinyxpath/xpath_stream.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/xpath_stream.cpp > CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/xpath_stream.cpp > CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/xpath_stream.cpp -o CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/xpath_stream.cpp -o CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.o.requires:
 
@@ -5531,16 +5531,16 @@ CMakeFiles/domoticz.dir/tinyxpath/xpath_stream.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.o: tinyxpath/xpath_stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.o -c /home/pi/dev-domoticz/tinyxpath/xpath_stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.o -c /home/pi/dev-daccord/tinyxpath/xpath_stack.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/xpath_stack.cpp > CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/xpath_stack.cpp > CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/xpath_stack.cpp -o CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/xpath_stack.cpp -o CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.o.requires:
 
@@ -5555,16 +5555,16 @@ CMakeFiles/domoticz.dir/tinyxpath/xpath_stack.cpp.o.provides.build: CMakeFiles/d
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.o: tinyxpath/xpath_static.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.o -c /home/pi/dev-domoticz/tinyxpath/xpath_static.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.o -c /home/pi/dev-daccord/tinyxpath/xpath_static.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/xpath_static.cpp > CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/xpath_static.cpp > CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/xpath_static.cpp -o CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/xpath_static.cpp -o CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.o.requires:
 
@@ -5579,16 +5579,16 @@ CMakeFiles/domoticz.dir/tinyxpath/xpath_static.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.o: CMakeFiles/domoticz.dir/flags.make
 CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.o: tinyxpath/xpath_syntax.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.o -c /home/pi/dev-domoticz/tinyxpath/xpath_syntax.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building CXX object CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.o -c /home/pi/dev-daccord/tinyxpath/xpath_syntax.cpp
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-domoticz/tinyxpath/xpath_syntax.cpp > CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/dev-daccord/tinyxpath/xpath_syntax.cpp > CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.i
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-domoticz/tinyxpath/xpath_syntax.cpp -o CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/dev-daccord/tinyxpath/xpath_syntax.cpp -o CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.s
 
 CMakeFiles/domoticz.dir/tinyxpath/xpath_syntax.cpp.o.requires:
 
@@ -6091,7 +6091,7 @@ domoticz: /usr/lib/arm-linux-gnueabihf/libpthread.so
 domoticz: /usr/lib/arm-linux-gnueabihf/libz.so
 domoticz: /usr/lib/arm-linux-gnueabihf/libcurl.so
 domoticz: CMakeFiles/domoticz.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Linking CXX executable domoticz"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Linking CXX executable domoticz"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/domoticz.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -6338,6 +6338,6 @@ CMakeFiles/domoticz.dir/clean:
 .PHONY : CMakeFiles/domoticz.dir/clean
 
 CMakeFiles/domoticz.dir/depend:
-	cd /home/pi/dev-domoticz && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/dev-domoticz /home/pi/dev-domoticz /home/pi/dev-domoticz /home/pi/dev-domoticz /home/pi/dev-domoticz/CMakeFiles/domoticz.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/dev-daccord && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/dev-daccord /home/pi/dev-daccord /home/pi/dev-daccord /home/pi/dev-daccord /home/pi/dev-daccord/CMakeFiles/domoticz.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/domoticz.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/dev-domoticz
+CMAKE_SOURCE_DIR = /home/pi/dev-daccord
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/dev-domoticz
+CMAKE_BINARY_DIR = /home/pi/dev-daccord
 
 # Utility rule file for domoticz_gch.
 
@@ -57,8 +57,8 @@ CMakeFiles/domoticz_gch: stdafx.h.gch/.c++
 
 
 stdafx.h.gch/.c++: main/stdafx.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/dev-domoticz/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating stdafx.h.gch/.c++"
-	/usr/bin/c++ -O3 -DNDEBUG -I/usr/include/python3.5m -I/home/pi/dev-domoticz/main -I/home/pi/dev-domoticz/tinyxpath -I/usr/include -I/usr/local/include -I/usr/include -I/usr/include/arm-linux-gnueabihf -I/home/pi/dev-domoticz/hardware/openzwave -DBUILTIN_MQTT -DENABLE_PYTHON -DHAVE_EXECINFO_H -DHAVE_LINUX_I2C -DHAVE_LINUX_SPI -DWWW_ENABLE_SSL -DWITH_LIBUSB -DWITH_OPENZWAVE -DWITH_GPIO -x c++-header -o /home/pi/dev-domoticz/stdafx.h.gch/.c++ /home/pi/dev-domoticz/main/stdafx.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating stdafx.h.gch/.c++"
+	/usr/bin/c++ -O3 -DNDEBUG -I/usr/include/python3.5m -I/home/pi/dev-daccord/main -I/home/pi/dev-daccord/tinyxpath -I/usr/include -I/usr/local/include -I/usr/include -I/usr/include/arm-linux-gnueabihf -I/home/pi/dev-daccord/hardware/openzwave -DBUILTIN_MQTT -DENABLE_PYTHON -DHAVE_EXECINFO_H -DHAVE_LINUX_I2C -DHAVE_LINUX_SPI -DWWW_ENABLE_SSL -DWITH_LIBUSB -DWITH_OPENZWAVE -DWITH_GPIO -x c++-header -o /home/pi/dev-daccord/stdafx.h.gch/.c++ /home/pi/dev-daccord/main/stdafx.h
 
 domoticz_gch: CMakeFiles/domoticz_gch
 domoticz_gch: stdafx.h.gch/.c++
@@ -76,6 +76,6 @@ CMakeFiles/domoticz_gch.dir/clean:
 .PHONY : CMakeFiles/domoticz_gch.dir/clean
 
 CMakeFiles/domoticz_gch.dir/depend:
-	cd /home/pi/dev-domoticz && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/dev-domoticz /home/pi/dev-domoticz /home/pi/dev-domoticz /home/pi/dev-domoticz /home/pi/dev-domoticz/CMakeFiles/domoticz_gch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/dev-daccord && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/dev-daccord /home/pi/dev-daccord /home/pi/dev-daccord /home/pi/dev-daccord /home/pi/dev-daccord/CMakeFiles/domoticz_gch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/domoticz_gch.dir/depend
 
