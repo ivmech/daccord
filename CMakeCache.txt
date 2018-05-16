@@ -521,7 +521,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/usr/lib/arm-linux-gnueabihf/libcurl
 //Details about finding LIBUSB
 FIND_PACKAGE_MESSAGE_DETAILS_LIBUSB:INTERNAL=[/usr/lib/arm-linux-gnueabihf/libusb.so][/usr/include][v()]
 //Details about finding OpenSSL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/arm-linux-gnueabihf/libssl.a;/usr/lib/arm-linux-gnueabihf/libcrypto.a][/usr/include][v1.1.0f()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/arm-linux-gnueabihf/libssl.a;/usr/lib/arm-linux-gnueabihf/libcrypto.a][/usr/include][v1.0.2l()]
 //Details about finding PythonLibs
 FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[/usr/lib/arm-linux-gnueabihf/libpython3.5m.so][/usr/include/python3.5m][v3.5.3(3.4)]
 //Details about finding Threads

@@ -12711,11 +12711,11 @@ void MainWorker::SetInternalSecStatus()
 
 	if (m_verboselevel >= EVBL_ALL)
 	{
-		_log.Log(LOG_NORM, "(System) Domoticz Security Status");
+		_log.Log(LOG_NORM, "(System) Daccord Security Status");
 	}
 
 	CDomoticzHardwareBase *pHardware = GetHardwareByType(HTYPE_DomoticzInternal);
-	PushAndWaitRxMessage(pHardware, (const unsigned char *)&tsen, "Domoticz Security Panel", -1);
+	PushAndWaitRxMessage(pHardware, (const unsigned char *)&tsen, "Daccord Security Panel", -1);
 }
 
 void MainWorker::UpdateDomoticzSecurityStatus(const int iSecStatus)
@@ -12758,13 +12758,13 @@ void MainWorker::HandleLogNotifications()
 
 	if (_loglines.size() > 1)
 	{
-		sTopic = "Domoticz: Multiple errors received in the last 5 minutes";
+		sTopic = "Daccord: Multiple errors received in the last 5 minutes";
 		sstr << "Multiple errors received in the last 5 minutes:<br><br>";
 	}
 	else
 	{
 		itt = _loglines.begin();
-		sTopic = "Domoticz: " + itt->logmessage;
+		sTopic = "Daccord: " + itt->logmessage;
 	}
 
 	for (itt = _loglines.begin(); itt != _loglines.end(); ++itt)

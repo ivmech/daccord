@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /home/pi/dev-daccord
 # Target rules for target CMakeFiles/domoticz.dir
 
 # All Build rule for target.
+CMakeFiles/domoticz.dir/all: lua/src/CMakeFiles/lua.dir/all
+CMakeFiles/domoticz.dir/all: MQTT/CMakeFiles/mqtt.dir/all
 CMakeFiles/domoticz.dir/all: sqlite/CMakeFiles/sqlite.dir/all
 CMakeFiles/domoticz.dir/all: CMakeFiles/revisiontag.dir/all
 CMakeFiles/domoticz.dir/all: CMakeFiles/domoticz_gch.dir/all
-CMakeFiles/domoticz.dir/all: lua/src/CMakeFiles/lua.dir/all
-CMakeFiles/domoticz.dir/all: MQTT/CMakeFiles/mqtt.dir/all
 	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/depend
 	$(MAKE) -f CMakeFiles/domoticz.dir/build.make CMakeFiles/domoticz.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/dev-daccord/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80 "Built target domoticz"

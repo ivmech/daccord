@@ -307,7 +307,7 @@ namespace http {
 
 			_log.Log(LOG_STATUS, "WebServer(%s) started on address: %s with port %s", m_server_alias.c_str(), settings.listening_address.c_str(), settings.listening_port.c_str());
 
-			m_pWebEm->SetDigistRealm("Domoticz.com");
+			m_pWebEm->SetDigistRealm("ivmech.com");
 			m_pWebEm->SetSessionStore(this);
 
 			if (!bIgnoreUsernamePassword)
@@ -928,7 +928,7 @@ namespace http {
 			if (m_sql.GetPreferencesVar("Title", sValue))
 				root["Title"] = sValue;
 			else
-				root["Title"] = "Domoticz";
+				root["Title"] = "Daccord";
 		}
 
 		void CWebServer::Cmd_LoginCheck(WebEmSession & session, const request& req, Json::Value &root)
@@ -4159,8 +4159,8 @@ namespace http {
 					return; //Only admin user allowed
 				}
 
-				std::string notification_Title = "Domoticz test";
-				std::string notification_Message = "Domoticz test message!";
+				std::string notification_Title = "Daccord test";
+				std::string notification_Message = "Daccord test message!";
 				std::string subsystem = request::findValue(&req, "subsystem");
 
 				std::string extraData = request::findValue(&req, "extradata");
@@ -7954,7 +7954,7 @@ namespace http {
 			m_sql.UpdatePreferencesVar("WebTheme", SelectedTheme.c_str());
 			m_pWebEm->SetWebTheme(SelectedTheme);
 			std::string Title = request::findValue(&req, "Title").c_str();
-			m_sql.UpdatePreferencesVar("Title", (Title.empty()) ? "Domoticz" : Title);
+			m_sql.UpdatePreferencesVar("Title", (Title.empty()) ? "Daccord" : Title);
 
 			m_sql.GetPreferencesVar("RandomTimerFrame", rnOldvalue);
 			rnvalue = atoi(request::findValue(&req, "RandomSpread").c_str());

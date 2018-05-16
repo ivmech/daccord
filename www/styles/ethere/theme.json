@@ -87,7 +87,7 @@
         },
         "mobile_phoney": {
             "id":16,
-            "enabled":true,
+            "enabled":false,
             "files": ["mobile_phoney.css"]
         },
         "mobile_on_non_mobile": {

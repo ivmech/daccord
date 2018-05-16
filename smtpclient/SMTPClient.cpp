@@ -151,7 +151,7 @@ bool SMTPClient::SendEmail()
 			curl_easy_setopt(curl, CURLOPT_USERNAME, m_Username.c_str());
 			curl_easy_setopt(curl, CURLOPT_PASSWORD, m_Password.c_str());
 		}
-		curl_easy_setopt(curl, CURLOPT_USERAGENT, "domoticz/7.26.0");
+		curl_easy_setopt(curl, CURLOPT_USERAGENT, "daccord/7.26.0");
 		curl_easy_setopt(curl, CURLOPT_MAXREDIRS, 50L);
 		curl_easy_setopt(curl, CURLOPT_USE_SSL, (long)CURLUSESSL_TRY);//CURLUSESSL_ALL);
 		curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);

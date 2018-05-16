@@ -15,7 +15,7 @@
 """
 import time
 import Domoticz
-import paho.mqtt.client as mqtt
+#import paho.mqtt.client as mqtt
 
 def on_connect(mosq, obj, rc):
     print("Connected to MQTT Broker")
