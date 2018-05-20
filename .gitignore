@@ -20,6 +20,7 @@ CMakeCache.txt
 daccord
 !scripts/logrotate/daccord
 stdafx.h.gch
+stdafx.h.gch/
 .DS_Store
 .AppleDouble
 Config/OZW_Log.txt
